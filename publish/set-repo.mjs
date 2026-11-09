@@ -1,1 +1,85 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICog5oqKIEdpdEh1YiDku5PlupPlnLDlnYDlhpnov5vlkITlpITvvIzkv53or4HkuInlpITkuIDoh7TvvJoKICogICAxLiBwYWNrYWdlLmpzb24g4oaSIHJlcG9zaXRvcnnvvIhucG0g5LiO5LuT5bqT55qE5YWz6IGU6Z2g5a6D77yM5biC5Zy65Lya5o2u5q2k5oqK5YyF5oyC5Yiw5LuT5bqT5LiK77yJCiAqICAgMi4gcHVibGlzaC9lbnRyeS55bWwg4oaSIHVybCAvIG5hbWXvvIjluILlnLrmnaHnm67lv4XpobvkuI7ku5PlupPlrozlhajkuIDoh7TvvIkKICogICAzLiDmiZPljbDluILlnLogUFIg6ZyA6KaB55qE55uu5qCH5paH5Lu25ZCNIGRhdGEvcGx1Z2lucy88b3duZXI+X188cmVwbz4ueW1sCiAqCiAqIOeUqOazle+8mgogKiAgIG5vZGUgcHVibGlzaC9zZXQtcmVwby5tanMgLS11cmwgaHR0cHM6Ly9naXRodWIuY29tLzxvd25lcj4vPHJlcG8+CiAqICAgbm9kZSBwdWJsaXNoL3NldC1yZXBvLm1qcyAtLXVybCBodHRwczovL2dpdGh1Yi5jb20vPG93bmVyPi88cmVwbz4gLS10b3BpYyAgICMg6aG65omL5YqgIGRzaC1wbHVnaW4gdG9waWPvvIjpnIAgR0lUSFVCX1RPS0VO77yJCiAqLwppbXBvcnQgeyByZWFkRmlsZVN5bmMsIHdyaXRlRmlsZVN5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBkaXJuYW1lLCBqb2luLCByZXNvbHZlIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAnbm9kZTp1cmwnCgpjb25zdCBoZXJlID0gZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpCmNvbnN0IHJvb3QgPSByZXNvbHZlKGhlcmUsICcuLicpCgpjb25zdCBhcmdzID0gbmV3IE1hcCgpCmZvciAobGV0IGkgPSAyOyBpIDwgcHJvY2Vzcy5hcmd2Lmxlbmd0aDsgaSArPSAyKSB7CiAgY29uc3Qga2V5ID0gcHJvY2Vzcy5hcmd2W2ldCiAgaWYgKCFrZXkuc3RhcnRzV2l0aCgnLS0nKSkgY29udGludWUKICBjb25zdCB2YWx1ZSA9IHByb2Nlc3MuYXJndltpICsgMV0KICBhcmdzLnNldChrZXkuc2xpY2UoMiksIHZhbHVlICYmICF2YWx1ZS5zdGFydHNXaXRoKCctLScpID8gdmFsdWUgOiB0cnVlKQp9Cgpjb25zdCByYXdVcmwgPSBTdHJpbmcoYXJncy5nZXQoJ3VybCcpIHx8ICcnKS50cmltKCkucmVwbGFjZSgvXC5naXQkLywgJycpLnJlcGxhY2UoL1wvKyQvLCAnJykKY29uc3QgbWF0Y2ggPSAvXmh0dHBzOlwvXC9naXRodWJcLmNvbVwvKFtBLVphLXowLTlfLi1dKylcLyhbQS1aYS16MC05Xy4tXSspJC8uZXhlYyhyYXdVcmwpCmlmICghbWF0Y2gpIHsKICBjb25zb2xlLmVycm9yKCfpnIDopoHkuIDkuKrlvaLlpoIgaHR0cHM6Ly9naXRodWIuY29tLzxvd25lcj4vPHJlcG8+IOeahOWcsOWdgO+8iOS4jeW4piAuZ2l044CB5LiN5bim5a2Q55uu5b2V77yJJykKICBwcm9jZXNzLmV4aXQoMSkKfQpjb25zdCBbLCBvd25lciwgcmVwb10gPSBtYXRjaApjb25zdCB1cmwgPSBgaHR0cHM6Ly9naXRodWIuY29tLyR7b3duZXJ9LyR7cmVwb31gCgovLyAxKSBwYWNrYWdlLmpzb24g4oaSIHJlcG9zaXRvcnkKY29uc3QgcGtnUGF0aCA9IGpvaW4ocm9vdCwgJ3BhY2thZ2UuanNvbicpCmNvbnN0IHBrZyA9IEpTT04ucGFyc2UocmVhZEZpbGVTeW5jKHBrZ1BhdGgsICd1dGY4JykpCnBrZy5yZXBvc2l0b3J5ID0geyB0eXBlOiAnZ2l0JywgdXJsOiBgZ2l0KyR7dXJsfS5naXRgIH0KcGtnLmhvbWVwYWdlID0gdXJsCnBrZy5idWdzID0geyB1cmw6IGAke3VybH0vaXNzdWVzYCB9CndyaXRlRmlsZVN5bmMocGtnUGF0aCwgYCR7SlNPTi5zdHJpbmdpZnkocGtnLCBudWxsLCAyKX1cbmAsICd1dGY4JykKCi8vIDIpIHB1Ymxpc2gvZW50cnkueW1sCmNvbnN0IGVudHJ5UGF0aCA9IGpvaW4oaGVyZSwgJ2VudHJ5LnltbCcpCmNvbnN0IGVudHJ5ID0gcmVhZEZpbGVTeW5jKGVudHJ5UGF0aCwgJ3V0ZjgnKQogIC5yZXBsYWNlKC9edXJsOiAuKiQvbSwgYHVybDogJHt1cmx9YCkKICAucmVwbGFjZSgvXm5hbWU6IC4qJC9tLCBgbmFtZTogJHtvd25lcn0vJHtyZXBvfWApCndyaXRlRmlsZVN5bmMoZW50cnlQYXRoLCBlbnRyeSwgJ3V0ZjgnKQoKLy8gMykg5LiA6Ie05oCn5qOA5p+lCmNvbnN0IGNoZWNrcyA9IFtdCmNoZWNrcy5wdXNoKFsncGFja2FnZS5qc29uIHJlcG9zaXRvcnknLCBwa2cucmVwb3NpdG9yeS51cmwgPT09IGBnaXQrJHt1cmx9LmdpdGBdKQpjaGVja3MucHVzaChbJ2VudHJ5LnltbCB1cmwnLCBlbnRyeS5pbmNsdWRlcyhgdXJsOiAke3VybH1gKV0pCmNvbnN0IGRzaCA9IHBrZy5kc2ggfHwge30KY2hlY2tzLnB1c2goWydkc2guYnVuZGxlLnBhdGNoIOWtmOWcqCcsIEJvb2xlYW4oZHNoLmJ1bmRsZSAmJiBkc2guYnVuZGxlLnBhdGNoKV0pCmNoZWNrcy5wdXNoKFsnY29yZGlzLnBhdGNoLnltbCDlrZjlnKgnLCByZWFkRmlsZVN5bmMoam9pbihyb290LCAnY29yZGlzLnBhdGNoLnltbCcpLCAndXRmOCcpLmluY2x1ZGVzKCdpbnNlcnQ6JyldKQoKY29uc29sZS5sb2coYOS7k+W6k++8miR7dXJsfWApCmNvbnNvbGUubG9nKGDluILlnLrmnaHnm67mlofku7bvvJpkYXRhL3BsdWdpbnMvJHtvd25lcn1fXyR7cmVwb30ueW1sYCkKY29uc29sZS5sb2coJycpCmZvciAoY29uc3QgW25hbWUsIG9rXSBvZiBjaGVja3MpIGNvbnNvbGUubG9nKGAke29rID8gJ+KchScgOiAn4p2MJ30gJHtuYW1lfWApCmlmIChjaGVja3Muc29tZSgoWywgb2tdKSA9PiAhb2spKSBwcm9jZXNzLmV4aXQoMSkKCi8vIDQpIOWPr+mAie+8mue7meS7k+W6k+WKoCBkc2gtcGx1Z2luIHRvcGlj77yI5biC5Zy66KaB5rGC77yJCmlmIChhcmdzLmdldCgndG9waWMnKSkgewogIGNvbnN0IHRva2VuID0gcHJvY2Vzcy5lbnYuR0lUSFVCX1RPS0VOIHx8IHByb2Nlc3MuZW52LkdIX1RPS0VOCiAgaWYgKCF0b2tlbikgewogICAgY29uc29sZS5lcnJvcign5YqgIHRvcGljIOmcgOimgSBHSVRIVUJfVE9LRU4nKQogICAgcHJvY2Vzcy5leGl0KDEpCiAgfQogIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvJHtvd25lcn0vJHtyZXBvfS90b3BpY3NgLCB7CiAgICBtZXRob2Q6ICdQVVQnLAogICAgaGVhZGVyczogewogICAgICBBY2NlcHQ6ICdhcHBsaWNhdGlvbi92bmQuZ2l0aHViK2pzb24nLAogICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7dG9rZW59YCwKICAgICAgJ1VzZXItQWdlbnQnOiAnZHNoLWluc3RhbGwtcmFkYXItcHVibGlzaCcsCiAgICB9LAogICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBuYW1lczogWydkc2gtcGx1Z2luJywgJ2RlZXBzZWVrLWhhcm5lc3MnLCAnZHNoJ10gfSksCiAgfSkKICBjb25zb2xlLmxvZyhyZXNwb25zZS5vayA/ICfinIUg5bey5YqgIHRvcGljczogZHNoLXBsdWdpbiwgZGVlcHNlZWstaGFybmVzcywgZHNoJyA6IGDinYwg5YqgIHRvcGljIOWksei0pSBIVFRQICR7cmVzcG9uc2Uuc3RhdHVzfWApCn0KCmNvbnNvbGUubG9nKCcnKQpjb25zb2xlLmxvZygn5LiL5LiA5q2l77yabm9kZSBwdWJsaXNoL21hcmtldC1wci5tanMgLS11c2VyICcgKyBvd25lciArICcgLS1yZXBvICcgKyByZXBvKQo=
+#!/usr/bin/env node
+/**
+ * 把 GitHub 仓库地址写进各处，保证三处一致：
+ *   1. package.json → repository（npm 与仓库的关联靠它，市场会据此把包挂到仓库上）
+ *   2. publish/entry.yml → url / name（市场条目必须与仓库完全一致）
+ *   3. 打印市场 PR 需要的目标文件名 data/plugins/<owner>__<repo>.yml
+ *
+ * 用法：
+ *   node publish/set-repo.mjs --url https://github.com/<owner>/<repo>
+ *   node publish/set-repo.mjs --url https://github.com/<owner>/<repo> --topic   # 顺手加 dsh-plugin topic（需 GITHUB_TOKEN）
+ */
+import { readFileSync, writeFileSync } from 'node:fs'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const root = resolve(here, '..')
+
+const args = new Map()
+for (let i = 2; i < process.argv.length; i += 2) {
+  const key = process.argv[i]
+  if (!key.startsWith('--')) continue
+  const value = process.argv[i + 1]
+  args.set(key.slice(2), value && !value.startsWith('--') ? value : true)
+}
+
+const rawUrl = String(args.get('url') || '').trim().replace(/\.git$/, '').replace(/\/+$/, '')
+const match = /^https:\/\/github\.com\/([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+)$/.exec(rawUrl)
+if (!match) {
+  console.error('需要一个形如 https://github.com/<owner>/<repo> 的地址（不带 .git、不带子目录）')
+  process.exit(1)
+}
+const [, owner, repo] = match
+const url = `https://github.com/${owner}/${repo}`
+
+// 1) package.json → repository
+const pkgPath = join(root, 'package.json')
+const pkg = JSON.parse(readFileSync(pkgPath, 'utf8'))
+pkg.repository = { type: 'git', url: `git+${url}.git` }
+pkg.homepage = url
+pkg.bugs = { url: `${url}/issues` }
+writeFileSync(pkgPath, `${JSON.stringify(pkg, null, 2)}\n`, 'utf8')
+
+// 2) publish/entry.yml
+const entryPath = join(here, 'entry.yml')
+const entry = readFileSync(entryPath, 'utf8')
+  .replace(/^url: .*$/m, `url: ${url}`)
+  .replace(/^name: .*$/m, `name: ${owner}/${repo}`)
+writeFileSync(entryPath, entry, 'utf8')
+
+// 3) 一致性检查
+const checks = []
+checks.push(['package.json repository', pkg.repository.url === `git+${url}.git`])
+checks.push(['entry.yml url', entry.includes(`url: ${url}`)])
+const dsh = pkg.dsh || {}
+checks.push(['dsh.bundle.patch 存在', Boolean(dsh.bundle && dsh.bundle.patch)])
+checks.push(['cordis.patch.yml 存在', readFileSync(join(root, 'cordis.patch.yml'), 'utf8').includes('insert:')])
+
+console.log(`仓库：${url}`)
+console.log(`市场条目文件：data/plugins/${owner}__${repo}.yml`)
+console.log('')
+for (const [name, ok] of checks) console.log(`${ok ? '✅' : '❌'} ${name}`)
+if (checks.some(([, ok]) => !ok)) process.exit(1)
+
+// 4) 可选：给仓库加 dsh-plugin topic（市场要求）
+if (args.get('topic')) {
+  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
+  if (!token) {
+    console.error('加 topic 需要 GITHUB_TOKEN')
+    process.exit(1)
+  }
+  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/topics`, {
+    method: 'PUT',
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${token}`,
+      'User-Agent': 'dsh-install-radar-publish',
+    },
+    body: JSON.stringify({ names: ['dsh-plugin', 'deepseek-harness', 'dsh'] }),
+  })
+  console.log(response.ok ? '✅ 已加 topics: dsh-plugin, deepseek-harness, dsh' : `❌ 加 topic 失败 HTTP ${response.status}`)
+}
+
+console.log('')
+console.log('下一步：node publish/market-pr.mjs --user ' + owner + ' --repo ' + repo)

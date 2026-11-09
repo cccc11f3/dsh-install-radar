@@ -1,1 +1,173 @@
-LyoqCiAqIOWuv+S4u+WNiumDqOWIhueahOWGkueDn+a1i+ivle+8muS4jeW8gCBEU0jvvIzlj6rpqozor4EKICogICAtIGFwcGx5KCkg5rOo5YaM5LqG5Zub5Liq5bel5YW3CiAqICAgLSBhcHBseSgpIOazqOWGjOS6hiAvYXBpL2luc3RhbGwtcmFkYXIvKiDkupTmnaHot6/nlLEKICogICAtIHJlcG9ydCDot6/nlLHnnJ/nmoTog73ov5Tlm57nu5PmnoTmraPnoa7nmoQgSlNPTu+8iOS8muecn+aJq+S4gOasoeebmO+8iQogKiDnlKjms5XvvJpub2RlIHRlc3QvaG9zdC1zbW9rZS5tanMKICovCmNvbnN0IHRvb2xzID0gW10KY29uc3Qgcm91dGVzID0gW10KCmNvbnN0IGNvbm5lY3Rpb24gPSB7CiAgZmV0Y2g6IHsKICAgIHJlZ2lzdGVyOiAocm91dGUpID0+IHsKICAgICAgcm91dGVzLnB1c2gocm91dGUpCiAgICAgIHJldHVybiAoKSA9PiB7fQogICAgfSwKICB9LAp9Cgpjb25zdCBjdHggPSB7CiAgdG9vbHM6IHsgcmVnaXN0ZXI6ICh0b29sKSA9PiB0b29scy5wdXNoKHRvb2wpIH0sCiAgaW5qZWN0OiAoZGVwcywgZm4pID0+IGZuKHsgZ2V0OiAobmFtZSkgPT4gKG5hbWUgPT09ICdjb25uZWN0aW9uJyA/IGNvbm5lY3Rpb24gOiB1bmRlZmluZWQpIH0pLAogIGVmZmVjdDogKGZuKSA9PiBmbigpLAogIG9uOiAoKSA9PiB7fSwKICBsb2dnZXI6IHsgaW5mbygpIHt9LCB3YXJuKCkge30sIGVycm9yKCkge30gfSwKfQoKY29uc3QgbW9kID0gYXdhaXQgaW1wb3J0KCcuLi9zcmMvaW5kZXguanMnKQptb2QuYXBwbHkoY3R4LCB7IGV4dHJhUm9vdHM6IFtdLCBpbmNsdWRlRGVmYXVsdHM6IHRydWUgfSkKCmNvbnN0IHRvb2xOYW1lcyA9IHRvb2xzLm1hcCgodG9vbCkgPT4gdG9vbC5uYW1lKQpjb25zdCBleHBlY3RlZFRvb2xzID0gWydpbnN0YWxsX3JhZGFyX3JlcG9ydCcsICdpbnN0YWxsX3JhZGFyX3Nlc3Npb25zJywgJ2luc3RhbGxfcmFkYXJfYmFzZWxpbmUnLCAnaW5zdGFsbF9yYWRhcl9kaWZmJ10KZm9yIChjb25zdCBleHBlY3RlZCBvZiBleHBlY3RlZFRvb2xzKSB7CiAgaWYgKCF0b29sTmFtZXMuaW5jbHVkZXMoZXhwZWN0ZWQpKSB0aHJvdyBuZXcgRXJyb3IoYHRvb2wgbWlzc2luZzogJHtleHBlY3RlZH1gKQp9Cgpjb25zdCBwYXRocyA9IHJvdXRlcy5tYXAoKHJvdXRlKSA9PiByb3V0ZS5wYXRoKQpmb3IgKGNvbnN0IG1ldGhvZCBvZiBbJ3JlcG9ydCcsICdzZXNzaW9ucycsICdiYXNlbGluZScsICdkaWZmJywgJ3JlZnJlc2gnXSkgewogIGNvbnN0IGV4cGVjdGVkID0gYC9hcGkvaW5zdGFsbC1yYWRhci8ke21ldGhvZH1gCiAgaWYgKCFwYXRocy5pbmNsdWRlcyhleHBlY3RlZCkpIHRocm93IG5ldyBFcnJvcihgcm91dGUgbWlzc2luZzogJHtleHBlY3RlZH1gKQp9Cgpjb25zdCByZXBvcnRSb3V0ZSA9IHJvdXRlcy5maW5kKChyb3V0ZSkgPT4gcm91dGUucGF0aCA9PT0gJy9hcGkvaW5zdGFsbC1yYWRhci9yZXBvcnQnKQpjb25zdCBzdGFydGVkID0gRGF0ZS5ub3coKQpjb25zdCByZXNwb25zZSA9IGF3YWl0IHJlcG9ydFJvdXRlLmZldGNoKAogIG5ldyBSZXF1ZXN0KCdodHRwOi8vMTI3LjAuMC4xL2FwaS9pbnN0YWxsLXJhZGFyL3JlcG9ydCcsIHsKICAgIG1ldGhvZDogJ1BPU1QnLAogICAgaGVhZGVyczogeyAnY29udGVudC10eXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHJwY0lkOiAnc21va2UtMScsIHBheWxvYWQ6IHt9IH0pLAogIH0pLAopCmNvbnN0IGJvZHkgPSBhd2FpdCByZXNwb25zZS5qc29uKCkKaWYgKGJvZHkudHlwZSAhPT0gJ3NlcnZlci1yZXNwb25zZScgfHwgYm9keS5ycGNJZCAhPT0gJ3Ntb2tlLTEnKSB0aHJvdyBuZXcgRXJyb3IoJ2JhZCBycGMgZW52ZWxvcGUnKQppZiAoYm9keS5yZXN1bHQub2sgIT09IHRydWUpIHRocm93IG5ldyBFcnJvcihgcm91dGUgZmFpbGVkOiAke0pTT04uc3RyaW5naWZ5KGJvZHkucmVzdWx0LmVycm9yIHx8IHt9KX1gKQoKY29uc3QgdmFsdWUgPSBib2R5LnJlc3VsdC52YWx1ZQppZiAoIXZhbHVlLnRvdGFscyB8fCAhQXJyYXkuaXNBcnJheSh2YWx1ZS5wZXJTZXNzaW9uKSkgdGhyb3cgbmV3IEVycm9yKCdiYWQgcGF5bG9hZCBzaGFwZScpCmNvbnN0IHNhbXBsZSA9IHZhbHVlLnBlclNlc3Npb24uZmxhdE1hcCgoc2Vzc2lvbikgPT4gc2Vzc2lvbi5pdGVtcylbMF0KCi8vIOiHquWKqOWfuue6v++8muaKpeWRiumHjOW6lOW4piBiYXNlbGluZUF1dG/vvIhmaXJzdC1ydW4gLyByb290cy1jaGFuZ2VkIC8gbnVsbO+8iQppZiAoISgnYmFzZWxpbmVBdXRvJyBpbiB2YWx1ZSkpIHRocm93IG5ldyBFcnJvcigncmVwb3J0IHBheWxvYWQgbWlzc2luZyBiYXNlbGluZUF1dG8nKQoKLy8g6L+b56iL5ZG95Luk6KGM5a6h6K6h6Lev55Sx77ya55yf6LeR5LiA5qyh6YeH5qC3CmNvbnN0IHByb2NzUm91dGUgPSByb3V0ZXMuZmluZCgocm91dGUpID0+IHJvdXRlLnBhdGggPT09ICcvYXBpL2luc3RhbGwtcmFkYXIvcHJvY3MnKQpjb25zdCBwcm9jc1JlcyA9IGF3YWl0IHByb2NzUm91dGUuZmV0Y2goCiAgbmV3IFJlcXVlc3QoJ2h0dHA6Ly8xMjcuMC4wLjEvYXBpL2luc3RhbGwtcmFkYXIvcHJvY3MnLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHJwY0lkOiAnc21va2UtcHJvY3MnIH0pIH0pLAopCmNvbnN0IHByb2NzQm9keSA9IGF3YWl0IHByb2NzUmVzLmpzb24oKQppZiAocHJvY3NCb2R5LnJlc3VsdC5vayAhPT0gdHJ1ZSkgdGhyb3cgbmV3IEVycm9yKCdwcm9jcyByb3V0ZSBmYWlsZWQnKQppZiAoIUFycmF5LmlzQXJyYXkocHJvY3NCb2R5LnJlc3VsdC52YWx1ZS5jYXVzYWwpKSB0aHJvdyBuZXcgRXJyb3IoJ3Byb2NzIHBheWxvYWQgbWlzc2luZyBjYXVzYWwgdGFibGUnKQoKLy8g5riF55CG6Lev55Sx77ya6aKE6KeI5qih5byP77yM5ou/5LiA5Liq5b+F54S25LiN5a2Y5Zyo55qE6Lev5b6E5YGa6LSf5ZCR6aqM6K+BCmNvbnN0IGNsZWFuUm91dGUgPSByb3V0ZXMuZmluZCgocm91dGUpID0+IHJvdXRlLnBhdGggPT09ICcvYXBpL2luc3RhbGwtcmFkYXIvY2xlYW4nKQpjb25zdCBjbGVhblJlcyA9IGF3YWl0IGNsZWFuUm91dGUuZmV0Y2goCiAgbmV3IFJlcXVlc3QoJ2h0dHA6Ly8xMjcuMC4wLjEvYXBpL2luc3RhbGwtcmFkYXIvY2xlYW4nLCB7CiAgICBtZXRob2Q6ICdQT1NUJywKICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcnBjSWQ6ICdzbW9rZS1jbGVhbicsIHBheWxvYWQ6IHsgcGF0aHM6IFsnQzpcXFdpbmRvd3NcXFRlbXBcXF9fcmFkYXJfc2hvdWxkX25vdF9leGlzdF9fJ10gfSB9KSwKICB9KSwKKQpjb25zdCBjbGVhbkJvZHkgPSBhd2FpdCBjbGVhblJlcy5qc29uKCkKaWYgKGNsZWFuQm9keS5yZXN1bHQub2sgIT09IHRydWUpIHRocm93IG5ldyBFcnJvcignY2xlYW4gcm91dGUgZmFpbGVkJykKY29uc3QgY2xlYW5lZCA9IGNsZWFuQm9keS5yZXN1bHQudmFsdWUKaWYgKGNsZWFuZWQuY29uZmlybSAhPT0gZmFsc2UpIHRocm93IG5ldyBFcnJvcignY2xlYW4gcHJldmlldyBtdXN0IG5vdCBkZWxldGUnKQppZiAoIWNsZWFuZWQuaXRlbXNbMF0gfHwgY2xlYW5lZC5pdGVtc1swXS5vayAhPT0gZmFsc2UpIHRocm93IG5ldyBFcnJvcignY2xlYW4gcHJldmlldyBhY2NlcHRlZCBhIGJvZ3VzIHBhdGgnKQoKLy8g55m95ZCN5Y2V5aSW55qE6Lev5b6E5b+F6aG76KKr5ouSCmNvbnN0IG91dHNpZGVSZXMgPSBhd2FpdCBjbGVhblJvdXRlLmZldGNoKAogIG5ldyBSZXF1ZXN0KCdodHRwOi8vMTI3LjAuMC4xL2FwaS9pbnN0YWxsLXJhZGFyL2NsZWFuJywgewogICAgbWV0aG9kOiAnUE9TVCcsCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHJwY0lkOiAnc21va2UtY2xlYW4yJywgcGF5bG9hZDogeyBwYXRoczogWydDOlxcUHJvZ3JhbSBGaWxlc1xcR29vZ2xlJ10gfSB9KSwKICB9KSwKKQpjb25zdCBvdXRzaWRlQm9keSA9IGF3YWl0IG91dHNpZGVSZXMuanNvbigpCmNvbnN0IG91dHNpZGVJdGVtID0gb3V0c2lkZUJvZHkucmVzdWx0LnZhbHVlLml0ZW1zWzBdCmlmIChvdXRzaWRlSXRlbS5vayAhPT0gZmFsc2UpIHRocm93IG5ldyBFcnJvcignY2xlYW4gYWNjZXB0ZWQgYSBwYXRoIG91dHNpZGUgdGhlIHRlbXAgd2hpdGVsaXN0JykKCi8vIOWOhuWPsuS+p+WGmei3r+eUse+8muecn+i3keS4gOasoe+8iOS8muivuyAzMDArIOS4quS4tOaXtuebruW9lSArIOWFqOmDqOS8muivneWRveS7pO+8iQpjb25zdCBoaXN0b3J5Um91dGUgPSByb3V0ZXMuZmluZCgocm91dGUpID0+IHJvdXRlLnBhdGggPT09ICcvYXBpL2luc3RhbGwtcmFkYXIvaGlzdG9yeScpCmNvbnN0IGhpc3RvcnlSZXMgPSBhd2FpdCBoaXN0b3J5Um91dGUuZmV0Y2goCiAgbmV3IFJlcXVlc3QoJ2h0dHA6Ly8xMjcuMC4wLjEvYXBpL2luc3RhbGwtcmFkYXIvaGlzdG9yeScsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcnBjSWQ6ICdzbW9rZS1oaXN0JyB9KSB9KSwKKQpjb25zdCBoaXN0b3J5Qm9keSA9IGF3YWl0IGhpc3RvcnlSZXMuanNvbigpCmlmIChoaXN0b3J5Qm9keS5yZXN1bHQub2sgIT09IHRydWUpIHRocm93IG5ldyBFcnJvcignaGlzdG9yeSByb3V0ZSBmYWlsZWQnKQpjb25zdCBwcm9maWxlID0gaGlzdG9yeUJvZHkucmVzdWx0LnZhbHVlCmlmICh0eXBlb2YgcHJvZmlsZS50b3RhbCAhPT0gJ251bWJlcicpIHRocm93IG5ldyBFcnJvcignaGlzdG9yeSBwYXlsb2FkIG1pc3NpbmcgdG90YWwnKQoKY29uc3QgcmVwcm9Sb3V0ZSA9IHJvdXRlcy5maW5kKChyb3V0ZSkgPT4gcm91dGUucGF0aCA9PT0gJy9hcGkvaW5zdGFsbC1yYWRhci9yZXBybycpCmNvbnN0IHJlcHJvUmVzID0gYXdhaXQgcmVwcm9Sb3V0ZS5mZXRjaCgKICBuZXcgUmVxdWVzdCgnaHR0cDovLzEyNy4wLjAuMS9hcGkvaW5zdGFsbC1yYWRhci9yZXBybycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcnBjSWQ6ICdzbW9rZS1yZXBybycgfSkgfSksCikKY29uc3QgcmVwcm9Cb2R5ID0gYXdhaXQgcmVwcm9SZXMuanNvbigpCmlmIChyZXByb0JvZHkucmVzdWx0Lm9rICE9PSB0cnVlKSB0aHJvdyBuZXcgRXJyb3IoJ3JlcHJvIHJvdXRlIGZhaWxlZCcpCmNvbnN0IHJlcHJvID0gcmVwcm9Cb2R5LnJlc3VsdC52YWx1ZQppZiAoIUFycmF5LmlzQXJyYXkocmVwcm8uY2FuZGlkYXRlcykpIHRocm93IG5ldyBFcnJvcigncmVwcm8gcGF5bG9hZCBtaXNzaW5nIGNhbmRpZGF0ZXMnKQoKLy8g5aSa6YCJ77ya5LiA5qyh5o+Q5Lqk5aSa5p2h6Lev5b6E77yI6aKE6KeI5qih5byP77yM5LiN5Yig77yJCmNvbnN0IHsgbWtkaXIsIHdyaXRlRmlsZSwgcm0gfSA9IGF3YWl0IGltcG9ydCgnbm9kZTpmcy9wcm9taXNlcycpCmNvbnN0IHsgam9pbiB9ID0gYXdhaXQgaW1wb3J0KCdub2RlOnBhdGgnKQpjb25zdCBwcm9iZURpciA9IGpvaW4ocHJvY2Vzcy5lbnYuVEVNUCB8fCBwcm9jZXNzLmN3ZCgpLCAnX19yYWRhcl9iYXRjaF9wcm9iZV9fJykKYXdhaXQgbWtkaXIocHJvYmVEaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCmF3YWl0IHdyaXRlRmlsZShqb2luKHByb2JlRGlyLCAneC50eHQnKSwgJ3gnLnJlcGVhdCg0MDk2KSkKY29uc3QgYmF0Y2hSZXMgPSBhd2FpdCBjbGVhblJvdXRlLmZldGNoKAogIG5ldyBSZXF1ZXN0KCdodHRwOi8vMTI3LjAuMC4xL2FwaS9pbnN0YWxsLXJhZGFyL2NsZWFuJywgewogICAgbWV0aG9kOiAnUE9TVCcsCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHJwY0lkOiAnc21va2UtYmF0Y2gnLCBwYXlsb2FkOiB7IHBhdGhzOiBbcHJvYmVEaXIsICdDOlxcV2luZG93c1xcVGVtcFxcX19ub3BlX18nXSwgY29uZmlybTogZmFsc2UgfSB9KSwKICB9KSwKKQpjb25zdCBiYXRjaEJvZHkgPSBhd2FpdCBiYXRjaFJlcy5qc29uKCkKY29uc3QgYmF0Y2hJdGVtcyA9IGJhdGNoQm9keS5yZXN1bHQudmFsdWUuaXRlbXMKaWYgKGJhdGNoSXRlbXMubGVuZ3RoICE9PSAyKSB0aHJvdyBuZXcgRXJyb3IoJ2JhdGNoIHByZXZpZXcgZGlkIG5vdCBoYW5kbGUgMiBwYXRocycpCmlmICghYmF0Y2hJdGVtcy5zb21lKChpdGVtKSA9PiBpdGVtLm9rKSB8fCAhYmF0Y2hJdGVtcy5zb21lKChpdGVtKSA9PiAhaXRlbS5vaykpIHRocm93IG5ldyBFcnJvcignYmF0Y2ggcHJldmlldyBzaG91bGQgbWl4IGFjY2VwdC9yZWplY3QnKQpmb3IgKGNvbnN0IGl0ZW0gb2YgYmF0Y2hJdGVtcykgaWYgKCFpdGVtLmNvbnNlcXVlbmNlKSB0aHJvdyBuZXcgRXJyb3IoJ2JhdGNoIHByZXZpZXcgbWlzc2luZyBjb25zZXF1ZW5jZScpCmlmICghKGF3YWl0IGltcG9ydCgnbm9kZTpmcycpKS5leGlzdHNTeW5jKHByb2JlRGlyKSkgdGhyb3cgbmV3IEVycm9yKCdwcmV2aWV3IG11c3Qgbm90IGRlbGV0ZScpCmF3YWl0IHJtKHByb2JlRGlyLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSkKCi8vIOi2i+WKv++8mjE0IOWkqeWIhuahtgpjb25zdCB0cmVuZFJvdXRlID0gcm91dGVzLmZpbmQoKHJvdXRlKSA9PiByb3V0ZS5wYXRoID09PSAnL2FwaS9pbnN0YWxsLXJhZGFyL3RyZW5kJykKY29uc3QgdHJlbmRSZXMgPSBhd2FpdCB0cmVuZFJvdXRlLmZldGNoKAogIG5ldyBSZXF1ZXN0KCdodHRwOi8vMTI3LjAuMC4xL2FwaS9pbnN0YWxsLXJhZGFyL3RyZW5kJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBycGNJZDogJ3Ntb2tlLXRyZW5kJyB9KSB9KSwKKQpjb25zdCB0cmVuZEJvZHkgPSBhd2FpdCB0cmVuZFJlcy5qc29uKCkKaWYgKHRyZW5kQm9keS5yZXN1bHQub2sgIT09IHRydWUpIHRocm93IG5ldyBFcnJvcigndHJlbmQgcm91dGUgZmFpbGVkJykKY29uc3QgdHJlbmQgPSB0cmVuZEJvZHkucmVzdWx0LnZhbHVlCmlmICghQXJyYXkuaXNBcnJheSh0cmVuZC5idWNrZXRzKSB8fCB0cmVuZC5idWNrZXRzLmxlbmd0aCAhPT0gMTQpIHRocm93IG5ldyBFcnJvcigndHJlbmQgbXVzdCByZXR1cm4gMTQgYnVja2V0cycpCgovLyDoh6rliqjmuIXnkIbvvJrlvIDlhbPkv53lrZggKyDpooTop4jmqKHlvI/vvIjkuI3liKDvvIkKY29uc3QgYXV0b2NsZWFuUm91dGUgPSByb3V0ZXMuZmluZCgocm91dGUpID0+IHJvdXRlLnBhdGggPT09ICcvYXBpL2luc3RhbGwtcmFkYXIvYXV0b2NsZWFuJykKY29uc3QgYWNSZXMgPSBhd2FpdCBhdXRvY2xlYW5Sb3V0ZS5mZXRjaCgKICBuZXcgUmVxdWVzdCgnaHR0cDovLzEyNy4wLjAuMS9hcGkvaW5zdGFsbC1yYWRhci9hdXRvY2xlYW4nLCB7CiAgICBtZXRob2Q6ICdQT1NUJywKICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcnBjSWQ6ICdzbW9rZS1hYycsIHBheWxvYWQ6IHsgZW5hYmxlZDogZmFsc2UsIG1pbkFnZURheXM6IDcsIGRyeVJ1bjogdHJ1ZSB9IH0pLAogIH0pLAopCmNvbnN0IGFjQm9keSA9IGF3YWl0IGFjUmVzLmpzb24oKQppZiAoYWNCb2R5LnJlc3VsdC5vayAhPT0gdHJ1ZSkgdGhyb3cgbmV3IEVycm9yKCdhdXRvY2xlYW4gcm91dGUgZmFpbGVkJykKY29uc3QgYWMgPSBhY0JvZHkucmVzdWx0LnZhbHVlCmlmIChhYy5hdXRvQ2xlYW4uZW5hYmxlZCAhPT0gZmFsc2UgfHwgYWMuYXV0b0NsZWFuLm1pbkFnZURheXMgIT09IDcpIHRocm93IG5ldyBFcnJvcignYXV0b2NsZWFuIHNldHRpbmdzIG5vdCBwZXJzaXN0ZWQnKQppZiAoYWMucmVzdWx0LmRyeVJ1biAhPT0gdHJ1ZSkgdGhyb3cgbmV3IEVycm9yKCdhdXRvY2xlYW4gZHJ5IHJ1biBmbGFnIG1pc3NpbmcnKQoKY29uc29sZS5sb2coJyAgdHJlbmQ6JywgYCR7dHJlbmQuZGF5c30g5aSpIMK3IOWQiOiuoSAkeyh0cmVuZC50b3RhbEJ5dGVzIC8gMTAyNCAqKiAzKS50b0ZpeGVkKDEpfSBHQiDCtyDls7DlgLwgJHsodHJlbmQubWF4Qnl0ZXMgLyAxMDI0ICoqIDMpLnRvRml4ZWQoMSl9IEdCYCkKY29uc29sZS5sb2coJyAgYXV0b2NsZWFuOicsIGBlbmFibGVkPSR7YWMuYXV0b0NsZWFuLmVuYWJsZWR9IG1pbkFnZURheXM9JHthYy5hdXRvQ2xlYW4ubWluQWdlRGF5c30g6aKE6KeI5ZG95LitICR7YWMucmVzdWx0LmNhbmRpZGF0ZXMubGVuZ3RofSDpoblgKQoKY29uc29sZS5sb2coJ09LJykKY29uc29sZS5sb2coJyAgdG9vbHM6JywgdG9vbE5hbWVzLmpvaW4oJywgJykpCmNvbnNvbGUubG9nKCcgIHJvdXRlczonLCBwYXRocy5qb2luKCcsICcpKQpjb25zb2xlLmxvZygnICByZXBvcnQ6JywgYCR7dmFsdWUudG90YWxzLnNlc3Npb25zfSBzZXNzaW9ucyAvICR7dmFsdWUudG90YWxzLml0ZW1zfSBpdGVtcyAvICR7dmFsdWUudG90YWxzLnNpemV9YCwgYCgkeygoRGF0ZS5ub3coKSAtIHN0YXJ0ZWQpIC8gMTAwMCkudG9GaXhlZCgxKX1zKWApCmlmIChzYW1wbGUpIGNvbnNvbGUubG9nKCcgIHNhbXBsZSBpdGVtOicsIEpTT04uc3RyaW5naWZ5KHsgbmFtZTogc2FtcGxlLm5hbWUsIHNpemU6IHNhbXBsZS5zaXplLCBwYXRoOiBzYW1wbGUucGF0aCwgcHVycG9zZTogc2FtcGxlLnB1cnBvc2UgfSkuc2xpY2UoMCwgMjIwKSkKY29uc29sZS5sb2coJyAgYmFzZWxpbmVBdXRvOicsIHZhbHVlLmJhc2VsaW5lQXV0byA/PyAnKOW3suaYr+acgOaWsCknLCAnfCBiYXNlbGluZTonLCB2YWx1ZS5iYXNlbGluZVRha2VuQXQgPyBuZXcgRGF0ZSh2YWx1ZS5iYXNlbGluZVRha2VuQXQpLnRvTG9jYWxlU3RyaW5nKCdzdi1TRScpIDogJ+aXoCcpCmNvbnNvbGUubG9nKCcgIHByb2NzOicsIGAke3Byb2NzQm9keS5yZXN1bHQudmFsdWUucHJvY2Vzc2VzfSDov5vnqIsgLyDljoblj7Lph4fmoLcgJHtwcm9jc0JvZHkucmVzdWx0LnZhbHVlLnRvdGFsU2FtcGxlc30g5qyhIC8g5Zug5p6c6KGoICR7cHJvY3NCb2R5LnJlc3VsdC52YWx1ZS5jYXVzYWwubGVuZ3RofSDooYxgKQpjb25zb2xlLmxvZygnICBjbGVhbiBwcmV2aWV3OicsIGDnoa7orqQ9JHtjbGVhbmVkLmNvbmZpcm19IOeZveWQjeWNleWGhT0ke2NsZWFuZWQuaXRlbXMuZmlsdGVyKChpKSA9PiBpLm9rKS5sZW5ndGh9IOaLkue7nT0ke2NsZWFuZWQuaXRlbXMuZmlsdGVyKChpKSA9PiAhaS5vaykubGVuZ3RofWApCmNvbnNvbGUubG9nKCcgIGhpc3Rvcnk6JywgYCR7cHJvZmlsZS50b3RhbH0g5Liq6YGX55WZ55uu5b2VIC8g5a+55LiKICR7cHJvZmlsZS5zZXNzaW9ucy5sZW5ndGh9IOS4quS8muivnSAvIOWvueS4jeS4iiAke3Byb2ZpbGUudW5tYXRjaGVkLmNvdW50fSDkuKpgKQppZiAocHJvZmlsZS5zZXNzaW9uc1swXSkgY29uc29sZS5sb2coJyAgICDmnIDlj6/og706JywgYCR7cHJvZmlsZS5zZXNzaW9uc1swXS5jb3VudH3DlyAke3Byb2ZpbGUuc2Vzc2lvbnNbMF0udGl0bGV9YCkKY29uc29sZS5sb2coJyAgcmVwcm86JywgYCR7cmVwcm8uY29tbWFuZHN9IOadoeWRveS7pCAvIOWAmemAieiEmuacrCAke3JlcHJvLmNhbmRpZGF0ZXMubGVuZ3RofSDkuKoke3JlcHJvLmNhbmRpZGF0ZXNbMF0gPyBgIC8g56ys5LiA5YCZ6YCJICR7cmVwcm8uY2FuZGlkYXRlc1swXS5wYXRofWAgOiAnJ31gKQo=
+/**
+ * 宿主半部分的冒烟测试：不开 DSH，只验证
+ *   - apply() 注册了四个工具
+ *   - apply() 注册了 /api/install-radar/* 五条路由
+ *   - report 路由真的能返回结构正确的 JSON（会真扫一次盘）
+ * 用法：node test/host-smoke.mjs
+ */
+const tools = []
+const routes = []
+
+const connection = {
+  fetch: {
+    register: (route) => {
+      routes.push(route)
+      return () => {}
+    },
+  },
+}
+
+const ctx = {
+  tools: { register: (tool) => tools.push(tool) },
+  inject: (deps, fn) => fn({ get: (name) => (name === 'connection' ? connection : undefined) }),
+  effect: (fn) => fn(),
+  on: () => {},
+  logger: { info() {}, warn() {}, error() {} },
+}
+
+const mod = await import('../src/index.js')
+mod.apply(ctx, { extraRoots: [], includeDefaults: true })
+
+const toolNames = tools.map((tool) => tool.name)
+const expectedTools = ['install_radar_report', 'install_radar_sessions', 'install_radar_baseline', 'install_radar_diff']
+for (const expected of expectedTools) {
+  if (!toolNames.includes(expected)) throw new Error(`tool missing: ${expected}`)
+}
+
+const paths = routes.map((route) => route.path)
+for (const method of ['report', 'sessions', 'baseline', 'diff', 'refresh']) {
+  const expected = `/api/install-radar/${method}`
+  if (!paths.includes(expected)) throw new Error(`route missing: ${expected}`)
+}
+
+const reportRoute = routes.find((route) => route.path === '/api/install-radar/report')
+const started = Date.now()
+const response = await reportRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/report', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ rpcId: 'smoke-1', payload: {} }),
+  }),
+)
+const body = await response.json()
+if (body.type !== 'server-response' || body.rpcId !== 'smoke-1') throw new Error('bad rpc envelope')
+if (body.result.ok !== true) throw new Error(`route failed: ${JSON.stringify(body.result.error || {})}`)
+
+const value = body.result.value
+if (!value.totals || !Array.isArray(value.perSession)) throw new Error('bad payload shape')
+const sample = value.perSession.flatMap((session) => session.items)[0]
+
+// 自动基线：报告里应带 baselineAuto（first-run / roots-changed / null）
+if (!('baselineAuto' in value)) throw new Error('report payload missing baselineAuto')
+
+// 进程命令行审计路由：真跑一次采样
+const procsRoute = routes.find((route) => route.path === '/api/install-radar/procs')
+const procsRes = await procsRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/procs', { method: 'POST', body: JSON.stringify({ rpcId: 'smoke-procs' }) }),
+)
+const procsBody = await procsRes.json()
+if (procsBody.result.ok !== true) throw new Error('procs route failed')
+if (!Array.isArray(procsBody.result.value.causal)) throw new Error('procs payload missing causal table')
+
+// 清理路由：预览模式，拿一个必然不存在的路径做负向验证
+const cleanRoute = routes.find((route) => route.path === '/api/install-radar/clean')
+const cleanRes = await cleanRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/clean', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-clean', payload: { paths: ['C:\\Windows\\Temp\\__radar_should_not_exist__'] } }),
+  }),
+)
+const cleanBody = await cleanRes.json()
+if (cleanBody.result.ok !== true) throw new Error('clean route failed')
+const cleaned = cleanBody.result.value
+if (cleaned.confirm !== false) throw new Error('clean preview must not delete')
+if (!cleaned.items[0] || cleaned.items[0].ok !== false) throw new Error('clean preview accepted a bogus path')
+
+// 白名单外的路径必须被拒
+const outsideRes = await cleanRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/clean', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-clean2', payload: { paths: ['C:\\Program Files\\Google'] } }),
+  }),
+)
+const outsideBody = await outsideRes.json()
+const outsideItem = outsideBody.result.value.items[0]
+if (outsideItem.ok !== false) throw new Error('clean accepted a path outside the temp whitelist')
+
+// 历史侧写路由：真跑一次（会读 300+ 个临时目录 + 全部会话命令）
+const historyRoute = routes.find((route) => route.path === '/api/install-radar/history')
+const historyRes = await historyRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/history', { method: 'POST', body: JSON.stringify({ rpcId: 'smoke-hist' }) }),
+)
+const historyBody = await historyRes.json()
+if (historyBody.result.ok !== true) throw new Error('history route failed')
+const profile = historyBody.result.value
+if (typeof profile.total !== 'number') throw new Error('history payload missing total')
+
+const reproRoute = routes.find((route) => route.path === '/api/install-radar/repro')
+const reproRes = await reproRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/repro', { method: 'POST', body: JSON.stringify({ rpcId: 'smoke-repro' }) }),
+)
+const reproBody = await reproRes.json()
+if (reproBody.result.ok !== true) throw new Error('repro route failed')
+const repro = reproBody.result.value
+if (!Array.isArray(repro.candidates)) throw new Error('repro payload missing candidates')
+
+// 多选：一次提交多条路径（预览模式，不删）
+const { mkdir, writeFile, rm } = await import('node:fs/promises')
+const { join } = await import('node:path')
+const probeDir = join(process.env.TEMP || process.cwd(), '__radar_batch_probe__')
+await mkdir(probeDir, { recursive: true })
+await writeFile(join(probeDir, 'x.txt'), 'x'.repeat(4096))
+const batchRes = await cleanRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/clean', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-batch', payload: { paths: [probeDir, 'C:\\Windows\\Temp\\__nope__'], confirm: false } }),
+  }),
+)
+const batchBody = await batchRes.json()
+const batchItems = batchBody.result.value.items
+if (batchItems.length !== 2) throw new Error('batch preview did not handle 2 paths')
+if (!batchItems.some((item) => item.ok) || !batchItems.some((item) => !item.ok)) throw new Error('batch preview should mix accept/reject')
+for (const item of batchItems) if (!item.consequence) throw new Error('batch preview missing consequence')
+if (!(await import('node:fs')).existsSync(probeDir)) throw new Error('preview must not delete')
+await rm(probeDir, { recursive: true, force: true })
+
+// 趋势：14 天分桶
+const trendRoute = routes.find((route) => route.path === '/api/install-radar/trend')
+const trendRes = await trendRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/trend', { method: 'POST', body: JSON.stringify({ rpcId: 'smoke-trend' }) }),
+)
+const trendBody = await trendRes.json()
+if (trendBody.result.ok !== true) throw new Error('trend route failed')
+const trend = trendBody.result.value
+if (!Array.isArray(trend.buckets) || trend.buckets.length !== 14) throw new Error('trend must return 14 buckets')
+
+// 自动清理：开关保存 + 预览模式（不删）
+const autocleanRoute = routes.find((route) => route.path === '/api/install-radar/autoclean')
+const acRes = await autocleanRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/autoclean', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-ac', payload: { enabled: false, minAgeDays: 7, dryRun: true } }),
+  }),
+)
+const acBody = await acRes.json()
+if (acBody.result.ok !== true) throw new Error('autoclean route failed')
+const ac = acBody.result.value
+if (ac.autoClean.enabled !== false || ac.autoClean.minAgeDays !== 7) throw new Error('autoclean settings not persisted')
+if (ac.result.dryRun !== true) throw new Error('autoclean dry run flag missing')
+
+console.log('  trend:', `${trend.days} 天 · 合计 ${(trend.totalBytes / 1024 ** 3).toFixed(1)} GB · 峰值 ${(trend.maxBytes / 1024 ** 3).toFixed(1)} GB`)
+console.log('  autoclean:', `enabled=${ac.autoClean.enabled} minAgeDays=${ac.autoClean.minAgeDays} 预览命中 ${ac.result.candidates.length} 项`)
+
+console.log('OK')
+console.log('  tools:', toolNames.join(', '))
+console.log('  routes:', paths.join(', '))
+console.log('  report:', `${value.totals.sessions} sessions / ${value.totals.items} items / ${value.totals.size}`, `(${((Date.now() - started) / 1000).toFixed(1)}s)`)
+if (sample) console.log('  sample item:', JSON.stringify({ name: sample.name, size: sample.size, path: sample.path, purpose: sample.purpose }).slice(0, 220))
+console.log('  baselineAuto:', value.baselineAuto ?? '(已是最新)', '| baseline:', value.baselineTakenAt ? new Date(value.baselineTakenAt).toLocaleString('sv-SE') : '无')
+console.log('  procs:', `${procsBody.result.value.processes} 进程 / 历史采样 ${procsBody.result.value.totalSamples} 次 / 因果表 ${procsBody.result.value.causal.length} 行`)
+console.log('  clean preview:', `确认=${cleaned.confirm} 白名单内=${cleaned.items.filter((i) => i.ok).length} 拒绝=${cleaned.items.filter((i) => !i.ok).length}`)
+console.log('  history:', `${profile.total} 个遗留目录 / 对上 ${profile.sessions.length} 个会话 / 对不上 ${profile.unmatched.count} 个`)
+if (profile.sessions[0]) console.log('    最可能:', `${profile.sessions[0].count}× ${profile.sessions[0].title}`)
+console.log('  repro:', `${repro.commands} 条命令 / 候选脚本 ${repro.candidates.length} 个${repro.candidates[0] ? ` / 第一候选 ${repro.candidates[0].path}` : ''}`)

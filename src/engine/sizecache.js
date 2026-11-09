@@ -1,1 +1,77 @@
-LyoqCiAqIOS9k+enr+e8k+WtmO+8mkU6XDNEQUkg6L+Z56eNIDE3IEdCIOeahOebruW9lemHj+S4gOasoeWwseWkn++8jOS4jeW/heavj+asoeW8gOmdouadv+mDveWGjeaVsOS4gOmBjeOAggogKiDnvJPlrZjokL3lnKggJERTSF9IT01FL2luc3RhbGwtcmFkYXIvc2l6ZS1jYWNoZS5qc29u77yMMzAg5YiG6ZKf5pyJ5pWI77yM55uu5b2VIG10aW1lIOWPmOS6huWwsemHjeeul+OAggogKi8KaW1wb3J0IHsgcmVhZEZpbGUsIHdyaXRlRmlsZSwgbWtkaXIgfSBmcm9tICdub2RlOmZzL3Byb21pc2VzJwppbXBvcnQgeyBkaXJuYW1lLCBqb2luIH0gZnJvbSAnbm9kZTpwYXRoJwoKY29uc3QgVFRMID0gMzAgKiA2MCAqIDEwMDAKY29uc3Qgc3RvcmUgPSBuZXcgTWFwKCkKbGV0IGNhY2hlRmlsZSA9ICcnCmxldCBsb2FkZWQgPSBmYWxzZQpsZXQgc2F2ZVRpbWVyID0gbnVsbApsZXQgc2F2aW5nID0gZmFsc2UKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBpbml0U2l6ZUNhY2hlKGhvbWUpIHsKICBjYWNoZUZpbGUgPSBqb2luKGhvbWUsICdpbnN0YWxsLXJhZGFyJywgJ3NpemUtY2FjaGUuanNvbicpCiAgaWYgKGxvYWRlZCkgcmV0dXJuCiAgbG9hZGVkID0gdHJ1ZQogIHRyeSB7CiAgICBjb25zdCByYXcgPSBKU09OLnBhcnNlKGF3YWl0IHJlYWRGaWxlKGNhY2hlRmlsZSwgJ3V0ZjgnKSkKICAgIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKHJhdyB8fCB7fSkpIHsKICAgICAgaWYgKHZhbHVlICYmIHR5cGVvZiB2YWx1ZS5ieXRlcyA9PT0gJ251bWJlcicpIHN0b3JlLnNldChrZXksIHZhbHVlKQogICAgfQogIH0gY2F0Y2ggewogICAgLyog5rKh5pyJ57yT5a2Y5paH5Lu25bCx5piv56m657yT5a2YICovCiAgfQp9Cgpjb25zdCBrZXlPZiA9IChwYXRoKSA9PiBTdHJpbmcocGF0aCB8fCAnJykudG9Mb3dlckNhc2UoKQoKZXhwb3J0IGZ1bmN0aW9uIGdldENhY2hlZFNpemUocGF0aCwgbXRpbWVNcykgewogIGNvbnN0IGhpdCA9IHN0b3JlLmdldChrZXlPZihwYXRoKSkKICBpZiAoIWhpdCkgcmV0dXJuIG51bGwKICBpZiAoRGF0ZS5ub3coKSAtIGhpdC5hdCA+IFRUTCkgcmV0dXJuIG51bGwKICBpZiAodHlwZW9mIG10aW1lTXMgPT09ICdudW1iZXInICYmIHR5cGVvZiBoaXQubXRpbWVNcyA9PT0gJ251bWJlcicgJiYgbXRpbWVNcyAhPT0gaGl0Lm10aW1lTXMpIHJldHVybiBudWxsCiAgcmV0dXJuIGhpdAp9CgpleHBvcnQgZnVuY3Rpb24gcHV0Q2FjaGVkU2l6ZShwYXRoLCBpbmZvKSB7CiAgc3RvcmUuc2V0KGtleU9mKHBhdGgpLCB7IC4uLmluZm8sIGF0OiBEYXRlLm5vdygpIH0pCiAgc2NoZWR1bGVTYXZlKCkKfQoKZnVuY3Rpb24gc2NoZWR1bGVTYXZlKCkgewogIGlmICghY2FjaGVGaWxlIHx8IHNhdmVUaW1lcikgcmV0dXJuCiAgc2F2ZVRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICBzYXZlVGltZXIgPSBudWxsCiAgICB2b2lkIHBlcnNpc3QoKQogIH0sIDE1MDApCiAgaWYgKHR5cGVvZiBzYXZlVGltZXIudW5yZWYgPT09ICdmdW5jdGlvbicpIHNhdmVUaW1lci51bnJlZigpCn0KCmFzeW5jIGZ1bmN0aW9uIHBlcnNpc3QoKSB7CiAgaWYgKCFjYWNoZUZpbGUgfHwgc2F2aW5nKSByZXR1cm4KICBzYXZpbmcgPSB0cnVlCiAgdHJ5IHsKICAgIGF3YWl0IG1rZGlyKGRpcm5hbWUoY2FjaGVGaWxlKSwgeyByZWN1cnNpdmU6IHRydWUgfSkKICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCkKICAgIGNvbnN0IG91dCA9IHt9CiAgICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBzdG9yZSkgewogICAgICBpZiAobm93IC0gdmFsdWUuYXQgPD0gVFRMICogNCkgb3V0W2tleV0gPSB2YWx1ZQogICAgfQogICAgYXdhaXQgd3JpdGVGaWxlKGNhY2hlRmlsZSwgSlNPTi5zdHJpbmdpZnkob3V0KSwgJ3V0ZjgnKQogIH0gY2F0Y2ggewogICAgLyog57yT5a2Y5YaZ5aSx6LSl5LiN5b2x5ZON5Li75rWB56iLICovCiAgfSBmaW5hbGx5IHsKICAgIHNhdmluZyA9IGZhbHNlCiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmx1c2hTaXplQ2FjaGUoKSB7CiAgaWYgKHNhdmVUaW1lcikgewogICAgY2xlYXJUaW1lb3V0KHNhdmVUaW1lcikKICAgIHNhdmVUaW1lciA9IG51bGwKICB9CiAgYXdhaXQgcGVyc2lzdCgpCn0K
+/**
+ * 体积缓存：E:\3DAI 这种 17 GB 的目录量一次就够，不必每次开面板都再数一遍。
+ * 缓存落在 $DSH_HOME/install-radar/size-cache.json，30 分钟有效，目录 mtime 变了就重算。
+ */
+import { readFile, writeFile, mkdir } from 'node:fs/promises'
+import { dirname, join } from 'node:path'
+
+const TTL = 30 * 60 * 1000
+const store = new Map()
+let cacheFile = ''
+let loaded = false
+let saveTimer = null
+let saving = false
+
+export async function initSizeCache(home) {
+  cacheFile = join(home, 'install-radar', 'size-cache.json')
+  if (loaded) return
+  loaded = true
+  try {
+    const raw = JSON.parse(await readFile(cacheFile, 'utf8'))
+    for (const [key, value] of Object.entries(raw || {})) {
+      if (value && typeof value.bytes === 'number') store.set(key, value)
+    }
+  } catch {
+    /* 没有缓存文件就是空缓存 */
+  }
+}
+
+const keyOf = (path) => String(path || '').toLowerCase()
+
+export function getCachedSize(path, mtimeMs) {
+  const hit = store.get(keyOf(path))
+  if (!hit) return null
+  if (Date.now() - hit.at > TTL) return null
+  if (typeof mtimeMs === 'number' && typeof hit.mtimeMs === 'number' && mtimeMs !== hit.mtimeMs) return null
+  return hit
+}
+
+export function putCachedSize(path, info) {
+  store.set(keyOf(path), { ...info, at: Date.now() })
+  scheduleSave()
+}
+
+function scheduleSave() {
+  if (!cacheFile || saveTimer) return
+  saveTimer = setTimeout(() => {
+    saveTimer = null
+    void persist()
+  }, 1500)
+  if (typeof saveTimer.unref === 'function') saveTimer.unref()
+}
+
+async function persist() {
+  if (!cacheFile || saving) return
+  saving = true
+  try {
+    await mkdir(dirname(cacheFile), { recursive: true })
+    const now = Date.now()
+    const out = {}
+    for (const [key, value] of store) {
+      if (now - value.at <= TTL * 4) out[key] = value
+    }
+    await writeFile(cacheFile, JSON.stringify(out), 'utf8')
+  } catch {
+    /* 缓存写失败不影响主流程 */
+  } finally {
+    saving = false
+  }
+}
+
+export async function flushSizeCache() {
+  if (saveTimer) {
+    clearTimeout(saveTimer)
+    saveTimer = null
+  }
+  await persist()
+}

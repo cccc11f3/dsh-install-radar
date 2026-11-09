@@ -1,1 +1,218 @@
-LyoqCiAqIOWRveS7pOino+aekOWxgu+8muS7juS4gOadoSBzaGVsbCDlkb3ku6Tph4zorqTlh7rjgIzov5nkuIDmraXlnKjoo4Xku4DkuYjjgI3jgIIKICog5Y+q5YGa5qih5byP6K+G5Yir77yM5LiN5omn6KGM5Lu75L2V5Lic6KW/44CCCiAqLwoKLyoqIOS4gOihjOmHjOWPr+iDveacieWkmuauteWRveS7pO+8jOWFiOeyl+WIh+WGjeWMuemFjSAqLwpmdW5jdGlvbiBzZWdtZW50cyhjb21tYW5kKSB7CiAgcmV0dXJuIGNvbW1hbmQKICAgIC5zcGxpdCgvXHI/XG58O3wmJnxcfFx8LykKICAgIC5tYXAoKGxpbmUpID0+IGxpbmUudHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKQp9Cgpjb25zdCBOQU1FX1NUT1AgPSAvXigtezEsMn18Wzw+fCZdKS8KCi8qKiDku47lj4LmlbDkuLLph4zmjJHlh7rljIXlkI3vvIjljrvmjokgZmxhZ+OAgeeJiOacrOe6puadn+OAgei3r+W+hOOAgVVSTO+8iSAqLwpmdW5jdGlvbiBwaWNrTmFtZXMocmVzdCkgewogIGNvbnN0IG5hbWVzID0gW10KICBmb3IgKGNvbnN0IHRva2VuIG9mIHJlc3Quc3BsaXQoL1xzKy8pKSB7CiAgICBpZiAoIXRva2VuKSBjb250aW51ZQogICAgaWYgKE5BTUVfU1RPUC50ZXN0KHRva2VuKSkgewogICAgICAvLyDluKblgLznmoQgZmxhZyDlkI7pnaLpgqPkuKogdG9rZW4g5LiN5piv5YyF5ZCNCiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBpZiAoL15bQS1aYS16XTpbXFwvXS8udGVzdCh0b2tlbikpIGNvbnRpbnVlIC8vIOe7neWvuei3r+W+hAogICAgaWYgKC9eWy4vXFxdLy50ZXN0KHRva2VuKSkgY29udGludWUgLy8g55u45a+56Lev5b6ECiAgICBpZiAoL15odHRwcz86XC9cLy9pLnRlc3QodG9rZW4pKSBjb250aW51ZQogICAgaWYgKC9eWyciXS8udGVzdCh0b2tlbikpIGNvbnRpbnVlCiAgICBjb25zdCBuYW1lID0gdG9rZW4KICAgICAgLnJlcGxhY2UoL1xbLio/XF0kLywgJycpIC8vIGV4dHJhcwogICAgICAucmVwbGFjZSgvW0A9PD4hfl0uKiQvLCAnJykgLy8g54mI5pys57qm5p2fCiAgICAgIC50cmltKCkKICAgIGlmIChuYW1lLmxlbmd0aCA9PT0gMCB8fCBuYW1lLmxlbmd0aCA+IDgwKSBjb250aW51ZQogICAgaWYgKC9eW1xkLl0rJC8udGVzdChuYW1lKSkgY29udGludWUKICAgIG5hbWVzLnB1c2gobmFtZSkKICB9CiAgcmV0dXJuIG5hbWVzCn0KCmZ1bmN0aW9uIGRpckZyb21VcmwodXJsKSB7CiAgY29uc3QgY2xlYW5lZCA9IHVybC5yZXBsYWNlKC9cLmdpdCQvaSwgJycpLnJlcGxhY2UoL1s/I10uKiQvLCAnJykucmVwbGFjZSgvXC8rJC8sICcnKQogIGNvbnN0IGxhc3QgPSBjbGVhbmVkLnNwbGl0KC9bXFwvXS8pLnBvcCgpIHx8ICcnCiAgcmV0dXJuIGxhc3QKfQoKY29uc3QgUlVMRVMgPSBbCiAgewogICAgZWNvOiAncHl0aG9uJywKICAgIHRlc3Q6IC9eKD86c3Vkb1xzKyk/KD86cHl8cHl0aG9uWzAtOS5dKnxwaXBbMC05Ll0qKVxzKyg/Oi1cUytccyspKmluc3RhbGxccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdweXRob24nLCBhY3Rpb246ICdwaXAgaW5zdGFsbCcsIG5hbWVzOiBwaWNrTmFtZXMobVsxXSkgfSksCiAgfSwKICB7CiAgICBlY286ICdweXRob24nLAogICAgdGVzdDogL14oPzpzdWRvXHMrKT8oPzpweXxweXRob25bMC05Ll0qKVxzKy1tXHMrcGlwXHMraW5zdGFsbFxzKyguKikkL2ksCiAgICBidWlsZDogKG0pID0+ICh7IGVjbzogJ3B5dGhvbicsIGFjdGlvbjogJ3BpcCBpbnN0YWxsJywgbmFtZXM6IHBpY2tOYW1lcyhtWzFdKSB9KSwKICB9LAogIHsKICAgIGVjbzogJ3B5dGhvbicsCiAgICB0ZXN0OiAvXig/OnN1ZG9ccyspP3V2XHMrKD86cGlwXHMrKT8oPzphZGR8aW5zdGFsbClccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdweXRob24nLCBhY3Rpb246ICd1diBhZGQnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAncHl0aG9uLWVudicsCiAgICB0ZXN0OiAvXig/OnB5fHB5dGhvblswLTkuXSopXHMrLW1ccyt2ZW52XHMrKFxTKykvaSwKICAgIGJ1aWxkOiAobSkgPT4gKHsgZWNvOiAncHl0aG9uLWVudicsIGFjdGlvbjogJ+W7uiB2ZW52JywgbmFtZXM6IFtdLCBvdXRQYXRoOiBtWzFdLnJlcGxhY2UoL15bJyJdfFsnIl0kL2csICcnKSB9KSwKICB9LAogIHsKICAgIGVjbzogJ2NvbmRhJywKICAgIHRlc3Q6IC9eY29uZGFccytjcmVhdGVcYiguKikkL2ksCiAgICBidWlsZDogKG0pID0+IHsKICAgICAgY29uc3QgZW52ID0gLyg/Oi1ufC0tbmFtZSlccysoXFMrKS8uZXhlYyhtWzFdKQogICAgICBjb25zdCBwcmVmaXggPSAvKD86LXB8LS1wcmVmaXgpXHMrKFxTKykvLmV4ZWMobVsxXSkKICAgICAgcmV0dXJuIHsgZWNvOiAnY29uZGEnLCBhY3Rpb246ICdjb25kYSBjcmVhdGUnLCBuYW1lczogZW52ID8gW2VudlsxXV0gOiBbXSwgb3V0UGF0aDogcHJlZml4ID8gcHJlZml4WzFdIDogdW5kZWZpbmVkIH0KICAgIH0sCiAgfSwKICB7CiAgICBlY286ICdub2RlJywKICAgIHRlc3Q6IC9eKD86c3Vkb1xzKyk/bnBtXHMrKD86aXxpbnN0YWxsfGFkZClccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdub2RlJywgYWN0aW9uOiAnbnBtIGluc3RhbGwnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAnbm9kZScsCiAgICB0ZXN0OiAvXig/OnN1ZG9ccyspPyg/OnBucG18eWFybnxidW4pXHMrKD86YWRkfGl8aW5zdGFsbHxnbG9iYWxccythZGQpXHMrKC4qKSQvaSwKICAgIGJ1aWxkOiAobSkgPT4gKHsgZWNvOiAnbm9kZScsIGFjdGlvbjogJ3BucG0veWFybiBhZGQnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAnZ2l0JywKICAgIHRlc3Q6IC9eZ2l0XHMrY2xvbmVccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiB7CiAgICAgIGNvbnN0IHVybCA9IChtWzFdLm1hdGNoKC9odHRwcz86XC9cL1xTK3xnaXRAXFMrfFtcdy4tXStcL1tcdy4tXStcLmdpdC8pIHx8IFsnJ10pWzBdCiAgICAgIGNvbnN0IHJlc3QgPSBtWzFdLnJlcGxhY2UodXJsLCAnJykudHJpbSgpCiAgICAgIC8vIC0tZGVwdGggMSAvIC1iIG1haW4g6L+Z57G75bim5YC85Y+C5pWw5ZCO6Z2i6Lef55qE5piv5YC877yM5LiN5piv55uu5qCH55uu5b2VCiAgICAgIGNvbnN0IHZhbHVlRmxhZ3MgPSBuZXcgU2V0KFsnLS1kZXB0aCcsICctYicsICctLWJyYW5jaCcsICctbycsICctLW9yaWdpbicsICctYycsICctLWNvbmZpZycsICctaicsICctLWpvYnMnLCAnLS1maWx0ZXInLCAnLS1yZWZlcmVuY2UnLCAnLS10ZW1wbGF0ZScsICctLXNlcGFyYXRlLWdpdC1kaXInLCAnLS1zaGFsbG93LXNpbmNlJywgJy0tc2hhbGxvdy1leGNsdWRlJ10pCiAgICAgIGNvbnN0IHRva2VucyA9IHJlc3Quc3BsaXQoL1xzKy8pLmZpbHRlcihCb29sZWFuKQogICAgICBsZXQgdGFyZ2V0CiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgdG9rZW5zLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgY29uc3QgdG9rZW4gPSB0b2tlbnNbaV0KICAgICAgICBpZiAoL15cZD4mXGQkLy50ZXN0KHRva2VuKSkgY29udGludWUKICAgICAgICBpZiAodmFsdWVGbGFncy5oYXModG9rZW4pKSB7CiAgICAgICAgICBpKysgLy8g6Lez6L+H5a6D55qE5YC8CiAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KICAgICAgICBpZiAodG9rZW4uc3RhcnRzV2l0aCgnLScpKSBjb250aW51ZQogICAgICAgIHRhcmdldCA9IHRva2VuCiAgICAgICAgYnJlYWsKICAgICAgfQogICAgICByZXR1cm4geyBlY286ICdnaXQnLCBhY3Rpb246ICdnaXQgY2xvbmUnLCBuYW1lczogdXJsID8gW2RpckZyb21VcmwodXJsKV0gOiBbXSwgdXJsLCBvdXRQYXRoOiB0YXJnZXQgfQogICAgfSwKICB9LAogIHsKICAgIGVjbzogJ3dpbmdldCcsCiAgICB0ZXN0OiAvXndpbmdldFxzK2luc3RhbGxccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiB7CiAgICAgIGNvbnN0IGlkID0gLyg/Oi0taWR8LWkpXHMrKFxTKykvLmV4ZWMobVsxXSkKICAgICAgcmV0dXJuIHsgZWNvOiAnd2luZ2V0JywgYWN0aW9uOiAnd2luZ2V0IGluc3RhbGwnLCBuYW1lczogaWQgPyBbaWRbMV0ucmVwbGFjZSgvWyInXS9nLCAnJyldIDogcGlja05hbWVzKG1bMV0pIH0KICAgIH0sCiAgfSwKICB7CiAgICBlY286ICdjaG9jbycsCiAgICB0ZXN0OiAvXig/OmNob2NvfHNjb29wKVxzK2luc3RhbGxccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdjaG9jbycsIGFjdGlvbjogJ2Nob2NvL3Njb29wIGluc3RhbGwnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAnY2FyZ28nLAogICAgdGVzdDogL15jYXJnb1xzK2luc3RhbGxccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdjYXJnbycsIGFjdGlvbjogJ2NhcmdvIGluc3RhbGwnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAnZ28nLAogICAgdGVzdDogL15nb1xzK2luc3RhbGxccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdnbycsIGFjdGlvbjogJ2dvIGluc3RhbGwnLCBuYW1lczogW21bMV0udHJpbSgpLnNwbGl0KC9ccysvKVswXV0gfSksCiAgfSwKICB7CiAgICBlY286ICdkb2NrZXInLAogICAgdGVzdDogL15kb2NrZXJccytwdWxsXHMrKC4qKSQvaSwKICAgIGJ1aWxkOiAobSkgPT4gKHsgZWNvOiAnZG9ja2VyJywgYWN0aW9uOiAnZG9ja2VyIHB1bGwnLCBuYW1lczogcGlja05hbWVzKG1bMV0pIH0pLAogIH0sCiAgewogICAgZWNvOiAnbW9kZWwnLAogICAgdGVzdDogL14oPzpodWdnaW5nZmFjZS1jbGl8aGYpXHMrZG93bmxvYWRccysoLiopJC9pLAogICAgYnVpbGQ6IChtKSA9PiAoeyBlY286ICdtb2RlbCcsIGFjdGlvbjogJ+aooeWei+S4i+i9vScsIG5hbWVzOiBwaWNrTmFtZXMobVsxXSkgfSksCiAgfSwKICB7CiAgICBlY286ICdkb3dubG9hZCcsCiAgICB0ZXN0OiAvKD86SW52b2tlLVdlYlJlcXVlc3R8Y3VybHxpd3J8d2dldClcYi4qPyg/Oi1PdXRGaWxlfC1vKVxzKyhcUyspL2ksCiAgICBidWlsZDogKG0pID0+ICh7IGVjbzogJ2Rvd25sb2FkJywgYWN0aW9uOiAn5LiL6L295paH5Lu2JywgbmFtZXM6IFtdLCBvdXRQYXRoOiBtWzFdLnJlcGxhY2UoL15bJyJdfFsnIl0kL2csICcnKSwgZG93bmxvYWQ6IHRydWUgfSksCiAgfSwKICB7CiAgICBlY286ICdkb3dubG9hZCcsCiAgICB0ZXN0OiAvKD86U3RhcnQtQml0c1RyYW5zZmVyfGJpdHNhZG1pbilcYi4qPy1EZXN0aW5hdGlvblxzKyhcUyspL2ksCiAgICBidWlsZDogKG0pID0+ICh7IGVjbzogJ2Rvd25sb2FkJywgYWN0aW9uOiAn5LiL6L295paH5Lu2JywgbmFtZXM6IFtdLCBvdXRQYXRoOiBtWzFdLnJlcGxhY2UoL15bJyJdfFsnIl0kL2csICcnKSwgZG93bmxvYWQ6IHRydWUgfSksCiAgfSwKICB7CiAgICBlY286ICdyZW1vdGUtc2NyaXB0JywKICAgIHdob2xlOiB0cnVlLAogICAgdGVzdDogL1xiKD86aXJtfGl3cnxJbnZva2UtUmVzdE1ldGhvZHxJbnZva2UtV2ViUmVxdWVzdHxjdXJsKVxiW158XSpcfFxzKig/OmlleHxJbnZva2UtRXhwcmVzc2lvbnxzaHxiYXNofHBvd2Vyc2hlbGx8cHdzaClcYi9pLAogICAgYnVpbGQ6ICgpID0+ICh7IGVjbzogJ3JlbW90ZS1zY3JpcHQnLCBhY3Rpb246ICfov5znqIvohJrmnKzlronoo4UnLCBuYW1lczogW10sIHJpc2t5OiB0cnVlIH0pLAogIH0sCiAgewogICAgZWNvOiAnaW5zdGFsbGVyJywKICAgIHRlc3Q6IC9eKD86XC5cL3woPzpbQS1aYS16XTopP1tcXC9dKT9cUytcLig/OmV4ZXxtc2kpXGIuKj8oPzpcL1N8XC9zaWxlbnR8LS1zaWxlbnR8LS1xdWlldHwtcXxcL3F1aWV0KS9pLAogICAgYnVpbGQ6IChtKSA9PiB7CiAgICAgIGNvbnN0IGZpbGUgPSAobVswXS5tYXRjaCgvW15ccyInfDsmXStcLig/OmV4ZXxtc2kpL2kpIHx8IFsnJ10pWzBdCiAgICAgIHJldHVybiB7IGVjbzogJ2luc3RhbGxlcicsIGFjdGlvbjogJ+mdmem7mOWuieijheWZqCcsIG5hbWVzOiBbZmlsZS5zcGxpdCgvW1xcL10vKS5wb3AoKSB8fCAnJ10uZmlsdGVyKEJvb2xlYW4pIH0KICAgIH0sCiAgfSwKXQoKLyoqCiAqIEBwYXJhbSB7c3RyaW5nfSBjb21tYW5kIOS4gOadoSBzaGVsbCDlkb3ku6TvvIjlj6/og73lpJrooYzvvIkKICogQHJldHVybnMge0FycmF5PG9iamVjdD59IOWuieijheS6i+S7tgogKi8KLyoqIOS7juS4gOauteWRveS7pOmHjOaKveWHuuOAjOWIh+WIsOS6huWTquS4quebruW9leOAje+8jOeUqOS6juWumuS9jSBnaXQgY2xvbmUgLyBucG0gaW5zdGFsbCDnmoTokL3ngrkgKi8KZnVuY3Rpb24gZGlySGludEluKHNlZ21lbnQpIHsKICBjb25zdCBwYXR0ZXJucyA9IFsKICAgIC9cYmNkXHMrKD86Y2hkaXJccyspP1siJ10/KFtBLVphLXpdOlteIid8OyZdKykvaSwKICAgIC9OZXctSXRlbVxzKy1JdGVtVHlwZVxzK0RpcmVjdG9yeVteO3xdKj9bIiddKFtBLVphLXpdOlteIiddKylbIiddL2ksCiAgICAvXGJta2RpclxzK1siJ10/KFtBLVphLXpdOlteIid8OyZdKykvaSwKICAgIC9cYlB1c2gtTG9jYXRpb25ccytbIiddPyhbQS1aYS16XTpbXiInfDsmXSspL2ksCiAgXQogIGZvciAoY29uc3QgcGF0dGVybiBvZiBwYXR0ZXJucykgewogICAgY29uc3QgbSA9IHBhdHRlcm4uZXhlYyhzZWdtZW50KQogICAgaWYgKG0pIHJldHVybiBtWzFdLnRyaW0oKS5yZXBsYWNlKC9bIiddJC8sICcnKQogIH0KICByZXR1cm4gJycKfQoKZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RJbnN0YWxscyhjb21tYW5kKSB7CiAgaWYgKHR5cGVvZiBjb21tYW5kICE9PSAnc3RyaW5nJyB8fCBjb21tYW5kLmxlbmd0aCA9PT0gMCkgcmV0dXJuIFtdCiAgY29uc3QgZm91bmQgPSBbXQogIGxldCBydW5uaW5nSGludCA9ICcnCiAgZm9yIChjb25zdCBzZWdtZW50IG9mIHNlZ21lbnRzKGNvbW1hbmQpKSB7CiAgICBjb25zdCBoaW50ID0gZGlySGludEluKHNlZ21lbnQpCiAgICBpZiAoaGludCkgcnVubmluZ0hpbnQgPSBoaW50CiAgICAvLyDnrqHpgZPlkI7pnaLmmK/lkI7lpITnkIbvvIhTZWxlY3QtT2JqZWN0IC8gRm9ybWF0LUxpc3Qg4oCm77yJ77yM5LiN5piv5a6J6KOF55qE5LiA6YOo5YiGCiAgICBjb25zdCBiYXJlID0gc2VnbWVudC5zcGxpdCgnfCcpWzBdLnRyaW0oKQogICAgZm9yIChjb25zdCBydWxlIG9mIFJVTEVTKSB7CiAgICAgIGNvbnN0IHN1YmplY3QgPSBydWxlLndob2xlID8gc2VnbWVudCA6IGJhcmUKICAgICAgY29uc3QgbSA9IHJ1bGUudGVzdC5leGVjKHN1YmplY3QpCiAgICAgIGlmICghbSkgY29udGludWUKICAgICAgY29uc3QgZXZlbnQgPSBydWxlLmJ1aWxkKG0pCiAgICAgIGlmICghZXZlbnQpIGNvbnRpbnVlCiAgICAgIGNvbnN0IG5hbWVzID0gKGV2ZW50Lm5hbWVzIHx8IFtdKS5maWx0ZXIoKG4pID0+IHR5cGVvZiBuID09PSAnc3RyaW5nJyAmJiBuLmxlbmd0aCA+IDApCiAgICAgIGlmIChuYW1lcy5sZW5ndGggPT09IDAgJiYgIWV2ZW50Lm91dFBhdGggJiYgIWV2ZW50LnJpc2t5KSBjb250aW51ZQogICAgICBmb3VuZC5wdXNoKHsgLi4uZXZlbnQsIG5hbWVzLCBzZWdtZW50OiBiYXJlLCBjd2RIaW50OiBydW5uaW5nSGludCB8fCB1bmRlZmluZWQsIGVjbzogZXZlbnQuZWNvIHx8IHJ1bGUuZWNvIH0pCiAgICAgIGJyZWFrCiAgICB9CiAgfQogIHJldHVybiBmb3VuZAp9CgovKiog5Yik5pat5LiA5p2h5ZG95Luk5piv5ZCm5Y+v6IO95pS55Y+Y44CM5pys5py66KOF5LqG5ZOq5Lqb5Lic6KW/44CN77yI55So5LqO5b+r6YCf562b5Lya6K+d5pel5b+X77yJICovCmV4cG9ydCBmdW5jdGlvbiBsb29rc0xpa2VJbnN0YWxsKGNvbW1hbmQpIHsKICBpZiAodHlwZW9mIGNvbW1hbmQgIT09ICdzdHJpbmcnKSByZXR1cm4gZmFsc2UKICByZXR1cm4gL3BpcFswLTkuXSpccytpbnN0YWxsfHBpcFxzK2luc3RhbGx8bnBtXHMrKD86aXxpbnN0YWxsfGFkZCl8cG5wbVxzK2FkZHx5YXJuXHMrYWRkfGdpdFxzK2Nsb25lfHdpbmdldFxzK2luc3RhbGx8Y2hvY29ccytpbnN0YWxsfHNjb29wXHMraW5zdGFsbHxjYXJnb1xzK2luc3RhbGx8Z29ccytpbnN0YWxsfGNvbmRhXHMrY3JlYXRlfHB5dGhvblswLTkuXSpccystbVxzK3ZlbnZ8ZG9ja2VyXHMrcHVsbHxodWdnaW5nZmFjZS1jbGlccytkb3dubG9hZHwtT3V0RmlsZXxiaXRzYWRtaW4vaS50ZXN0KAogICAgY29tbWFuZCwKICApCn0K
+/**
+ * 命令解析层：从一条 shell 命令里认出「这一步在装什么」。
+ * 只做模式识别，不执行任何东西。
+ */
+
+/** 一行里可能有多段命令，先粗切再匹配 */
+function segments(command) {
+  return command
+    .split(/\r?\n|;|&&|\|\|/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+}
+
+const NAME_STOP = /^(-{1,2}|[<>|&])/
+
+/** 从参数串里挑出包名（去掉 flag、版本约束、路径、URL） */
+function pickNames(rest) {
+  const names = []
+  for (const token of rest.split(/\s+/)) {
+    if (!token) continue
+    if (NAME_STOP.test(token)) {
+      // 带值的 flag 后面那个 token 不是包名
+      continue
+    }
+    if (/^[A-Za-z]:[\\/]/.test(token)) continue // 绝对路径
+    if (/^[./\\]/.test(token)) continue // 相对路径
+    if (/^https?:\/\//i.test(token)) continue
+    if (/^['"]/.test(token)) continue
+    const name = token
+      .replace(/\[.*?\]$/, '') // extras
+      .replace(/[@=<>!~].*$/, '') // 版本约束
+      .trim()
+    if (name.length === 0 || name.length > 80) continue
+    if (/^[\d.]+$/.test(name)) continue
+    names.push(name)
+  }
+  return names
+}
+
+function dirFromUrl(url) {
+  const cleaned = url.replace(/\.git$/i, '').replace(/[?#].*$/, '').replace(/\/+$/, '')
+  const last = cleaned.split(/[\\/]/).pop() || ''
+  return last
+}
+
+const RULES = [
+  {
+    eco: 'python',
+    test: /^(?:sudo\s+)?(?:py|python[0-9.]*|pip[0-9.]*)\s+(?:-\S+\s+)*install\s+(.*)$/i,
+    build: (m) => ({ eco: 'python', action: 'pip install', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'python',
+    test: /^(?:sudo\s+)?(?:py|python[0-9.]*)\s+-m\s+pip\s+install\s+(.*)$/i,
+    build: (m) => ({ eco: 'python', action: 'pip install', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'python',
+    test: /^(?:sudo\s+)?uv\s+(?:pip\s+)?(?:add|install)\s+(.*)$/i,
+    build: (m) => ({ eco: 'python', action: 'uv add', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'python-env',
+    test: /^(?:py|python[0-9.]*)\s+-m\s+venv\s+(\S+)/i,
+    build: (m) => ({ eco: 'python-env', action: '建 venv', names: [], outPath: m[1].replace(/^['"]|['"]$/g, '') }),
+  },
+  {
+    eco: 'conda',
+    test: /^conda\s+create\b(.*)$/i,
+    build: (m) => {
+      const env = /(?:-n|--name)\s+(\S+)/.exec(m[1])
+      const prefix = /(?:-p|--prefix)\s+(\S+)/.exec(m[1])
+      return { eco: 'conda', action: 'conda create', names: env ? [env[1]] : [], outPath: prefix ? prefix[1] : undefined }
+    },
+  },
+  {
+    eco: 'node',
+    test: /^(?:sudo\s+)?npm\s+(?:i|install|add)\s+(.*)$/i,
+    build: (m) => ({ eco: 'node', action: 'npm install', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'node',
+    test: /^(?:sudo\s+)?(?:pnpm|yarn|bun)\s+(?:add|i|install|global\s+add)\s+(.*)$/i,
+    build: (m) => ({ eco: 'node', action: 'pnpm/yarn add', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'git',
+    test: /^git\s+clone\s+(.*)$/i,
+    build: (m) => {
+      const url = (m[1].match(/https?:\/\/\S+|git@\S+|[\w.-]+\/[\w.-]+\.git/) || [''])[0]
+      const rest = m[1].replace(url, '').trim()
+      // --depth 1 / -b main 这类带值参数后面跟的是值，不是目标目录
+      const valueFlags = new Set(['--depth', '-b', '--branch', '-o', '--origin', '-c', '--config', '-j', '--jobs', '--filter', '--reference', '--template', '--separate-git-dir', '--shallow-since', '--shallow-exclude'])
+      const tokens = rest.split(/\s+/).filter(Boolean)
+      let target
+      for (let i = 0; i < tokens.length; i++) {
+        const token = tokens[i]
+        if (/^\d>&\d$/.test(token)) continue
+        if (valueFlags.has(token)) {
+          i++ // 跳过它的值
+          continue
+        }
+        if (token.startsWith('-')) continue
+        target = token
+        break
+      }
+      return { eco: 'git', action: 'git clone', names: url ? [dirFromUrl(url)] : [], url, outPath: target }
+    },
+  },
+  {
+    eco: 'winget',
+    test: /^winget\s+install\s+(.*)$/i,
+    build: (m) => {
+      const id = /(?:--id|-i)\s+(\S+)/.exec(m[1])
+      return { eco: 'winget', action: 'winget install', names: id ? [id[1].replace(/["']/g, '')] : pickNames(m[1]) }
+    },
+  },
+  {
+    eco: 'choco',
+    test: /^(?:choco|scoop)\s+install\s+(.*)$/i,
+    build: (m) => ({ eco: 'choco', action: 'choco/scoop install', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'cargo',
+    test: /^cargo\s+install\s+(.*)$/i,
+    build: (m) => ({ eco: 'cargo', action: 'cargo install', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'go',
+    test: /^go\s+install\s+(.*)$/i,
+    build: (m) => ({ eco: 'go', action: 'go install', names: [m[1].trim().split(/\s+/)[0]] }),
+  },
+  {
+    eco: 'docker',
+    test: /^docker\s+pull\s+(.*)$/i,
+    build: (m) => ({ eco: 'docker', action: 'docker pull', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'model',
+    test: /^(?:huggingface-cli|hf)\s+download\s+(.*)$/i,
+    build: (m) => ({ eco: 'model', action: '模型下载', names: pickNames(m[1]) }),
+  },
+  {
+    eco: 'download',
+    test: /(?:Invoke-WebRequest|curl|iwr|wget)\b.*?(?:-OutFile|-o)\s+(\S+)/i,
+    build: (m) => ({ eco: 'download', action: '下载文件', names: [], outPath: m[1].replace(/^['"]|['"]$/g, ''), download: true }),
+  },
+  {
+    eco: 'download',
+    test: /(?:Start-BitsTransfer|bitsadmin)\b.*?-Destination\s+(\S+)/i,
+    build: (m) => ({ eco: 'download', action: '下载文件', names: [], outPath: m[1].replace(/^['"]|['"]$/g, ''), download: true }),
+  },
+  {
+    eco: 'remote-script',
+    whole: true,
+    test: /\b(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|curl)\b[^|]*\|\s*(?:iex|Invoke-Expression|sh|bash|powershell|pwsh)\b/i,
+    build: () => ({ eco: 'remote-script', action: '远程脚本安装', names: [], risky: true }),
+  },
+  {
+    eco: 'installer',
+    test: /^(?:\.\/|(?:[A-Za-z]:)?[\\/])?\S+\.(?:exe|msi)\b.*?(?:\/S|\/silent|--silent|--quiet|-q|\/quiet)/i,
+    build: (m) => {
+      const file = (m[0].match(/[^\s"'|;&]+\.(?:exe|msi)/i) || [''])[0]
+      return { eco: 'installer', action: '静默安装器', names: [file.split(/[\\/]/).pop() || ''].filter(Boolean) }
+    },
+  },
+]
+
+/**
+ * @param {string} command 一条 shell 命令（可能多行）
+ * @returns {Array<object>} 安装事件
+ */
+/** 从一段命令里抽出「切到了哪个目录」，用于定位 git clone / npm install 的落点 */
+function dirHintIn(segment) {
+  const patterns = [
+    /\bcd\s+(?:chdir\s+)?["']?([A-Za-z]:[^"'|;&]+)/i,
+    /New-Item\s+-ItemType\s+Directory[^;|]*?["']([A-Za-z]:[^"']+)["']/i,
+    /\bmkdir\s+["']?([A-Za-z]:[^"'|;&]+)/i,
+    /\bPush-Location\s+["']?([A-Za-z]:[^"'|;&]+)/i,
+  ]
+  for (const pattern of patterns) {
+    const m = pattern.exec(segment)
+    if (m) return m[1].trim().replace(/["']$/, '')
+  }
+  return ''
+}
+
+export function extractInstalls(command) {
+  if (typeof command !== 'string' || command.length === 0) return []
+  const found = []
+  let runningHint = ''
+  for (const segment of segments(command)) {
+    const hint = dirHintIn(segment)
+    if (hint) runningHint = hint
+    // 管道后面是后处理（Select-Object / Format-List …），不是安装的一部分
+    const bare = segment.split('|')[0].trim()
+    for (const rule of RULES) {
+      const subject = rule.whole ? segment : bare
+      const m = rule.test.exec(subject)
+      if (!m) continue
+      const event = rule.build(m)
+      if (!event) continue
+      const names = (event.names || []).filter((n) => typeof n === 'string' && n.length > 0)
+      if (names.length === 0 && !event.outPath && !event.risky) continue
+      found.push({ ...event, names, segment: bare, cwdHint: runningHint || undefined, eco: event.eco || rule.eco })
+      break
+    }
+  }
+  return found
+}
+
+/** 判断一条命令是否可能改变「本机装了哪些东西」（用于快速筛会话日志） */
+export function looksLikeInstall(command) {
+  if (typeof command !== 'string') return false
+  return /pip[0-9.]*\s+install|pip\s+install|npm\s+(?:i|install|add)|pnpm\s+add|yarn\s+add|git\s+clone|winget\s+install|choco\s+install|scoop\s+install|cargo\s+install|go\s+install|conda\s+create|python[0-9.]*\s+-m\s+venv|docker\s+pull|huggingface-cli\s+download|-OutFile|bitsadmin/i.test(
+    command,
+  )
+}

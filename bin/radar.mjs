@@ -1,1 +1,124 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogaW5zdGFsbC1yYWRhciBDTEkg4oCU4oCUIOS4jeS+nei1liBEU0gg5Lmf6IO96LeR77yaCiAqICAgbm9kZSBiaW4vcmFkYXIubWpzIGJhc2VsaW5lICAgICAgICDlj5bln7rnur/vvIjkuYvlkI7mlrDoo4XnmoTpg73og73ooqsgZGlmZiDlh7rmnaXvvIkKICogICBub2RlIGJpbi9yYWRhci5tanMgc2NhbiAgICAgICAgICAgIOaJq+S4gOmBjeeOsOeKtu+8iOS9k+enry/ot6/lvoQv5Yib5bu65pe26Ze077yJCiAqICAgbm9kZSBiaW4vcmFkYXIubWpzIHNlc3Npb25zICAgICAgICDlj6rnnIvkvJror53lkb3ku6Tor4Hmja7vvIjmib7lh7rljoblj7LkuIroo4Xkuobku4DkuYjvvIkKICogICBub2RlIGJpbi9yYWRhci5tanMgcmVwb3J0IFstLW91dF0gIOeUn+aIkOWujOaVtOaKpeWRigogKiAgIG5vZGUgYmluL3JhZGFyLm1qcyByb290cyAgICAgICAgICAg55yL5Lya5omr5ZOq5Lqb5qC555uu5b2VCiAqIOmAmueUqOWPguaVsO+8mi0taG9tZSA8RFNIX0hPTUU+IC0tZXh0cmEgPOi3r+W+hD4gLS1saW1pdCA85Lya6K+d5pWwPiAtLWpzb24KICovCmltcG9ydCB7IG1rZGlyLCB3cml0ZUZpbGUgfSBmcm9tICdub2RlOmZzL3Byb21pc2VzJwppbXBvcnQgeyBkaXJuYW1lLCByZXNvbHZlIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBidWlsZFJlY2VudCwgYnVpbGRSZXBvcnQsIGN1cnJlbnRTbmFwc2hvdCwgZHNoSG9tZSwgcmVhZEJhc2VsaW5lLCByZW5kZXJNYXJrZG93biwgdGFrZUJhc2VsaW5lLCBzdGF0ZURpciB9IGZyb20gJy4uL3NyYy9lbmdpbmUvcmFkYXIuanMnCmltcG9ydCB7IHJlc29sdmVSb290cyB9IGZyb20gJy4uL3NyYy9lbmdpbmUvcm9vdHMuanMnCmltcG9ydCB7IGZvcm1hdEJ5dGVzIH0gZnJvbSAnLi4vc3JjL2VuZ2luZS9jbGFzc2lmeS5qcycKCmNvbnN0IGFyZ3YgPSBwcm9jZXNzLmFyZ3Yuc2xpY2UoMikKY29uc3QgY29tbWFuZCA9IGFyZ3ZbMF0gfHwgJ3JlcG9ydCcKY29uc3QgZmxhZyA9IChuYW1lLCBmYWxsYmFjaykgPT4gewogIGNvbnN0IGluZGV4ID0gYXJndi5pbmRleE9mKGAtLSR7bmFtZX1gKQogIHJldHVybiBpbmRleCA+PSAwICYmIGFyZ3ZbaW5kZXggKyAxXSA/IGFyZ3ZbaW5kZXggKyAxXSA6IGZhbGxiYWNrCn0KY29uc3QgaGFzID0gKG5hbWUpID0+IGFyZ3YuaW5jbHVkZXMoYC0tJHtuYW1lfWApCmNvbnN0IGhvbWUgPSBmbGFnKCdob21lJywgZHNoSG9tZSgpKQpjb25zdCBleHRyYVJvb3RzID0gW10KZm9yIChsZXQgaSA9IDA7IGkgPCBhcmd2Lmxlbmd0aDsgaSsrKSBpZiAoYXJndltpXSA9PT0gJy0tZXh0cmEnICYmIGFyZ3ZbaSArIDFdKSBleHRyYVJvb3RzLnB1c2goYXJndltpICsgMV0pCmNvbnN0IGNvbmZpZyA9IGV4dHJhUm9vdHMubGVuZ3RoID4gMCA/IHsgZXh0cmFSb290cyB9IDoge30KY29uc3QgbGltaXQgPSBOdW1iZXIoZmxhZygnbGltaXQnLCAnMCcpKSB8fCAwCmNvbnN0IGpzb24gPSBoYXMoJ2pzb24nKQoKZnVuY3Rpb24gb3V0KHZhbHVlKSB7CiAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoYCR7dHlwZW9mIHZhbHVlID09PSAnc3RyaW5nJyA/IHZhbHVlIDogSlNPTi5zdHJpbmdpZnkodmFsdWUsIG51bGwsIDIpfVxuYCkKfQoKc3dpdGNoIChjb21tYW5kKSB7CiAgY2FzZSAncm9vdHMnOiB7CiAgICBjb25zdCByb290cyA9IHJlc29sdmVSb290cyhjb25maWcpCiAgICBvdXQoeyBob21lLCBzdGF0ZURpcjogc3RhdGVEaXIoaG9tZSksIHJvb3RzIH0pCiAgICBicmVhawogIH0KICBjYXNlICdiYXNlbGluZSc6IHsKICAgIGNvbnN0IHQwID0gRGF0ZS5ub3coKQogICAgY29uc3QgYmFzZWxpbmUgPSBhd2FpdCB0YWtlQmFzZWxpbmUoeyBob21lLCBjb25maWcgfSkKICAgIGNvbnN0IGJ5dGVzID0gYmFzZWxpbmUuZW50cmllcy5yZWR1Y2UoKHN1bSwgZW50cnkpID0+IHN1bSArIGVudHJ5LmJ5dGVzLCAwKQogICAgb3V0KAogICAgICBqc29uCiAgICAgICAgPyBiYXNlbGluZQogICAgICAgIDogYOWfuue6v+W3suW7uueri++8miR7YmFzZWxpbmUuZW50cmllcy5sZW5ndGh9IOS4quadoeebru+8jOWQiOiuoSAke2Zvcm1hdEJ5dGVzKGJ5dGVzKX3vvIznlKjml7YgJHsoKERhdGUubm93KCkgLSB0MCkgLyAxMDAwKS50b0ZpeGVkKDEpfXNcbuWGmeWFpSAke3N0YXRlRGlyKGhvbWUpfVxcYmFzZWxpbmUuanNvbmAsCiAgICApCiAgICBicmVhawogIH0KICBjYXNlICdzY2FuJzogewogICAgY29uc3Qgc25hcHNob3QgPSBhd2FpdCBjdXJyZW50U25hcHNob3QoeyBob21lLCBjb25maWcsIGZvcmNlOiB0cnVlIH0pCiAgICBjb25zdCBieXRlcyA9IHNuYXBzaG90LmVudHJpZXMucmVkdWNlKChzdW0sIGVudHJ5KSA9PiBzdW0gKyBlbnRyeS5ieXRlcywgMCkKICAgIGlmIChqc29uKSBvdXQoc25hcHNob3QpCiAgICBlbHNlIHsKICAgICAgb3V0KGAke3NuYXBzaG90LmVudHJpZXMubGVuZ3RofSDkuKrmnaHnm67vvIzlkIjorqEgJHtmb3JtYXRCeXRlcyhieXRlcyl9YCkKICAgICAgZm9yIChjb25zdCByb290IG9mIHNuYXBzaG90LnJvb3RzKSBvdXQoYCAgJHtyb290LmxhYmVsfTogJHtyb290LmVudHJpZXN9IOadoSAvICR7Zm9ybWF0Qnl0ZXMocm9vdC5ieXRlcyl9IC8gJHtyb290Lm1zfW1zYCkKICAgICAgY29uc3QgdG9wID0gc25hcHNob3QuZW50cmllcy5zbGljZSgwLCAxNSkKICAgICAgb3V0KCdcbuacgOWkp+eahCAxNSDpobnvvJonKQogICAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIHRvcCkgb3V0KGAgICR7Zm9ybWF0Qnl0ZXMoZW50cnkuYnl0ZXMpLnBhZFN0YXJ0KDkpfSAgJHtlbnRyeS5uYW1lfSAgKCR7ZW50cnkucGF0aH0pYCkKICAgIH0KICAgIGJyZWFrCiAgfQogIGNhc2UgJ3Nlc3Npb25zJzogewogICAgY29uc3QgcmVwb3J0ID0gYXdhaXQgYnVpbGRSZXBvcnQoeyBob21lLCBjb25maWcsIG1heFNlc3Npb25zOiBsaW1pdCB9KQogICAgaWYgKGpzb24pIG91dChyZXBvcnQucGVyU2Vzc2lvbikKICAgIGVsc2UgewogICAgICBvdXQoYOWQq+WuieijheWRveS7pOeahOS8muivne+8miR7cmVwb3J0LnBlclNlc3Npb24ubGVuZ3RofSAvIOaJq+aPjyAke3JlcG9ydC5zY2FubmVkU2Vzc2lvbnN9YCkKICAgICAgZm9yIChjb25zdCBzZXNzaW9uIG9mIHJlcG9ydC5wZXJTZXNzaW9uKSB7CiAgICAgICAgb3V0KGBcbj09ICR7c2Vzc2lvbi50aXRsZSB8fCBzZXNzaW9uLmlkfSAgKCR7c2Vzc2lvbi5pdGVtcy5sZW5ndGh9IOmhuSwgJHtmb3JtYXRCeXRlcyhzZXNzaW9uLmJ5dGVzKX0pYCkKICAgICAgICBmb3IgKGNvbnN0IGl0ZW0gb2Ygc2Vzc2lvbi5pdGVtcykgb3V0KGAgICAke2l0ZW0ubmFtZS5wYWRFbmQoMjgpfSAke2l0ZW0uc2l6ZS5wYWRTdGFydCg5KX0gICR7aXRlbS5wYXRoIHx8ICfmnKrmib7liLDkuqfniaknfSAg4oCUICR7aXRlbS5wdXJwb3NlfWApCiAgICAgIH0KICAgIH0KICAgIGJyZWFrCiAgfQogIGNhc2UgJ2RpZmYnOiB7CiAgICBjb25zdCBiYXNlbGluZSA9IGF3YWl0IHJlYWRCYXNlbGluZShob21lKQogICAgY29uc3Qgc25hcHNob3QgPSBhd2FpdCBjdXJyZW50U25hcHNob3QoeyBob21lLCBjb25maWcsIGZvcmNlOiB0cnVlIH0pCiAgICBjb25zdCB7IGRpZmZTbmFwc2hvdCB9ID0gYXdhaXQgaW1wb3J0KCcuLi9zcmMvZW5naW5lL3JhZGFyLmpzJykKICAgIGNvbnN0IGRlbHRhID0gZGlmZlNuYXBzaG90KGJhc2VsaW5lLCBzbmFwc2hvdCkKICAgIGlmIChqc29uKSBvdXQoZGVsdGEpCiAgICBlbHNlIHsKICAgICAgb3V0KGDln7rnur/vvJoke2Jhc2VsaW5lID8gbmV3IERhdGUoYmFzZWxpbmUudGFrZW5BdCkudG9Mb2NhbGVTdHJpbmcoJ3N2LVNFJykgOiAn5pegJ31gKQogICAgICBvdXQoYOaWsOWHuueOsO+8miR7ZGVsdGEubmV3RW50cmllcy5sZW5ndGh9IOmhuWApCiAgICAgIGZvciAoY29uc3QgZW50cnkgb2YgZGVsdGEubmV3RW50cmllcy5zbGljZSgwLCA0MCkpIG91dChgICArICR7Zm9ybWF0Qnl0ZXMoZW50cnkuYnl0ZXMpLnBhZFN0YXJ0KDkpfSAgJHtlbnRyeS5uYW1lfSAgJHtlbnRyeS5wYXRofWApCiAgICAgIG91dChg5piO5pi+5Y+Y5aSn77yaJHtkZWx0YS5ncm93bkVudHJpZXMubGVuZ3RofSDpoblgKQogICAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGRlbHRhLmdyb3duRW50cmllcy5zbGljZSgwLCA0MCkpIG91dChgICDihpEgKyR7Zm9ybWF0Qnl0ZXMoZW50cnkuZ3JldykucGFkU3RhcnQoOCl9ICAke2VudHJ5Lm5hbWV9ICAke2VudHJ5LnBhdGh9YCkKICAgIH0KICAgIGJyZWFrCiAgfQogIGNhc2UgJ3JlY2VudCc6IHsKICAgIGNvbnN0IGRheXMgPSBOdW1iZXIoZmxhZygnZGF5cycsICcwJykpIHx8IDAKICAgIGNvbnN0IHNpbmNlRmxhZyA9IE51bWJlcihmbGFnKCdzaW5jZScsICcwJykpIHx8IDAKICAgIGNvbnN0IHNpbmNlID0gc2luY2VGbGFnID4gMCA/IHNpbmNlRmxhZyA6IGRheXMgPiAwID8gRGF0ZS5ub3coKSAtIGRheXMgKiA4NjQwMF8wMDAgOiB1bmRlZmluZWQKICAgIGNvbnN0IHJlY2VudCA9IGF3YWl0IGJ1aWxkUmVjZW50KHsgaG9tZSwgY29uZmlnLCBzaW5jZSB9KQogICAgaWYgKGpzb24pIG91dChyZWNlbnQpCiAgICBlbHNlIHsKICAgICAgb3V0KGDnu5/orqHotbfngrnvvJoke3JlY2VudC5zaW5jZUxhYmVsfeOAgOWQiOiuoSAke3JlY2VudC50b3RhbFNpemV9IC8gJHtyZWNlbnQudG90YWxGaWxlc30g5Liq5paH5Lu2YCkKICAgICAgb3V0KGDmiavmj4/moLnvvJoke3JlY2VudC5yb290cy5tYXAoKHJvb3QpID0+IGAke3Jvb3QubGFiZWx9KCR7cm9vdC5tc31tcylgKS5qb2luKCcgwrcgJyl9YCkKICAgICAgZm9yIChjb25zdCBpdGVtIG9mIHJlY2VudC5pdGVtcy5zbGljZSgwLCAyNSkpIHsKICAgICAgICBvdXQoJycpCiAgICAgICAgb3V0KGAke2l0ZW0uc2l6ZS5wYWRTdGFydCgxMCl9ICAke2l0ZW0ucGF0aH1gKQogICAgICAgIG91dChgICAgICAgICAgICAgJHtpdGVtLnB1cnBvc2V9YCkKICAgICAgICBpZiAoaXRlbS5zYW1wbGVzICYmIGl0ZW0uc2FtcGxlc1swXSkgb3V0KGAgICAgICAgICAgICDnpLrkvosgJHtpdGVtLnNhbXBsZXNbMF19YCkKICAgICAgfQogICAgfQogICAgYnJlYWsKICB9CiAgY2FzZSAncmVwb3J0JzoKICBkZWZhdWx0OiB7CiAgICBjb25zdCByZXBvcnQgPSBhd2FpdCBidWlsZFJlcG9ydCh7IGhvbWUsIGNvbmZpZywgbWF4U2Vzc2lvbnM6IGxpbWl0IH0pCiAgICBjb25zdCBtYXJrZG93biA9IHJlbmRlck1hcmtkb3duKHJlcG9ydCkKICAgIGNvbnN0IHRhcmdldCA9IGZsYWcoJ291dCcsICcnKQogICAgaWYgKHRhcmdldCkgewogICAgICBjb25zdCBmaWxlID0gcmVzb2x2ZSh0YXJnZXQpCiAgICAgIGF3YWl0IG1rZGlyKGRpcm5hbWUoZmlsZSksIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgICAgIGF3YWl0IHdyaXRlRmlsZShmaWxlLCBtYXJrZG93biwgJ3V0ZjgnKQogICAgICBvdXQoYOW3suWGmeWFpSAke2ZpbGV9YCkKICAgICAgb3V0KGDkvJror50gJHtyZXBvcnQudG90YWxzLnNlc3Npb25zfSDCtyDmnaHnm64gJHtyZXBvcnQudG90YWxzLml0ZW1zfSDCtyDlkIjorqEgJHtyZXBvcnQudG90YWxzLnNpemV9YCkKICAgIH0gZWxzZSBpZiAoanNvbikgb3V0KHJlcG9ydCkKICAgIGVsc2Ugb3V0KG1hcmtkb3duKQogIH0KfQo=
+#!/usr/bin/env node
+/**
+ * install-radar CLI —— 不依赖 DSH 也能跑：
+ *   node bin/radar.mjs baseline        取基线（之后新装的都能被 diff 出来）
+ *   node bin/radar.mjs scan            扫一遍现状（体积/路径/创建时间）
+ *   node bin/radar.mjs sessions        只看会话命令证据（找出历史上装了什么）
+ *   node bin/radar.mjs report [--out]  生成完整报告
+ *   node bin/radar.mjs roots           看会扫哪些根目录
+ * 通用参数：--home <DSH_HOME> --extra <路径> --limit <会话数> --json
+ */
+import { mkdir, writeFile } from 'node:fs/promises'
+import { dirname, resolve } from 'node:path'
+import { buildRecent, buildReport, currentSnapshot, dshHome, readBaseline, renderMarkdown, takeBaseline, stateDir } from '../src/engine/radar.js'
+import { resolveRoots } from '../src/engine/roots.js'
+import { formatBytes } from '../src/engine/classify.js'
+
+const argv = process.argv.slice(2)
+const command = argv[0] || 'report'
+const flag = (name, fallback) => {
+  const index = argv.indexOf(`--${name}`)
+  return index >= 0 && argv[index + 1] ? argv[index + 1] : fallback
+}
+const has = (name) => argv.includes(`--${name}`)
+const home = flag('home', dshHome())
+const extraRoots = []
+for (let i = 0; i < argv.length; i++) if (argv[i] === '--extra' && argv[i + 1]) extraRoots.push(argv[i + 1])
+const config = extraRoots.length > 0 ? { extraRoots } : {}
+const limit = Number(flag('limit', '0')) || 0
+const json = has('json')
+
+function out(value) {
+  process.stdout.write(`${typeof value === 'string' ? value : JSON.stringify(value, null, 2)}\n`)
+}
+
+switch (command) {
+  case 'roots': {
+    const roots = resolveRoots(config)
+    out({ home, stateDir: stateDir(home), roots })
+    break
+  }
+  case 'baseline': {
+    const t0 = Date.now()
+    const baseline = await takeBaseline({ home, config })
+    const bytes = baseline.entries.reduce((sum, entry) => sum + entry.bytes, 0)
+    out(
+      json
+        ? baseline
+        : `基线已建立：${baseline.entries.length} 个条目，合计 ${formatBytes(bytes)}，用时 ${((Date.now() - t0) / 1000).toFixed(1)}s\n写入 ${stateDir(home)}\\baseline.json`,
+    )
+    break
+  }
+  case 'scan': {
+    const snapshot = await currentSnapshot({ home, config, force: true })
+    const bytes = snapshot.entries.reduce((sum, entry) => sum + entry.bytes, 0)
+    if (json) out(snapshot)
+    else {
+      out(`${snapshot.entries.length} 个条目，合计 ${formatBytes(bytes)}`)
+      for (const root of snapshot.roots) out(`  ${root.label}: ${root.entries} 条 / ${formatBytes(root.bytes)} / ${root.ms}ms`)
+      const top = snapshot.entries.slice(0, 15)
+      out('\n最大的 15 项：')
+      for (const entry of top) out(`  ${formatBytes(entry.bytes).padStart(9)}  ${entry.name}  (${entry.path})`)
+    }
+    break
+  }
+  case 'sessions': {
+    const report = await buildReport({ home, config, maxSessions: limit })
+    if (json) out(report.perSession)
+    else {
+      out(`含安装命令的会话：${report.perSession.length} / 扫描 ${report.scannedSessions}`)
+      for (const session of report.perSession) {
+        out(`\n== ${session.title || session.id}  (${session.items.length} 项, ${formatBytes(session.bytes)})`)
+        for (const item of session.items) out(`   ${item.name.padEnd(28)} ${item.size.padStart(9)}  ${item.path || '未找到产物'}  — ${item.purpose}`)
+      }
+    }
+    break
+  }
+  case 'diff': {
+    const baseline = await readBaseline(home)
+    const snapshot = await currentSnapshot({ home, config, force: true })
+    const { diffSnapshot } = await import('../src/engine/radar.js')
+    const delta = diffSnapshot(baseline, snapshot)
+    if (json) out(delta)
+    else {
+      out(`基线：${baseline ? new Date(baseline.takenAt).toLocaleString('sv-SE') : '无'}`)
+      out(`新出现：${delta.newEntries.length} 项`)
+      for (const entry of delta.newEntries.slice(0, 40)) out(`  + ${formatBytes(entry.bytes).padStart(9)}  ${entry.name}  ${entry.path}`)
+      out(`明显变大：${delta.grownEntries.length} 项`)
+      for (const entry of delta.grownEntries.slice(0, 40)) out(`  ↑ +${formatBytes(entry.grew).padStart(8)}  ${entry.name}  ${entry.path}`)
+    }
+    break
+  }
+  case 'recent': {
+    const days = Number(flag('days', '0')) || 0
+    const sinceFlag = Number(flag('since', '0')) || 0
+    const since = sinceFlag > 0 ? sinceFlag : days > 0 ? Date.now() - days * 86400_000 : undefined
+    const recent = await buildRecent({ home, config, since })
+    if (json) out(recent)
+    else {
+      out(`统计起点：${recent.sinceLabel}　合计 ${recent.totalSize} / ${recent.totalFiles} 个文件`)
+      out(`扫描根：${recent.roots.map((root) => `${root.label}(${root.ms}ms)`).join(' · ')}`)
+      for (const item of recent.items.slice(0, 25)) {
+        out('')
+        out(`${item.size.padStart(10)}  ${item.path}`)
+        out(`            ${item.purpose}`)
+        if (item.samples && item.samples[0]) out(`            示例 ${item.samples[0]}`)
+      }
+    }
+    break
+  }
+  case 'report':
+  default: {
+    const report = await buildReport({ home, config, maxSessions: limit })
+    const markdown = renderMarkdown(report)
+    const target = flag('out', '')
+    if (target) {
+      const file = resolve(target)
+      await mkdir(dirname(file), { recursive: true })
+      await writeFile(file, markdown, 'utf8')
+      out(`已写入 ${file}`)
+      out(`会话 ${report.totals.sessions} · 条目 ${report.totals.items} · 合计 ${report.totals.size}`)
+    } else if (json) out(report)
+    else out(markdown)
+  }
+}

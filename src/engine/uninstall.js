@@ -1,1 +1,30 @@
-LyoqCiAqIOWNuOi9veaMh+W8le+8muaMieeUn+aAgee7meWHuuOAjOaAjuS5iOaKiuWug+W8hOaOieOAjeeahOWRveS7pOOAggogKiDlj6rnlJ/miJDlkb3ku6TlrZfnrKbkuLLvvIzmsLjov5zkuI3miafooYwg4oCU4oCUIOWkjeWItuWIsOWJqui0tOadv+eUseeUqOaIt+iHquW3seWGs+Wumui3keS4jei3keOAggogKi8KCmNvbnN0IHF1b3RlID0gKHZhbHVlKSA9PiBgIiR7U3RyaW5nKHZhbHVlKS5yZXBsYWNlKC8iL2csICcnKX0iYAoKZXhwb3J0IGZ1bmN0aW9uIHN1Z2dlc3RVbmluc3RhbGwoaXRlbSkgewogIGNvbnN0IGVjbyA9IGl0ZW0uZWNvIHx8ICcnCiAgY29uc3QgbmFtZSA9IGl0ZW0ubmFtZSB8fCAnJwogIGNvbnN0IHBhdGggPSBpdGVtLnBhdGggfHwgJycKCiAgaWYgKCFuYW1lKSByZXR1cm4gJycKICBpZiAoZWNvID09PSAncHl0aG9uJykgcmV0dXJuIGBweXRob24gLW0gcGlwIHVuaW5zdGFsbCAteSAke25hbWV9YAogIGlmIChlY28gPT09ICdub2RlJykgewogICAgaWYgKHBhdGggJiYgL1tcXC9dbm9kZV9tb2R1bGVzW1xcL10vaS50ZXN0KHBhdGgpKSB7CiAgICAgIGNvbnN0IHByb2plY3QgPSBwYXRoLnNwbGl0KC9bXFwvXW5vZGVfbW9kdWxlc1tcXC9dL2kpWzBdCiAgICAgIHJldHVybiBgY2QgJHtxdW90ZShwcm9qZWN0KX0gOyBucG0gcm0gJHtuYW1lfWAKICAgIH0KICAgIHJldHVybiBgbnBtIHJtIC1nICR7bmFtZX1gCiAgfQogIGlmIChlY28gPT09ICd3aW5nZXQnKSByZXR1cm4gYHdpbmdldCB1bmluc3RhbGwgJHtuYW1lfWAKICBpZiAoZWNvID09PSAnY2hvY28nKSByZXR1cm4gYGNob2NvIHVuaW5zdGFsbCAke25hbWV9YAogIGlmIChlY28gPT09ICdjb25kYScpIHJldHVybiBgY29uZGEgZW52IHJlbW92ZSAtbiAke25hbWV9YAogIGlmIChlY28gPT09ICdweXRob24tZW52JykgcmV0dXJuIHBhdGggPyBgUmVtb3ZlLUl0ZW0gLUxpdGVyYWxQYXRoICR7cXVvdGUocGF0aCl9IC1SZWN1cnNlIC1Gb3JjZWAgOiAnJwogIGlmIChlY28gPT09ICdnaXQnIHx8IGVjbyA9PT0gJ2Rvd25sb2FkJyB8fCBlY28gPT09ICdpbnN0YWxsZXInKSB7CiAgICByZXR1cm4gcGF0aCA/IGBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJHtxdW90ZShwYXRoKX0gLVJlY3Vyc2UgLUZvcmNlYCA6ICcnCiAgfQogIHJldHVybiBwYXRoID8gYFJlbW92ZS1JdGVtIC1MaXRlcmFsUGF0aCAke3F1b3RlKHBhdGgpfSAtUmVjdXJzZSAtRm9yY2VgIDogJycKfQo=
+/**
+ * 卸载指引：按生态给出「怎么把它弄掉」的命令。
+ * 只生成命令字符串，永远不执行 —— 复制到剪贴板由用户自己决定跑不跑。
+ */
+
+const quote = (value) => `"${String(value).replace(/"/g, '')}"`
+
+export function suggestUninstall(item) {
+  const eco = item.eco || ''
+  const name = item.name || ''
+  const path = item.path || ''
+
+  if (!name) return ''
+  if (eco === 'python') return `python -m pip uninstall -y ${name}`
+  if (eco === 'node') {
+    if (path && /[\\/]node_modules[\\/]/i.test(path)) {
+      const project = path.split(/[\\/]node_modules[\\/]/i)[0]
+      return `cd ${quote(project)} ; npm rm ${name}`
+    }
+    return `npm rm -g ${name}`
+  }
+  if (eco === 'winget') return `winget uninstall ${name}`
+  if (eco === 'choco') return `choco uninstall ${name}`
+  if (eco === 'conda') return `conda env remove -n ${name}`
+  if (eco === 'python-env') return path ? `Remove-Item -LiteralPath ${quote(path)} -Recurse -Force` : ''
+  if (eco === 'git' || eco === 'download' || eco === 'installer') {
+    return path ? `Remove-Item -LiteralPath ${quote(path)} -Recurse -Force` : ''
+  }
+  return path ? `Remove-Item -LiteralPath ${quote(path)} -Recurse -Force` : ''
+}

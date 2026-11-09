@@ -1,1 +1,126 @@
-LyoqCiAqIOeUqOmAlOWxgu+8mui/meS4quS4nOilv+aYr+W5suS7gOS5iOeUqOeahOOAggogKiDlhYjmn6Xnn6Xor4blupPvvIjmjInljIXlkI0v55uu5b2V5ZCN5YWz6ZSu6K+N77yJ77yM5p+l5LiN5Yiw5bCx5oyJ55uu5b2V57uT5p6E57uZ44CM5o6o5rWL44CN77yM5bm25qCH5piO5piv5o6o5rWL44CCCiAqLwoKY29uc3QgUlVMRVMgPSBbCiAgLy8g4oCU4oCUIEFJIOWHuuWbviAvIOW3peS9nOa1gSDigJTigJQKICB7IHJlOiAvXmNvbWZ5dWkvaSwgY2F0ZWdvcnk6ICdBSSDlm77lvaLnlYzpnaInLCBwdXJwb3NlOiAnQ29tZnlVSe+8muiKgueCueW8jyBTdGFibGUgRGlmZnVzaW9uIOW3peS9nOa1ge+8jOaQreeuoee6v+WHuuWbvi/lh7rop4bpopEnIH0sCiAgeyByZTogL2NvbWZ5dWlbLV9dP21hbmFnZXIvaSwgY2F0ZWdvcnk6ICdBSSDlm77lvaLnlYzpnaInLCBwdXJwb3NlOiAnQ29tZnlVSS1NYW5hZ2Vy77yaQ29tZnlVSSDnmoTmianlsZXkuI7mqKHlnovnrqHnkIblmagnIH0sCiAgeyByZTogL3N0YWJsZVstX10/ZGlmZnVzaW9uWy1fXT93ZWJ1aXxzZHdlYnVpfGExMTExL2ksIGNhdGVnb3J5OiAnQUkg5Zu+5b2i55WM6Z2iJywgcHVycG9zZTogJ1N0YWJsZSBEaWZmdXNpb24gV2ViVUnvvJrmtY/op4jlmajph4znmoTlh7rlm77nlYzpnaInIH0sCiAgeyByZTogL2ludm9rZWFpfGZvb29jdXN8Zm9yZ2V8a29oeWEvaSwgY2F0ZWdvcnk6ICdBSSDlm77lvaLnlYzpnaInLCBwdXJwb3NlOiAnU3RhYmxlIERpZmZ1c2lvbiDns7vlh7rlm74gLyDorq3nu4PnlYzpnaInIH0sCiAgeyByZTogL14odG9yY2h8cHl0b3JjaHx0b3JjaHZpc2lvbnx0b3JjaGF1ZGlvKSQvaSwgY2F0ZWdvcnk6ICdBSSDov5DooYzml7YnLCBwdXJwb3NlOiAnUHlUb3JjaO+8mua3seW6puWtpuS5oOW8oOmHj+iuoeeul+S4jiBHUFUg6K6t57uDL+aOqOeQhui/kOihjOaXticgfSwKICB7IHJlOiAvXih0cmFuc2Zvcm1lcnN8ZGlmZnVzZXJzfGFjY2VsZXJhdGV8cGVmdHxiaXRzYW5kYnl0ZXN8c2FmZXRlbnNvcnN8dG9rZW5pemVyc3xzZW50ZW5jZXBpZWNlfGVpbm9wc3x0aW1tKSQvaSwgY2F0ZWdvcnk6ICdBSSDov5DooYzml7YnLCBwdXJwb3NlOiAnSHVnZ2luZ0ZhY2Ug57O75qih5Z6L5Yqg6L29IC8g5b6u6LCDIC8g5o6o55CG57uE5Lu2JyB9LAogIHsgcmU6IC94Zm9ybWVyc3xmbGFzaFstX10/YXR0bnxzYWdlYXR0ZW50aW9ufHRyaXRvbnxtYW1iYVstX11zc20vaSwgY2F0ZWdvcnk6ICdBSSDliqDpgJ8nLCBwdXJwb3NlOiAn5rOo5oSP5YqbL+eul+WtkOWKoOmAn+W6k++8jOaYvuiRl+aPkOWNh+WHuuWbvuS4juiuree7g+mAn+W6picgfSwKICB7IHJlOiAvb25ueHJ1bnRpbWV8b25ueHx0ZW5zb3JydHxvcGVudmluby9pLCBjYXRlZ29yeTogJ0FJIOi/kOihjOaXticsIHB1cnBvc2U6ICfmjqjnkIblvJXmk47vvJrmiormqKHlnovot5HlnKggQ1BVL0dQVSDkuIrnmoTmiafooYzlkI7nq68nIH0sCiAgeyByZTogL14ob2xsYW1hfGxtWy1fXT9zdHVkaW98bGxhbWFbLV9dP2NwcHx2bGxtfHRleHQtZ2VuZXJhdGlvbi13ZWJ1aSkkL2ksIGNhdGVnb3J5OiAnQUkg6L+Q6KGM5pe2JywgcHVycG9zZTogJ+acrOWcsOWkp+ivreiogOaooeWei+i/kOihjOWZqO+8iOS4i+i9veaooeWei+WQjuemu+e6v+Wvueivne+8iScgfSwKICB7IHJlOiAvd2hpc3BlcnxmYXN0ZXJbLV9dP3doaXNwZXJ8ZnVuYXNyfHNlbnNldm9pY2UvaSwgY2F0ZWdvcnk6ICdBSSDor63pn7MnLCBwdXJwb3NlOiAn6K+t6Z+z6K+G5Yir5qih5Z6LL+i/kOihjOaXtu+8iOmfs+mikei9rOaWh+Wtl++8iScgfSwKICB7IHJlOiAvcmVhbGVzcmdhbnxnZnBnYW58YmFzaWNzcnxpbnNpZ2h0ZmFjZXxmYWNleGxpYnxjb2RlZm9ybWVyfHNwYW5kcmVsL2ksIGNhdGVnb3J5OiAnQUkg5Zu+5YOPJywgcHVycG9zZTogJ+WbvuWDj+S/ruWkjSAvIOi2heWIhiAvIOaNouiEuOaooeWei+e7hOS7ticgfSwKICB7IHJlOiAvZ3JhZGlvfHN0cmVhbWxpdHxmYXN0YXBpfHV2aWNvcm58Zmxhc2t8YWlvaHR0cC9pLCBjYXRlZ29yeTogJ1dlYiDmnI3liqEnLCBwdXJwb3NlOiAnV2ViIOeVjOmdoi/mnI3liqHmoYbmnrbvvIznlKjmnaXmiormqKHlnovog73lipvlvIDmiJDnvZHpobXmjqXlj6MnIH0sCgogIC8vIOKAlOKAlCAzRCAvIOW7uuaooSAvIOiuvuiuoSDigJTigJQKICB7IHJlOiAvYmxlbmRlci9pLCBjYXRlZ29yeTogJzNEIOS4juiuvuiuoScsIHB1cnBvc2U6ICdCbGVuZGVy77yaM0Qg5bu65qih44CB5riy5p+T44CB5Yqo55S75Yi25L2cJyB9LAogIHsgcmU6IC9mcmVlY2FkfGNhZHF1ZXJ5fG9wZW5zY2FkfGZ1c2lvbnxzb2xpZHdvcmtzfHNrZXRjaHVwfHJoaW5vL2ksIGNhdGVnb3J5OiAnM0Qg5LiO6K6+6K6hJywgcHVycG9zZTogJ0NBRCAvIOWPguaVsOWMluW7uuaooeW3peWFtycgfSwKICB7IHJlOiAvdW5pdHl8dW5yZWFsfGdvZG90fHR3aW5tb3Rpb24vaSwgY2F0ZWdvcnk6ICczRCDkuI7orr7orqEnLCBwdXJwb3NlOiAn5a6e5pe2IDNEIC8g5ri45oiP5byV5pOOJyB9LAogIHsgcmU6IC9tZXNobGFifGNsb3VkY29tcGFyZXxtZXNobWl4ZXJ8aW5zdGFudG1lc2hlcy9pLCBjYXRlZ29yeTogJzNEIOS4juiuvuiuoScsIHB1cnBvc2U6ICfnvZHmoLzlpITnkIYgLyDngrnkupHlt6XlhbcnIH0sCiAgeyByZTogL2h1bnl1YW4zZHx0cmlwb3xtZXNoeXx0cmVsbGlzL2ksIGNhdGVnb3J5OiAnM0Qg5LiO6K6+6K6hJywgcHVycG9zZTogJ+aWhy/lm77nlJ8gM0Qg5qih5Z6L55Sf5oiQ5bel5YW3JyB9LAogIHsgcmU6IC9eKG51bXB5fHNjaXB5fHBhbmRhc3xwb2xhcnN8bWF0cGxvdGxpYnxzZWFib3JufHBsb3RseSkkL2ksIGNhdGVnb3J5OiAn5pWw5o2u6K6h566XJywgcHVycG9zZTogJ+aVsOWAvOiuoeeulyAvIOaVsOaNruWkhOeQhiAvIOe7mOWbvuW6kycgfSwKICB7IHJlOiAvc2Npa2l0Wy1fXT9sZWFybnxza2xlYXJufHhnYm9vc3R8bGlnaHRnYm18Y2F0Ym9vc3QvaSwgY2F0ZWdvcnk6ICfmlbDmja7orqHnrpcnLCBwdXJwb3NlOiAn5py65Zmo5a2m5Lmg5bu65qih5bqTJyB9LAogIHsgcmU6IC9vcGVuY3Z8cGlsbG93fHNjaWtpdC1pbWFnZXxpbWFnZWlvfG1vdmllcHkvaSwgY2F0ZWdvcnk6ICflm77lg4/lpITnkIYnLCBwdXJwb3NlOiAn5Zu+5YOPL+inhumikeivu+WGmeS4juWkhOeQhuW6kycgfSwKCiAgLy8g4oCU4oCUIOivreiogOS4juWMheeuoeeQhiDigJTigJQKICB7IHJlOiAvXnB5dGhvbigzKT8kL2ksIGNhdGVnb3J5OiAn6K+t6KiA6L+Q6KGM5pe2JywgcHVycG9zZTogJ1B5dGhvbiDop6Pph4rlmajkuI7moIflh4blupMnIH0sCiAgeyByZTogL14obm9kZXxub2RlanN8bm9kZV9tb2R1bGVzKSQvaSwgY2F0ZWdvcnk6ICfor63oqIDov5DooYzml7YnLCBwdXJwb3NlOiAnTm9kZS5qcyDov5DooYzml7YgLyDlhbbkvp3otZbnm67lvZUnIH0sCiAgeyByZTogL14ocGlwfHNldHVwdG9vbHN8d2hlZWx8dmlydHVhbGVudnxwaXB4fHV2fHBvZXRyeXxjb25kYXxtYW1iYSkkL2ksIGNhdGVnb3J5OiAn5YyF566h55CGJywgcHVycG9zZTogJ1B5dGhvbiDljIXlronoo4XkuI7nrqHnkIblt6XlhbcnIH0sCiAgeyByZTogL14obnBtfHBucG18eWFybnxidW58bnB4KSQvaSwgY2F0ZWdvcnk6ICfljIXnrqHnkIYnLCBwdXJwb3NlOiAnTm9kZSDljIXnrqHnkIblmagnIH0sCiAgeyByZTogL14oZ2l0fGdpdFstX11sZnMpJC9pLCBjYXRlZ29yeTogJ+W8gOWPkeW3peWFtycsIHB1cnBvc2U6ICdHaXQg54mI5pys5o6n5Yi2JyB9LAogIHsgcmU6IC9eKGZmbXBlZ3xmZnByb2JlfGltYWdlaW9bLV9dZmZtcGVnKSQvaSwgY2F0ZWdvcnk6ICflqpLkvZPlt6XlhbcnLCBwdXJwb3NlOiAn6Z+z6KeG6aKR6Kej56CBL+e8lueggS/ovaznoIHlt6XlhbcnIH0sCiAgeyByZTogL14oY3VkYXxjdWRubnxudmlkaWF8Y3VkYVstX110b29sa2l0fGN1WzAtOV0rKSQvaSwgY2F0ZWdvcnk6ICfpqbHliqjkuI7nrpflipsnLCBwdXJwb3NlOiAnTlZJRElBIEdQVSDorqHnrpfpqbHliqgv5bel5YW36ZO+JyB9LAogIHsgcmU6IC9eKHZzY29kZXxjb2RlfGN1cnNvcnxzdWJsaW1lfG5vdGVwYWRcK1wrKSQvaSwgY2F0ZWdvcnk6ICflvIDlj5Hlt6XlhbcnLCBwdXJwb3NlOiAn5Luj56CB57yW6L6R5ZmoJyB9LAogIHsgcmU6IC9eKGNocm9tZXxlZGdlfGZpcmVmb3h8YnJhdmUpJC9pLCBjYXRlZ29yeTogJ+ahjOmdouW6lOeUqCcsIHB1cnBvc2U6ICfmtY/op4jlmagnIH0sCiAgeyByZTogL14oNy0/emlwfHdpbnJhcnxiYW5kaXppcCkkL2ksIGNhdGVnb3J5OiAn5qGM6Z2i5bqU55SoJywgcHVycG9zZTogJ+WOi+e8qS/op6Pljovlt6XlhbcnIH0sCiAgeyByZTogL14odmxjfHBvdHBsYXllcnxvYnN8b2JzLXN0dWRpbykkL2ksIGNhdGVnb3J5OiAn5aqS5L2T5bel5YW3JywgcHVycG9zZTogJ+aSreaUvuWZqCAvIOW9leWxj+aOqOa1gScgfSwKICB7IHJlOiAvXih3cHN8b2ZmaWNlfG9mZmljZTE2fGxpYnJlb2ZmaWNlKSQvaSwgY2F0ZWdvcnk6ICfmoYzpnaLlupTnlKgnLCBwdXJwb3NlOiAn5Yqe5YWs5aWX5Lu2JyB9LAogIHsgcmU6IC9eKHN0ZWFtfGVwaWN8d2VnYW1lKSQvaSwgY2F0ZWdvcnk6ICfmoYzpnaLlupTnlKgnLCBwdXJwb3NlOiAn5ri45oiP5bmz5Y+wJyB9LAogIHsgcmU6IC9weWluc3RhbGxlcnxudWl0a2EvaSwgY2F0ZWdvcnk6ICflvIDlj5Hlt6XlhbcnLCBwdXJwb3NlOiAn5oqKIFB5dGhvbiDnqIvluo/miZPljIXmiJDni6znq4vlj6/miafooYzmlofku7YnIH0sCiAgeyByZTogL3BsYXl3cmlnaHR8c2VsZW5pdW18cHlwcGV0ZWVyfHB1cHBldGVlci9pLCBjYXRlZ29yeTogJ+iHquWKqOWMlicsIHB1cnBvc2U6ICfmtY/op4jlmajoh6rliqjljJbvvIjml6DkurrlgLzlrojngrnlh7sv5oqT5Y+W77yJJyB9LAogIHsgcmU6IC9qdXB5dGVyfGlweXRob258bm90ZWJvb2t8bmJjb252ZXJ0L2ksIGNhdGVnb3J5OiAn5byA5Y+R5bel5YW3JywgcHVycG9zZTogJ+S6pOS6kuW8jyBQeXRob24g56yU6K6w5pysJyB9LAogIHsgcmU6IC9eXC5wbnBtLXN0b3JlJC9pLCBjYXRlZ29yeTogJ+WMhee8k+WtmCcsIHB1cnBvc2U6ICdwbnBtIOeahOWGheWuueWvu+WdgOS7k+W6k++8iOehrOmTvuaOpea6kO+8ie+8jOWIoOS6huW3suijheS+nei1luimgemHjeS4iycgfSwKICB7IHJlOiAvXmhlYWRsZXNzY2hyb21lL2ksIGNhdGVnb3J5OiAn5Li05pe25Z6D5Zy+JywgcHVycG9zZTogJ+aXoOWktCBDaHJvbWUg55qE5Li05pe2IHByb2ZpbGXvvIzov5vnqIvpgIDlh7rlkI7lj6/liKAnIH0sCiAgeyByZTogL15waXAtdW5wYWNrLS9pLCBjYXRlZ29yeTogJ+S4tOaXtuWeg+WcvicsIHB1cnBvc2U6ICdwaXAg6Kej5YyF5Lit6L2s55uu5b2V77yM5a6J6KOF57uT5p2f5ZCO5Y+v5YigJyB9LAogIHsgcmU6IC9edGh1bmRlcmV2L2ksIGNhdGVnb3J5OiAn5Li05pe25Z6D5Zy+JywgcHVycG9zZTogJ+S4i+i9veWZqO+8iOi/hembt++8ieeahOS4tOaXtue8k+WtmO+8jOWPr+WIoCcgfSwKICB7IHJlOiAv5a6J6KOF5YyFfHNldHVwLipcLmV4ZSR8XC5tc2kkL2ksIGNhdGVnb3J5OiAn5a6J6KOF5YyFJywgcHVycG9zZTogJ+S4i+i9veWIsOacrOWcsOeahOWuieijheeoi+W6j++8jOijheWujOWPr+WIoCcgfSwKICB7IHJlOiAvXnBpcFstX10/Y2FjaGUkL2ksIGNhdGVnb3J5OiAn57yT5a2YJywgcHVycG9zZTogJ+WMheS4i+i9vee8k+WtmO+8iOWPr+WuieWFqOWIoOmZpO+8iScgfSwKICB7IHJlOiAvXmNkcC0oZXZhbHxzaG90fHNlcXxwb3NlfHNtb2tlKS9pLCBjYXRlZ29yeTogJ+S4tOaXtuWeg+WcvicsIHB1cnBvc2U6ICfmtY/op4jlmajoh6rliqjljJbvvIhDRFDvvInnmoTkuLTml7YgcHJvZmlsZSDnm67lvZXvvIzlj6/mlbTnm67lvZXliKAnIH0sCiAgeyByZTogL14oZWxlY3Ryb258d3BzfGNocm9tZXxtc2VkZ2UpWy1fXT9jcmFzaHxjcmFzaHBhZC9pLCBjYXRlZ29yeTogJ+S4tOaXtuWeg+WcvicsIHB1cnBvc2U6ICfltKnmuoPovazlgqjnvJPlrZjvvIzlj6/liKAnIH0sCiAgeyByZTogL14tP2VkZ2VbLV9dP3R0cyR8Xm5vZGVbLV9dP2VkZ2VbLV9dP3R0cyQvaSwgY2F0ZWdvcnk6ICdBSSDor63pn7MnLCBwdXJwb3NlOiAnRWRnZSBUVFPvvJrnlKjlvq7ova/lnKjnur/or63pn7PlkIjmiJDlgZrphY3pn7MnIH0sCiAgeyByZTogL3R0c3x0ZXh0Wy1fXT90b1stX10/c3BlZWNofGNvc3l2b2ljZXxncHRbLV9dP3Nvdml0cy9pLCBjYXRlZ29yeTogJ0FJIOivremfsycsIHB1cnBvc2U6ICfor63pn7PlkIjmiJDvvIjmloflrZfovazor63pn7PvvInlt6Xlhbfpk74nIH0sCiAgeyByZTogLzNkWy1fXT9wcmludGVyfHByaW50ZXIvaSwgY2F0ZWdvcnk6ICczRCDkuI7orr7orqEnLCBwdXJwb3NlOiAnM0Qg5omT5Y2w55u45YWz6aG555uuL+aooeWeiycgfSwKICB7IHJlOiAvcHJvbXB0Wy1fXT9vcHRpbWlbc3pdZXIvaSwgY2F0ZWdvcnk6ICdBSSDlt6XlhbcnLCBwdXJwb3NlOiAn5o+Q56S66K+N5LyY5YyW5Zmo77ya5oqK6I2J56i/5pS55YaZ5oiQ5pu05aW955qE5o+Q56S66K+NJyB9LAogIHsgcmU6IC9saXZlZGVja3zlnLrmjqd8bGl2ZVstX10/ZGVjay9pLCBjYXRlZ29yeTogJ+ebtOaSreW3peWFtycsIHB1cnBvc2U6ICfnm7Tmkq3lnLrmjqflj7DvvIjlvLnnqpfjgIHor53mnK/jgIHnpLznianogZTliqjvvIknIH0sCiAgeyByZTogL2NsaXBjYXQvaSwgY2F0ZWdvcnk6ICdBSSDlt6XlhbcnLCBwdXJwb3NlOiAn55+t6KeG6aKR5bim6LSn5oqA6IO95YyF77yI54iG5qy+5ouG6Kej5LiO5aSN5Yi777yJJyB9LAogIHsgcmU6IC9eZWxlY3Ryb24kL2ksIGNhdGVnb3J5OiAn5qGM6Z2i5byA5Y+RJywgcHVycG9zZTogJ0VsZWN0cm9u77ya55So572R6aG15oqA5pyv5omT5YyF5qGM6Z2i5bqU55SoJyB9LAogIHsgcmU6IC9idWlsZGVyfHdlYnBhY2t8dml0ZXxyb2xsdXB8ZXNidWlsZHx0c3VwfHRzZG93bi9pLCBjYXRlZ29yeTogJ+ahjOmdouW8gOWPkScsIHB1cnBvc2U6ICfliY3nq68v5omT5YyF5p6E5bu65bel5YW36ZO+JyB9LAogIHsgcmU6IC9pbm5vXHM/c2V0dXB8bnNpc3xhZHZhbmNlZFxzP2luc3RhbGxlci9pLCBjYXRlZ29yeTogJ+W8gOWPkeW3peWFtycsIHB1cnBvc2U6ICdXaW5kb3dzIOWuieijheWMheWItuS9nOW3peWFt++8iOaKiueoi+W6j+aJk+aIkCBzZXR1cC5leGXvvIknIH0sCl0KCmNvbnN0IFBBVEhfUlVMRVMgPSBbCiAgeyByZTogL1tcXC9dVGVtcFtcXC9dY2RwLS9pLCBjYXRlZ29yeTogJ+S4tOaXtuWeg+WcvicsIHB1cnBvc2U6ICfmtY/op4jlmajoh6rliqjljJbvvIhDRFDvvInot5HkuIDmrKHnlZnkuIvnmoTkuLTml7YgcHJvZmlsZe+8jOWPr+aVtOebruW9leWIoCcgfSwKICB7IHJlOiAvW1xcL11UZW1wW1xcL10vaSwgY2F0ZWdvcnk6ICfkuLTml7bmlofku7YnLCBwdXJwb3NlOiAn56iL5bqP6L+Q6KGM5pyf55qE5Li05pe25Lqn54mp77yM6YeN5ZCv5oiW5riF55CG5ZCO5Y+v5YigJyB9LAogIHsgcmU6IC9bXFwvXUluc3RhbGxlcltcXC9dL2ksIGNhdGVnb3J5OiAn5a6J6KOF57yT5a2YJywgcHVycG9zZTogJ1dpbmRvd3MgSW5zdGFsbGVyIOeahOihpeS4gS9NU0kg57yT5a2Y77yM5Yig5LqG5Lya5b2x5ZON5Y246L295LiO5L+u5aSNJyB9LAogIHsgcmU6IC9bXFwvXXNpdGUtcGFja2FnZXNbXFwvXS9pLCBjYXRlZ29yeTogJ1B5dGhvbiDkvp3otZYnLCBwdXJwb3NlOiAnUHl0aG9uIOesrOS4ieaWueWMheWuieijheebruW9lScgfSwKICB7IHJlOiAvW1xcL11kaXN0LXBhY2thZ2VzW1xcL10vaSwgY2F0ZWdvcnk6ICdQeXRob24g5L6d6LWWJywgcHVycG9zZTogJ+ezu+e7n+e6pyBQeXRob24g5YyF55uu5b2VJyB9LAogIHsgcmU6IC9bXFwvXW5vZGVfbW9kdWxlc1tcXC9dL2ksIGNhdGVnb3J5OiAnTm9kZSDkvp3otZYnLCBwdXJwb3NlOiAnTm9kZSDpobnnm67kvp3otZbnm67lvZUnIH0sCiAgeyByZTogL1tcXC9dZW52c1tcXC9dL2ksIGNhdGVnb3J5OiAn6L+Q6KGM546v5aKDJywgcHVycG9zZTogJ2NvbmRhIOeLrOeri+eOr+WigycgfSwKICB7IHJlOiAvW1xcL11cLnZlbnZ8W1xcL112ZW52W1xcL10vaSwgY2F0ZWdvcnk6ICfov5DooYznjq/looMnLCBwdXJwb3NlOiAnUHl0aG9uIOiZmuaLn+eOr+WigycgfSwKICB7IHJlOiAvW1xcL11XaW5HZXRbXFwvXVBhY2thZ2VzL2ksIGNhdGVnb3J5OiAn5a6J6KOF55uu5b2VJywgcHVycG9zZTogJ3dpbmdldCDlronoo4XnmoTkvr/mkLrnqIvluo8nIH0sCiAgeyByZTogL1tcXC9dY2hvY29sYXRleVtcXC9dbGliL2ksIGNhdGVnb3J5OiAn5a6J6KOF55uu5b2VJywgcHVycG9zZTogJ0Nob2NvbGF0ZXkg5a6J6KOF55qE5YyFJyB9LApdCgpjb25zdCBsZWFmT2YgPSAocGF0aCkgPT4gewogIGNvbnN0IHBhcnRzID0gU3RyaW5nKHBhdGggfHwgJycpLnNwbGl0KC9bXFwvXS8pLmZpbHRlcihCb29sZWFuKQogIHJldHVybiBwYXJ0c1twYXJ0cy5sZW5ndGggLSAxXSB8fCAnJwp9CgovKioKICogQHBhcmFtIHtzdHJpbmd9IG5hbWUg5YyF5ZCN5oiW55uu5b2V5ZCNCiAqIEBwYXJhbSB7c3RyaW5nfSBwYXRoIOejgeebmOi3r+W+hO+8iOWPr+epuu+8iQogKiBAcmV0dXJucyB7e2NhdGVnb3J5OnN0cmluZywgcHVycG9zZTpzdHJpbmcsIGtub3duOmJvb2xlYW59fQogKi8KZXhwb3J0IGZ1bmN0aW9uIGNsYXNzaWZ5KG5hbWUsIHBhdGggPSAnJykgewogIGNvbnN0IHN1YmplY3QgPSBTdHJpbmcobmFtZSB8fCAnJykgfHwgbGVhZk9mKHBhdGgpCiAgZm9yIChjb25zdCBydWxlIG9mIFJVTEVTKSB7CiAgICBpZiAocnVsZS5yZS50ZXN0KHN1YmplY3QpKSByZXR1cm4geyBjYXRlZ29yeTogcnVsZS5jYXRlZ29yeSwgcHVycG9zZTogcnVsZS5wdXJwb3NlLCBrbm93bjogdHJ1ZSB9CiAgfQogIGlmIChwYXRoKSB7CiAgICBmb3IgKGNvbnN0IHJ1bGUgb2YgUEFUSF9SVUxFUykgewogICAgICBpZiAocnVsZS5yZS50ZXN0KHBhdGgpKSB7CiAgICAgICAgcmV0dXJuIHsgY2F0ZWdvcnk6IHJ1bGUuY2F0ZWdvcnksIHB1cnBvc2U6IGAke3J1bGUucHVycG9zZX3vvIgke3N1YmplY3QgfHwgJ+acquefpeWMhSd977yJYCwga25vd246IHRydWUgfQogICAgICB9CiAgICB9CiAgICBpZiAoL1tcXC9dXC5naXQoW1xcL118JCkvLnRlc3QocGF0aCkpIHsKICAgICAgcmV0dXJuIHsgY2F0ZWdvcnk6ICfku6PnoIHku5PlupMnLCBwdXJwb3NlOiBgJHtzdWJqZWN0fe+8muS7jiBHaXQg5LuT5bqT5YWL6ZqG55qE6aG555uu5rqQ56CB77yI5L2T56ev5Li76KaB5p2l6Ieq5L6d6LWW5LiO5qih5Z6L5p2D6YeN77yJYCwga25vd246IGZhbHNlIH0KICAgIH0KICAgIGlmICgvW1xcL11Qcm9ncmFtIEZpbGVzW1xcL10vaS50ZXN0KHBhdGgpKSB7CiAgICAgIHJldHVybiB7IGNhdGVnb3J5OiAn5bey5a6J6KOF56iL5bqPJywgcHVycG9zZTogYOW4uOinhCBXaW5kb3dzIOWuieijheeoi+W6j++8miR7c3ViamVjdH3vvIjnlKjpgJTpnIDmjInnm67lvZXlhoXmlofku7bliKTmlq3vvIlgLCBrbm93bjogZmFsc2UgfQogICAgfQogICAgaWYgKC9bXFwvXVwuY2FjaGVbXFwvXS9pLnRlc3QocGF0aCkpIHsKICAgICAgcmV0dXJuIHsgY2F0ZWdvcnk6ICfnvJPlrZgnLCBwdXJwb3NlOiBgJHtzdWJqZWN0fSDnmoTnvJPlrZjmlbDmja7vvIzlj6/ph43lu7pgLCBrbm93bjogZmFsc2UgfQogICAgfQogIH0KICByZXR1cm4geyBjYXRlZ29yeTogJ+acquW9kuexuycsIHB1cnBvc2U6IGAke3N1YmplY3QgfHwgJ+ivpemhuSd977ya55+l6K+G5bqT5pyq5pS25b2V77yM5oyJ5ZCN56ew5LiO55uu5b2V57uT5p6E5o6o5rWL77yI5Y+v5ZyoIHNyYy9lbmdpbmUvY2xhc3NpZnkuanMg6YeM6KGl5LiA5p2h6KeE5YiZ77yJYCwga25vd246IGZhbHNlIH0KfQoKLyoqIOS6uuexu+WPr+ivu+S9k+enryAqLwpleHBvcnQgZnVuY3Rpb24gZm9ybWF0Qnl0ZXMoYnl0ZXMpIHsKICBjb25zdCBuID0gTnVtYmVyKGJ5dGVzKSB8fCAwCiAgaWYgKG4gPCAxMDI0KSByZXR1cm4gYCR7bn0gQmAKICBjb25zdCB1bml0cyA9IFsnS0InLCAnTUInLCAnR0InLCAnVEInXQogIGxldCB2YWx1ZSA9IG4gLyAxMDI0CiAgbGV0IGluZGV4ID0gMAogIHdoaWxlICh2YWx1ZSA+PSAxMDI0ICYmIGluZGV4IDwgdW5pdHMubGVuZ3RoIC0gMSkgewogICAgdmFsdWUgLz0gMTAyNAogICAgaW5kZXgrKwogIH0KICByZXR1cm4gYCR7dmFsdWUudG9GaXhlZCh2YWx1ZSA+PSAxMDAgPyAwIDogMSl9ICR7dW5pdHNbaW5kZXhdfWAKfQo=
+/**
+ * 用途层：这个东西是干什么用的。
+ * 先查知识库（按包名/目录名关键词），查不到就按目录结构给「推测」，并标明是推测。
+ */
+
+const RULES = [
+  // —— AI 出图 / 工作流 ——
+  { re: /^comfyui/i, category: 'AI 图形界面', purpose: 'ComfyUI：节点式 Stable Diffusion 工作流，搭管线出图/出视频' },
+  { re: /comfyui[-_]?manager/i, category: 'AI 图形界面', purpose: 'ComfyUI-Manager：ComfyUI 的扩展与模型管理器' },
+  { re: /stable[-_]?diffusion[-_]?webui|sdwebui|a1111/i, category: 'AI 图形界面', purpose: 'Stable Diffusion WebUI：浏览器里的出图界面' },
+  { re: /invokeai|fooocus|forge|kohya/i, category: 'AI 图形界面', purpose: 'Stable Diffusion 系出图 / 训练界面' },
+  { re: /^(torch|pytorch|torchvision|torchaudio)$/i, category: 'AI 运行时', purpose: 'PyTorch：深度学习张量计算与 GPU 训练/推理运行时' },
+  { re: /^(transformers|diffusers|accelerate|peft|bitsandbytes|safetensors|tokenizers|sentencepiece|einops|timm)$/i, category: 'AI 运行时', purpose: 'HuggingFace 系模型加载 / 微调 / 推理组件' },
+  { re: /xformers|flash[-_]?attn|sageattention|triton|mamba[-_]ssm/i, category: 'AI 加速', purpose: '注意力/算子加速库，显著提升出图与训练速度' },
+  { re: /onnxruntime|onnx|tensorrt|openvino/i, category: 'AI 运行时', purpose: '推理引擎：把模型跑在 CPU/GPU 上的执行后端' },
+  { re: /^(ollama|lm[-_]?studio|llama[-_]?cpp|vllm|text-generation-webui)$/i, category: 'AI 运行时', purpose: '本地大语言模型运行器（下载模型后离线对话）' },
+  { re: /whisper|faster[-_]?whisper|funasr|sensevoice/i, category: 'AI 语音', purpose: '语音识别模型/运行时（音频转文字）' },
+  { re: /realesrgan|gfpgan|basicsr|insightface|facexlib|codeformer|spandrel/i, category: 'AI 图像', purpose: '图像修复 / 超分 / 换脸模型组件' },
+  { re: /gradio|streamlit|fastapi|uvicorn|flask|aiohttp/i, category: 'Web 服务', purpose: 'Web 界面/服务框架，用来把模型能力开成网页接口' },
+
+  // —— 3D / 建模 / 设计 ——
+  { re: /blender/i, category: '3D 与设计', purpose: 'Blender：3D 建模、渲染、动画制作' },
+  { re: /freecad|cadquery|openscad|fusion|solidworks|sketchup|rhino/i, category: '3D 与设计', purpose: 'CAD / 参数化建模工具' },
+  { re: /unity|unreal|godot|twinmotion/i, category: '3D 与设计', purpose: '实时 3D / 游戏引擎' },
+  { re: /meshlab|cloudcompare|meshmixer|instantmeshes/i, category: '3D 与设计', purpose: '网格处理 / 点云工具' },
+  { re: /hunyuan3d|tripo|meshy|trellis/i, category: '3D 与设计', purpose: '文/图生 3D 模型生成工具' },
+  { re: /^(numpy|scipy|pandas|polars|matplotlib|seaborn|plotly)$/i, category: '数据计算', purpose: '数值计算 / 数据处理 / 绘图库' },
+  { re: /scikit[-_]?learn|sklearn|xgboost|lightgbm|catboost/i, category: '数据计算', purpose: '机器学习建模库' },
+  { re: /opencv|pillow|scikit-image|imageio|moviepy/i, category: '图像处理', purpose: '图像/视频读写与处理库' },
+
+  // —— 语言与包管理 ——
+  { re: /^python(3)?$/i, category: '语言运行时', purpose: 'Python 解释器与标准库' },
+  { re: /^(node|nodejs|node_modules)$/i, category: '语言运行时', purpose: 'Node.js 运行时 / 其依赖目录' },
+  { re: /^(pip|setuptools|wheel|virtualenv|pipx|uv|poetry|conda|mamba)$/i, category: '包管理', purpose: 'Python 包安装与管理工具' },
+  { re: /^(npm|pnpm|yarn|bun|npx)$/i, category: '包管理', purpose: 'Node 包管理器' },
+  { re: /^(git|git[-_]lfs)$/i, category: '开发工具', purpose: 'Git 版本控制' },
+  { re: /^(ffmpeg|ffprobe|imageio[-_]ffmpeg)$/i, category: '媒体工具', purpose: '音视频解码/编码/转码工具' },
+  { re: /^(cuda|cudnn|nvidia|cuda[-_]toolkit|cu[0-9]+)$/i, category: '驱动与算力', purpose: 'NVIDIA GPU 计算驱动/工具链' },
+  { re: /^(vscode|code|cursor|sublime|notepad\+\+)$/i, category: '开发工具', purpose: '代码编辑器' },
+  { re: /^(chrome|edge|firefox|brave)$/i, category: '桌面应用', purpose: '浏览器' },
+  { re: /^(7-?zip|winrar|bandizip)$/i, category: '桌面应用', purpose: '压缩/解压工具' },
+  { re: /^(vlc|potplayer|obs|obs-studio)$/i, category: '媒体工具', purpose: '播放器 / 录屏推流' },
+  { re: /^(wps|office|office16|libreoffice)$/i, category: '桌面应用', purpose: '办公套件' },
+  { re: /^(steam|epic|wegame)$/i, category: '桌面应用', purpose: '游戏平台' },
+  { re: /pyinstaller|nuitka/i, category: '开发工具', purpose: '把 Python 程序打包成独立可执行文件' },
+  { re: /playwright|selenium|pyppeteer|puppeteer/i, category: '自动化', purpose: '浏览器自动化（无人值守点击/抓取）' },
+  { re: /jupyter|ipython|notebook|nbconvert/i, category: '开发工具', purpose: '交互式 Python 笔记本' },
+  { re: /^\.pnpm-store$/i, category: '包缓存', purpose: 'pnpm 的内容寻址仓库（硬链接源），删了已装依赖要重下' },
+  { re: /^headlesschrome/i, category: '临时垃圾', purpose: '无头 Chrome 的临时 profile，进程退出后可删' },
+  { re: /^pip-unpack-/i, category: '临时垃圾', purpose: 'pip 解包中转目录，安装结束后可删' },
+  { re: /^thunderev/i, category: '临时垃圾', purpose: '下载器（迅雷）的临时缓存，可删' },
+  { re: /安装包|setup.*\.exe$|\.msi$/i, category: '安装包', purpose: '下载到本地的安装程序，装完可删' },
+  { re: /^pip[-_]?cache$/i, category: '缓存', purpose: '包下载缓存（可安全删除）' },
+  { re: /^cdp-(eval|shot|seq|pose|smoke)/i, category: '临时垃圾', purpose: '浏览器自动化（CDP）的临时 profile 目录，可整目录删' },
+  { re: /^(electron|wps|chrome|msedge)[-_]?crash|crashpad/i, category: '临时垃圾', purpose: '崩溃转储缓存，可删' },
+  { re: /^-?edge[-_]?tts$|^node[-_]?edge[-_]?tts$/i, category: 'AI 语音', purpose: 'Edge TTS：用微软在线语音合成做配音' },
+  { re: /tts|text[-_]?to[-_]?speech|cosyvoice|gpt[-_]?sovits/i, category: 'AI 语音', purpose: '语音合成（文字转语音）工具链' },
+  { re: /3d[-_]?printer|printer/i, category: '3D 与设计', purpose: '3D 打印相关项目/模型' },
+  { re: /prompt[-_]?optimi[sz]er/i, category: 'AI 工具', purpose: '提示词优化器：把草稿改写成更好的提示词' },
+  { re: /livedeck|场控|live[-_]?deck/i, category: '直播工具', purpose: '直播场控台（弹窗、话术、礼物联动）' },
+  { re: /clipcat/i, category: 'AI 工具', purpose: '短视频带货技能包（爆款拆解与复刻）' },
+  { re: /^electron$/i, category: '桌面开发', purpose: 'Electron：用网页技术打包桌面应用' },
+  { re: /builder|webpack|vite|rollup|esbuild|tsup|tsdown/i, category: '桌面开发', purpose: '前端/打包构建工具链' },
+  { re: /inno\s?setup|nsis|advanced\s?installer/i, category: '开发工具', purpose: 'Windows 安装包制作工具（把程序打成 setup.exe）' },
+]
+
+const PATH_RULES = [
+  { re: /[\\/]Temp[\\/]cdp-/i, category: '临时垃圾', purpose: '浏览器自动化（CDP）跑一次留下的临时 profile，可整目录删' },
+  { re: /[\\/]Temp[\\/]/i, category: '临时文件', purpose: '程序运行期的临时产物，重启或清理后可删' },
+  { re: /[\\/]Installer[\\/]/i, category: '安装缓存', purpose: 'Windows Installer 的补丁/MSI 缓存，删了会影响卸载与修复' },
+  { re: /[\\/]site-packages[\\/]/i, category: 'Python 依赖', purpose: 'Python 第三方包安装目录' },
+  { re: /[\\/]dist-packages[\\/]/i, category: 'Python 依赖', purpose: '系统级 Python 包目录' },
+  { re: /[\\/]node_modules[\\/]/i, category: 'Node 依赖', purpose: 'Node 项目依赖目录' },
+  { re: /[\\/]envs[\\/]/i, category: '运行环境', purpose: 'conda 独立环境' },
+  { re: /[\\/]\.venv|[\\/]venv[\\/]/i, category: '运行环境', purpose: 'Python 虚拟环境' },
+  { re: /[\\/]WinGet[\\/]Packages/i, category: '安装目录', purpose: 'winget 安装的便携程序' },
+  { re: /[\\/]chocolatey[\\/]lib/i, category: '安装目录', purpose: 'Chocolatey 安装的包' },
+]
+
+const leafOf = (path) => {
+  const parts = String(path || '').split(/[\\/]/).filter(Boolean)
+  return parts[parts.length - 1] || ''
+}
+
+/**
+ * @param {string} name 包名或目录名
+ * @param {string} path 磁盘路径（可空）
+ * @returns {{category:string, purpose:string, known:boolean}}
+ */
+export function classify(name, path = '') {
+  const subject = String(name || '') || leafOf(path)
+  for (const rule of RULES) {
+    if (rule.re.test(subject)) return { category: rule.category, purpose: rule.purpose, known: true }
+  }
+  if (path) {
+    for (const rule of PATH_RULES) {
+      if (rule.re.test(path)) {
+        return { category: rule.category, purpose: `${rule.purpose}（${subject || '未知包'}）`, known: true }
+      }
+    }
+    if (/[\\/]\.git([\\/]|$)/.test(path)) {
+      return { category: '代码仓库', purpose: `${subject}：从 Git 仓库克隆的项目源码（体积主要来自依赖与模型权重）`, known: false }
+    }
+    if (/[\\/]Program Files[\\/]/i.test(path)) {
+      return { category: '已安装程序', purpose: `常规 Windows 安装程序：${subject}（用途需按目录内文件判断）`, known: false }
+    }
+    if (/[\\/]\.cache[\\/]/i.test(path)) {
+      return { category: '缓存', purpose: `${subject} 的缓存数据，可重建`, known: false }
+    }
+  }
+  return { category: '未归类', purpose: `${subject || '该项'}：知识库未收录，按名称与目录结构推测（可在 src/engine/classify.js 里补一条规则）`, known: false }
+}
+
+/** 人类可读体积 */
+export function formatBytes(bytes) {
+  const n = Number(bytes) || 0
+  if (n < 1024) return `${n} B`
+  const units = ['KB', 'MB', 'GB', 'TB']
+  let value = n / 1024
+  let index = 0
+  while (value >= 1024 && index < units.length - 1) {
+    value /= 1024
+    index++
+  }
+  return `${value.toFixed(value >= 100 ? 0 : 1)} ${units[index]}`
+}

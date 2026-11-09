@@ -1,1 +1,94 @@
-IyDlj5HluIPmiYvlhozvvIhkc2gtaW5zdGFsbC1yYWRhcu+8iQoK5pys55uu5b2V6YeM55qE6ISa5pys5oqK5Y+R5biD5ouG5oiQ5LiJ5q2l77yMKirlj6rmnInnrKwgMSDmraXpnIDopoHkvaDoh6rlt7HliqjmiYsqKu+8iOeZu+W9le+8ie+8jOWFtuS9meWFqOiHquWKqOOAggoKLS0tCgojIyAwLiDnjrDnirbvvIjmiJHlt7LlgZrlroznmoTpg6jliIbvvIkKCi0g5YyF5bey5oyJIG5wbSDopoHmsYLmlbTnkIblpb3vvJpgTElDRU5TRWDjgIFgUkVBRE1FLm1kYO+8iOS4re+8ieOAgWBSRUFETUUuZW4ubWRg77yI6Iux77yJ44CBYGZpbGVzYCDnmb3lkI3ljZUKLSBgbnBtIHBhY2sgLS1kcnktcnVuYO+8mjI4IOS4quaWh+S7tiAvIDc5LjYga0LvvIjop6PljosgMjQ5Ljcga0LvvInvvIzml6DlpJrkvZnmlofku7YKLSBgbnBtIHB1Ymxpc2ggLS1kcnktcnVuYO+8mumAmui/h++8jOWPque8uueZu+W9lQotIOWMheWQjSBgZHNoLWluc3RhbGwtcmFkYXJgIOWcqCByZWdpc3RyeS5ucG1qcy5vcmcg5LiKKirmnKrooqvljaDnlKgqKgotIOeJiOacrCBgMS4wLjBg77yMYHB1Ymxpc2hDb25maWc6IHsgcmVnaXN0cnk6IGh0dHBzOi8vcmVnaXN0cnkubnBtanMub3JnLCBhY2Nlc3M6IHB1YmxpYyB9YAoKLS0tCgojIyAxLiDnmbvlvZXvvIjllK/kuIDmiYvliqjmraXpqqTvvIzkuozpgInkuIDvvIkKCmBgYHBvd2Vyc2hlbGwKIyBBLiDkuqTkupLnmbvlvZXvvIjmjqjojZDvvIzmtY/op4jlmajph4zngrnkuIDkuIvvvIkKbnBtIGxvZ2luIC0tcmVnaXN0cnk9aHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmcKCiMgQi4g55SoIHRva2Vu77yI6YCC5ZCI6ISa5pysL0NJ77yJCiRlbnY6TlBNX1RPS0VOID0gJ25wbV94eHh4eHh4eHh4eHh4eHh4JwpgYGAKCj4g5L2g55qEIGB+Ly5ucG1yY2Ag6YeM546w5Zyo5YaZ55qE5pivIGByZWdpc3RyeT1odHRwczovL3JlZ2lzdHJ5Lm5wbW1pcnJvci5jb21g77yI5Zu95YaF6ZWc5YOP77yM5Y+q6K+777yJ44CCCj4g5Y+R5biD5b+F6aG76LWw5a6Y5pa55rqQ77yM6ISa5pys6YeM5bey57uP5pi+5byP5Yqg5LqGIGAtLXJlZ2lzdHJ5YO+8jOS4jeeUqOaUueWFqOWxgOmFjee9ruOAggoKIyMgMi4g5Y+R5YiwIG5wbe+8iOiHquWKqO+8iQoKYGBgcG93ZXJzaGVsbApjZCAiRTpcRGVlcFNlZWsgSGFybmVzc+W3peS9nOWMulxkc2gtaW5zdGFsbC1yYWRhciIKcHdzaCAtRmlsZSBwdWJsaXNoXG5wbS1wdWJsaXNoLnBzMQpgYGAKCuiEmuacrOS8mu+8muagoemqjOeZu+W9lSDihpIgYG5wbSBwdWJsaXNoIC0tcmVnaXN0cnk9aHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmdgIOKGkiBgbnBtIHZpZXdgIOWbnuafpSDihpIg5omT5Y2w5a6J6KOF5ZG95Luk44CCCgojIyAzLiDmjqggR2l0SHVi77yI5biC5Zy65pS25b2V5b+F6ZyA77yJCgrluILlnLrmnaHnm67opoHmsYIgYHVybGAg5oyH5ZCR5LiA5Liq55yf5a6e5a2Y5Zyo55qEIEdpdEh1YiDku5PlupPjgILkuKTmnaHot6/vvJoKCioqQS4g5LiN5LqkIHRva2Vu77yI5o6o6I2Q77yMMzAg56eS77yJKioKCmBgYHBvd2Vyc2hlbGwKIyAxKSDmtY/op4jlmajph4zlu7rnqbrku5PlupPvvJpodHRwczovL2dpdGh1Yi5jb20vbmV3CiMgICAg5LuT5bqT5ZCNIGRzaC1pbnN0YWxsLXJhZGFy77yM5LiN6KaB5Yu+IFJFQURNRSAvIC5naXRpZ25vcmUgLyBsaWNlbnNlCiMgMikg5o6o6YCB77yI6aaW5qyh5Lya5by5IEdpdEh1YiDnmbvlvZXnqpflj6PvvIznmbvlvZXkuIDmrKHljbPlj6/vvIkKcHdzaCAtRmlsZSBwdWJsaXNoXHB1c2gtdG8tZ2l0aHViLnBzMSAtT3duZXIgPOS9oOeahEdpdEh1YueUqOaIt+WQjT4KYGBgCgoqKkIuIOe7meaIkSB0b2tlbu+8jOWFqOiHquWKqOW7uuW6kyvmjqjpgIEqKgoKYGBgcG93ZXJzaGVsbAokZW52OkdJVEhVQl9UT0tFTiA9ICdnaHBfeHh4eHh4eHgnCm5vZGUgcHVibGlzaFxnaXRodWItcmVwby5tanMgLS11c2VyIDzkvaDnmoRHaXRIdWLnlKjmiLflkI0+IC0tbmFtZSBkc2gtaW5zdGFsbC1yYWRhcgpgYGAKCj4g5pys5Zyw5LuT5bqT5bey57uP5Yid5aeL5YyW5bm25o+Q5Lqk5aW95LqG77yINDAg5Liq5paH5Lu277yMMSDkuKogY29tbWl077yMYC5naXRgIOe6piAwLjEgTULvvInvvIwKPiDkuKTmnaHot6/pg73mmK/jgIznm7TmjqUgcHVzaOOAje+8jOS4jemcgOimgeWGjSBjb21taXTjgILmnKzlnLAgZ2l0IOi6q+S7veiuvuaIkOS6hgo+IGBZRyA8eWdAdXNlcnMubm9yZXBseS5naXRodWIuY29tPmDvvIjku4XmnKzku5PlupPvvIzmnKrmlLnlhajlsYDvvInjgIIKCiMjIDQuIOaPkOW4guWcuiBQUu+8iOiHquWKqO+8iQoK5biC5Zy65pS25b2V6KeE5YiZ77yaKirlj6rliqDkuIDkuKrmlofku7YqKiBgZGF0YS9wbHVnaW5zLzxvd25lcj5fXzxyZXBvPi55bWxg77yI6KeBIGBhd2Vzb21lLWRzaC1wbHVnaW4vY29udHJpYnV0aW5nLm1kYO+8ieOAggoKYGBgcG93ZXJzaGVsbApub2RlIHB1Ymxpc2hcbWFya2V0LXByLm1qcyAtLXVzZXIgPOS9oOeahEdpdEh1YueUqOaIt+WQjT4KYGBgCgrohJrmnKzkvJrvvJpmb3JrIGBhd2Vzb21lLWRzaC1wbHVnaW4vYXdlc29tZS1kc2gtcGx1Z2luYCDihpIg5bu65YiG5pSvIOKGkiDlhpnlhaUgWUFNTCDihpIg5o+Q5LqkIFBS77yMCuW5tuaJk+WNsCBQUiDpk77mjqXjgIJZQU1MIOaooeadv+WcqCBgcHVibGlzaC9lbnRyeS55bWxg77yMUFIg5q2j5paH5ZyoIGBwdWJsaXNoL1BSLm1kYOOAggoKLS0tCgojIyA1LiDlj5HluIPlkI7oh6rmo4AKCmBgYHBvd2Vyc2hlbGwKIyDku44gbnBtIOijheS4gOmBje+8iOaNouWPsOacuuWZqOaIluaWsCBwcm9maWxlIOabtOecn+Wunu+8iQpkc2ggcGx1Z2luIC0tcHJvZmlsZSBkZXNrdG9wIGFkZCBkc2gtaW5zdGFsbC1yYWRhcgpgYGAKCi0g5L6n5qCP44CM5bel5L2c5Yy644CN5LiK5pa55bqU5Ye6546w5Zu+5qCHCi0g5omT5byA6Z2i5p2/6IO955yL5Yiw5Lik5Liq6aG1562+44CB6LaL5Yq/5p+x44CB5p2h55uu5Y2h54mHCi0gYGluc3RhbGxfcmFkYXJfcmVwb3J0YCDog73ov5Tlm57mnKzmnLrkvJror53lronoo4XmuIXljZUKCiMjIDYuIOeJiOacrOi/reS7owoKYGBgcG93ZXJzaGVsbApucG0gdmVyc2lvbiBwYXRjaHxtaW5vcnxtYWpvciAgICMg5Y+q5pS5IHZlcnNpb24g5a2X5q61Cm5wbSBwdWJsaXNoIC0tcmVnaXN0cnk9aHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmcKYGBgCgrluILlnLrmnaHnm67kuI3nlKjmlLnniYjmnKzvvIzluILlnLrmr4/mrKHor7vlj5YgbnBtIOeahOacgOaWsOeJiOacrOOAggo=
+# 发布手册（dsh-install-radar）
+
+本目录里的脚本把发布拆成三步，**只有第 1 步需要你自己动手**（登录），其余全自动。
+
+---
+
+## 0. 现状（我已做完的部分）
+
+- 包已按 npm 要求整理好：`LICENSE`、`README.md`（中）、`README.en.md`（英）、`files` 白名单
+- `npm pack --dry-run`：28 个文件 / 79.6 kB（解压 249.7 kB），无多余文件
+- `npm publish --dry-run`：通过，只缺登录
+- 包名 `dsh-install-radar` 在 registry.npmjs.org 上**未被占用**
+- 版本 `1.0.0`，`publishConfig: { registry: https://registry.npmjs.org, access: public }`
+
+---
+
+## 1. 登录（唯一手动步骤，二选一）
+
+```powershell
+# A. 交互登录（推荐，浏览器里点一下）
+npm login --registry=https://registry.npmjs.org
+
+# B. 用 token（适合脚本/CI）
+$env:NPM_TOKEN = 'npm_xxxxxxxxxxxxxxxx'
+```
+
+> 你的 `~/.npmrc` 里现在写的是 `registry=https://registry.npmmirror.com`（国内镜像，只读）。
+> 发布必须走官方源，脚本里已经显式加了 `--registry`，不用改全局配置。
+
+## 2. 发到 npm（自动）
+
+```powershell
+cd "E:\DeepSeek Harness工作区\dsh-install-radar"
+pwsh -File publish\npm-publish.ps1
+```
+
+脚本会：校验登录 → `npm publish --registry=https://registry.npmjs.org` → `npm view` 回查 → 打印安装命令。
+
+## 3. 推 GitHub（市场收录必需）
+
+市场条目要求 `url` 指向一个真实存在的 GitHub 仓库。两条路：
+
+**A. 不交 token（推荐，30 秒）**
+
+```powershell
+# 1) 浏览器里建空仓库：https://github.com/new
+#    仓库名 dsh-install-radar，不要勾 README / .gitignore / license
+# 2) 推送（首次会弹 GitHub 登录窗口，登录一次即可）
+pwsh -File publish\push-to-github.ps1 -Owner <你的GitHub用户名>
+```
+
+**B. 给我 token，全自动建库+推送**
+
+```powershell
+$env:GITHUB_TOKEN = 'ghp_xxxxxxxx'
+node publish\github-repo.mjs --user <你的GitHub用户名> --name dsh-install-radar
+```
+
+> 本地仓库已经初始化并提交好了（40 个文件，1 个 commit，`.git` 约 0.1 MB），
+> 两条路都是「直接 push」，不需要再 commit。本地 git 身份设成了
+> `YG <yg@users.noreply.github.com>`（仅本仓库，未改全局）。
+
+## 4. 提市场 PR（自动）
+
+市场收录规则：**只加一个文件** `data/plugins/<owner>__<repo>.yml`（见 `awesome-dsh-plugin/contributing.md`）。
+
+```powershell
+node publish\market-pr.mjs --user <你的GitHub用户名>
+```
+
+脚本会：fork `awesome-dsh-plugin/awesome-dsh-plugin` → 建分支 → 写入 YAML → 提交 PR，
+并打印 PR 链接。YAML 模板在 `publish/entry.yml`，PR 正文在 `publish/PR.md`。
+
+---
+
+## 5. 发布后自检
+
+```powershell
+# 从 npm 装一遍（换台机器或新 profile 更真实）
+dsh plugin --profile desktop add dsh-install-radar
+```
+
+- 侧栏「工作区」上方应出现图标
+- 打开面板能看到两个页签、趋势柱、条目卡片
+- `install_radar_report` 能返回本机会话安装清单
+
+## 6. 版本迭代
+
+```powershell
+npm version patch|minor|major   # 只改 version 字段
+npm publish --registry=https://registry.npmjs.org
+```
+
+市场条目不用改版本，市场每次读取 npm 的最新版本。

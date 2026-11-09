@@ -1,1 +1,168 @@
-LyoqCiAqIOOAjOS7iuWkqeWkmuWHuuadpeeahOOAjeaJq+aPj++8muS4jeS+nei1luWfuue6v++8jOebtOaOpeaMieaWh+S7tuezu+e7n+aXtumXtOaIs+aJvuacgOi/keWGmeWFpeeahOS4nOilv+OAggogKgogKiDkuLrku4DkuYjpnIDopoHlroPvvJrln7rnur/lj6rog73lj5HnjrDjgIzln7rnur/kuYvlkI7mlrDlh7rnjrDnmoTmnaHnm67jgI3vvIzogIwgQzpcV2luZG93c1xUZW1wIOi/meexuwogKiDmoLnmnKzkuI3lnKjluLjop4Tnm5Hop4bmoLnph4znmoTnm67lvZXvvIzlsLHnrpfmr4/lpKnloIYgMTcgR0Ig5Lmf5rC46L+c5LiN5Lya5Ye6546w5Zyo5oql5ZGK6YeM44CCCiAqCiAqIOinhOWIme+8mgogKiAgIC0g5paH5Lu2IG10aW1lIOaIliBiaXJ0aHRpbWUgPj0gc2luY2Ug4oaSIOiuoeWFpQogKiAgIC0g55uu5b2VIGJpcnRodGltZSA+PSBzaW5jZSDihpIg5pW05Liq55uu5b2V6K6h5YWl77yI5LiN5YaN6YCQ5paH5Lu25Yik5pat77yM55u05o6lIG1lYXN1cmXvvIkKICogICAtIOebruW9lSBtdGltZSA8IHNpbmNlIC0gMWgg5LiUIGJpcnRodGltZSA8IHNpbmNlIOKGkiDmlbTmo7XliarmjonvvIjph4zpnaLkuI3lj6/og73mnInmlrDkuJzopb/vvIkKICogICAtIOaMieOAjOW9kuWxnuaWueOAjeiBmuWQiO+8mnJvb3Qg5LiLIG93bmVyRGVwdGgg5bGC55uu5b2V5Li65LiA6KGM77yI6buY6K6kIDHvvIxDOlwg5Li6IDLvvIkKICogICAtIOWQjOS4gOeItuebruW9leS4i+WQjeWtl+WPquW3ruaVsOWtl+WQjue8gOeahOWFhOW8n++8iGNkcC1zZXEtOTY2NyDigKbvvInlkIjlubbmiJDkuIDooYwKICovCmltcG9ydCB7IG9wZW5kaXIsIGxzdGF0IH0gZnJvbSAnbm9kZTpmcy9wcm9taXNlcycKaW1wb3J0IHsgYmFzZW5hbWUsIGRpcm5hbWUsIGpvaW4sIHJlbGF0aXZlIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBtZWFzdXJlIH0gZnJvbSAnLi9zY2FuLmpzJwoKLyoqCiAqIOaKiuOAjOWQjOS4gOeItuebruW9leS4i+OAgeWQjeWtl+WPquW3ruaVsOWtl+WQjue8gOOAjeeahOWFhOW8n+WQiOW5tuaIkOS4gOihjOOAggogKiBDOlxXaW5kb3dzXFRlbXBcY2RwLXNlcS05NjY3IC8gY2RwLWV2YWwtOTc3MyDigKYg5LiA5YWxIDMwMyDkuKrnm67lvZXvvIwKICog5LiN5ZCI5bm255qE6K+d55So5oi35Y+q5Lya55yL5Yiw5LiA5bGP56KO54mH77yM6ICM5LiN5piv44CMMTcgR0Ig5YWo5pivIGNkcC0q44CN6L+Z5Liq57uT6K6644CCCiAqLwpmdW5jdGlvbiBjb2xsYXBzZVNpYmxpbmdzKGl0ZW1zKSB7CiAgY29uc3QgZ3JvdXBzID0gbmV3IE1hcCgpCiAgY29uc3Qgc2luZ2xlcyA9IFtdCiAgZm9yIChjb25zdCBpdGVtIG9mIGl0ZW1zKSB7CiAgICBjb25zdCBwYXJlbnQgPSBkaXJuYW1lKGl0ZW0ucGF0aCkKICAgIGNvbnN0IGxlYWYgPSBiYXNlbmFtZShpdGVtLnBhdGgpCiAgICBjb25zdCBtYXRjaCA9IGxlYWYubWF0Y2goL14oLio/KVstXy5dP1xkezIsfSQvKQogICAgaWYgKCFtYXRjaCkgewogICAgICBzaW5nbGVzLnB1c2goaXRlbSkKICAgICAgY29udGludWUKICAgIH0KICAgIGNvbnN0IGtleSA9IGAke3BhcmVudC50b0xvd2VyQ2FzZSgpfXwke21hdGNoWzFdfWAKICAgIGNvbnN0IGJ1Y2tldCA9IGdyb3Vwcy5nZXQoa2V5KSB8fCB7CiAgICAgIHBhdGg6IGpvaW4ocGFyZW50LCBgJHttYXRjaFsxXX0qYCksCiAgICAgIGxhYmVsOiBpdGVtLmxhYmVsLAogICAgICBwYXR0ZXJuOiBtYXRjaFsxXSwKICAgICAgY291bnQ6IDAsCiAgICAgIGJ5dGVzOiAwLAogICAgICBmaWxlczogMCwKICAgICAgbmV3ZXN0OiAwLAogICAgICBzYW1wbGVzOiBbXSwKICAgICAgY2hpbGRyZW46IFtdLAogICAgfQogICAgYnVja2V0LmNvdW50ICs9IDEKICAgIGJ1Y2tldC5ieXRlcyArPSBpdGVtLmJ5dGVzCiAgICBidWNrZXQuZmlsZXMgKz0gaXRlbS5maWxlcwogICAgYnVja2V0Lm5ld2VzdCA9IE1hdGgubWF4KGJ1Y2tldC5uZXdlc3QsIGl0ZW0ubmV3ZXN0KQogICAgaWYgKGJ1Y2tldC5zYW1wbGVzLmxlbmd0aCA8IDMpIGJ1Y2tldC5zYW1wbGVzLnB1c2goaXRlbS5wYXRoKQogICAgYnVja2V0LmNoaWxkcmVuLnB1c2goaXRlbS5wYXRoKQogICAgZ3JvdXBzLnNldChrZXksIGJ1Y2tldCkKICB9CiAgY29uc3QgbWVyZ2VkID0gWy4uLmdyb3Vwcy52YWx1ZXMoKV0uZmlsdGVyKChidWNrZXQpID0+IGJ1Y2tldC5jb3VudCA+PSAzKQogIGNvbnN0IHJlc3QgPSBbLi4uZ3JvdXBzLnZhbHVlcygpXS5maWx0ZXIoKGJ1Y2tldCkgPT4gYnVja2V0LmNvdW50IDwgMykKICBmb3IgKGNvbnN0IGJ1Y2tldCBvZiByZXN0KSB7CiAgICBmb3IgKGNvbnN0IGNoaWxkIG9mIGJ1Y2tldC5jaGlsZHJlbikgewogICAgICBjb25zdCBzaW5nbGUgPSBpdGVtcy5maW5kKChpdGVtKSA9PiBpdGVtLnBhdGggPT09IGNoaWxkKQogICAgICBpZiAoc2luZ2xlKSBzaW5nbGVzLnB1c2goc2luZ2xlKQogICAgfQogIH0KICByZXR1cm4gWy4uLnNpbmdsZXMsIC4uLm1lcmdlZF0uc29ydCgoYSwgYikgPT4gYi5ieXRlcyAtIGEuYnl0ZXMpCn0KCmNvbnN0IERFRkFVTFRfTElNSVRTID0gewogIG1heEZpbGVzUGVyRW50cnk6IDQwMF8wMDAsCiAgbWF4RGVwdGg6IDEyLAogIGNvbmN1cnJlbmN5OiA4LAogIHNraXBOYW1lczogbmV3IFNldChbJyRSRUNZQ0xFLkJJTicsICdTeXN0ZW0gVm9sdW1lIEluZm9ybWF0aW9uJywgJ1dpblN4UycsICdub2RlX21vZHVsZXMnXSksCn0KCi8qKgogKiBAcGFyYW0ge0FycmF5PHtwYXRoOnN0cmluZywgbGFiZWw/OnN0cmluZywgb3duZXJEZXB0aD86bnVtYmVyLCBza2lwPzpzdHJpbmdbXX0+fSByb290cwogKiBAcGFyYW0ge3tzaW5jZTpudW1iZXIsIGxpbWl0cz86b2JqZWN0LCBtYXhJdGVtcz86bnVtYmVyfX0gb3B0cwogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNjYW5SZWNlbnQocm9vdHMsIG9wdHMgPSB7fSkgewogIGNvbnN0IHNpbmNlID0gb3B0cy5zaW5jZSA/PyBEYXRlLm5vdygpIC0gMjQgKiAzNjAwICogMTAwMAogIGNvbnN0IGxpbWl0cyA9IHsgLi4uREVGQVVMVF9MSU1JVFMsIC4uLihvcHRzLmxpbWl0cyB8fCB7fSkgfQogIGNvbnN0IG93bmVycyA9IG5ldyBNYXAoKQoKICBjb25zdCBvd25lck9mID0gKHJvb3QsIHRhcmdldCkgPT4gewogICAgY29uc3QgZGVwdGggPSByb290Lm93bmVyRGVwdGggPz8gMQogICAgY29uc3QgcmVsID0gcmVsYXRpdmUocm9vdC5wYXRoLCB0YXJnZXQpCiAgICBpZiAoIXJlbCB8fCByZWwuc3RhcnRzV2l0aCgnLi4nKSkgcmV0dXJuIHRhcmdldAogICAgY29uc3QgcGFydHMgPSByZWwuc3BsaXQoL1tcXC9dLykuZmlsdGVyKEJvb2xlYW4pCiAgICBjb25zdCB0YWtlID0gcGFydHMuc2xpY2UoMCwgTWF0aC5tYXgoMSwgZGVwdGgpKQogICAgcmV0dXJuIGpvaW4ocm9vdC5wYXRoLCAuLi50YWtlKQogIH0KCiAgY29uc3QgYnVtcCA9IChvd25lciwgYnl0ZXMsIGZpbGVzLCBhdCwgc2FtcGxlLCByb290TGFiZWwpID0+IHsKICAgIGNvbnN0IGJ1Y2tldCA9IG93bmVycy5nZXQob3duZXIpIHx8IHsgcGF0aDogb3duZXIsIGxhYmVsOiByb290TGFiZWwgfHwgJycsIGJ5dGVzOiAwLCBmaWxlczogMCwgbmV3ZXN0OiAwLCBzYW1wbGVzOiBbXSB9CiAgICBidWNrZXQuYnl0ZXMgKz0gYnl0ZXMKICAgIGJ1Y2tldC5maWxlcyArPSBmaWxlcwogICAgaWYgKGF0ID4gYnVja2V0Lm5ld2VzdCkgYnVja2V0Lm5ld2VzdCA9IGF0CiAgICBpZiAoc2FtcGxlICYmIGJ1Y2tldC5zYW1wbGVzLmxlbmd0aCA8IDUpIGJ1Y2tldC5zYW1wbGVzLnB1c2goc2FtcGxlKQogICAgb3duZXJzLnNldChvd25lciwgYnVja2V0KQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gd2Fsayhyb290LCBkaXIsIGRlcHRoKSB7CiAgICBpZiAoZGVwdGggPiBsaW1pdHMubWF4RGVwdGgpIHJldHVybgogICAgbGV0IGhhbmRsZQogICAgdHJ5IHsKICAgICAgaGFuZGxlID0gYXdhaXQgb3BlbmRpcihkaXIpCiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuCiAgICB9CiAgICBjb25zdCBjaGlsZHJlbiA9IFtdCiAgICB0cnkgewogICAgICBmb3IgYXdhaXQgKGNvbnN0IGVudHJ5IG9mIGhhbmRsZSkgewogICAgICAgIGlmIChsaW1pdHMuc2tpcE5hbWVzLmhhcyhlbnRyeS5uYW1lKSkgY29udGludWUKICAgICAgICBpZiAoKHJvb3Quc2tpcCB8fCBbXSkuaW5jbHVkZXMoZW50cnkubmFtZSkpIGNvbnRpbnVlCiAgICAgICAgY2hpbGRyZW4ucHVzaChlbnRyeSkKICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybgogICAgfQoKICAgIGZvciAoY29uc3QgZW50cnkgb2YgY2hpbGRyZW4pIHsKICAgICAgY29uc3QgZnVsbCA9IGpvaW4oZGlyLCBlbnRyeS5uYW1lKQogICAgICBsZXQgc3QKICAgICAgdHJ5IHsKICAgICAgICBzdCA9IGF3YWl0IGxzdGF0KGZ1bGwpCiAgICAgIH0gY2F0Y2ggewogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgaWYgKHN0LmlzU3ltYm9saWNMaW5rKCkpIGNvbnRpbnVlCiAgICAgIGNvbnN0IG93bmVyID0gb3duZXJPZihyb290LCBmdWxsKQoKICAgICAgaWYgKHN0LmlzRGlyZWN0b3J5KCkpIHsKICAgICAgICBpZiAoc3QuYmlydGh0aW1lTXMgPj0gc2luY2UpIHsKICAgICAgICAgIGNvbnN0IG0gPSBhd2FpdCBtZWFzdXJlKGZ1bGwsIHsgLi4ubGltaXRzLCBza2lwTmFtZXM6IG5ldyBTZXQoKSB9KQogICAgICAgICAgYnVtcChvd25lciwgbS5ieXRlcywgbS5maWxlcywgc3QuYmlydGh0aW1lTXMsIGZ1bGwsIHJvb3QubGFiZWwpCiAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KICAgICAgICAvLyDnm67lvZXmnKzouqvlvojml6fvvIzkvYblhoXpg6jov5jlnKjmlLkg4oaSIOe7p+e7reS4i+a9nO+8m+WQpuWImeWJquaenQogICAgICAgIGlmIChzdC5tdGltZU1zID49IHNpbmNlIC0gMzYwMF8wMDApIGF3YWl0IHdhbGsocm9vdCwgZnVsbCwgZGVwdGggKyAxKQogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KCiAgICAgIGlmICghc3QuaXNGaWxlKCkpIGNvbnRpbnVlCiAgICAgIGNvbnN0IGF0ID0gTWF0aC5tYXgoc3QubXRpbWVNcywgc3QuYmlydGh0aW1lTXMpCiAgICAgIGlmIChhdCA8IHNpbmNlKSBjb250aW51ZQogICAgICBidW1wKG93bmVyLCBzdC5zaXplLCAxLCBhdCwgZnVsbCwgcm9vdC5sYWJlbCkKICAgIH0KICB9CgogIGZvciAoY29uc3Qgcm9vdCBvZiByb290cykgewogICAgY29uc3Qgc3RhcnRlZCA9IERhdGUubm93KCkKICAgIHRyeSB7CiAgICAgIGF3YWl0IHdhbGsocm9vdCwgcm9vdC5wYXRoLCAwKQogICAgfSBjYXRjaCB7CiAgICAgIC8qIOWNleS4quagueWksei0peS4jeW9seWTjeWFtuS9mSAqLwogICAgfQogICAgcm9vdC5fbXMgPSBEYXRlLm5vdygpIC0gc3RhcnRlZAogIH0KCiAgY29uc3QgY29sbGFwc2VkID0gY29sbGFwc2VTaWJsaW5ncyhbLi4ub3duZXJzLnZhbHVlcygpXSkKICBjb25zdCBsaXN0ID0gY29sbGFwc2VkLnNvcnQoKGEsIGIpID0+IGIuYnl0ZXMgLSBhLmJ5dGVzKQogIGNvbnN0IG1heEl0ZW1zID0gb3B0cy5tYXhJdGVtcyA/PyA2MAogIHJldHVybiB7CiAgICBzaW5jZSwKICAgIHNjYW5uZWRBdDogRGF0ZS5ub3coKSwKICAgIHJvb3RzOiByb290cy5tYXAoKHJvb3QpID0+ICh7IHBhdGg6IHJvb3QucGF0aCwgbGFiZWw6IHJvb3QubGFiZWwgfHwgcm9vdC5wYXRoLCBtczogcm9vdC5fbXMgPz8gMCB9KSksCiAgICB0b3RhbEJ5dGVzOiBsaXN0LnJlZHVjZSgoc3VtLCBpdGVtKSA9PiBzdW0gKyBpdGVtLmJ5dGVzLCAwKSwKICAgIHRvdGFsRmlsZXM6IGxpc3QucmVkdWNlKChzdW0sIGl0ZW0pID0+IHN1bSArIGl0ZW0uZmlsZXMsIDApLAogICAgaXRlbXM6IGxpc3Quc2xpY2UoMCwgbWF4SXRlbXMpLAogIH0KfQo=
+/**
+ * 「今天多出来的」扫描：不依赖基线，直接按文件系统时间戳找最近写入的东西。
+ *
+ * 为什么需要它：基线只能发现「基线之后新出现的条目」，而 C:\Windows\Temp 这类
+ * 根本不在常规监视根里的目录，就算每天堆 17 GB 也永远不会出现在报告里。
+ *
+ * 规则：
+ *   - 文件 mtime 或 birthtime >= since → 计入
+ *   - 目录 birthtime >= since → 整个目录计入（不再逐文件判断，直接 measure）
+ *   - 目录 mtime < since - 1h 且 birthtime < since → 整棵剪掉（里面不可能有新东西）
+ *   - 按「归属方」聚合：root 下 ownerDepth 层目录为一行（默认 1，C:\ 为 2）
+ *   - 同一父目录下名字只差数字后缀的兄弟（cdp-seq-9667 …）合并成一行
+ */
+import { opendir, lstat } from 'node:fs/promises'
+import { basename, dirname, join, relative } from 'node:path'
+import { measure } from './scan.js'
+
+/**
+ * 把「同一父目录下、名字只差数字后缀」的兄弟合并成一行。
+ * C:\Windows\Temp\cdp-seq-9667 / cdp-eval-9773 … 一共 303 个目录，
+ * 不合并的话用户只会看到一屏碎片，而不是「17 GB 全是 cdp-*」这个结论。
+ */
+function collapseSiblings(items) {
+  const groups = new Map()
+  const singles = []
+  for (const item of items) {
+    const parent = dirname(item.path)
+    const leaf = basename(item.path)
+    const match = leaf.match(/^(.*?)[-_.]?\d{2,}$/)
+    if (!match) {
+      singles.push(item)
+      continue
+    }
+    const key = `${parent.toLowerCase()}|${match[1]}`
+    const bucket = groups.get(key) || {
+      path: join(parent, `${match[1]}*`),
+      label: item.label,
+      pattern: match[1],
+      count: 0,
+      bytes: 0,
+      files: 0,
+      newest: 0,
+      samples: [],
+      children: [],
+    }
+    bucket.count += 1
+    bucket.bytes += item.bytes
+    bucket.files += item.files
+    bucket.newest = Math.max(bucket.newest, item.newest)
+    if (bucket.samples.length < 3) bucket.samples.push(item.path)
+    bucket.children.push(item.path)
+    groups.set(key, bucket)
+  }
+  const merged = [...groups.values()].filter((bucket) => bucket.count >= 3)
+  const rest = [...groups.values()].filter((bucket) => bucket.count < 3)
+  for (const bucket of rest) {
+    for (const child of bucket.children) {
+      const single = items.find((item) => item.path === child)
+      if (single) singles.push(single)
+    }
+  }
+  return [...singles, ...merged].sort((a, b) => b.bytes - a.bytes)
+}
+
+const DEFAULT_LIMITS = {
+  maxFilesPerEntry: 400_000,
+  maxDepth: 12,
+  concurrency: 8,
+  skipNames: new Set(['$RECYCLE.BIN', 'System Volume Information', 'WinSxS', 'node_modules']),
+}
+
+/**
+ * @param {Array<{path:string, label?:string, ownerDepth?:number, skip?:string[]}>} roots
+ * @param {{since:number, limits?:object, maxItems?:number}} opts
+ */
+export async function scanRecent(roots, opts = {}) {
+  const since = opts.since ?? Date.now() - 24 * 3600 * 1000
+  const limits = { ...DEFAULT_LIMITS, ...(opts.limits || {}) }
+  const owners = new Map()
+
+  const ownerOf = (root, target) => {
+    const depth = root.ownerDepth ?? 1
+    const rel = relative(root.path, target)
+    if (!rel || rel.startsWith('..')) return target
+    const parts = rel.split(/[\\/]/).filter(Boolean)
+    const take = parts.slice(0, Math.max(1, depth))
+    return join(root.path, ...take)
+  }
+
+  const bump = (owner, bytes, files, at, sample, rootLabel) => {
+    const bucket = owners.get(owner) || { path: owner, label: rootLabel || '', bytes: 0, files: 0, newest: 0, samples: [] }
+    bucket.bytes += bytes
+    bucket.files += files
+    if (at > bucket.newest) bucket.newest = at
+    if (sample && bucket.samples.length < 5) bucket.samples.push(sample)
+    owners.set(owner, bucket)
+  }
+
+  async function walk(root, dir, depth) {
+    if (depth > limits.maxDepth) return
+    let handle
+    try {
+      handle = await opendir(dir)
+    } catch {
+      return
+    }
+    const children = []
+    try {
+      for await (const entry of handle) {
+        if (limits.skipNames.has(entry.name)) continue
+        if ((root.skip || []).includes(entry.name)) continue
+        children.push(entry)
+      }
+    } catch {
+      return
+    }
+
+    for (const entry of children) {
+      const full = join(dir, entry.name)
+      let st
+      try {
+        st = await lstat(full)
+      } catch {
+        continue
+      }
+      if (st.isSymbolicLink()) continue
+      const owner = ownerOf(root, full)
+
+      if (st.isDirectory()) {
+        if (st.birthtimeMs >= since) {
+          const m = await measure(full, { ...limits, skipNames: new Set() })
+          bump(owner, m.bytes, m.files, st.birthtimeMs, full, root.label)
+          continue
+        }
+        // 目录本身很旧，但内部还在改 → 继续下潜；否则剪枝
+        if (st.mtimeMs >= since - 3600_000) await walk(root, full, depth + 1)
+        continue
+      }
+
+      if (!st.isFile()) continue
+      const at = Math.max(st.mtimeMs, st.birthtimeMs)
+      if (at < since) continue
+      bump(owner, st.size, 1, at, full, root.label)
+    }
+  }
+
+  for (const root of roots) {
+    const started = Date.now()
+    try {
+      await walk(root, root.path, 0)
+    } catch {
+      /* 单个根失败不影响其余 */
+    }
+    root._ms = Date.now() - started
+  }
+
+  const collapsed = collapseSiblings([...owners.values()])
+  const list = collapsed.sort((a, b) => b.bytes - a.bytes)
+  const maxItems = opts.maxItems ?? 60
+  return {
+    since,
+    scannedAt: Date.now(),
+    roots: roots.map((root) => ({ path: root.path, label: root.label || root.path, ms: root._ms ?? 0 })),
+    totalBytes: list.reduce((sum, item) => sum + item.bytes, 0),
+    totalFiles: list.reduce((sum, item) => sum + item.files, 0),
+    items: list.slice(0, maxItems),
+  }
+}

@@ -1,1 +1,103 @@
-LyoqCiAqIOetvuWQjeaOqOaWre+8muefpeivhuW6k+ayoeaUtuW9leaXtu+8jOS4jeeejueMnO+8jOWOu+eci+ebruW9lemHjOiHquW3seWGmeeahOiHquaIkeS7i+e7jeOAggogKiAgIDEuIHBhY2thZ2UuanNvbiDnmoQgbmFtZSAvIGRlc2NyaXB0aW9uCiAqICAgMi4gUHl0aG9uIOeahCAqLmRpc3QtaW5mby9NRVRBREFUQSDihpIgTmFtZSArIFN1bW1hcnkKICogICAzLiBSRUFETUUubWQgLyBSRUFETUUuemgubWQg55qE56ys5LiA5Liq5qCH6aKY5oiW56ys5LiA6KGMCiAqICAgNC4gLmdpdC9jb25maWcg6YeM55qEIHJlbW90ZSB1cmzvvIjku5PlupPmnaXmupDvvIkKICog5Y+q6K+75bCP5paH5Lu277yIPD0gMjU2IEtC77yJ77yM57uT5p6c6L+b5YaF5a2Y57yT5a2Y44CC5YWo56iL5LiN5Y+R572R57uc6K+35rGC44CCCiAqLwppbXBvcnQgeyByZWFkZGlyLCByZWFkRmlsZSwgc3RhdCB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCB7IGpvaW4gfSBmcm9tICdub2RlOnBhdGgnCgpjb25zdCBjYWNoZSA9IG5ldyBNYXAoKQpjb25zdCBNQVhfQllURVMgPSAyNTYgKiAxMDI0CmNvbnN0IFRUTCA9IDYwICogNjAgKiAxMDAwCgphc3luYyBmdW5jdGlvbiByZWFkU21hbGwoZmlsZSkgewogIHRyeSB7CiAgICBjb25zdCBpbmZvID0gYXdhaXQgc3RhdChmaWxlKQogICAgaWYgKCFpbmZvLmlzRmlsZSgpIHx8IGluZm8uc2l6ZSA+IE1BWF9CWVRFUykgcmV0dXJuICcnCiAgICByZXR1cm4gYXdhaXQgcmVhZEZpbGUoZmlsZSwgJ3V0ZjgnKQogIH0gY2F0Y2ggewogICAgcmV0dXJuICcnCiAgfQp9CgpmdW5jdGlvbiBmaXJzdExpbmUodGV4dCkgewogIGZvciAoY29uc3QgbGluZSBvZiBTdHJpbmcodGV4dCkuc3BsaXQoL1xyP1xuLykpIHsKICAgIGNvbnN0IHRyaW1tZWQgPSBsaW5lLnJlcGxhY2UoL14jK1xzKi8sICcnKS5yZXBsYWNlKC9bYCpfPl0vZywgJycpLnRyaW0oKQogICAgaWYgKHRyaW1tZWQubGVuZ3RoID49IDMpIHJldHVybiB0cmltbWVkCiAgfQogIHJldHVybiAnJwp9CgovKioKICogQHBhcmFtIHtzdHJpbmd9IGRpciDlronoo4Xnm67lvZUKICogQHJldHVybnMge1Byb21pc2U8e3B1cnBvc2U6c3RyaW5nLCBmcm9tOnN0cmluZ318bnVsbD59CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaW5mZXJGcm9tRm9sZGVyKGRpcikgewogIGlmICghZGlyKSByZXR1cm4gbnVsbAogIGNvbnN0IGtleSA9IGRpci50b0xvd2VyQ2FzZSgpCiAgY29uc3QgaGl0ID0gY2FjaGUuZ2V0KGtleSkKICBpZiAoaGl0ICYmIERhdGUubm93KCkgLSBoaXQuYXQgPCBUVEwpIHJldHVybiBoaXQudmFsdWUKCiAgbGV0IHJlc3VsdCA9IG51bGwKICB0cnkgewogICAgLy8gMSkgTm9kZSDljIUKICAgIGNvbnN0IHBrZ1RleHQgPSBhd2FpdCByZWFkU21hbGwoam9pbihkaXIsICdwYWNrYWdlLmpzb24nKSkKICAgIGlmIChwa2dUZXh0KSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcGtnID0gSlNPTi5wYXJzZShwa2dUZXh0KQogICAgICAgIGNvbnN0IGRlc2NyaXB0aW9uID0gdHlwZW9mIHBrZy5kZXNjcmlwdGlvbiA9PT0gJ3N0cmluZycgPyBwa2cuZGVzY3JpcHRpb24udHJpbSgpIDogJycKICAgICAgICBjb25zdCBuYW1lID0gdHlwZW9mIHBrZy5uYW1lID09PSAnc3RyaW5nJyA/IHBrZy5uYW1lIDogJycKICAgICAgICBpZiAoZGVzY3JpcHRpb24pIHJlc3VsdCA9IHsgcHVycG9zZTogYCR7bmFtZSB8fCAn6K+l5YyFJ33vvJoke2Rlc2NyaXB0aW9ufWAsIGZyb206ICdwYWNrYWdlLmpzb24nIH0KICAgICAgICBlbHNlIGlmIChuYW1lKSByZXN1bHQgPSB7IHB1cnBvc2U6IGAke25hbWV977yIcGFja2FnZS5qc29uIOacquWGmeivtOaYju+8iWAsIGZyb206ICdwYWNrYWdlLmpzb24nIH0KICAgICAgfSBjYXRjaCB7CiAgICAgICAgLyogcGFja2FnZS5qc29uIOWdj+S6huWwsee7p+e7reW+gOS4i+eciyAqLwogICAgICB9CiAgICB9CgogICAgLy8gMikgUHl0aG9uIOWMhQogICAgaWYgKCFyZXN1bHQpIHsKICAgICAgY29uc3QgZW50cmllcyA9IGF3YWl0IHJlYWRkaXIoZGlyLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkuY2F0Y2goKCkgPT4gW10pCiAgICAgIGNvbnN0IGRpc3RJbmZvID0gZW50cmllcy5maW5kKChlbnRyeSkgPT4gZW50cnkuaXNEaXJlY3RvcnkoKSAmJiBlbnRyeS5uYW1lLmVuZHNXaXRoKCcuZGlzdC1pbmZvJykpCiAgICAgIGlmIChkaXN0SW5mbykgewogICAgICAgIGNvbnN0IG1ldGEgPSBhd2FpdCByZWFkU21hbGwoam9pbihkaXIsIGRpc3RJbmZvLm5hbWUsICdNRVRBREFUQScpKQogICAgICAgIGlmIChtZXRhKSB7CiAgICAgICAgICBjb25zdCBuYW1lTWF0Y2ggPSBtZXRhLm1hdGNoKC9eTmFtZTpccyooLispJC9tKQogICAgICAgICAgY29uc3Qgc3VtbWFyeU1hdGNoID0gbWV0YS5tYXRjaCgvXlN1bW1hcnk6XHMqKC4rKSQvbSkKICAgICAgICAgIGNvbnN0IG5hbWUgPSBuYW1lTWF0Y2ggPyBuYW1lTWF0Y2hbMV0udHJpbSgpIDogJycKICAgICAgICAgIGNvbnN0IHN1bW1hcnkgPSBzdW1tYXJ5TWF0Y2ggPyBzdW1tYXJ5TWF0Y2hbMV0udHJpbSgpIDogJycKICAgICAgICAgIGlmIChuYW1lIHx8IHN1bW1hcnkpIHsKICAgICAgICAgICAgcmVzdWx0ID0geyBwdXJwb3NlOiBgJHtuYW1lIHx8ICfor6XljIUnfSR7c3VtbWFyeSA/IGDvvJoke3N1bW1hcnl9YCA6ICfvvIhNRVRBREFUQSDmnKrlhpkgU3VtbWFyee+8iSd9YCwgZnJvbTogJ01FVEFEQVRBJyB9CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9CgogICAgLy8gMykgUkVBRE1FCiAgICBpZiAoIXJlc3VsdCkgewogICAgICBmb3IgKGNvbnN0IG5hbWUgb2YgWydSRUFETUUuemgtQ04ubWQnLCAnUkVBRE1FLnpoLm1kJywgJ1JFQURNRS5tZCcsICdyZWFkbWUubWQnLCAnUkVBRE1FJywgJ1JFQURNRS50eHQnXSkgewogICAgICAgIGNvbnN0IHRleHQgPSBhd2FpdCByZWFkU21hbGwoam9pbihkaXIsIG5hbWUpKQogICAgICAgIGlmICghdGV4dCkgY29udGludWUKICAgICAgICBjb25zdCBsaW5lID0gZmlyc3RMaW5lKHRleHQpCiAgICAgICAgaWYgKGxpbmUpIHsKICAgICAgICAgIHJlc3VsdCA9IHsgcHVycG9zZTogYOacquaUtuW9le+8jOaMieS7k+W6k+iHqui/sO+8miR7bGluZS5zbGljZSgwLCAxMjApfWAsIGZyb206IG5hbWUgfQogICAgICAgICAgYnJlYWsKICAgICAgICB9CiAgICAgIH0KICAgIH0KCiAgICAvLyA0KSBnaXQg5LuT5bqT5p2l5rqQCiAgICBpZiAoIXJlc3VsdCkgewogICAgICBjb25zdCBjb25maWcgPSBhd2FpdCByZWFkU21hbGwoam9pbihkaXIsICcuZ2l0JywgJ2NvbmZpZycpKQogICAgICBjb25zdCB1cmwgPSBjb25maWcubWF0Y2goL3VybFxzKj1ccyooLispLykKICAgICAgaWYgKHVybCkgcmVzdWx0ID0geyBwdXJwb3NlOiBg5pyq5pS25b2V55qE5Luj56CB5LuT5bqT77yM5p2l5rqQICR7dXJsWzFdLnRyaW0oKX1gLCBmcm9tOiAnLmdpdC9jb25maWcnIH0KICAgIH0KICB9IGNhdGNoIHsKICAgIHJlc3VsdCA9IG51bGwKICB9CgogIGNhY2hlLnNldChrZXksIHsgYXQ6IERhdGUubm93KCksIHZhbHVlOiByZXN1bHQgfSkKICByZXR1cm4gcmVzdWx0Cn0K
+/**
+ * 签名推断：知识库没收录时，不瞎猜，去看目录里自己写的自我介绍。
+ *   1. package.json 的 name / description
+ *   2. Python 的 *.dist-info/METADATA → Name + Summary
+ *   3. README.md / README.zh.md 的第一个标题或第一行
+ *   4. .git/config 里的 remote url（仓库来源）
+ * 只读小文件（<= 256 KB），结果进内存缓存。全程不发网络请求。
+ */
+import { readdir, readFile, stat } from 'node:fs/promises'
+import { join } from 'node:path'
+
+const cache = new Map()
+const MAX_BYTES = 256 * 1024
+const TTL = 60 * 60 * 1000
+
+async function readSmall(file) {
+  try {
+    const info = await stat(file)
+    if (!info.isFile() || info.size > MAX_BYTES) return ''
+    return await readFile(file, 'utf8')
+  } catch {
+    return ''
+  }
+}
+
+function firstLine(text) {
+  for (const line of String(text).split(/\r?\n/)) {
+    const trimmed = line.replace(/^#+\s*/, '').replace(/[`*_>]/g, '').trim()
+    if (trimmed.length >= 3) return trimmed
+  }
+  return ''
+}
+
+/**
+ * @param {string} dir 安装目录
+ * @returns {Promise<{purpose:string, from:string}|null>}
+ */
+export async function inferFromFolder(dir) {
+  if (!dir) return null
+  const key = dir.toLowerCase()
+  const hit = cache.get(key)
+  if (hit && Date.now() - hit.at < TTL) return hit.value
+
+  let result = null
+  try {
+    // 1) Node 包
+    const pkgText = await readSmall(join(dir, 'package.json'))
+    if (pkgText) {
+      try {
+        const pkg = JSON.parse(pkgText)
+        const description = typeof pkg.description === 'string' ? pkg.description.trim() : ''
+        const name = typeof pkg.name === 'string' ? pkg.name : ''
+        if (description) result = { purpose: `${name || '该包'}：${description}`, from: 'package.json' }
+        else if (name) result = { purpose: `${name}（package.json 未写说明）`, from: 'package.json' }
+      } catch {
+        /* package.json 坏了就继续往下看 */
+      }
+    }
+
+    // 2) Python 包
+    if (!result) {
+      const entries = await readdir(dir, { withFileTypes: true }).catch(() => [])
+      const distInfo = entries.find((entry) => entry.isDirectory() && entry.name.endsWith('.dist-info'))
+      if (distInfo) {
+        const meta = await readSmall(join(dir, distInfo.name, 'METADATA'))
+        if (meta) {
+          const nameMatch = meta.match(/^Name:\s*(.+)$/m)
+          const summaryMatch = meta.match(/^Summary:\s*(.+)$/m)
+          const name = nameMatch ? nameMatch[1].trim() : ''
+          const summary = summaryMatch ? summaryMatch[1].trim() : ''
+          if (name || summary) {
+            result = { purpose: `${name || '该包'}${summary ? `：${summary}` : '（METADATA 未写 Summary）'}`, from: 'METADATA' }
+          }
+        }
+      }
+    }
+
+    // 3) README
+    if (!result) {
+      for (const name of ['README.zh-CN.md', 'README.zh.md', 'README.md', 'readme.md', 'README', 'README.txt']) {
+        const text = await readSmall(join(dir, name))
+        if (!text) continue
+        const line = firstLine(text)
+        if (line) {
+          result = { purpose: `未收录，按仓库自述：${line.slice(0, 120)}`, from: name }
+          break
+        }
+      }
+    }
+
+    // 4) git 仓库来源
+    if (!result) {
+      const config = await readSmall(join(dir, '.git', 'config'))
+      const url = config.match(/url\s*=\s*(.+)/)
+      if (url) result = { purpose: `未收录的代码仓库，来源 ${url[1].trim()}`, from: '.git/config' }
+    }
+  } catch {
+    result = null
+  }
+
+  cache.set(key, { at: Date.now(), value: result })
+  return result
+}

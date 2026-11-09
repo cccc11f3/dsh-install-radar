@@ -1,1 +1,92 @@
-LyoqCiAqIOeoi+W6j+a4heWNleWxgu+8mldpbmRvd3Mg55qE44CM5bey5a6J6KOF56iL5bqP44CN6YO955m76K6w5ZyoIFVuaW5zdGFsbCDms6jlhozooajplK7ph4zvvIwKICog6L+Z6YeM5LiA5qyh5oCn5oqKIERpc3BsYXlOYW1lIC8g54mI5pysIC8g5a6J6KOF5L2N572uIC8g5Lyw566X5L2T56ev6K+75Ye65p2l77yMCiAqIOeUqOS6jue7mSB3aW5nZXQgLyDlronoo4XlmaggLyBHVUkg5a6J6KOF55qE56iL5bqP6KGl5LiK5L2N572u5LiO5L2T56ev44CCCiAqLwppbXBvcnQgeyBleGVjRmlsZSB9IGZyb20gJ25vZGU6Y2hpbGRfcHJvY2VzcycKaW1wb3J0IHsgZXhpc3RzU3luYyB9IGZyb20gJ25vZGU6ZnMnCgpsZXQgY2FjaGUgPSB7IGF0OiAwLCB2YWx1ZTogbnVsbCB9CmNvbnN0IFRUTCA9IDEwICogNjAgKiAxMDAwCgpjb25zdCBTQ1JJUFQgPSBgJEVycm9yQWN0aW9uUHJlZmVyZW5jZT0nU2lsZW50bHlDb250aW51ZSc7CiRwYXRocyA9IEAoCiAgJ0hLTE06XFxTT0ZUV0FSRVxcTWljcm9zb2Z0XFxXaW5kb3dzXFxDdXJyZW50VmVyc2lvblxcVW5pbnN0YWxsXFwqJywKICAnSEtMTTpcXFNPRlRXQVJFXFxXT1c2NDMyTm9kZVxcTWljcm9zb2Z0XFxXaW5kb3dzXFxDdXJyZW50VmVyc2lvblxcVW5pbnN0YWxsXFwqJywKICAnSEtDVTpcXFNPRlRXQVJFXFxNaWNyb3NvZnRcXFdpbmRvd3NcXEN1cnJlbnRWZXJzaW9uXFxVbmluc3RhbGxcXConCik7CkdldC1JdGVtUHJvcGVydHkgJHBhdGhzIHwgV2hlcmUtT2JqZWN0IHsgJF8uRGlzcGxheU5hbWUgfSB8CiAgU2VsZWN0LU9iamVjdCBEaXNwbGF5TmFtZSwgRGlzcGxheVZlcnNpb24sIEluc3RhbGxMb2NhdGlvbiwgRXN0aW1hdGVkU2l6ZSwgSW5zdGFsbERhdGUgfAogIENvbnZlcnRUby1Kc29uIC1Db21wcmVzcyAtRGVwdGggM2AKCmZ1bmN0aW9uIHJ1blBvd2VyU2hlbGwoc2NyaXB0LCB0aW1lb3V0ID0gMzAwMDApIHsKICByZXR1cm4gbmV3IFByb21pc2UoKGRvbmUpID0+IHsKICAgIGNvbnN0IGV4ZSA9IHByb2Nlc3MucGxhdGZvcm0gPT09ICd3aW4zMicgPyAncG93ZXJzaGVsbC5leGUnIDogJycKICAgIGlmICghZXhlKSByZXR1cm4gZG9uZShudWxsKQogICAgZXhlY0ZpbGUoCiAgICAgIGV4ZSwKICAgICAgWyctTm9Qcm9maWxlJywgJy1Ob25JbnRlcmFjdGl2ZScsICctRXhlY3V0aW9uUG9saWN5JywgJ0J5cGFzcycsICctQ29tbWFuZCcsIHNjcmlwdF0sCiAgICAgIHsgdGltZW91dCwgd2luZG93c0hpZGU6IHRydWUsIG1heEJ1ZmZlcjogMzIgKiAxMDI0ICogMTAyNCB9LAogICAgICAoZXJyb3IsIHN0ZG91dCkgPT4gZG9uZShlcnJvciA/IG51bGwgOiBTdHJpbmcoc3Rkb3V0KS50cmltKCkpLAogICAgKQogIH0pCn0KCmNvbnN0IG5vcm0gPSAodmFsdWUpID0+IFN0cmluZyh2YWx1ZSB8fCAnJykudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXHNfLlwtKCnvvIjvvIldL2csICcnKQoKLyoqCiAqIEByZXR1cm5zIHtQcm9taXNlPEFycmF5PHtuYW1lLHZlcnNpb24sbG9jYXRpb24sYnl0ZXMsaW5zdGFsbERhdGUscmF3fT4+fQogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRJbnN0YWxsZWRQcm9ncmFtcyh7IGZvcmNlID0gZmFsc2UgfSA9IHt9KSB7CiAgaWYgKCFmb3JjZSAmJiBjYWNoZS52YWx1ZSAmJiBEYXRlLm5vdygpIC0gY2FjaGUuYXQgPCBUVEwpIHJldHVybiBjYWNoZS52YWx1ZQogIGlmIChwcm9jZXNzLnBsYXRmb3JtICE9PSAnd2luMzInKSB7CiAgICBjYWNoZSA9IHsgYXQ6IERhdGUubm93KCksIHZhbHVlOiBbXSB9CiAgICByZXR1cm4gW10KICB9CiAgY29uc3QgdGV4dCA9IGF3YWl0IHJ1blBvd2VyU2hlbGwoU0NSSVBUKQogIGlmICghdGV4dCkgcmV0dXJuIGNhY2hlLnZhbHVlIHx8IFtdCiAgbGV0IHBhcnNlZAogIHRyeSB7CiAgICBwYXJzZWQgPSBKU09OLnBhcnNlKHRleHQpCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gY2FjaGUudmFsdWUgfHwgW10KICB9CiAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkocGFyc2VkKSA/IHBhcnNlZCA6IFtwYXJzZWRdCiAgY29uc3QgdmFsdWUgPSBsaXN0CiAgICAuZmlsdGVyKChpdGVtKSA9PiBpdGVtICYmIHR5cGVvZiBpdGVtLkRpc3BsYXlOYW1lID09PSAnc3RyaW5nJyAmJiBpdGVtLkRpc3BsYXlOYW1lLnRyaW0oKSkKICAgIC5tYXAoKGl0ZW0pID0+IHsKICAgICAgY29uc3QgbG9jYXRpb24gPSB0eXBlb2YgaXRlbS5JbnN0YWxsTG9jYXRpb24gPT09ICdzdHJpbmcnID8gaXRlbS5JbnN0YWxsTG9jYXRpb24udHJpbSgpIDogJycKICAgICAgY29uc3QgZXN0aW1hdGVkID0gTnVtYmVyKGl0ZW0uRXN0aW1hdGVkU2l6ZSkgfHwgMAogICAgICByZXR1cm4gewogICAgICAgIG5hbWU6IGl0ZW0uRGlzcGxheU5hbWUudHJpbSgpLAogICAgICAgIHZlcnNpb246IHR5cGVvZiBpdGVtLkRpc3BsYXlWZXJzaW9uID09PSAnc3RyaW5nJyA/IGl0ZW0uRGlzcGxheVZlcnNpb24udHJpbSgpIDogJycsCiAgICAgICAgbG9jYXRpb246IGxvY2F0aW9uICYmIGV4aXN0c1N5bmMobG9jYXRpb24pID8gbG9jYXRpb24gOiAnJywKICAgICAgICBlc3RpbWF0ZWRCeXRlczogZXN0aW1hdGVkID4gMCA/IGVzdGltYXRlZCAqIDEwMjQgOiAwLAogICAgICAgIGluc3RhbGxEYXRlOiB0eXBlb2YgaXRlbS5JbnN0YWxsRGF0ZSA9PT0gJ3N0cmluZycgPyBpdGVtLkluc3RhbGxEYXRlIDogJycsCiAgICAgIH0KICAgIH0pCiAgY2FjaGUgPSB7IGF0OiBEYXRlLm5vdygpLCB2YWx1ZSB9CiAgcmV0dXJuIHZhbHVlCn0KCi8qKgogKiDmjInlkI3lrZfmib7lt7Llronoo4XnqIvluo/vvJrnsr7noa7lkIzlkI3kvJjlhYjvvIzlhbbmrKHljIXlkKvljLnphY3vvIjopoHmsYLlhbPplK7or43lpJ/plb/vvIzpgb/lhY3or6/lkb3kuK3vvInjgIIKICogQHBhcmFtIHtzdHJpbmd9IG5hbWUKICogQHBhcmFtIHtBcnJheX0gcHJvZ3JhbXMKICovCmV4cG9ydCBmdW5jdGlvbiBmaW5kUHJvZ3JhbShuYW1lLCBwcm9ncmFtcykgewogIGNvbnN0IHRhcmdldCA9IG5vcm0obmFtZSkKICBpZiAoIXRhcmdldCB8fCB0YXJnZXQubGVuZ3RoIDwgMykgcmV0dXJuIG51bGwKICBsZXQgYmVzdCA9IG51bGwKICBmb3IgKGNvbnN0IHByb2dyYW0gb2YgcHJvZ3JhbXMpIHsKICAgIGNvbnN0IGNhbmRpZGF0ZSA9IG5vcm0ocHJvZ3JhbS5uYW1lKQogICAgaWYgKCFjYW5kaWRhdGUpIGNvbnRpbnVlCiAgICBsZXQgc2NvcmUgPSAwCiAgICBpZiAoY2FuZGlkYXRlID09PSB0YXJnZXQpIHNjb3JlID0gMTAwCiAgICBlbHNlIGlmIChjYW5kaWRhdGUuc3RhcnRzV2l0aCh0YXJnZXQpIHx8IGNhbmRpZGF0ZS5lbmRzV2l0aCh0YXJnZXQpKSBzY29yZSA9IDcwCiAgICBlbHNlIGlmICh0YXJnZXQubGVuZ3RoID49IDQgJiYgY2FuZGlkYXRlLmluY2x1ZGVzKHRhcmdldCkpIHNjb3JlID0gNDUKICAgIGVsc2UgY29udGludWUKICAgIGlmICghYmVzdCB8fCBzY29yZSA+IGJlc3Quc2NvcmUpIGJlc3QgPSB7IHByb2dyYW0sIHNjb3JlIH0KICB9CiAgcmV0dXJuIGJlc3Q/LnByb2dyYW0gPz8gbnVsbAp9Cg==
+/**
+ * 程序清单层：Windows 的「已安装程序」都登记在 Uninstall 注册表键里，
+ * 这里一次性把 DisplayName / 版本 / 安装位置 / 估算体积读出来，
+ * 用于给 winget / 安装器 / GUI 安装的程序补上位置与体积。
+ */
+import { execFile } from 'node:child_process'
+import { existsSync } from 'node:fs'
+
+let cache = { at: 0, value: null }
+const TTL = 10 * 60 * 1000
+
+const SCRIPT = `$ErrorActionPreference='SilentlyContinue';
+$paths = @(
+  'HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*',
+  'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*',
+  'HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*'
+);
+Get-ItemProperty $paths | Where-Object { $_.DisplayName } |
+  Select-Object DisplayName, DisplayVersion, InstallLocation, EstimatedSize, InstallDate |
+  ConvertTo-Json -Compress -Depth 3`
+
+function runPowerShell(script, timeout = 30000) {
+  return new Promise((done) => {
+    const exe = process.platform === 'win32' ? 'powershell.exe' : ''
+    if (!exe) return done(null)
+    execFile(
+      exe,
+      ['-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass', '-Command', script],
+      { timeout, windowsHide: true, maxBuffer: 32 * 1024 * 1024 },
+      (error, stdout) => done(error ? null : String(stdout).trim()),
+    )
+  })
+}
+
+const norm = (value) => String(value || '').toLowerCase().replace(/[\s_.\-()（）]/g, '')
+
+/**
+ * @returns {Promise<Array<{name,version,location,bytes,installDate,raw}>>}
+ */
+export async function loadInstalledPrograms({ force = false } = {}) {
+  if (!force && cache.value && Date.now() - cache.at < TTL) return cache.value
+  if (process.platform !== 'win32') {
+    cache = { at: Date.now(), value: [] }
+    return []
+  }
+  const text = await runPowerShell(SCRIPT)
+  if (!text) return cache.value || []
+  let parsed
+  try {
+    parsed = JSON.parse(text)
+  } catch {
+    return cache.value || []
+  }
+  const list = Array.isArray(parsed) ? parsed : [parsed]
+  const value = list
+    .filter((item) => item && typeof item.DisplayName === 'string' && item.DisplayName.trim())
+    .map((item) => {
+      const location = typeof item.InstallLocation === 'string' ? item.InstallLocation.trim() : ''
+      const estimated = Number(item.EstimatedSize) || 0
+      return {
+        name: item.DisplayName.trim(),
+        version: typeof item.DisplayVersion === 'string' ? item.DisplayVersion.trim() : '',
+        location: location && existsSync(location) ? location : '',
+        estimatedBytes: estimated > 0 ? estimated * 1024 : 0,
+        installDate: typeof item.InstallDate === 'string' ? item.InstallDate : '',
+      }
+    })
+  cache = { at: Date.now(), value }
+  return value
+}
+
+/**
+ * 按名字找已安装程序：精确同名优先，其次包含匹配（要求关键词够长，避免误命中）。
+ * @param {string} name
+ * @param {Array} programs
+ */
+export function findProgram(name, programs) {
+  const target = norm(name)
+  if (!target || target.length < 3) return null
+  let best = null
+  for (const program of programs) {
+    const candidate = norm(program.name)
+    if (!candidate) continue
+    let score = 0
+    if (candidate === target) score = 100
+    else if (candidate.startsWith(target) || candidate.endsWith(target)) score = 70
+    else if (target.length >= 4 && candidate.includes(target)) score = 45
+    else continue
+    if (!best || score > best.score) best = { program, score }
+  }
+  return best?.program ?? null
+}

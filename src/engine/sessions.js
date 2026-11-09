@@ -1,1 +1,277 @@
-LyoqCiAqIOS8muivneaXpeW/l+Wxgu+8mkRTSCDmiormr4/kuKrkvJror53lhpnmiJAgc2Vzc2lvbi52PE4+Lmpzb25sLnpzdGTvvIwKICog5q+P6KGM77yI5q+P5Liq5LqL5Lu277yJ5piv5LiA5Liq54us56uL55qEIHpzdGQg5bin44CC6L+Z6YeM6YCQ5bin6Kej5Y6L77yM5Y+q5Y+W6ZyA6KaB55qE5a2X5q6144CCCiAqLwppbXBvcnQgeyByZWFkZGlyLCByZWFkRmlsZSwgc3RhdCB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCB7IGpvaW4gfSBmcm9tICdub2RlOnBhdGgnCmltcG9ydCB7IHpzdGREZWNvbXByZXNzU3luYyB9IGZyb20gJ25vZGU6emxpYicKaW1wb3J0IHsgZXh0cmFjdEluc3RhbGxzLCBsb29rc0xpa2VJbnN0YWxsIH0gZnJvbSAnLi9jb21tYW5kcy5qcycKCmNvbnN0IE1BR0lDID0gQnVmZmVyLmZyb20oWzB4MjgsIDB4YjUsIDB4MmYsIDB4ZmRdKQpjb25zdCBMT0dfTkFNRSA9IC9ec2Vzc2lvblwuLitcLmpzb25sKFwuenN0ZCk/JC9pCgovKiog5LuO5LiA5p2h5raI5oGv6YeM5Y+W57qv5paH5pys77yIdXNlci9hc3Npc3RhbnQg5Lik56eN57uT5p6E6YO95ZCD77yJICovCmZ1bmN0aW9uIHRleHRPZihkYXRhKSB7CiAgY29uc3QgY29udGVudCA9IGRhdGE/Lm1lc3NhZ2U/LmNvbnRlbnQgPz8gZGF0YT8uY29udGVudAogIGlmICh0eXBlb2YgY29udGVudCA9PT0gJ3N0cmluZycpIHJldHVybiBjb250ZW50CiAgaWYgKCFBcnJheS5pc0FycmF5KGNvbnRlbnQpKSByZXR1cm4gJycKICByZXR1cm4gY29udGVudAogICAgLmZpbHRlcigocGFydCkgPT4gcGFydCAmJiB0eXBlb2YgcGFydC50ZXh0ID09PSAnc3RyaW5nJyAmJiAocGFydC50eXBlID09PSAndGV4dCcgfHwgcGFydC50eXBlID09PSAncmVhc29uaW5nJykpCiAgICAubWFwKChwYXJ0KSA9PiBwYXJ0LnRleHQpCiAgICAuam9pbignXG4nKQp9CgovKioKICog44CM5Li65LuA5LmI6KOF5a6D44CN77ya5LyY5YWI55SoIGFnZW50IOiHquW3seWGmeeahOWRveS7pOihjOivtOaYju+8jOWFtuasoeS7juWug+W9k+aXtueahOaOqOeQhi/or7TmmI7ph4zmjJHkuIDlj6XvvIwKICog5pyA5ZCO6YCA5Zue55So5oi36YKj5Y+l6K+d44CC5Y+q5oyR5LiA5Y+l77yM6K+76LW35p2l5YOP5Lq66K+d44CCCiAqLwpmdW5jdGlvbiBwaWNrV2h5KHsgZGVzY3JpcHRpb24sIGFzc2lzdGFudFRleHQsIHVzZXJUZXh0LCBuYW1lcyB9KSB7CiAgY29uc3QgY2xlYW4gPSAodGV4dCkgPT4gU3RyaW5nKHRleHQgfHwgJycpLnJlcGxhY2UoL1sqX2AjPl0vZywgJycpLnJlcGxhY2UoL1xzKy9nLCAnICcpLnRyaW0oKQogIGlmIChkZXNjcmlwdGlvbiAmJiBjbGVhbihkZXNjcmlwdGlvbikubGVuZ3RoID49IDYpIHsKICAgIHJldHVybiB7IGtpbmQ6ICdhZ2VudC1ub3RlJywgdGV4dDogY2xlYW4oZGVzY3JpcHRpb24pLnNsaWNlKDAsIDIwMCkgfQogIH0KICBjb25zdCBzZW50ZW5jZXMgPSBjbGVhbihhc3Npc3RhbnRUZXh0KQogICAgLnNwbGl0KC8oPzw9W+OAgu+8ge+8ny4hP10pXHMrfFxuKy8pCiAgICAuZmlsdGVyKChsaW5lKSA9PiBsaW5lLmxlbmd0aCA+PSA4KQogIGNvbnN0IGtleXdvcmRzID0gWy4uLihuYW1lcyB8fCBbXSksICdpbnN0YWxsJywgJ+WuieijhScsICfoo4UnLCAn5L6d6LWWJywgJ1NESycsICfnjq/looMnLCAn5bqTJywgJ2Nsb25lJywgJ+aLieWPliddCiAgZm9yIChjb25zdCBzZW50ZW5jZSBvZiBzZW50ZW5jZXMpIHsKICAgIGNvbnN0IGxvd2VyID0gc2VudGVuY2UudG9Mb3dlckNhc2UoKQogICAgaWYgKGtleXdvcmRzLnNvbWUoKHdvcmQpID0+IGxvd2VyLmluY2x1ZGVzKFN0cmluZyh3b3JkKS50b0xvd2VyQ2FzZSgpKSkpIHsKICAgICAgcmV0dXJuIHsga2luZDogJ2Fzc2lzdGFudCcsIHRleHQ6IHNlbnRlbmNlLnNsaWNlKDAsIDIwMCkgfQogICAgfQogIH0KICBpZiAoc2VudGVuY2VzLmxlbmd0aCA+IDApIHJldHVybiB7IGtpbmQ6ICdhc3Npc3RhbnQnLCB0ZXh0OiBzZW50ZW5jZXNbc2VudGVuY2VzLmxlbmd0aCAtIDFdLnNsaWNlKDAsIDIwMCkgfQogIGNvbnN0IHVzZXIgPSBjbGVhbih1c2VyVGV4dCkKICBpZiAodXNlci5sZW5ndGggPj0gNikgcmV0dXJuIHsga2luZDogJ3VzZXInLCB0ZXh0OiB1c2VyLnNsaWNlKDAsIDIwMCkgfQogIHJldHVybiBudWxsCn0KCi8qKiDpgJDluKfop6PljovvvIjluKfkuI7luKfpppblsL7nm7jmjqXvvIznm7TmjqXmlbTlnZfop6Pljovlj6rkvJrmi7/liLDnrKzkuIDluKfvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIGRlY29kZVNlc3Npb25CdWZmZXIoYnVmKSB7CiAgaWYgKCFidWYgfHwgYnVmLmxlbmd0aCA9PT0gMCkgcmV0dXJuIFtdCiAgY29uc3QgaXNac3RkID0gYnVmLnN1YmFycmF5KDAsIDQpLmVxdWFscyhNQUdJQykKICBsZXQgdGV4dAogIGlmICghaXNac3RkKSB7CiAgICB0ZXh0ID0gYnVmLnRvU3RyaW5nKCd1dGY4JykKICB9IGVsc2UgewogICAgY29uc3Qgb2Zmc2V0cyA9IFtdCiAgICBsZXQgaSA9IDAKICAgIHdoaWxlICgoaSA9IGJ1Zi5pbmRleE9mKE1BR0lDLCBpKSkgIT09IC0xKSB7CiAgICAgIG9mZnNldHMucHVzaChpKQogICAgICBpICs9IDQKICAgIH0KICAgIGNvbnN0IGNodW5rcyA9IFtdCiAgICBmb3IgKGxldCBrID0gMDsgayA8IG9mZnNldHMubGVuZ3RoOyBrKyspIHsKICAgICAgY29uc3QgZW5kID0gayArIDEgPCBvZmZzZXRzLmxlbmd0aCA/IG9mZnNldHNbayArIDFdIDogYnVmLmxlbmd0aAogICAgICB0cnkgewogICAgICAgIGNodW5rcy5wdXNoKHpzdGREZWNvbXByZXNzU3luYyhidWYuc3ViYXJyYXkob2Zmc2V0c1trXSwgZW5kKSkudG9TdHJpbmcoJ3V0ZjgnKSkKICAgICAgfSBjYXRjaCB7CiAgICAgICAgLyog5Z2P5bin77yI5YaZ5YWl5Lit77yJ77ya6Lez6L+HICovCiAgICAgIH0KICAgIH0KICAgIHRleHQgPSBjaHVua3Muam9pbignXG4nKQogIH0KICBjb25zdCBldmVudHMgPSBbXQogIGZvciAoY29uc3QgbGluZSBvZiB0ZXh0LnNwbGl0KCdcbicpKSB7CiAgICBjb25zdCB0cmltbWVkID0gbGluZS50cmltKCkKICAgIGlmICghdHJpbW1lZCkgY29udGludWUKICAgIHRyeSB7CiAgICAgIGV2ZW50cy5wdXNoKEpTT04ucGFyc2UodHJpbW1lZCkpCiAgICB9IGNhdGNoIHsKICAgICAgLyog5Y2K6KGM77ya6Lez6L+HICovCiAgICB9CiAgfQogIHJldHVybiBldmVudHMKfQoKLyoqIOWIl+WHuuaJgOacieS8muivneaXpeW/l+aWh+S7tiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbGlzdFNlc3Npb25GaWxlcyhkc2hIb21lKSB7CiAgY29uc3Qgcm9vdCA9IGpvaW4oZHNoSG9tZSwgJ3Nlc3Npb25zJykKICBjb25zdCBvdXQgPSBbXQogIGxldCB3b3Jrc3BhY2VzCiAgdHJ5IHsKICAgIHdvcmtzcGFjZXMgPSBhd2FpdCByZWFkZGlyKHJvb3QsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KQogIH0gY2F0Y2ggewogICAgcmV0dXJuIG91dAogIH0KICBmb3IgKGNvbnN0IHdzIG9mIHdvcmtzcGFjZXMpIHsKICAgIGlmICghd3MuaXNEaXJlY3RvcnkoKSkgY29udGludWUKICAgIGNvbnN0IHdzRGlyID0gam9pbihyb290LCB3cy5uYW1lKQogICAgbGV0IHNlc3Npb25zCiAgICB0cnkgewogICAgICBzZXNzaW9ucyA9IGF3YWl0IHJlYWRkaXIod3NEaXIsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KQogICAgfSBjYXRjaCB7CiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBmb3IgKGNvbnN0IHNlc3Npb24gb2Ygc2Vzc2lvbnMpIHsKICAgICAgaWYgKCFzZXNzaW9uLmlzRGlyZWN0b3J5KCkpIGNvbnRpbnVlCiAgICAgIGNvbnN0IGRpciA9IGpvaW4od3NEaXIsIHNlc3Npb24ubmFtZSkKICAgICAgbGV0IGZpbGVzCiAgICAgIHRyeSB7CiAgICAgICAgZmlsZXMgPSBhd2FpdCByZWFkZGlyKGRpcikKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY29udGludWUKICAgICAgfQogICAgICBjb25zdCBsb2cgPSBmaWxlcy5maW5kKChuYW1lKSA9PiBMT0dfTkFNRS50ZXN0KG5hbWUpKQogICAgICBpZiAoIWxvZykgY29udGludWUKICAgICAgY29uc3QgZmlsZSA9IGpvaW4oZGlyLCBsb2cpCiAgICAgIGxldCBpbmZvCiAgICAgIHRyeSB7CiAgICAgICAgaW5mbyA9IGF3YWl0IHN0YXQoZmlsZSkKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY29udGludWUKICAgICAgfQogICAgICBvdXQucHVzaCh7CiAgICAgICAgaWQ6IHNlc3Npb24ubmFtZSwKICAgICAgICB3b3Jrc3BhY2U6IHdzLm5hbWUsCiAgICAgICAgZmlsZSwKICAgICAgICBtdGltZU1zOiBpbmZvLm10aW1lTXMsCiAgICAgICAgYnl0ZXM6IGluZm8uc2l6ZSwKICAgICAgfSkKICAgIH0KICB9CiAgb3V0LnNvcnQoKGEsIGIpID0+IGIubXRpbWVNcyAtIGEubXRpbWVNcykKICByZXR1cm4gb3V0Cn0KCi8qKgogKiDku47kuIDkuKrkvJror53ml6Xlv5fph4zmir3lh7rjgIzlronoo4Xkuovku7bjgI3vvIzlubbluKbkuIrkvJror53ouqvku73kuI7ml7bpl7TjgIIKICogQHJldHVybnMge1Byb21pc2U8e2lkLCB0aXRsZSwgY3dkLCBjcmVhdGVkQXQsIGluc3RhbGxzOiBBcnJheX0+fQogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlYWRTZXNzaW9uSW5zdGFsbHMoZmlsZSwgbWV0YSA9IHt9KSB7CiAgY29uc3QgYnVmID0gYXdhaXQgcmVhZEZpbGUoZmlsZSkKICBjb25zdCBldmVudHMgPSBkZWNvZGVTZXNzaW9uQnVmZmVyKGJ1ZikKICBsZXQgY3dkID0gJycKICBsZXQgY3JlYXRlZEF0CiAgbGV0IHRpdGxlID0gJycKICBsZXQgbGFzdFVzZXJUZXh0ID0gJycKICBsZXQgbGFzdEFzc2lzdGFudFRleHQgPSAnJwogIGNvbnN0IGluc3RhbGxzID0gW10KICBmb3IgKGNvbnN0IGV2ZW50IG9mIGV2ZW50cykgewogICAgaWYgKGV2ZW50LnR5cGUgPT09ICdzZXNzaW9uJykgewogICAgICBjd2QgPSB0eXBlb2YgZXZlbnQuY3dkID09PSAnc3RyaW5nJyA/IGV2ZW50LmN3ZCA6IGN3ZAogICAgICBjcmVhdGVkQXQgPSBldmVudC5jcmVhdGVkQXQgPz8gY3JlYXRlZEF0CiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBpZiAoZXZlbnQudHlwZSA9PT0gJ3Nlc3Npb24vdGl0bGUnICYmIHR5cGVvZiBldmVudC5kYXRhPy50aXRsZSA9PT0gJ3N0cmluZycpIHsKICAgICAgdGl0bGUgPSBldmVudC5kYXRhLnRpdGxlCiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBpZiAoZXZlbnQudHlwZSA9PT0gJ3VzZXIvbWVzc2FnZScpIHsKICAgICAgY29uc3QgdGV4dCA9IHRleHRPZihldmVudC5kYXRhKQogICAgICBpZiAodGV4dC50cmltKCkubGVuZ3RoID4gMCkgbGFzdFVzZXJUZXh0ID0gdGV4dAogICAgICBjb250aW51ZQogICAgfQogICAgaWYgKGV2ZW50LnR5cGUgPT09ICdhc3Npc3RhbnQvbWVzc2FnZScpIHsKICAgICAgY29uc3QgdGV4dCA9IHRleHRPZihldmVudC5kYXRhKQogICAgICBpZiAodGV4dC50cmltKCkubGVuZ3RoID4gMCkgbGFzdEFzc2lzdGFudFRleHQgPSB0ZXh0CiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBpZiAoZXZlbnQudHlwZSAhPT0gJ3Rvb2wvY2FsbCcpIGNvbnRpbnVlCiAgICBjb25zdCBuYW1lID0gZXZlbnQuZGF0YT8ubmFtZQogICAgaWYgKG5hbWUgIT09ICdwd3NoJyAmJiBuYW1lICE9PSAnYmFzaCcpIGNvbnRpbnVlCiAgICBsZXQgYXJncwogICAgdHJ5IHsKICAgICAgYXJncyA9IHR5cGVvZiBldmVudC5kYXRhLmFyZ3VtZW50cyA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKGV2ZW50LmRhdGEuYXJndW1lbnRzKSA6IGV2ZW50LmRhdGEuYXJndW1lbnRzCiAgICB9IGNhdGNoIHsKICAgICAgY29udGludWUKICAgIH0KICAgIGNvbnN0IGNvbW1hbmQgPSBhcmdzPy5jb21tYW5kCiAgICBpZiAodHlwZW9mIGNvbW1hbmQgIT09ICdzdHJpbmcnIHx8ICFsb29rc0xpa2VJbnN0YWxsKGNvbW1hbmQpKSBjb250aW51ZQogICAgY29uc3QgcGFyc2VkID0gZXh0cmFjdEluc3RhbGxzKGNvbW1hbmQpCiAgICBpZiAocGFyc2VkLmxlbmd0aCA9PT0gMCkgY29udGludWUKICAgIGluc3RhbGxzLnB1c2goewogICAgICB0aW1lOiBldmVudC50aW1lLAogICAgICB0dXJuOiBldmVudC5kYXRhLnR1cm4sCiAgICAgIHN0ZXA6IGV2ZW50LmRhdGEuc3RlcCwKICAgICAgY2FsbElkOiBldmVudC5kYXRhLmNhbGxJZCwKICAgICAgY3dkOiB0eXBlb2YgYXJncy5jd2QgPT09ICdzdHJpbmcnID8gYXJncy5jd2QgOiBjd2QsCiAgICAgIGV2ZW50czogcGFyc2VkLAogICAgICBjb21tYW5kOiBjb21tYW5kLmxlbmd0aCA+IDYwMCA/IGAke2NvbW1hbmQuc2xpY2UoMCwgNjAwKX3igKZgIDogY29tbWFuZCwKICAgICAgZGVzY3JpcHRpb246IHR5cGVvZiBhcmdzLmRlc2NyaXB0aW9uID09PSAnc3RyaW5nJyA/IGFyZ3MuZGVzY3JpcHRpb24gOiAnJywKICAgICAgd2h5OiBwaWNrV2h5KHsKICAgICAgICBkZXNjcmlwdGlvbjogdHlwZW9mIGFyZ3MuZGVzY3JpcHRpb24gPT09ICdzdHJpbmcnID8gYXJncy5kZXNjcmlwdGlvbiA6ICcnLAogICAgICAgIGFzc2lzdGFudFRleHQ6IGxhc3RBc3Npc3RhbnRUZXh0LAogICAgICAgIHVzZXJUZXh0OiBsYXN0VXNlclRleHQsCiAgICAgICAgbmFtZXM6IHBhcnNlZC5mbGF0TWFwKChpdGVtKSA9PiBpdGVtLm5hbWVzIHx8IFtdKSwKICAgICAgfSksCiAgICB9KQogIH0KICBpbnN0YWxscy5zb3J0KChhLCBiKSA9PiAoYS50aW1lID8/IDApIC0gKGIudGltZSA/PyAwKSkKICByZXR1cm4gewogICAgaWQ6IG1ldGEuaWQgfHwgJycsCiAgICB3b3Jrc3BhY2U6IG1ldGEud29ya3NwYWNlIHx8ICcnLAogICAgZmlsZSwKICAgIHRpdGxlLAogICAgY3dkLAogICAgY3JlYXRlZEF0LAogICAgbWVzc2FnZUNvdW50OiBldmVudHMubGVuZ3RoLAogICAgaW5zdGFsbHMsCiAgfQp9CgovKioKICog5Y+q6KaB44CM5omA5pyJIHNoZWxsIOiwg+eUqOOAje+8jOeUqOadpee7meejgeebmOS6i+S7tuWBmuaXtumXtOS+p+WGme+8iOS4jemZkOS6juWuieijheWRveS7pO+8ieOAggogKiBAcmV0dXJucyB7UHJvbWlzZTxBcnJheTx7c2Vzc2lvbklkLCB0aXRsZSwgY3dkLCB0aW1lLCBjb21tYW5kfT4+fQogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNvbGxlY3RDb21tYW5kcyhob21lLCB7IGxpbWl0ID0gMCB9ID0ge30pIHsKICBjb25zdCBmaWxlcyA9IGF3YWl0IGxpc3RTZXNzaW9uRmlsZXMoaG9tZSkKICBjb25zdCBzZWxlY3RlZCA9IGxpbWl0ID4gMCA/IGZpbGVzLnNsaWNlKDAsIGxpbWl0KSA6IGZpbGVzCiAgY29uc3Qgb3V0ID0gW10KICBmb3IgKGNvbnN0IGl0ZW0gb2Ygc2VsZWN0ZWQpIHsKICAgIGxldCBldmVudHMKICAgIHRyeSB7CiAgICAgIGV2ZW50cyA9IGRlY29kZVNlc3Npb25CdWZmZXIoYXdhaXQgcmVhZEZpbGUoaXRlbS5maWxlKSkKICAgIH0gY2F0Y2ggewogICAgICBjb250aW51ZQogICAgfQogICAgbGV0IGN3ZCA9ICcnCiAgICBsZXQgdGl0bGUgPSAnJwogICAgZm9yIChjb25zdCBldmVudCBvZiBldmVudHMpIHsKICAgICAgaWYgKGV2ZW50LnR5cGUgPT09ICdzZXNzaW9uJykgewogICAgICAgIGN3ZCA9IHR5cGVvZiBldmVudC5jd2QgPT09ICdzdHJpbmcnID8gZXZlbnQuY3dkIDogY3dkCiAgICAgICAgY29udGludWUKICAgICAgfQogICAgICBpZiAoZXZlbnQudHlwZSA9PT0gJ3Nlc3Npb24vdGl0bGUnICYmIHR5cGVvZiBldmVudC5kYXRhPy50aXRsZSA9PT0gJ3N0cmluZycpIHsKICAgICAgICB0aXRsZSA9IGV2ZW50LmRhdGEudGl0bGUKICAgICAgICBjb250aW51ZQogICAgICB9CiAgICAgIGlmIChldmVudC50eXBlICE9PSAndG9vbC9jYWxsJykgY29udGludWUKICAgICAgY29uc3QgbmFtZSA9IGV2ZW50LmRhdGE/Lm5hbWUKICAgICAgaWYgKG5hbWUgIT09ICdwd3NoJyAmJiBuYW1lICE9PSAnYmFzaCcpIGNvbnRpbnVlCiAgICAgIGxldCBhcmdzCiAgICAgIHRyeSB7CiAgICAgICAgYXJncyA9IHR5cGVvZiBldmVudC5kYXRhLmFyZ3VtZW50cyA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKGV2ZW50LmRhdGEuYXJndW1lbnRzKSA6IGV2ZW50LmRhdGEuYXJndW1lbnRzCiAgICAgIH0gY2F0Y2ggewogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgaWYgKHR5cGVvZiBhcmdzPy5jb21tYW5kICE9PSAnc3RyaW5nJyB8fCBhcmdzLmNvbW1hbmQubGVuZ3RoID09PSAwKSBjb250aW51ZQogICAgICBvdXQucHVzaCh7CiAgICAgICAgc2Vzc2lvbklkOiBpdGVtLmlkLAogICAgICAgIHRpdGxlLAogICAgICAgIGN3ZDogdHlwZW9mIGFyZ3MuY3dkID09PSAnc3RyaW5nJyA/IGFyZ3MuY3dkIDogY3dkLAogICAgICAgIHRpbWU6IGV2ZW50LnRpbWUsCiAgICAgICAgY29tbWFuZDogYXJncy5jb21tYW5kLAogICAgICB9KQogICAgfQogIH0KICBvdXQuc29ydCgoYSwgYikgPT4gKGEudGltZSA/PyAwKSAtIChiLnRpbWUgPz8gMCkpCiAgcmV0dXJuIG91dAp9CgovKiog5omr5YWo6YOo5Lya6K+d77yM5rGH5oC75a6J6KOF5LqL5Lu2ICovZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNvbGxlY3RTZXNzaW9uSW5zdGFsbHMoZHNoSG9tZSwgeyBsaW1pdCA9IDAsIHNpbmNlIH0gPSB7fSkgewogIGNvbnN0IGZpbGVzID0gYXdhaXQgbGlzdFNlc3Npb25GaWxlcyhkc2hIb21lKQogIGNvbnN0IHNlbGVjdGVkID0gbGltaXQgPiAwID8gZmlsZXMuc2xpY2UoMCwgbGltaXQpIDogZmlsZXMKICBjb25zdCBzZXNzaW9ucyA9IFtdCiAgZm9yIChjb25zdCBpdGVtIG9mIHNlbGVjdGVkKSB7CiAgICB0cnkgewogICAgICBjb25zdCBwYXJzZWQgPSBhd2FpdCByZWFkU2Vzc2lvbkluc3RhbGxzKGl0ZW0uZmlsZSwgaXRlbSkKICAgICAgaWYgKHNpbmNlICYmIHBhcnNlZC5pbnN0YWxscy5ldmVyeSgoZW50cnkpID0+IChlbnRyeS50aW1lID8/IDApIDwgc2luY2UpKSBjb250aW51ZQogICAgICBpZiAocGFyc2VkLmluc3RhbGxzLmxlbmd0aCA+IDApIHNlc3Npb25zLnB1c2goeyAuLi5wYXJzZWQsIG10aW1lTXM6IGl0ZW0ubXRpbWVNcyB9KQogICAgfSBjYXRjaCB7CiAgICAgIC8qIOWNleS4quS8muivneivu+Wksei0peS4jeW9seWTjeaVtOS9kyAqLwogICAgfQogIH0KICBzZXNzaW9ucy5zb3J0KChhLCBiKSA9PiAoYi5tdGltZU1zID8/IDApIC0gKGEubXRpbWVNcyA/PyAwKSkKICByZXR1cm4geyBzZXNzaW9ucywgc2Nhbm5lZFNlc3Npb25zOiBzZWxlY3RlZC5sZW5ndGggfQp9Cg==
+/**
+ * 会话日志层：DSH 把每个会话写成 session.v<N>.jsonl.zstd，
+ * 每行（每个事件）是一个独立的 zstd 帧。这里逐帧解压，只取需要的字段。
+ */
+import { readdir, readFile, stat } from 'node:fs/promises'
+import { join } from 'node:path'
+import { zstdDecompressSync } from 'node:zlib'
+import { extractInstalls, looksLikeInstall } from './commands.js'
+
+const MAGIC = Buffer.from([0x28, 0xb5, 0x2f, 0xfd])
+const LOG_NAME = /^session\..+\.jsonl(\.zstd)?$/i
+
+/** 从一条消息里取纯文本（user/assistant 两种结构都吃） */
+function textOf(data) {
+  const content = data?.message?.content ?? data?.content
+  if (typeof content === 'string') return content
+  if (!Array.isArray(content)) return ''
+  return content
+    .filter((part) => part && typeof part.text === 'string' && (part.type === 'text' || part.type === 'reasoning'))
+    .map((part) => part.text)
+    .join('\n')
+}
+
+/**
+ * 「为什么装它」：优先用 agent 自己写的命令行说明，其次从它当时的推理/说明里挑一句，
+ * 最后退回用户那句话。只挑一句，读起来像人话。
+ */
+function pickWhy({ description, assistantText, userText, names }) {
+  const clean = (text) => String(text || '').replace(/[*_`#>]/g, '').replace(/\s+/g, ' ').trim()
+  if (description && clean(description).length >= 6) {
+    return { kind: 'agent-note', text: clean(description).slice(0, 200) }
+  }
+  const sentences = clean(assistantText)
+    .split(/(?<=[。！？.!?])\s+|\n+/)
+    .filter((line) => line.length >= 8)
+  const keywords = [...(names || []), 'install', '安装', '装', '依赖', 'SDK', '环境', '库', 'clone', '拉取']
+  for (const sentence of sentences) {
+    const lower = sentence.toLowerCase()
+    if (keywords.some((word) => lower.includes(String(word).toLowerCase()))) {
+      return { kind: 'assistant', text: sentence.slice(0, 200) }
+    }
+  }
+  if (sentences.length > 0) return { kind: 'assistant', text: sentences[sentences.length - 1].slice(0, 200) }
+  const user = clean(userText)
+  if (user.length >= 6) return { kind: 'user', text: user.slice(0, 200) }
+  return null
+}
+
+/** 逐帧解压（帧与帧首尾相接，直接整块解压只会拿到第一帧） */
+export function decodeSessionBuffer(buf) {
+  if (!buf || buf.length === 0) return []
+  const isZstd = buf.subarray(0, 4).equals(MAGIC)
+  let text
+  if (!isZstd) {
+    text = buf.toString('utf8')
+  } else {
+    const offsets = []
+    let i = 0
+    while ((i = buf.indexOf(MAGIC, i)) !== -1) {
+      offsets.push(i)
+      i += 4
+    }
+    const chunks = []
+    for (let k = 0; k < offsets.length; k++) {
+      const end = k + 1 < offsets.length ? offsets[k + 1] : buf.length
+      try {
+        chunks.push(zstdDecompressSync(buf.subarray(offsets[k], end)).toString('utf8'))
+      } catch {
+        /* 坏帧（写入中）：跳过 */
+      }
+    }
+    text = chunks.join('\n')
+  }
+  const events = []
+  for (const line of text.split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed) continue
+    try {
+      events.push(JSON.parse(trimmed))
+    } catch {
+      /* 半行：跳过 */
+    }
+  }
+  return events
+}
+
+/** 列出所有会话日志文件 */
+export async function listSessionFiles(dshHome) {
+  const root = join(dshHome, 'sessions')
+  const out = []
+  let workspaces
+  try {
+    workspaces = await readdir(root, { withFileTypes: true })
+  } catch {
+    return out
+  }
+  for (const ws of workspaces) {
+    if (!ws.isDirectory()) continue
+    const wsDir = join(root, ws.name)
+    let sessions
+    try {
+      sessions = await readdir(wsDir, { withFileTypes: true })
+    } catch {
+      continue
+    }
+    for (const session of sessions) {
+      if (!session.isDirectory()) continue
+      const dir = join(wsDir, session.name)
+      let files
+      try {
+        files = await readdir(dir)
+      } catch {
+        continue
+      }
+      const log = files.find((name) => LOG_NAME.test(name))
+      if (!log) continue
+      const file = join(dir, log)
+      let info
+      try {
+        info = await stat(file)
+      } catch {
+        continue
+      }
+      out.push({
+        id: session.name,
+        workspace: ws.name,
+        file,
+        mtimeMs: info.mtimeMs,
+        bytes: info.size,
+      })
+    }
+  }
+  out.sort((a, b) => b.mtimeMs - a.mtimeMs)
+  return out
+}
+
+/**
+ * 从一个会话日志里抽出「安装事件」，并带上会话身份与时间。
+ * @returns {Promise<{id, title, cwd, createdAt, installs: Array}>}
+ */
+export async function readSessionInstalls(file, meta = {}) {
+  const buf = await readFile(file)
+  const events = decodeSessionBuffer(buf)
+  let cwd = ''
+  let createdAt
+  let title = ''
+  let lastUserText = ''
+  let lastAssistantText = ''
+  const installs = []
+  for (const event of events) {
+    if (event.type === 'session') {
+      cwd = typeof event.cwd === 'string' ? event.cwd : cwd
+      createdAt = event.createdAt ?? createdAt
+      continue
+    }
+    if (event.type === 'session/title' && typeof event.data?.title === 'string') {
+      title = event.data.title
+      continue
+    }
+    if (event.type === 'user/message') {
+      const text = textOf(event.data)
+      if (text.trim().length > 0) lastUserText = text
+      continue
+    }
+    if (event.type === 'assistant/message') {
+      const text = textOf(event.data)
+      if (text.trim().length > 0) lastAssistantText = text
+      continue
+    }
+    if (event.type !== 'tool/call') continue
+    const name = event.data?.name
+    if (name !== 'pwsh' && name !== 'bash') continue
+    let args
+    try {
+      args = typeof event.data.arguments === 'string' ? JSON.parse(event.data.arguments) : event.data.arguments
+    } catch {
+      continue
+    }
+    const command = args?.command
+    if (typeof command !== 'string' || !looksLikeInstall(command)) continue
+    const parsed = extractInstalls(command)
+    if (parsed.length === 0) continue
+    installs.push({
+      time: event.time,
+      turn: event.data.turn,
+      step: event.data.step,
+      callId: event.data.callId,
+      cwd: typeof args.cwd === 'string' ? args.cwd : cwd,
+      events: parsed,
+      command: command.length > 600 ? `${command.slice(0, 600)}…` : command,
+      description: typeof args.description === 'string' ? args.description : '',
+      why: pickWhy({
+        description: typeof args.description === 'string' ? args.description : '',
+        assistantText: lastAssistantText,
+        userText: lastUserText,
+        names: parsed.flatMap((item) => item.names || []),
+      }),
+    })
+  }
+  installs.sort((a, b) => (a.time ?? 0) - (b.time ?? 0))
+  return {
+    id: meta.id || '',
+    workspace: meta.workspace || '',
+    file,
+    title,
+    cwd,
+    createdAt,
+    messageCount: events.length,
+    installs,
+  }
+}
+
+/**
+ * 只要「所有 shell 调用」，用来给磁盘事件做时间侧写（不限于安装命令）。
+ * @returns {Promise<Array<{sessionId, title, cwd, time, command}>>}
+ */
+export async function collectCommands(home, { limit = 0 } = {}) {
+  const files = await listSessionFiles(home)
+  const selected = limit > 0 ? files.slice(0, limit) : files
+  const out = []
+  for (const item of selected) {
+    let events
+    try {
+      events = decodeSessionBuffer(await readFile(item.file))
+    } catch {
+      continue
+    }
+    let cwd = ''
+    let title = ''
+    for (const event of events) {
+      if (event.type === 'session') {
+        cwd = typeof event.cwd === 'string' ? event.cwd : cwd
+        continue
+      }
+      if (event.type === 'session/title' && typeof event.data?.title === 'string') {
+        title = event.data.title
+        continue
+      }
+      if (event.type !== 'tool/call') continue
+      const name = event.data?.name
+      if (name !== 'pwsh' && name !== 'bash') continue
+      let args
+      try {
+        args = typeof event.data.arguments === 'string' ? JSON.parse(event.data.arguments) : event.data.arguments
+      } catch {
+        continue
+      }
+      if (typeof args?.command !== 'string' || args.command.length === 0) continue
+      out.push({
+        sessionId: item.id,
+        title,
+        cwd: typeof args.cwd === 'string' ? args.cwd : cwd,
+        time: event.time,
+        command: args.command,
+      })
+    }
+  }
+  out.sort((a, b) => (a.time ?? 0) - (b.time ?? 0))
+  return out
+}
+
+/** 扫全部会话，汇总安装事件 */export async function collectSessionInstalls(dshHome, { limit = 0, since } = {}) {
+  const files = await listSessionFiles(dshHome)
+  const selected = limit > 0 ? files.slice(0, limit) : files
+  const sessions = []
+  for (const item of selected) {
+    try {
+      const parsed = await readSessionInstalls(item.file, item)
+      if (since && parsed.installs.every((entry) => (entry.time ?? 0) < since)) continue
+      if (parsed.installs.length > 0) sessions.push({ ...parsed, mtimeMs: item.mtimeMs })
+    } catch {
+      /* 单个会话读失败不影响整体 */
+    }
+  }
+  sessions.sort((a, b) => (b.mtimeMs ?? 0) - (a.mtimeMs ?? 0))
+  return { sessions, scannedSessions: selected.length }
+}

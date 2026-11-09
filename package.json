@@ -1,1 +1,75 @@
-ewogICJuYW1lIjogImRzaC1pbnN0YWxsLXJhZGFyIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIlBlci1zZXNzaW9uIGluc3RhbGwgcmFkYXIgZm9yIERlZXBTZWVrIEhhcm5lc3M6IHdoYXQgZWFjaCBjb252ZXJzYXRpb24gaW5zdGFsbGVkIChQeXRob24gLyBucG0gLyBnaXQgLyB3aW5nZXQpLCB3aXRoIHNpemUsIHBhdGgsIGNyZWF0ZWQgdGltZSwgcHVycG9zZSwgd2h5IGl0IHdhcyBpbnN0YWxsZWQgYW5kIHdoYXQgcmVtb3ZpbmcgaXQgY29zdHMg4oCUIHBsdXMgYSBzaWRlYmFyIHBhbmVsIGFuZCBwcm9jZXNz4oaSZGlzayBjYXVzYWwgYXVkaXQuIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJtYWluIjogInNyYy9pbmRleC5qcyIsCiAgImV4cG9ydHMiOiB7CiAgICAiLiI6ICIuL3NyYy9pbmRleC5qcyIsCiAgICAiLi9jbGllbnQiOiAiLi9zcmMvY2xpZW50LmpzIiwKICAgICIuL2NvcmRpcy5wYXRjaC55bWwiOiAiLi9jb3JkaXMucGF0Y2gueW1sIiwKICAgICIuL3BhY2thZ2UuanNvbiI6ICIuL3BhY2thZ2UuanNvbiIKICB9LAogICJiaW4iOiB7CiAgICAiaW5zdGFsbC1yYWRhciI6ICJiaW4vcmFkYXIubWpzIgogIH0sCiAgImZpbGVzIjogWwogICAgInNyYyIsCiAgICAiYmluIiwKICAgICJjb3JkaXMucGF0Y2gueW1sIiwKICAgICJSRUFETUUubWQiLAogICAgIlJFQURNRS5lbi5tZCIsCiAgICAiTElDRU5TRSIKICBdLAogICJrZXl3b3JkcyI6IFsKICAgICJkc2giLAogICAgImRzaC1wbHVnaW4iLAogICAgImRlZXBzZWVrLWhhcm5lc3MiLAogICAgImluc3RhbGwtYXVkaXQiLAogICAgImludmVudG9yeSIsCiAgICAiZGlzay11c2FnZSIsCiAgICAic2Vzc2lvbi10b29scyIsCiAgICAic2lkZWJhci1wYW5lbCIKICBdLAogICJsaWNlbnNlIjogIk1JVCIsCiAgImF1dGhvciI6ICJZRyIsCiAgImVuZ2luZXMiOiB7CiAgICAibm9kZSI6ICI+PTIwIgogIH0sCiAgInB1Ymxpc2hDb25maWciOiB7CiAgICAicmVnaXN0cnkiOiAiaHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmciLAogICAgImFjY2VzcyI6ICJwdWJsaWMiCiAgfSwKICAiZHNoIjogewogICAgImVuZ2luZXMiOiB7CiAgICAgICJkc2giOiAiPj0wLjIuMC1yYy4xIgogICAgfSwKICAgICJidW5kbGUiOiB7CiAgICAgICJwYXRjaCI6ICIuL2NvcmRpcy5wYXRjaC55bWwiCiAgICB9LAogICAgImNsaWVudCI6IHsKICAgICAgInBsYXRmb3JtIjogIndlYiIsCiAgICAgICJpbmplY3QiOiBbCiAgICAgICAgIkBkZWVwc2Vlay1haS9kc2gtY2xpZW50LWNvbm5lY3Rpb24iLAogICAgICAgICJAZGVlcHNlZWstYWkvZHNoLWNsaWVudC11aS1zbG90cyIKICAgICAgXQogICAgfQogIH0sCiAgInBlZXJEZXBlbmRlbmNpZXMiOiB7CiAgICAiQGRlZXBzZWVrLWFpL2NvcmRpcyI6ICJeNC4wLjEiLAogICAgIkBkZWVwc2Vlay1haS9kc2gtdG9vbHMiOiAiPj0wLjIuMC1yYy4xIgogIH0sCiAgInBlZXJEZXBlbmRlbmNpZXNNZXRhIjogewogICAgIkBkZWVwc2Vlay1haS9kc2gtdG9vbHMiOiB7CiAgICAgICJvcHRpb25hbCI6IHRydWUKICAgIH0KICB9LAogICJyZXBvc2l0b3J5IjogewogICAgInR5cGUiOiAiZ2l0IiwKICAgICJ1cmwiOiAiZ2l0K2h0dHBzOi8vZ2l0aHViLmNvbS9jY2NjMTFmMy9kc2gtaW5zdGFsbC1yYWRhci5naXQiCiAgfSwKICAiaG9tZXBhZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL2NjY2MxMWYzL2RzaC1pbnN0YWxsLXJhZGFyIiwKICAiYnVncyI6IHsKICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2NjY2MxMWYzL2RzaC1pbnN0YWxsLXJhZGFyL2lzc3VlcyIKICB9Cn0K
+{
+  "name": "dsh-install-radar",
+  "version": "1.0.0",
+  "description": "Per-session install radar for DeepSeek Harness: what each conversation installed (Python / npm / git / winget), with size, path, created time, purpose, why it was installed and what removing it costs — plus a sidebar panel and process→disk causal audit.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "install-radar": "bin/radar.mjs"
+  },
+  "files": [
+    "src",
+    "bin",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "install-audit",
+    "inventory",
+    "disk-usage",
+    "session-tools",
+    "sidebar-panel"
+  ],
+  "license": "MIT",
+  "author": "YG",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.0-rc.1"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": ">=0.2.0-rc.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cccc11f3/dsh-install-radar.git"
+  },
+  "homepage": "https://github.com/cccc11f3/dsh-install-radar",
+  "bugs": {
+    "url": "https://github.com/cccc11f3/dsh-install-radar/issues"
+  }
+}

@@ -1,1 +1,114 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICog5ZyoIEdpdEh1YiDkuIrlu7rku5PlupPlubbmjqjpgIHlvZPliY3nm67lvZXvvIjluILlnLrmlLblvZXopoHmsYIgdXJsIOaMh+WQkeecn+WunuS7k+W6k++8ieOAggogKgogKiDnlKjms5XvvJoKICogICAkZW52OkdJVEhVQl9UT0tFTj0nZ2hwX3h4eCcKICogICBub2RlIHB1Ymxpc2gvZ2l0aHViLXJlcG8ubWpzIC0tdXNlciA8R2l0SHViIOeUqOaIt+WQjT4gWy0tbmFtZSBkc2gtaW5zdGFsbC1yYWRhcl0gWy0tcHJpdmF0ZV0KICoKICog6ZyA6KaB77yaZ2l0IOWcqCBQQVRIIOS4iu+8m3Rva2VuIOWFt+WkhyByZXBvIOadg+mZkOOAggogKi8KaW1wb3J0IHsgZXhlY0ZpbGVTeW5jIH0gZnJvbSAnbm9kZTpjaGlsZF9wcm9jZXNzJwppbXBvcnQgeyByZWFkRmlsZVN5bmMsIGV4aXN0c1N5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBkaXJuYW1lLCBqb2luLCByZXNvbHZlIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAnbm9kZTp1cmwnCgpjb25zdCBoZXJlID0gZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpCmNvbnN0IHJvb3QgPSByZXNvbHZlKGhlcmUsICcuLicpCgpjb25zdCBhcmdzID0gbmV3IE1hcCgpCmZvciAobGV0IGkgPSAyOyBpIDwgcHJvY2Vzcy5hcmd2Lmxlbmd0aDsgaSArPSAyKSB7CiAgY29uc3Qga2V5ID0gcHJvY2Vzcy5hcmd2W2ldCiAgaWYgKCFrZXkuc3RhcnRzV2l0aCgnLS0nKSkgY29udGludWUKICBjb25zdCB2YWx1ZSA9IHByb2Nlc3MuYXJndltpICsgMV0KICBhcmdzLnNldChrZXkuc2xpY2UoMiksIHZhbHVlICYmICF2YWx1ZS5zdGFydHNXaXRoKCctLScpID8gdmFsdWUgOiB0cnVlKQp9Cgpjb25zdCB0b2tlbiA9IHByb2Nlc3MuZW52LkdJVEhVQl9UT0tFTiB8fCBwcm9jZXNzLmVudi5HSF9UT0tFTgpjb25zdCB1c2VyID0gYXJncy5nZXQoJ3VzZXInKQpjb25zdCBuYW1lID0gYXJncy5nZXQoJ25hbWUnKSB8fCAnZHNoLWluc3RhbGwtcmFkYXInCmNvbnN0IGlzUHJpdmF0ZSA9IGFyZ3MuZ2V0KCdwcml2YXRlJykgPT09IHRydWUKCmlmICghdXNlcikgewogIGNvbnNvbGUuZXJyb3IoJ+e8uuWwkSAtLXVzZXIgPEdpdEh1YiDnlKjmiLflkI0+JykKICBwcm9jZXNzLmV4aXQoMSkKfQppZiAoIXRva2VuKSB7CiAgY29uc29sZS5lcnJvcign57y65bCRIEdJVEhVQl9UT0tFTiDnjq/looPlj5jph4/vvIjpnIDopoEgcmVwbyDmnYPpmZDvvIknKQogIHByb2Nlc3MuZXhpdCgxKQp9Cgpjb25zdCBhcGkgPSBhc3luYyAocGF0aCwgaW5pdCA9IHt9KSA9PiB7CiAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbSR7cGF0aH1gLCB7CiAgICAuLi5pbml0LAogICAgaGVhZGVyczogewogICAgICBBY2NlcHQ6ICdhcHBsaWNhdGlvbi92bmQuZ2l0aHViK2pzb24nLAogICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7dG9rZW59YCwKICAgICAgJ1VzZXItQWdlbnQnOiAnZHNoLWluc3RhbGwtcmFkYXItcHVibGlzaCcsCiAgICAgIC4uLihpbml0LmhlYWRlcnMgfHwge30pLAogICAgfSwKICB9KQogIGNvbnN0IHRleHQgPSBhd2FpdCByZXNwb25zZS50ZXh0KCkKICBsZXQgYm9keSA9IG51bGwKICB0cnkgewogICAgYm9keSA9IHRleHQgPyBKU09OLnBhcnNlKHRleHQpIDogbnVsbAogIH0gY2F0Y2ggewogICAgYm9keSA9IHRleHQKICB9CiAgcmV0dXJuIHsgb2s6IHJlc3BvbnNlLm9rLCBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywgYm9keSB9Cn0KCmNvbnN0IHBrZyA9IEpTT04ucGFyc2UocmVhZEZpbGVTeW5jKGpvaW4ocm9vdCwgJ3BhY2thZ2UuanNvbicpLCAndXRmOCcpKQoKY29uc29sZS5sb2coYDEpIOehruiupOi0puWPtyDigKZgKQpjb25zdCBtZSA9IGF3YWl0IGFwaSgnL3VzZXInKQppZiAoIW1lLm9rKSB7CiAgY29uc29sZS5lcnJvcihgICAgdG9rZW4g5peg5pWI77yaSFRUUCAke21lLnN0YXR1c30gJHtKU09OLnN0cmluZ2lmeShtZS5ib2R5KS5zbGljZSgwLCAyMDApfWApCiAgcHJvY2Vzcy5leGl0KDEpCn0KY29uc29sZS5sb2coYCAgICR7bWUuYm9keS5sb2dpbn1gKQoKY29uc29sZS5sb2coYDIpIOWIm+W7uuS7k+W6kyAke3VzZXJ9LyR7bmFtZX0g4oCmYCkKY29uc3QgY3JlYXRlZCA9IGF3YWl0IGFwaSgnL3VzZXIvcmVwb3MnLCB7CiAgbWV0aG9kOiAnUE9TVCcsCiAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgbmFtZSwKICAgIGRlc2NyaXB0aW9uOiBwa2cuZGVzY3JpcHRpb24sCiAgICBwcml2YXRlOiBpc1ByaXZhdGUsCiAgICBoYXNfaXNzdWVzOiB0cnVlLAogICAgaGFzX3dpa2k6IGZhbHNlLAogICAgbGljZW5zZV90ZW1wbGF0ZTogJ21pdCcsCiAgfSksCn0pCmlmIChjcmVhdGVkLm9rKSBjb25zb2xlLmxvZyhgICAg5bey5Yib5bu677yaJHtjcmVhdGVkLmJvZHkuaHRtbF91cmx9YCkKZWxzZSBpZiAoY3JlYXRlZC5zdGF0dXMgPT09IDQyMikgY29uc29sZS5sb2coJyAgIOS7k+W6k+W3suWtmOWcqO+8jOi3s+i/h+WIm+W7uicpCmVsc2UgewogIGNvbnNvbGUuZXJyb3IoYCAgIOWIm+W7uuWksei0pe+8mkhUVFAgJHtjcmVhdGVkLnN0YXR1c30gJHtKU09OLnN0cmluZ2lmeShjcmVhdGVkLmJvZHkpLnNsaWNlKDAsIDMwMCl9YCkKICBwcm9jZXNzLmV4aXQoMSkKfQoKY29uc29sZS5sb2coJzMpIGdpdCBpbml0IC8gY29tbWl0IC8gcHVzaCDigKYnKQpjb25zdCBnaXQgPSAoYXJndiwgYWxsb3dGYWlsID0gZmFsc2UpID0+IHsKICB0cnkgewogICAgcmV0dXJuIGV4ZWNGaWxlU3luYygnZ2l0JywgYXJndiwgeyBjd2Q6IHJvb3QsIGVuY29kaW5nOiAndXRmOCcsIHN0ZGlvOiBbJ2lnbm9yZScsICdwaXBlJywgJ3BpcGUnXSB9KS50cmltKCkKICB9IGNhdGNoIChlcnJvcikgewogICAgaWYgKGFsbG93RmFpbCkgcmV0dXJuICcnCiAgICBjb25zb2xlLmVycm9yKGAgICBnaXQgJHthcmd2LmpvaW4oJyAnKX0g5aSx6LSl77yaJHtlcnJvci5zdGRlcnIgfHwgZXJyb3IubWVzc2FnZX1gKQogICAgcHJvY2Vzcy5leGl0KDEpCiAgfQp9CgppZiAoIWV4aXN0c1N5bmMoam9pbihyb290LCAnLmdpdCcpKSkgZ2l0KFsnaW5pdCcsICctYicsICdtYWluJ10pCmdpdChbJ2FkZCcsICctQSddKQpjb25zdCBzdGFnZWQgPSBnaXQoWydkaWZmJywgJy0tY2FjaGVkJywgJy0tbmFtZS1vbmx5J10pCmlmIChzdGFnZWQpIGdpdChbJy1jJywgJ3VzZXIubmFtZT0nICsgKG1lLmJvZHkubmFtZSB8fCBtZS5ib2R5LmxvZ2luKSwgJy1jJywgJ3VzZXIuZW1haWw9JyArIChtZS5ib2R5LmVtYWlsIHx8IGAke21lLmJvZHkubG9naW59QHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbWApLCAnY29tbWl0JywgJy1tJywgYGZlYXQ6IGRzaC1pbnN0YWxsLXJhZGFyIHYke3BrZy52ZXJzaW9ufWBdKQplbHNlIGNvbnNvbGUubG9nKCcgICDmsqHmnInpnIDopoHmj5DkuqTnmoTmlLnliqgnKQoKY29uc3QgcmVtb3RlVXJsID0gYGh0dHBzOi8veC1hY2Nlc3MtdG9rZW46JHt0b2tlbn1AZ2l0aHViLmNvbS8ke3VzZXJ9LyR7bmFtZX0uZ2l0YApnaXQoWydyZW1vdGUnLCAncmVtb3ZlJywgJ29yaWdpbiddLCB0cnVlKQpnaXQoWydyZW1vdGUnLCAnYWRkJywgJ29yaWdpbicsIHJlbW90ZVVybF0pCmdpdChbJ3B1c2gnLCAnLXUnLCAnb3JpZ2luJywgJ0hFQUQ6bWFpbicsICctLWZvcmNlJ10pCgpjb25zb2xlLmxvZygnJykKY29uc29sZS5sb2coYOWujOaIkO+8mmh0dHBzOi8vZ2l0aHViLmNvbS8ke3VzZXJ9LyR7bmFtZX1gKQpjb25zb2xlLmxvZyhg5YaN6LeR77yabm9kZSBwdWJsaXNoL21hcmtldC1wci5tanMgLS11c2VyICR7dXNlcn0gLS1yZXBvICR7bmFtZX1gKQo=
+#!/usr/bin/env node
+/**
+ * 在 GitHub 上建仓库并推送当前目录（市场收录要求 url 指向真实仓库）。
+ *
+ * 用法：
+ *   $env:GITHUB_TOKEN='ghp_xxx'
+ *   node publish/github-repo.mjs --user <GitHub 用户名> [--name dsh-install-radar] [--private]
+ *
+ * 需要：git 在 PATH 上；token 具备 repo 权限。
+ */
+import { execFileSync } from 'node:child_process'
+import { readFileSync, existsSync } from 'node:fs'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const root = resolve(here, '..')
+
+const args = new Map()
+for (let i = 2; i < process.argv.length; i += 2) {
+  const key = process.argv[i]
+  if (!key.startsWith('--')) continue
+  const value = process.argv[i + 1]
+  args.set(key.slice(2), value && !value.startsWith('--') ? value : true)
+}
+
+const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
+const user = args.get('user')
+const name = args.get('name') || 'dsh-install-radar'
+const isPrivate = args.get('private') === true
+
+if (!user) {
+  console.error('缺少 --user <GitHub 用户名>')
+  process.exit(1)
+}
+if (!token) {
+  console.error('缺少 GITHUB_TOKEN 环境变量（需要 repo 权限）')
+  process.exit(1)
+}
+
+const api = async (path, init = {}) => {
+  const response = await fetch(`https://api.github.com${path}`, {
+    ...init,
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${token}`,
+      'User-Agent': 'dsh-install-radar-publish',
+      ...(init.headers || {}),
+    },
+  })
+  const text = await response.text()
+  let body = null
+  try {
+    body = text ? JSON.parse(text) : null
+  } catch {
+    body = text
+  }
+  return { ok: response.ok, status: response.status, body }
+}
+
+const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'))
+
+console.log(`1) 确认账号 …`)
+const me = await api('/user')
+if (!me.ok) {
+  console.error(`   token 无效：HTTP ${me.status} ${JSON.stringify(me.body).slice(0, 200)}`)
+  process.exit(1)
+}
+console.log(`   ${me.body.login}`)
+
+console.log(`2) 创建仓库 ${user}/${name} …`)
+const created = await api('/user/repos', {
+  method: 'POST',
+  body: JSON.stringify({
+    name,
+    description: pkg.description,
+    private: isPrivate,
+    has_issues: true,
+    has_wiki: false,
+    license_template: 'mit',
+  }),
+})
+if (created.ok) console.log(`   已创建：${created.body.html_url}`)
+else if (created.status === 422) console.log('   仓库已存在，跳过创建')
+else {
+  console.error(`   创建失败：HTTP ${created.status} ${JSON.stringify(created.body).slice(0, 300)}`)
+  process.exit(1)
+}
+
+console.log('3) git init / commit / push …')
+const git = (argv, allowFail = false) => {
+  try {
+    return execFileSync('git', argv, { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim()
+  } catch (error) {
+    if (allowFail) return ''
+    console.error(`   git ${argv.join(' ')} 失败：${error.stderr || error.message}`)
+    process.exit(1)
+  }
+}
+
+if (!existsSync(join(root, '.git'))) git(['init', '-b', 'main'])
+git(['add', '-A'])
+const staged = git(['diff', '--cached', '--name-only'])
+if (staged) git(['-c', 'user.name=' + (me.body.name || me.body.login), '-c', 'user.email=' + (me.body.email || `${me.body.login}@users.noreply.github.com`), 'commit', '-m', `feat: dsh-install-radar v${pkg.version}`])
+else console.log('   没有需要提交的改动')
+
+const remoteUrl = `https://x-access-token:${token}@github.com/${user}/${name}.git`
+git(['remote', 'remove', 'origin'], true)
+git(['remote', 'add', 'origin', remoteUrl])
+git(['push', '-u', 'origin', 'HEAD:main', '--force'])
+
+console.log('')
+console.log(`完成：https://github.com/${user}/${name}`)
+console.log(`再跑：node publish/market-pr.mjs --user ${user} --repo ${name}`)

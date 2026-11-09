@@ -1,1 +1,357 @@
-LyoqCiAqIOe8luaOkuWxgu+8muW/q+eFpyDihpIg5Lya6K+d5b2S5ZugIOKGkiDop6PmnpDot6/lvoQg4oaSIOWIhuexuyDihpIg5oql5ZGK44CCCiAqIOaPkuS7tuW3peWFt+S4jiBDTEkg6YO95Y+q6LCD6L+Z6YeM44CCCiAqLwppbXBvcnQgeyBta2RpciwgcmVhZEZpbGUsIHdyaXRlRmlsZSB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCB7IGV4aXN0c1N5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBkaXJuYW1lLCBqb2luIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBob21lZGlyLCBob3N0bmFtZSB9IGZyb20gJ25vZGU6b3MnCmltcG9ydCB7IHNjYW5Sb290cyB9IGZyb20gJy4vc2Nhbi5qcycKaW1wb3J0IHsgcmVzb2x2ZVJvb3RzLCByZXNvbHZlUmVjZW50Um9vdHMgfSBmcm9tICcuL3Jvb3RzLmpzJwppbXBvcnQgeyBzY2FuUmVjZW50IH0gZnJvbSAnLi9yZWNlbnQuanMnCmltcG9ydCB7IGNvbGxlY3RTZXNzaW9uSW5zdGFsbHMgfSBmcm9tICcuL3Nlc3Npb25zLmpzJwppbXBvcnQgeyBwcm9iZUVudmlyb25tZW50LCByZXNvbHZlSW5zdGFsbCB9IGZyb20gJy4vcmVzb2x2ZS5qcycKaW1wb3J0IHsgbG9hZEluc3RhbGxlZFByb2dyYW1zIH0gZnJvbSAnLi9yZWdpc3RyeS5qcycKaW1wb3J0IHsgaW5pdFNpemVDYWNoZSB9IGZyb20gJy4vc2l6ZWNhY2hlLmpzJwppbXBvcnQgeyBhdWRpdFNlc3Npb25zIH0gZnJvbSAnLi9hdWRpdC5qcycKaW1wb3J0IHsgaW5mZXJGcm9tRm9sZGVyIH0gZnJvbSAnLi9zaWduYXR1cmUuanMnCmltcG9ydCB7IGFzc2Vzc1Jpc2ssIENMRUFOX01JTl9CWVRFUyB9IGZyb20gJy4vcmlzay5qcycKaW1wb3J0IHsgY2xhc3NpZnksIGZvcm1hdEJ5dGVzIH0gZnJvbSAnLi9jbGFzc2lmeS5qcycKCmV4cG9ydCBmdW5jdGlvbiBkc2hIb21lKCkgewogIGNvbnN0IGNvbmZpZ3VyZWQgPSB0eXBlb2YgcHJvY2Vzcy5lbnYuRFNIX0hPTUUgPT09ICdzdHJpbmcnID8gcHJvY2Vzcy5lbnYuRFNIX0hPTUUudHJpbSgpIDogJycKICByZXR1cm4gY29uZmlndXJlZCB8fCBqb2luKGhvbWVkaXIoKSwgJy5kc2gnKQp9CgpleHBvcnQgZnVuY3Rpb24gc3RhdGVEaXIoaG9tZSA9IGRzaEhvbWUoKSkgewogIHJldHVybiBqb2luKGhvbWUsICdpbnN0YWxsLXJhZGFyJykKfQoKLyoqIOivu+aPkuS7tumFjee9ru+8iCREU0hfSE9NRS9pbnN0YWxsLXJhZGFyL2NvbmZpZy5qc29u77yJICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZWFkQ29uZmlnKGhvbWUgPSBkc2hIb21lKCkpIHsKICByZXR1cm4gcmVhZEpzb24oam9pbihzdGF0ZURpcihob21lKSwgJ2NvbmZpZy5qc29uJyksIHt9KQp9CgovKiog5ZCI5bm25YaZ6YWN572u77yM6L+U5Zue5YaZ5ZCO55qE5a6M5pW06YWN572uICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB3cml0ZUNvbmZpZyhob21lID0gZHNoSG9tZSgpLCBwYXRjaCA9IHt9KSB7CiAgY29uc3QgY3VycmVudCA9IGF3YWl0IHJlYWRDb25maWcoaG9tZSkKICBjb25zdCBuZXh0ID0geyAuLi5jdXJyZW50LCAuLi5wYXRjaCB9CiAgYXdhaXQgd3JpdGVKc29uKGpvaW4oc3RhdGVEaXIoaG9tZSksICdjb25maWcuanNvbicpLCBuZXh0KQogIHJldHVybiBuZXh0Cn0KCmFzeW5jIGZ1bmN0aW9uIHJlYWRKc29uKGZpbGUsIGZhbGxiYWNrKSB7CiAgdHJ5IHsKICAgIHJldHVybiBKU09OLnBhcnNlKGF3YWl0IHJlYWRGaWxlKGZpbGUsICd1dGY4JykpCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsbGJhY2sKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHdyaXRlSnNvbihmaWxlLCB2YWx1ZSkgewogIGF3YWl0IG1rZGlyKGRpcm5hbWUoZmlsZSksIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgYXdhaXQgd3JpdGVGaWxlKGZpbGUsIEpTT04uc3RyaW5naWZ5KHZhbHVlLCBudWxsLCAxKSwgJ3V0ZjgnKQp9CgpsZXQgbWVtb3J5Q2FjaGUgPSB7IGF0OiAwLCB2YWx1ZTogbnVsbCB9CgovKiog5Y+W5b2T5YmN5b+r54Wn77ya5pyJ57yT5a2Y77yIVFRM77yJ5bCx55So57yT5a2Y77yM6YG/5YWN5LiA5qyh5a+56K+d6YeM5Y+N5aSN5omr55uYICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjdXJyZW50U25hcHNob3Qob3B0cyA9IHt9KSB7CiAgY29uc3QgaG9tZSA9IG9wdHMuaG9tZSB8fCBkc2hIb21lKCkKICBjb25zdCB0dGwgPSBvcHRzLmNhY2hlVHRsTXMgPz8gMTAgKiA2MCAqIDEwMDAKICBpZiAoIW9wdHMuZm9yY2UgJiYgbWVtb3J5Q2FjaGUudmFsdWUgJiYgRGF0ZS5ub3coKSAtIG1lbW9yeUNhY2hlLmF0IDwgdHRsKSByZXR1cm4gbWVtb3J5Q2FjaGUudmFsdWUKICBjb25zdCBjb25maWcgPSBvcHRzLmNvbmZpZyB8fCAoYXdhaXQgcmVhZEpzb24oam9pbihzdGF0ZURpcihob21lKSwgJ2NvbmZpZy5qc29uJyksIHt9KSkKICBjb25zdCByb290cyA9IHJlc29sdmVSb290cyhjb25maWcpCiAgY29uc3Qgc2Nhbm5lZCA9IGF3YWl0IHNjYW5Sb290cyhyb290cywgeyBsaW1pdHM6IGNvbmZpZy5saW1pdHMgfSkKICBjb25zdCBzbmFwc2hvdCA9IHsgLi4uc2Nhbm5lZCwgaG9tZSwgaG9zdDogaG9zdG5hbWUoKSB9CiAgYXdhaXQgd3JpdGVKc29uKGpvaW4oc3RhdGVEaXIoaG9tZSksICdsYXRlc3QuanNvbicpLCBzbmFwc2hvdCkKICBtZW1vcnlDYWNoZSA9IHsgYXQ6IERhdGUubm93KCksIHZhbHVlOiBzbmFwc2hvdCB9CiAgcmV0dXJuIHNuYXBzaG90Cn0KCi8qKiDnq4vln7rnur/vvJrku6XlvZPliY3ml7bliLvkuLrjgIzlubLlh4DnirbmgIHjgI0gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHRha2VCYXNlbGluZShvcHRzID0ge30pIHsKICBjb25zdCBob21lID0gb3B0cy5ob21lIHx8IGRzaEhvbWUoKQogIGNvbnN0IHNuYXBzaG90ID0gb3B0cy5zbmFwc2hvdCB8fCAoYXdhaXQgY3VycmVudFNuYXBzaG90KHsgLi4ub3B0cywgaG9tZSwgZm9yY2U6IHRydWUgfSkpCiAgY29uc3Qgcm9vdHNLZXkgPSBzbmFwc2hvdC5yb290cwogICAgLm1hcCgocm9vdCkgPT4gU3RyaW5nKHJvb3QucGF0aCkudG9Mb3dlckNhc2UoKSkKICAgIC5zb3J0KCkKICAgIC5qb2luKCd8JykKICBjb25zdCBiYXNlbGluZSA9IHsKICAgIHRha2VuQXQ6IERhdGUubm93KCksCiAgICBob3N0OiBzbmFwc2hvdC5ob3N0LAogICAgcm9vdHM6IHNuYXBzaG90LnJvb3RzLAogICAgcm9vdHNLZXksCiAgICBlbnRyaWVzOiBzbmFwc2hvdC5lbnRyaWVzLm1hcCgoZW50cnkpID0+ICh7CiAgICAgIHBhdGg6IGVudHJ5LnBhdGgsCiAgICAgIG5hbWU6IGVudHJ5Lm5hbWUsCiAgICAgIGxhYmVsOiBlbnRyeS5sYWJlbCwKICAgICAgYnl0ZXM6IGVudHJ5LmJ5dGVzLAogICAgICBmaWxlczogZW50cnkuZmlsZXMsCiAgICAgIGlzRGlyOiBlbnRyeS5pc0RpciwKICAgIH0pKSwKICB9CiAgYXdhaXQgd3JpdGVKc29uKGpvaW4oc3RhdGVEaXIoaG9tZSksICdiYXNlbGluZS5qc29uJyksIGJhc2VsaW5lKQogIHJldHVybiBiYXNlbGluZQp9CgovKioKICog6Ieq5Yqo5Z+657q/77ya5rKh5pyJ5Z+657q/44CB5oiW6ICF55uR6KeG5qC55Y+Y5LqG77yI5paw5aKeL+WIoOmZpOebruW9le+8ieWwseiHquW3semHjeeri+S4gOasoeOAggogKiDnlKjmiLfkuI3pnIDopoHorrDlvpfngrnjgIznq4vln7rnur/jgI3igJTigJTov5nmraPmmK/kuIrkuIDniYjmvI/mjokgV2luZG93c1xUZW1wIOS5i+WQjuWKoOeahOiHquaEiOmAu+i+keOAggogKiBAcmV0dXJucyB7e2Jhc2VsaW5lOm9iamVjdHxudWxsLCBhdXRvOidmaXJzdC1ydW4nfCdyb290cy1jaGFuZ2VkJ3xudWxsfX0KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBlbnN1cmVCYXNlbGluZShvcHRzID0ge30pIHsKICBjb25zdCBob21lID0gb3B0cy5ob21lIHx8IGRzaEhvbWUoKQogIGNvbnN0IHNuYXBzaG90ID0gYXdhaXQgY3VycmVudFNuYXBzaG90KHsgLi4ub3B0cywgaG9tZSB9KQogIGNvbnN0IHJvb3RzS2V5ID0gc25hcHNob3Qucm9vdHMKICAgIC5tYXAoKHJvb3QpID0+IFN0cmluZyhyb290LnBhdGgpLnRvTG93ZXJDYXNlKCkpCiAgICAuc29ydCgpCiAgICAuam9pbignfCcpCiAgY29uc3QgYmFzZWxpbmUgPSBhd2FpdCByZWFkQmFzZWxpbmUoaG9tZSkKICBpZiAoYmFzZWxpbmUgJiYgYmFzZWxpbmUucm9vdHNLZXkgPT09IHJvb3RzS2V5ICYmIEFycmF5LmlzQXJyYXkoYmFzZWxpbmUuZW50cmllcykgJiYgYmFzZWxpbmUuZW50cmllcy5sZW5ndGggPiAwICYmICFvcHRzLmZvcmNlKSB7CiAgICByZXR1cm4geyBiYXNlbGluZSwgYXV0bzogbnVsbCB9CiAgfQogIGNvbnN0IHRha2VuID0gYXdhaXQgdGFrZUJhc2VsaW5lKHsgLi4ub3B0cywgaG9tZSwgc25hcHNob3QgfSkKICByZXR1cm4geyBiYXNlbGluZTogdGFrZW4sIGF1dG86IGJhc2VsaW5lID8gJ3Jvb3RzLWNoYW5nZWQnIDogJ2ZpcnN0LXJ1bicgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVhZEJhc2VsaW5lKGhvbWUgPSBkc2hIb21lKCkpIHsKICByZXR1cm4gcmVhZEpzb24oam9pbihzdGF0ZURpcihob21lKSwgJ2Jhc2VsaW5lLmpzb24nKSwgbnVsbCkKfQoKY29uc3Qga2V5ID0gKHBhdGgpID0+IFN0cmluZyhwYXRoIHx8ICcnKS50b0xvd2VyQ2FzZSgpCgovKiog5b+r54Wn5a+55q+U77ya5paw5Ye6546w55qE5p2h55uuICsg5piO5pi+5Y+Y5aSn55qE5p2h55uuICovCmV4cG9ydCBmdW5jdGlvbiBkaWZmU25hcHNob3QoYmFzZWxpbmUsIHNuYXBzaG90KSB7CiAgY29uc3QgcmVzdWx0ID0geyBuZXdFbnRyaWVzOiBbXSwgZ3Jvd25FbnRyaWVzOiBbXSwgYmFzZWxpbmVUYWtlbkF0OiBiYXNlbGluZT8udGFrZW5BdCA/PyBudWxsIH0KICBpZiAoIWJhc2VsaW5lKSByZXR1cm4gcmVzdWx0CiAgY29uc3QgYmVmb3JlID0gbmV3IE1hcChiYXNlbGluZS5lbnRyaWVzLm1hcCgoZW50cnkpID0+IFtrZXkoZW50cnkucGF0aCksIGVudHJ5XSkpCiAgZm9yIChjb25zdCBlbnRyeSBvZiBzbmFwc2hvdC5lbnRyaWVzKSB7CiAgICBjb25zdCBvbGQgPSBiZWZvcmUuZ2V0KGtleShlbnRyeS5wYXRoKSkKICAgIGlmICghb2xkKSB7CiAgICAgIHJlc3VsdC5uZXdFbnRyaWVzLnB1c2goZW50cnkpCiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBjb25zdCBncmV3ID0gZW50cnkuYnl0ZXMgLSBvbGQuYnl0ZXMKICAgIGlmIChncmV3ID4gTWF0aC5tYXgoMV8wMDBfMDAwLCBvbGQuYnl0ZXMgKiAwLjA1KSkgewogICAgICByZXN1bHQuZ3Jvd25FbnRyaWVzLnB1c2goeyAuLi5lbnRyeSwgZ3JldyB9KQogICAgfQogIH0KICByZXN1bHQubmV3RW50cmllcy5zb3J0KChhLCBiKSA9PiBiLmJ5dGVzIC0gYS5ieXRlcykKICByZXN1bHQuZ3Jvd25FbnRyaWVzLnNvcnQoKGEsIGIpID0+IGIuZ3JldyAtIGEuZ3JldykKICByZXR1cm4gcmVzdWx0Cn0KCi8qKgogKiDnlJ/miJDlrozmlbTmiqXlkYrjgIIKICogQHBhcmFtIHt7aG9tZT86c3RyaW5nLCBpbmNsdWRlU2Vzc2lvbnM/OmJvb2xlYW4sIHNpbmNlPzpudW1iZXIsIGZvcmNlPzpib29sZWFuLCBtYXhTZXNzaW9ucz86bnVtYmVyfX0gb3B0cwogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJ1aWxkUmVwb3J0KG9wdHMgPSB7fSkgewogIGNvbnN0IGhvbWUgPSBvcHRzLmhvbWUgfHwgZHNoSG9tZSgpCiAgYXdhaXQgaW5pdFNpemVDYWNoZShob21lKQogIGNvbnN0IHNuYXBzaG90ID0gYXdhaXQgY3VycmVudFNuYXBzaG90KHsgLi4ub3B0cywgaG9tZSB9KQogIGNvbnN0IGVuc3VyZWQgPSBhd2FpdCBlbnN1cmVCYXNlbGluZSh7IC4uLm9wdHMsIGhvbWUsIHNuYXBzaG90IH0pCiAgY29uc3QgYmFzZWxpbmUgPSBlbnN1cmVkLmJhc2VsaW5lCiAgY29uc3QgZGVsdGEgPSBkaWZmU25hcHNob3QoYmFzZWxpbmUsIHNuYXBzaG90KQogIGNvbnN0IGVudiA9IGF3YWl0IHByb2JlRW52aXJvbm1lbnQoKQogIGNvbnN0IHByb2dyYW1zID0gYXdhaXQgbG9hZEluc3RhbGxlZFByb2dyYW1zKCkKCiAgbGV0IHNlc3Npb25zID0gW10KICBsZXQgc2Nhbm5lZFNlc3Npb25zID0gMAogIGlmIChvcHRzLmluY2x1ZGVTZXNzaW9ucyAhPT0gZmFsc2UpIHsKICAgIGNvbnN0IGNvbGxlY3RlZCA9IGF3YWl0IGNvbGxlY3RTZXNzaW9uSW5zdGFsbHMoaG9tZSwgeyBzaW5jZTogb3B0cy5zaW5jZSwgbGltaXQ6IG9wdHMubWF4U2Vzc2lvbnMgPz8gMCB9KQogICAgc2Vzc2lvbnMgPSBjb2xsZWN0ZWQuc2Vzc2lvbnMKICAgIHNjYW5uZWRTZXNzaW9ucyA9IGNvbGxlY3RlZC5zY2FubmVkU2Vzc2lvbnMKICB9CgogIGxldCBhdWRpdCA9IG51bGwKICB0cnkgewogICAgYXVkaXQgPSBhd2FpdCBhdWRpdFNlc3Npb25zKHsgaG9tZSwgbm90ZTogJ3JlcG9ydCcgfSkKICB9IGNhdGNoIHsKICAgIGF1ZGl0ID0gbnVsbAogIH0KCiAgY29uc3QgcGVyU2Vzc2lvbiA9IFtdCiAgbGV0IGluZmVycmVkID0gMAogIGZvciAoY29uc3Qgc2Vzc2lvbiBvZiBzZXNzaW9ucykgewogICAgY29uc3QgaXRlbXMgPSBbXQogICAgZm9yIChjb25zdCBpbnN0YWxsIG9mIHNlc3Npb24uaW5zdGFsbHMpIHsKICAgICAgY29uc3QgcmVzb2x2ZWQgPSBhd2FpdCByZXNvbHZlSW5zdGFsbChpbnN0YWxsLCBzbmFwc2hvdC5lbnRyaWVzLCBlbnYsIHByb2dyYW1zKQogICAgICBmb3IgKGNvbnN0IGl0ZW0gb2YgcmVzb2x2ZWQpIHsKICAgICAgICBjb25zdCBpbmZvID0gY2xhc3NpZnkoaXRlbS5uYW1lLCBpdGVtLnBhdGgpCiAgICAgICAgbGV0IHB1cnBvc2UgPSBpbmZvLnB1cnBvc2UKICAgICAgICBsZXQgcHVycG9zZUZyb20gPSAn55+l6K+G5bqTJwogICAgICAgIGlmICghaW5mby5rbm93biAmJiBpdGVtLnBhdGggJiYgaW5mZXJyZWQgPCA0MCkgewogICAgICAgICAgY29uc3QgZ3Vlc3MgPSBhd2FpdCBpbmZlckZyb21Gb2xkZXIoaXRlbS5wYXRoKQogICAgICAgICAgaWYgKGd1ZXNzKSB7CiAgICAgICAgICAgIHB1cnBvc2UgPSBgJHtndWVzcy5wdXJwb3Nlfe+8iOaMiSAke2d1ZXNzLmZyb219IOWIpOaWre+8iWAKICAgICAgICAgICAgcHVycG9zZUZyb20gPSBndWVzcy5mcm9tCiAgICAgICAgICAgIGluZmVycmVkKysKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgaXRlbXMucHVzaCh7CiAgICAgICAgICBuYW1lOiBpdGVtLm5hbWUsCiAgICAgICAgICBlY286IGl0ZW0uZWNvLAogICAgICAgICAgYWN0aW9uOiBpdGVtLmFjdGlvbiB8fCAnJywKICAgICAgICAgIHBhdGg6IGl0ZW0ucGF0aCwKICAgICAgICAgIGJ5dGVzOiBpdGVtLmJ5dGVzLAogICAgICAgICAgc2l6ZTogZm9ybWF0Qnl0ZXMoaXRlbS5ieXRlcyksCiAgICAgICAgICBiaXJ0aHRpbWU6IGl0ZW0uYmlydGh0aW1lTXMgfHwgbnVsbCwKICAgICAgICAgIGNhdGVnb3J5OiBpbmZvLmNhdGVnb3J5LAogICAgICAgICAgcHVycG9zZSwKICAgICAgICAgIHB1cnBvc2VGcm9tLAogICAgICAgICAgY29uZmlkZW5jZTogaXRlbS5jb25maWRlbmNlLAogICAgICAgICAgbm90ZTogaXRlbS5ub3RlIHx8ICcnLAogICAgICAgICAgY29tbWFuZDogaXRlbS5ldmlkZW5jZSB8fCBpbnN0YWxsLmNvbW1hbmQsCiAgICAgICAgICB3aHk6IGluc3RhbGwud2h5IHx8IG51bGwsCiAgICAgICAgICB0aW1lOiBpbnN0YWxsLnRpbWUsCiAgICAgICAgfSkKICAgICAgfQogICAgfQogICAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgY29udGludWUKICAgIGNvbnN0IHNlZW4gPSBuZXcgU2V0KCkKICAgIGNvbnN0IGRlZHVwZWQgPSBpdGVtcy5maWx0ZXIoKGl0ZW0pID0+IHsKICAgICAgY29uc3QgaWQgPSBgJHtrZXkoaXRlbS5wYXRoKX18JHtpdGVtLm5hbWV9YAogICAgICBpZiAoc2Vlbi5oYXMoaWQpKSByZXR1cm4gZmFsc2UKICAgICAgc2Vlbi5hZGQoaWQpCiAgICAgIHJldHVybiB0cnVlCiAgICB9KQogICAgcGVyU2Vzc2lvbi5wdXNoKHsKICAgICAgaWQ6IHNlc3Npb24uaWQsCiAgICAgIHRpdGxlOiBzZXNzaW9uLnRpdGxlIHx8ICcnLAogICAgICBjd2Q6IHNlc3Npb24uY3dkIHx8ICcnLAogICAgICBsYXN0QWN0aXZlOiBzZXNzaW9uLm10aW1lTXMgPz8gbnVsbCwKICAgICAgaW5zdGFsbHM6IHNlc3Npb24uaW5zdGFsbHMubGVuZ3RoLAogICAgICBpdGVtczogZGVkdXBlZCwKICAgICAgYnl0ZXM6IGRlZHVwZWQucmVkdWNlKChzdW0sIGl0ZW0pID0+IHN1bSArIGl0ZW0uYnl0ZXMsIDApLAogICAgfSkKICB9CiAgcGVyU2Vzc2lvbi5zb3J0KChhLCBiKSA9PiAoYi5sYXN0QWN0aXZlID8/IDApIC0gKGEubGFzdEFjdGl2ZSA/PyAwKSkKCiAgY29uc3QgdW5hdHRyaWJ1dGVkID0gZGVsdGEubmV3RW50cmllcy5zbGljZSgwLCA2MCkubWFwKChlbnRyeSkgPT4gewogICAgY29uc3QgaW5mbyA9IGNsYXNzaWZ5KGVudHJ5Lm5hbWUsIGVudHJ5LnBhdGgpCiAgICByZXR1cm4gewogICAgICBuYW1lOiBlbnRyeS5uYW1lLAogICAgICBwYXRoOiBlbnRyeS5wYXRoLAogICAgICBieXRlczogZW50cnkuYnl0ZXMsCiAgICAgIHNpemU6IGZvcm1hdEJ5dGVzKGVudHJ5LmJ5dGVzKSwKICAgICAgYmlydGh0aW1lOiBlbnRyeS5iaXJ0aHRpbWVNcyB8fCBudWxsLAogICAgICBjYXRlZ29yeTogaW5mby5jYXRlZ29yeSwKICAgICAgcHVycG9zZTogaW5mby5wdXJwb3NlLAogICAgICByb290OiBlbnRyeS5sYWJlbCwKICAgIH0KICB9KQoKICBjb25zdCByZXBvcnQgPSB7CiAgICBnZW5lcmF0ZWRBdDogRGF0ZS5ub3coKSwKICAgIGhvc3Q6IHNuYXBzaG90Lmhvc3QsCiAgICBob21lLAogICAgYmFzZWxpbmVUYWtlbkF0OiBiYXNlbGluZT8udGFrZW5BdCA/PyBudWxsLAogICAgYmFzZWxpbmVBdXRvOiBlbnN1cmVkLmF1dG8sCiAgICByb290czogc25hcHNob3Qucm9vdHMsCiAgICBlbnYsCiAgICBzY2FubmVkU2Vzc2lvbnMsCiAgICB0b3RhbHM6IHsKICAgICAgc2Vzc2lvbnM6IHBlclNlc3Npb24ubGVuZ3RoLAogICAgICBpbnN0YWxsQ29tbWFuZHM6IHBlclNlc3Npb24ucmVkdWNlKChzdW0sIHMpID0+IHN1bSArIHMuaW5zdGFsbHMsIDApLAogICAgICBpdGVtczogcGVyU2Vzc2lvbi5yZWR1Y2UoKHN1bSwgcykgPT4gc3VtICsgcy5pdGVtcy5sZW5ndGgsIDApLAogICAgICBieXRlczogcGVyU2Vzc2lvbi5yZWR1Y2UoKHN1bSwgcykgPT4gc3VtICsgcy5ieXRlcywgMCksCiAgICAgIG5ld0VudHJpZXM6IGRlbHRhLm5ld0VudHJpZXMubGVuZ3RoLAogICAgICBncm93bkVudHJpZXM6IGRlbHRhLmdyb3duRW50cmllcy5sZW5ndGgsCiAgICB9LAogICAgcGVyU2Vzc2lvbiwKICAgIHVuYXR0cmlidXRlZCwKICAgIGF1ZGl0OiBhdWRpdAogICAgICA/IHsKICAgICAgICAgIGF0OiBhdWRpdC5hdCwKICAgICAgICAgIHRvdGFsOiBhdWRpdC50b3RhbCwKICAgICAgICAgIGZpcnN0OiBhdWRpdC5maXJzdCwKICAgICAgICAgIGFkZGVkOiBhdWRpdC5hZGRlZC5sZW5ndGgsCiAgICAgICAgICByZW1vdmVkOiBhdWRpdC5yZW1vdmVkLm1hcCgoaXRlbSkgPT4gKHsgaWQ6IGl0ZW0uaWQsIGJ5dGVzOiBpdGVtLmJ5dGVzLCBzaXplOiBmb3JtYXRCeXRlcyhpdGVtLmJ5dGVzKSwgbGFzdFNlZW46IGl0ZW0ubXRpbWVNcyB9KSksCiAgICAgICAgICBsb2dQYXRoOiBhdWRpdC5sb2dQYXRoLAogICAgICAgIH0KICAgICAgOiBudWxsLAogIH0KICByZXBvcnQudG90YWxzLnNpemUgPSBmb3JtYXRCeXRlcyhyZXBvcnQudG90YWxzLmJ5dGVzKQogIGF3YWl0IHdyaXRlSnNvbihqb2luKHN0YXRlRGlyKGhvbWUpLCAncmVwb3J0Lmpzb24nKSwgcmVwb3J0KQogIHJldHVybiByZXBvcnQKfQoKLyoqIOS7iuWkqembtueCue+8iOacrOWcsOaXtuWMuu+8iSAqLwpleHBvcnQgZnVuY3Rpb24gc3RhcnRPZlRvZGF5KG5vdyA9IERhdGUubm93KCkpIHsKICBjb25zdCBkYXRlID0gbmV3IERhdGUobm93KQogIGRhdGUuc2V0SG91cnMoMCwgMCwgMCwgMCkKICByZXR1cm4gZGF0ZS5nZXRUaW1lKCkKfQoKLyoqCiAqIOOAjOS7iuWkqeWkmuS6huS7gOS5iOOAje+8muS4jeS+nei1luWfuue6v++8jOaMieaXtumXtOaIs+aJq+acgOi/keWGmeWFpeeahOebruW9leOAggogKiDov5nmmK/ln7rnur/mvI/mjonnmoTpgqPmnaHot6/nmoTooaXkuIHigJTigJTmr5TlpoIgQzpcV2luZG93c1xUZW1wIOmHjOWghuWHuuadpeeahOS4nOilv+OAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJ1aWxkUmVjZW50KG9wdHMgPSB7fSkgewogIGNvbnN0IGhvbWUgPSBvcHRzLmhvbWUgfHwgZHNoSG9tZSgpCiAgY29uc3QgY29uZmlnID0gb3B0cy5jb25maWcgfHwgKGF3YWl0IHJlYWRKc29uKGpvaW4oc3RhdGVEaXIoaG9tZSksICdjb25maWcuanNvbicpLCB7fSkpCiAgY29uc3Qgcm9vdHMgPSByZXNvbHZlUmVjZW50Um9vdHMoY29uZmlnKQogIGNvbnN0IHNpbmNlID0gb3B0cy5zaW5jZSA/PyBzdGFydE9mVG9kYXkoKQogIGNvbnN0IHJhdyA9IGF3YWl0IHNjYW5SZWNlbnQocm9vdHMsIHsgc2luY2UsIG1heEl0ZW1zOiBvcHRzLm1heEl0ZW1zID8/IDYwLCBsaW1pdHM6IGNvbmZpZy5yZWNlbnRMaW1pdHMgfSkKICBmb3IgKGNvbnN0IGl0ZW0gb2YgcmF3Lml0ZW1zKSB7CiAgICBjb25zdCBpbmZvID0gY2xhc3NpZnkoaXRlbS5wYXRoLnNwbGl0KC9bXFwvXS8pLmZpbHRlcihCb29sZWFuKS5wb3AoKSB8fCAnJywgaXRlbS5wYXRoKQogICAgaXRlbS5jYXRlZ29yeSA9IGluZm8uY2F0ZWdvcnkKICAgIGl0ZW0ucHVycG9zZSA9IGluZm8ucHVycG9zZQogICAgaXRlbS5zaXplID0gZm9ybWF0Qnl0ZXMoaXRlbS5ieXRlcykKICAgIGl0ZW0uc2FtcGxlcyA9IGl0ZW0uc2FtcGxlcy5zbGljZSgwLCAzKQogICAgY29uc3QgcmlzayA9IGFzc2Vzc1Jpc2soaXRlbS5wYXRoLCB7IGJ5dGVzOiBpdGVtLmJ5dGVzIH0pCiAgICBpdGVtLnJpc2sgPSByaXNrLmxldmVsCiAgICBpdGVtLmNvbnNlcXVlbmNlID0gcmlzay5jb25zZXF1ZW5jZQogICAgaXRlbS5jbGVhbmFibGUgPSBpdGVtLmJ5dGVzID49IENMRUFOX01JTl9CWVRFUyAmJiByaXNrLmxldmVsICE9PSAnZGFuZ2VyJyAmJiByaXNrLmlzUm9vdCAhPT0gdHJ1ZQogIH0KICByYXcuc2luY2VMYWJlbCA9IG5ldyBEYXRlKHJhdy5zaW5jZSkudG9Mb2NhbGVTdHJpbmcoJ3N2LVNFJykKICByYXcudG90YWxTaXplID0gZm9ybWF0Qnl0ZXMocmF3LnRvdGFsQnl0ZXMpCiAgcmV0dXJuIHJhdwp9CgovKiog5riy5p+T5Li6IE1hcmtkb3duIOaKpeWRiiAqLwpleHBvcnQgZnVuY3Rpb24gcmVuZGVyTWFya2Rvd24ocmVwb3J0KSB7CiAgY29uc3QgbGluZXMgPSBbXQogIGNvbnN0IGF0ID0gKG1zKSA9PiAobXMgPyBuZXcgRGF0ZShtcykudG9Mb2NhbGVTdHJpbmcoJ3N2LVNFJykgOiAn5pyq55+lJykKICBsaW5lcy5wdXNoKCcjIOS8muivneWuieijhembt+i+viDCtyDmiqXlkYonKQogIGxpbmVzLnB1c2goJycpCiAgbGluZXMucHVzaChgLSDnlJ/miJDml7bpl7TvvJoke2F0KHJlcG9ydC5nZW5lcmF0ZWRBdCl9YCkKICBsaW5lcy5wdXNoKGAtIOS4u+acuu+8miR7cmVwb3J0Lmhvc3R9YCkKICBsaW5lcy5wdXNoKGAtIOWfuue6v++8miR7cmVwb3J0LmJhc2VsaW5lVGFrZW5BdCA/IGF0KHJlcG9ydC5iYXNlbGluZVRha2VuQXQpIDogJ+WwmuacquW7uueri++8iOWPquiDveeci+WIsOS8muivneWRveS7pOivgeaNru+8iSd9YCkKICBsaW5lcy5wdXNoKGAtIOaJq+aPj+S8muivne+8miR7cmVwb3J0LnNjYW5uZWRTZXNzaW9uc30g5Liq77yM5ZCr5a6J6KOF5ZG95Luk55qE5Lya6K+dICR7cmVwb3J0LnRvdGFscy5zZXNzaW9uc30g5LiqYCkKICBsaW5lcy5wdXNoKGAtIOWuieijheadoeebru+8miR7cmVwb3J0LnRvdGFscy5pdGVtc30g6aG577yM5ZCI6K6hICR7cmVwb3J0LnRvdGFscy5zaXplfWApCiAgbGluZXMucHVzaCgnJykKICBsaW5lcy5wdXNoKCcjIyDmjInkvJror50nKQogIGZvciAoY29uc3Qgc2Vzc2lvbiBvZiByZXBvcnQucGVyU2Vzc2lvbikgewogICAgbGluZXMucHVzaCgnJykKICAgIGxpbmVzLnB1c2goYCMjIyAke3Nlc3Npb24udGl0bGUgfHwgc2Vzc2lvbi5pZH1gKQogICAgbGluZXMucHVzaCgnJykKICAgIGxpbmVzLnB1c2goYC0g5Lya6K+dIElE77yaXGAke3Nlc3Npb24uaWR9XGBgKQogICAgbGluZXMucHVzaChgLSDlt6XkvZznm67lvZXvvJpcYCR7c2Vzc2lvbi5jd2QgfHwgJ+acquefpSd9XGBgKQogICAgbGluZXMucHVzaChgLSDmnIDov5HmtLvliqjvvJoke2F0KHNlc3Npb24ubGFzdEFjdGl2ZSl9IMK3IOWuieijheWRveS7pCAke3Nlc3Npb24uaW5zdGFsbHN9IOadoSDCtyDlkIjorqEgJHtmb3JtYXRCeXRlcyhzZXNzaW9uLmJ5dGVzKX1gKQogICAgbGluZXMucHVzaCgnJykKICAgIGxpbmVzLnB1c2goJ3wg6KOF5LqG5LuA5LmIIHwg57G75Z6LIHwg5L2T56evIHwg5a6J6KOF5L2N572uIHwg5Yib5bu65pe26Ze0IHwg55So6YCUIHwg6K+B5o2uIHwnKQogICAgbGluZXMucHVzaCgnfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfCcpCiAgICBmb3IgKGNvbnN0IGl0ZW0gb2Ygc2Vzc2lvbi5pdGVtcykgewogICAgICBjb25zdCBjb25mID0gaXRlbS5jb25maWRlbmNlID09PSAnbm9uZScgPyAn77yI5pyq5om+5Yiw5Lqn54mp77yJJyA6IGl0ZW0uY29uZmlkZW5jZSA9PT0gJ2xvdycgPyAn77yI5o6o5rWL77yJJyA6ICcnCiAgICAgIGxpbmVzLnB1c2goCiAgICAgICAgYHwgJHtpdGVtLm5hbWV9JHtjb25mfSB8ICR7aXRlbS5lY299IHwgJHtpdGVtLnNpemV9IHwgXGAke2l0ZW0ucGF0aCB8fCAn4oCUJ31cYCB8ICR7YXQoaXRlbS5iaXJ0aHRpbWUpfSB8ICR7aXRlbS5wdXJwb3NlfSB8IFxgJHsoaXRlbS5jb21tYW5kIHx8ICcnKS5zcGxpdCgnXG4nKVswXS5zbGljZSgwLCA5MCl9XGAgfGAsCiAgICAgICkKICAgIH0KICB9CiAgaWYgKHJlcG9ydC51bmF0dHJpYnV0ZWQubGVuZ3RoID4gMCkgewogICAgbGluZXMucHVzaCgnJykKICAgIGxpbmVzLnB1c2goJyMjIOWfuue6v+S7peadpeaWsOWHuueOsO+8iOaXoOWRveS7pOivgeaNru+8jOWPr+iDveaYryBHVUkg5a6J6KOF5ZmoIC8g5omL5Yqo5pON5L2c77yJJykKICAgIGxpbmVzLnB1c2goJycpCiAgICBsaW5lcy5wdXNoKCd8IOadoeebriB8IOaguSB8IOS9k+enryB8IOi3r+W+hCB8IOWIm+W7uuaXtumXtCB8IOeUqOmAlCB8JykKICAgIGxpbmVzLnB1c2goJ3wgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwnKQogICAgZm9yIChjb25zdCBlbnRyeSBvZiByZXBvcnQudW5hdHRyaWJ1dGVkKSB7CiAgICAgIGxpbmVzLnB1c2goYHwgJHtlbnRyeS5uYW1lfSB8ICR7ZW50cnkucm9vdH0gfCAke2VudHJ5LnNpemV9IHwgXGAke2VudHJ5LnBhdGh9XGAgfCAke2F0KGVudHJ5LmJpcnRodGltZSl9IHwgJHtlbnRyeS5wdXJwb3NlfSB8YCkKICAgIH0KICB9CiAgbGluZXMucHVzaCgnJykKICByZXR1cm4gbGluZXMuam9pbignXG4nKQp9CgpleHBvcnQgeyBmb3JtYXRCeXRlcywgY2xhc3NpZnkgfQo=
+/**
+ * 编排层：快照 → 会话归因 → 解析路径 → 分类 → 报告。
+ * 插件工具与 CLI 都只调这里。
+ */
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { dirname, join } from 'node:path'
+import { homedir, hostname } from 'node:os'
+import { scanRoots } from './scan.js'
+import { resolveRoots, resolveRecentRoots } from './roots.js'
+import { scanRecent } from './recent.js'
+import { collectSessionInstalls } from './sessions.js'
+import { probeEnvironment, resolveInstall } from './resolve.js'
+import { loadInstalledPrograms } from './registry.js'
+import { initSizeCache } from './sizecache.js'
+import { auditSessions } from './audit.js'
+import { inferFromFolder } from './signature.js'
+import { assessRisk, CLEAN_MIN_BYTES } from './risk.js'
+import { classify, formatBytes } from './classify.js'
+
+export function dshHome() {
+  const configured = typeof process.env.DSH_HOME === 'string' ? process.env.DSH_HOME.trim() : ''
+  return configured || join(homedir(), '.dsh')
+}
+
+export function stateDir(home = dshHome()) {
+  return join(home, 'install-radar')
+}
+
+/** 读插件配置（$DSH_HOME/install-radar/config.json） */
+export async function readConfig(home = dshHome()) {
+  return readJson(join(stateDir(home), 'config.json'), {})
+}
+
+/** 合并写配置，返回写后的完整配置 */
+export async function writeConfig(home = dshHome(), patch = {}) {
+  const current = await readConfig(home)
+  const next = { ...current, ...patch }
+  await writeJson(join(stateDir(home), 'config.json'), next)
+  return next
+}
+
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await readFile(file, 'utf8'))
+  } catch {
+    return fallback
+  }
+}
+
+async function writeJson(file, value) {
+  await mkdir(dirname(file), { recursive: true })
+  await writeFile(file, JSON.stringify(value, null, 1), 'utf8')
+}
+
+let memoryCache = { at: 0, value: null }
+
+/** 取当前快照：有缓存（TTL）就用缓存，避免一次对话里反复扫盘 */
+export async function currentSnapshot(opts = {}) {
+  const home = opts.home || dshHome()
+  const ttl = opts.cacheTtlMs ?? 10 * 60 * 1000
+  if (!opts.force && memoryCache.value && Date.now() - memoryCache.at < ttl) return memoryCache.value
+  const config = opts.config || (await readJson(join(stateDir(home), 'config.json'), {}))
+  const roots = resolveRoots(config)
+  const scanned = await scanRoots(roots, { limits: config.limits })
+  const snapshot = { ...scanned, home, host: hostname() }
+  await writeJson(join(stateDir(home), 'latest.json'), snapshot)
+  memoryCache = { at: Date.now(), value: snapshot }
+  return snapshot
+}
+
+/** 立基线：以当前时刻为「干净状态」 */
+export async function takeBaseline(opts = {}) {
+  const home = opts.home || dshHome()
+  const snapshot = opts.snapshot || (await currentSnapshot({ ...opts, home, force: true }))
+  const rootsKey = snapshot.roots
+    .map((root) => String(root.path).toLowerCase())
+    .sort()
+    .join('|')
+  const baseline = {
+    takenAt: Date.now(),
+    host: snapshot.host,
+    roots: snapshot.roots,
+    rootsKey,
+    entries: snapshot.entries.map((entry) => ({
+      path: entry.path,
+      name: entry.name,
+      label: entry.label,
+      bytes: entry.bytes,
+      files: entry.files,
+      isDir: entry.isDir,
+    })),
+  }
+  await writeJson(join(stateDir(home), 'baseline.json'), baseline)
+  return baseline
+}
+
+/**
+ * 自动基线：没有基线、或者监视根变了（新增/删除目录）就自己重立一次。
+ * 用户不需要记得点「立基线」——这正是上一版漏掉 Windows\Temp 之后加的自愈逻辑。
+ * @returns {{baseline:object|null, auto:'first-run'|'roots-changed'|null}}
+ */
+export async function ensureBaseline(opts = {}) {
+  const home = opts.home || dshHome()
+  const snapshot = await currentSnapshot({ ...opts, home })
+  const rootsKey = snapshot.roots
+    .map((root) => String(root.path).toLowerCase())
+    .sort()
+    .join('|')
+  const baseline = await readBaseline(home)
+  if (baseline && baseline.rootsKey === rootsKey && Array.isArray(baseline.entries) && baseline.entries.length > 0 && !opts.force) {
+    return { baseline, auto: null }
+  }
+  const taken = await takeBaseline({ ...opts, home, snapshot })
+  return { baseline: taken, auto: baseline ? 'roots-changed' : 'first-run' }
+}
+
+export async function readBaseline(home = dshHome()) {
+  return readJson(join(stateDir(home), 'baseline.json'), null)
+}
+
+const key = (path) => String(path || '').toLowerCase()
+
+/** 快照对比：新出现的条目 + 明显变大的条目 */
+export function diffSnapshot(baseline, snapshot) {
+  const result = { newEntries: [], grownEntries: [], baselineTakenAt: baseline?.takenAt ?? null }
+  if (!baseline) return result
+  const before = new Map(baseline.entries.map((entry) => [key(entry.path), entry]))
+  for (const entry of snapshot.entries) {
+    const old = before.get(key(entry.path))
+    if (!old) {
+      result.newEntries.push(entry)
+      continue
+    }
+    const grew = entry.bytes - old.bytes
+    if (grew > Math.max(1_000_000, old.bytes * 0.05)) {
+      result.grownEntries.push({ ...entry, grew })
+    }
+  }
+  result.newEntries.sort((a, b) => b.bytes - a.bytes)
+  result.grownEntries.sort((a, b) => b.grew - a.grew)
+  return result
+}
+
+/**
+ * 生成完整报告。
+ * @param {{home?:string, includeSessions?:boolean, since?:number, force?:boolean, maxSessions?:number}} opts
+ */
+export async function buildReport(opts = {}) {
+  const home = opts.home || dshHome()
+  await initSizeCache(home)
+  const snapshot = await currentSnapshot({ ...opts, home })
+  const ensured = await ensureBaseline({ ...opts, home, snapshot })
+  const baseline = ensured.baseline
+  const delta = diffSnapshot(baseline, snapshot)
+  const env = await probeEnvironment()
+  const programs = await loadInstalledPrograms()
+
+  let sessions = []
+  let scannedSessions = 0
+  if (opts.includeSessions !== false) {
+    const collected = await collectSessionInstalls(home, { since: opts.since, limit: opts.maxSessions ?? 0 })
+    sessions = collected.sessions
+    scannedSessions = collected.scannedSessions
+  }
+
+  let audit = null
+  try {
+    audit = await auditSessions({ home, note: 'report' })
+  } catch {
+    audit = null
+  }
+
+  const perSession = []
+  let inferred = 0
+  for (const session of sessions) {
+    const items = []
+    for (const install of session.installs) {
+      const resolved = await resolveInstall(install, snapshot.entries, env, programs)
+      for (const item of resolved) {
+        const info = classify(item.name, item.path)
+        let purpose = info.purpose
+        let purposeFrom = '知识库'
+        if (!info.known && item.path && inferred < 40) {
+          const guess = await inferFromFolder(item.path)
+          if (guess) {
+            purpose = `${guess.purpose}（按 ${guess.from} 判断）`
+            purposeFrom = guess.from
+            inferred++
+          }
+        }
+        items.push({
+          name: item.name,
+          eco: item.eco,
+          action: item.action || '',
+          path: item.path,
+          bytes: item.bytes,
+          size: formatBytes(item.bytes),
+          birthtime: item.birthtimeMs || null,
+          category: info.category,
+          purpose,
+          purposeFrom,
+          confidence: item.confidence,
+          note: item.note || '',
+          command: item.evidence || install.command,
+          why: install.why || null,
+          time: install.time,
+        })
+      }
+    }
+    if (items.length === 0) continue
+    const seen = new Set()
+    const deduped = items.filter((item) => {
+      const id = `${key(item.path)}|${item.name}`
+      if (seen.has(id)) return false
+      seen.add(id)
+      return true
+    })
+    perSession.push({
+      id: session.id,
+      title: session.title || '',
+      cwd: session.cwd || '',
+      lastActive: session.mtimeMs ?? null,
+      installs: session.installs.length,
+      items: deduped,
+      bytes: deduped.reduce((sum, item) => sum + item.bytes, 0),
+    })
+  }
+  perSession.sort((a, b) => (b.lastActive ?? 0) - (a.lastActive ?? 0))
+
+  const unattributed = delta.newEntries.slice(0, 60).map((entry) => {
+    const info = classify(entry.name, entry.path)
+    return {
+      name: entry.name,
+      path: entry.path,
+      bytes: entry.bytes,
+      size: formatBytes(entry.bytes),
+      birthtime: entry.birthtimeMs || null,
+      category: info.category,
+      purpose: info.purpose,
+      root: entry.label,
+    }
+  })
+
+  const report = {
+    generatedAt: Date.now(),
+    host: snapshot.host,
+    home,
+    baselineTakenAt: baseline?.takenAt ?? null,
+    baselineAuto: ensured.auto,
+    roots: snapshot.roots,
+    env,
+    scannedSessions,
+    totals: {
+      sessions: perSession.length,
+      installCommands: perSession.reduce((sum, s) => sum + s.installs, 0),
+      items: perSession.reduce((sum, s) => sum + s.items.length, 0),
+      bytes: perSession.reduce((sum, s) => sum + s.bytes, 0),
+      newEntries: delta.newEntries.length,
+      grownEntries: delta.grownEntries.length,
+    },
+    perSession,
+    unattributed,
+    audit: audit
+      ? {
+          at: audit.at,
+          total: audit.total,
+          first: audit.first,
+          added: audit.added.length,
+          removed: audit.removed.map((item) => ({ id: item.id, bytes: item.bytes, size: formatBytes(item.bytes), lastSeen: item.mtimeMs })),
+          logPath: audit.logPath,
+        }
+      : null,
+  }
+  report.totals.size = formatBytes(report.totals.bytes)
+  await writeJson(join(stateDir(home), 'report.json'), report)
+  return report
+}
+
+/** 今天零点（本地时区） */
+export function startOfToday(now = Date.now()) {
+  const date = new Date(now)
+  date.setHours(0, 0, 0, 0)
+  return date.getTime()
+}
+
+/**
+ * 「今天多了什么」：不依赖基线，按时间戳扫最近写入的目录。
+ * 这是基线漏掉的那条路的补丁——比如 C:\Windows\Temp 里堆出来的东西。
+ */
+export async function buildRecent(opts = {}) {
+  const home = opts.home || dshHome()
+  const config = opts.config || (await readJson(join(stateDir(home), 'config.json'), {}))
+  const roots = resolveRecentRoots(config)
+  const since = opts.since ?? startOfToday()
+  const raw = await scanRecent(roots, { since, maxItems: opts.maxItems ?? 60, limits: config.recentLimits })
+  for (const item of raw.items) {
+    const info = classify(item.path.split(/[\\/]/).filter(Boolean).pop() || '', item.path)
+    item.category = info.category
+    item.purpose = info.purpose
+    item.size = formatBytes(item.bytes)
+    item.samples = item.samples.slice(0, 3)
+    const risk = assessRisk(item.path, { bytes: item.bytes })
+    item.risk = risk.level
+    item.consequence = risk.consequence
+    item.cleanable = item.bytes >= CLEAN_MIN_BYTES && risk.level !== 'danger' && risk.isRoot !== true
+  }
+  raw.sinceLabel = new Date(raw.since).toLocaleString('sv-SE')
+  raw.totalSize = formatBytes(raw.totalBytes)
+  return raw
+}
+
+/** 渲染为 Markdown 报告 */
+export function renderMarkdown(report) {
+  const lines = []
+  const at = (ms) => (ms ? new Date(ms).toLocaleString('sv-SE') : '未知')
+  lines.push('# 会话安装雷达 · 报告')
+  lines.push('')
+  lines.push(`- 生成时间：${at(report.generatedAt)}`)
+  lines.push(`- 主机：${report.host}`)
+  lines.push(`- 基线：${report.baselineTakenAt ? at(report.baselineTakenAt) : '尚未建立（只能看到会话命令证据）'}`)
+  lines.push(`- 扫描会话：${report.scannedSessions} 个，含安装命令的会话 ${report.totals.sessions} 个`)
+  lines.push(`- 安装条目：${report.totals.items} 项，合计 ${report.totals.size}`)
+  lines.push('')
+  lines.push('## 按会话')
+  for (const session of report.perSession) {
+    lines.push('')
+    lines.push(`### ${session.title || session.id}`)
+    lines.push('')
+    lines.push(`- 会话 ID：\`${session.id}\``)
+    lines.push(`- 工作目录：\`${session.cwd || '未知'}\``)
+    lines.push(`- 最近活动：${at(session.lastActive)} · 安装命令 ${session.installs} 条 · 合计 ${formatBytes(session.bytes)}`)
+    lines.push('')
+    lines.push('| 装了什么 | 类型 | 体积 | 安装位置 | 创建时间 | 用途 | 证据 |')
+    lines.push('| --- | --- | --- | --- | --- | --- | --- |')
+    for (const item of session.items) {
+      const conf = item.confidence === 'none' ? '（未找到产物）' : item.confidence === 'low' ? '（推测）' : ''
+      lines.push(
+        `| ${item.name}${conf} | ${item.eco} | ${item.size} | \`${item.path || '—'}\` | ${at(item.birthtime)} | ${item.purpose} | \`${(item.command || '').split('\n')[0].slice(0, 90)}\` |`,
+      )
+    }
+  }
+  if (report.unattributed.length > 0) {
+    lines.push('')
+    lines.push('## 基线以来新出现（无命令证据，可能是 GUI 安装器 / 手动操作）')
+    lines.push('')
+    lines.push('| 条目 | 根 | 体积 | 路径 | 创建时间 | 用途 |')
+    lines.push('| --- | --- | --- | --- | --- | --- |')
+    for (const entry of report.unattributed) {
+      lines.push(`| ${entry.name} | ${entry.root} | ${entry.size} | \`${entry.path}\` | ${at(entry.birthtime)} | ${entry.purpose} |`)
+    }
+  }
+  lines.push('')
+  return lines.join('\n')
+}
+
+export { formatBytes, classify }

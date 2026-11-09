@@ -1,1 +1,110 @@
-LyoqCiAqIOS8muivneebruW9leWuoeiuoe+8mue7mSAkRFNIX0hPTUUvc2Vzc2lvbnMg5bu65LiA5Lu957Si5byV5b+r54Wn77yM5q+P5qyh5q+U5a+577yMCiAqIOiwgea2iOWkseS6huOAgeS7gOS5iOaXtuWAmea2iOWkseeahOOAgea2iOWkseWJjeWkmuWkp++8jOWFqOmDqOi/veWKoOWIsCBzZXNzaW9uLWF1ZGl0Lmpzb25s44CCCiAqCiAqIOi1t+WboO+8mjIwMjYtMTEtMDkg5Y+R546w5Lik5Liq5Lya6K+d55uu5b2V77yI5ZCrIEZGbXBlZyA2NjRNQiDnmoTlronoo4XorrDlvZXvvInlnKjml6Dkurrmk43kvZznmoTmg4XlhrXkuIvkuI3op4HkuobvvIwKICog6ICM5o+S5Lu25a+55a6D5Y+q6K+7IOKAlOKAlCDpgqPlsLHpnIDopoHkuIDmnaHog73kuovlkI7ov73muq/nmoTotKbjgIIKICovCmltcG9ydCB7IHJlYWRkaXIsIHJlYWRGaWxlLCBzdGF0LCBhcHBlbmRGaWxlLCBta2Rpciwgd3JpdGVGaWxlIH0gZnJvbSAnbm9kZTpmcy9wcm9taXNlcycKaW1wb3J0IHsgam9pbiB9IGZyb20gJ25vZGU6cGF0aCcKCmFzeW5jIGZ1bmN0aW9uIGxpc3RTZXNzaW9uRGlycyhob21lKSB7CiAgY29uc3Qgcm9vdCA9IGpvaW4oaG9tZSwgJ3Nlc3Npb25zJykKICBjb25zdCBvdXQgPSBbXQogIGxldCB3b3Jrc3BhY2VzCiAgdHJ5IHsKICAgIHdvcmtzcGFjZXMgPSBhd2FpdCByZWFkZGlyKHJvb3QsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KQogIH0gY2F0Y2ggewogICAgcmV0dXJuIG91dAogIH0KICBmb3IgKGNvbnN0IHdzIG9mIHdvcmtzcGFjZXMpIHsKICAgIGlmICghd3MuaXNEaXJlY3RvcnkoKSkgY29udGludWUKICAgIGNvbnN0IHdzRGlyID0gam9pbihyb290LCB3cy5uYW1lKQogICAgbGV0IHNlc3Npb25zCiAgICB0cnkgewogICAgICBzZXNzaW9ucyA9IGF3YWl0IHJlYWRkaXIod3NEaXIsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KQogICAgfSBjYXRjaCB7CiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBmb3IgKGNvbnN0IHNlc3Npb24gb2Ygc2Vzc2lvbnMpIHsKICAgICAgaWYgKCFzZXNzaW9uLmlzRGlyZWN0b3J5KCkpIGNvbnRpbnVlCiAgICAgIGNvbnN0IGRpciA9IGpvaW4od3NEaXIsIHNlc3Npb24ubmFtZSkKICAgICAgbGV0IGZpbGVzCiAgICAgIHRyeSB7CiAgICAgICAgZmlsZXMgPSBhd2FpdCByZWFkZGlyKGRpcikKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY29udGludWUKICAgICAgfQogICAgICBjb25zdCBsb2cgPSBmaWxlcy5maW5kKChuYW1lKSA9PiAvXnNlc3Npb25cLi4rXC5qc29ubChcLnpzdGQpPyQvaS50ZXN0KG5hbWUpKQogICAgICBpZiAoIWxvZykgY29udGludWUKICAgICAgbGV0IGluZm8KICAgICAgdHJ5IHsKICAgICAgICBpbmZvID0gYXdhaXQgc3RhdChqb2luKGRpciwgbG9nKSkKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY29udGludWUKICAgICAgfQogICAgICBvdXQucHVzaCh7CiAgICAgICAgaWQ6IHNlc3Npb24ubmFtZSwKICAgICAgICB3b3Jrc3BhY2U6IHdzLm5hbWUsCiAgICAgICAgcGF0aDogZGlyLAogICAgICAgIGJ5dGVzOiBpbmZvLnNpemUsCiAgICAgICAgbXRpbWVNczogaW5mby5tdGltZU1zLAogICAgICB9KQogICAgfQogIH0KICBvdXQuc29ydCgoYSwgYikgPT4gYi5tdGltZU1zIC0gYS5tdGltZU1zKQogIHJldHVybiBvdXQKfQoKYXN5bmMgZnVuY3Rpb24gcmVhZEpzb24oZmlsZSwgZmFsbGJhY2spIHsKICB0cnkgewogICAgcmV0dXJuIEpTT04ucGFyc2UoYXdhaXQgcmVhZEZpbGUoZmlsZSwgJ3V0ZjgnKSkKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxsYmFjawogIH0KfQoKLyoqCiAqIEBwYXJhbSB7e2hvbWU6c3RyaW5nLCBub3RlPzpzdHJpbmd9fSBvcHRzCiAqIEByZXR1cm5zIHtQcm9taXNlPHtmaXJzdDpib29sZWFuLCBhdDpudW1iZXIsIGFkZGVkOkFycmF5LCByZW1vdmVkOkFycmF5LCBjaGFuZ2VkOkFycmF5LCB0b3RhbDpudW1iZXIsIGxvZ1BhdGg6c3RyaW5nfT59CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYXVkaXRTZXNzaW9ucyh7IGhvbWUsIG5vdGUgPSAnJyB9KSB7CiAgY29uc3Qgc3RhdGVEaXIgPSBqb2luKGhvbWUsICdpbnN0YWxsLXJhZGFyJykKICBjb25zdCBpbmRleEZpbGUgPSBqb2luKHN0YXRlRGlyLCAnc2Vzc2lvbi1pbmRleC5qc29uJykKICBjb25zdCBsb2dGaWxlID0gam9pbihzdGF0ZURpciwgJ3Nlc3Npb24tYXVkaXQuanNvbmwnKQogIGNvbnN0IHByZXZpb3VzID0gYXdhaXQgcmVhZEpzb24oaW5kZXhGaWxlLCBudWxsKQogIGNvbnN0IGN1cnJlbnQgPSBhd2FpdCBsaXN0U2Vzc2lvbkRpcnMoaG9tZSkKICBjb25zdCBhdCA9IERhdGUubm93KCkKCiAgY29uc3QgYmVmb3JlID0gbmV3IE1hcCgocHJldmlvdXM/LnNlc3Npb25zIHx8IFtdKS5tYXAoKGl0ZW0pID0+IFtpdGVtLmlkLCBpdGVtXSkpCiAgY29uc3QgYWZ0ZXIgPSBuZXcgTWFwKGN1cnJlbnQubWFwKChpdGVtKSA9PiBbaXRlbS5pZCwgaXRlbV0pKQoKICBjb25zdCBhZGRlZCA9IGN1cnJlbnQuZmlsdGVyKChpdGVtKSA9PiAhYmVmb3JlLmhhcyhpdGVtLmlkKSkKICBjb25zdCByZW1vdmVkID0gKHByZXZpb3VzPy5zZXNzaW9ucyB8fCBbXSkuZmlsdGVyKChpdGVtKSA9PiAhYWZ0ZXIuaGFzKGl0ZW0uaWQpKQogIGNvbnN0IGNoYW5nZWQgPSBjdXJyZW50LmZpbHRlcigoaXRlbSkgPT4gewogICAgY29uc3Qgb2xkID0gYmVmb3JlLmdldChpdGVtLmlkKQogICAgcmV0dXJuIG9sZCAmJiBvbGQuYnl0ZXMgIT09IGl0ZW0uYnl0ZXMKICB9KQoKICBhd2FpdCBta2RpcihzdGF0ZURpciwgeyByZWN1cnNpdmU6IHRydWUgfSkKICBhd2FpdCB3cml0ZUZpbGUoCiAgICBpbmRleEZpbGUsCiAgICBKU09OLnN0cmluZ2lmeSh7IGF0LCBzZXNzaW9uczogY3VycmVudC5tYXAoKHsgaWQsIHdvcmtzcGFjZSwgcGF0aCwgYnl0ZXMsIG10aW1lTXMgfSkgPT4gKHsgaWQsIHdvcmtzcGFjZSwgcGF0aCwgYnl0ZXMsIG10aW1lTXMgfSkpIH0sIG51bGwsIDEpLAogICAgJ3V0ZjgnLAogICkKCiAgY29uc3QgZmlyc3QgPSBwcmV2aW91cyA9PT0gbnVsbAogIGlmICghZmlyc3QgfHwgYWRkZWQubGVuZ3RoID4gMCB8fCByZW1vdmVkLmxlbmd0aCA+IDApIHsKICAgIGNvbnN0IHJlY29yZCA9IHsKICAgICAgYXQsCiAgICAgIG5vdGUsCiAgICAgIGZpcnN0LAogICAgICBhZGRlZDogYWRkZWQubWFwKCh7IGlkLCBieXRlcyB9KSA9PiAoeyBpZCwgYnl0ZXMgfSkpLAogICAgICByZW1vdmVkOiByZW1vdmVkLm1hcCgoeyBpZCwgYnl0ZXMsIG10aW1lTXMgfSkgPT4gKHsgaWQsIGJ5dGVzLCBsYXN0U2VlbjogbXRpbWVNcyB9KSksCiAgICAgIGNoYW5nZWQ6IGNoYW5nZWQubWFwKCh7IGlkLCBieXRlcyB9KSA9PiAoeyBpZCwgYnl0ZXMgfSkpLAogICAgfQogICAgYXdhaXQgYXBwZW5kRmlsZShsb2dGaWxlLCBgJHtKU09OLnN0cmluZ2lmeShyZWNvcmQpfVxuYCwgJ3V0ZjgnKQogIH0KCiAgcmV0dXJuIHsgZmlyc3QsIGF0LCBhZGRlZCwgcmVtb3ZlZCwgY2hhbmdlZCwgdG90YWw6IGN1cnJlbnQubGVuZ3RoLCBsb2dQYXRoOiBsb2dGaWxlIH0KfQo=
+/**
+ * 会话目录审计：给 $DSH_HOME/sessions 建一份索引快照，每次比对，
+ * 谁消失了、什么时候消失的、消失前多大，全部追加到 session-audit.jsonl。
+ *
+ * 起因：2026-11-09 发现两个会话目录（含 FFmpeg 664MB 的安装记录）在无人操作的情况下不见了，
+ * 而插件对它只读 —— 那就需要一条能事后追溯的账。
+ */
+import { readdir, readFile, stat, appendFile, mkdir, writeFile } from 'node:fs/promises'
+import { join } from 'node:path'
+
+async function listSessionDirs(home) {
+  const root = join(home, 'sessions')
+  const out = []
+  let workspaces
+  try {
+    workspaces = await readdir(root, { withFileTypes: true })
+  } catch {
+    return out
+  }
+  for (const ws of workspaces) {
+    if (!ws.isDirectory()) continue
+    const wsDir = join(root, ws.name)
+    let sessions
+    try {
+      sessions = await readdir(wsDir, { withFileTypes: true })
+    } catch {
+      continue
+    }
+    for (const session of sessions) {
+      if (!session.isDirectory()) continue
+      const dir = join(wsDir, session.name)
+      let files
+      try {
+        files = await readdir(dir)
+      } catch {
+        continue
+      }
+      const log = files.find((name) => /^session\..+\.jsonl(\.zstd)?$/i.test(name))
+      if (!log) continue
+      let info
+      try {
+        info = await stat(join(dir, log))
+      } catch {
+        continue
+      }
+      out.push({
+        id: session.name,
+        workspace: ws.name,
+        path: dir,
+        bytes: info.size,
+        mtimeMs: info.mtimeMs,
+      })
+    }
+  }
+  out.sort((a, b) => b.mtimeMs - a.mtimeMs)
+  return out
+}
+
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await readFile(file, 'utf8'))
+  } catch {
+    return fallback
+  }
+}
+
+/**
+ * @param {{home:string, note?:string}} opts
+ * @returns {Promise<{first:boolean, at:number, added:Array, removed:Array, changed:Array, total:number, logPath:string}>}
+ */
+export async function auditSessions({ home, note = '' }) {
+  const stateDir = join(home, 'install-radar')
+  const indexFile = join(stateDir, 'session-index.json')
+  const logFile = join(stateDir, 'session-audit.jsonl')
+  const previous = await readJson(indexFile, null)
+  const current = await listSessionDirs(home)
+  const at = Date.now()
+
+  const before = new Map((previous?.sessions || []).map((item) => [item.id, item]))
+  const after = new Map(current.map((item) => [item.id, item]))
+
+  const added = current.filter((item) => !before.has(item.id))
+  const removed = (previous?.sessions || []).filter((item) => !after.has(item.id))
+  const changed = current.filter((item) => {
+    const old = before.get(item.id)
+    return old && old.bytes !== item.bytes
+  })
+
+  await mkdir(stateDir, { recursive: true })
+  await writeFile(
+    indexFile,
+    JSON.stringify({ at, sessions: current.map(({ id, workspace, path, bytes, mtimeMs }) => ({ id, workspace, path, bytes, mtimeMs })) }, null, 1),
+    'utf8',
+  )
+
+  const first = previous === null
+  if (!first || added.length > 0 || removed.length > 0) {
+    const record = {
+      at,
+      note,
+      first,
+      added: added.map(({ id, bytes }) => ({ id, bytes })),
+      removed: removed.map(({ id, bytes, mtimeMs }) => ({ id, bytes, lastSeen: mtimeMs })),
+      changed: changed.map(({ id, bytes }) => ({ id, bytes })),
+    }
+    await appendFile(logFile, `${JSON.stringify(record)}\n`, 'utf8')
+  }
+
+  return { first, at, added, removed, changed, total: current.length, logPath: logFile }
+}

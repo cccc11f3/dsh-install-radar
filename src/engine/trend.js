@@ -1,1 +1,108 @@
-LyoqCiAqIOWinumVv+i2i+WKv++8muaMieWkqee7n+iuoeOAjOacgOi/kSBOIOWkqeaWsOWGmeWFpS/mlrDlop7jgI3nmoTkvZPnp6/vvIznlLvlsI/mn7Hnirblm77jgIIKICoKICog5LiO44CM5LuK5aSp44CN5omr5o+P5ZCM5LiA5aWX5Ymq5p6d6KeE5YiZ77yM5L2G6L6T5Ye65oyJ5aSp5YiG5qG277yaCiAqIOaWh+S7tuWPliBtYXgobXRpbWUsIGJpcnRodGltZSkg5omA5Zyo55qE6Ieq54S25pel77yb55uu5b2VIGJpcnRodGltZSA+PSBzaW5jZSDml7bmlbTmo7XorqHlhaXliJvlu7rml6XjgIIKICovCmltcG9ydCB7IG9wZW5kaXIsIGxzdGF0IH0gZnJvbSAnbm9kZTpmcy9wcm9taXNlcycKaW1wb3J0IHsgam9pbiB9IGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgbWVhc3VyZSB9IGZyb20gJy4vc2Nhbi5qcycKCmNvbnN0IERFRkFVTFRfTElNSVRTID0gewogIG1heEZpbGVzUGVyRW50cnk6IDQwMF8wMDAsCiAgbWF4RGVwdGg6IDEyLAogIHNraXBOYW1lczogbmV3IFNldChbJyRSRUNZQ0xFLkJJTicsICdTeXN0ZW0gVm9sdW1lIEluZm9ybWF0aW9uJywgJ1dpblN4UycsICdub2RlX21vZHVsZXMnXSksCn0KCmNvbnN0IGRheUtleSA9IChtcykgPT4gewogIGNvbnN0IGQgPSBuZXcgRGF0ZShtcykKICBjb25zdCBwYWQgPSAobikgPT4gU3RyaW5nKG4pLnBhZFN0YXJ0KDIsICcwJykKICByZXR1cm4gYCR7ZC5nZXRGdWxsWWVhcigpfS0ke3BhZChkLmdldE1vbnRoKCkgKyAxKX0tJHtwYWQoZC5nZXREYXRlKCkpfWAKfQoKLyoqCiAqIEBwYXJhbSB7QXJyYXk8e3BhdGg6c3RyaW5nLCBza2lwPzpzdHJpbmdbXX0+fSByb290cwogKiBAcGFyYW0ge3tkYXlzPzpudW1iZXIsIG5vdz86bnVtYmVyLCBsaW1pdHM/Om9iamVjdH19IG9wdHMKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzY2FuRGFpbHkocm9vdHMsIG9wdHMgPSB7fSkgewogIGNvbnN0IGRheXMgPSBOdW1iZXIob3B0cy5kYXlzKSA+IDAgPyBOdW1iZXIob3B0cy5kYXlzKSA6IDE0CiAgY29uc3Qgbm93ID0gb3B0cy5ub3cgPz8gRGF0ZS5ub3coKQogIGNvbnN0IHNpbmNlID0gbm93IC0gZGF5cyAqIDg2NDAwXzAwMAogIGNvbnN0IGxpbWl0cyA9IHsgLi4uREVGQVVMVF9MSU1JVFMsIC4uLihvcHRzLmxpbWl0cyB8fCB7fSkgfQogIGNvbnN0IGJ1Y2tldHMgPSBuZXcgTWFwKCkKCiAgY29uc3QgYnVtcCA9IChkYXksIGJ5dGVzLCBmaWxlcykgPT4gewogICAgY29uc3QgYnVja2V0ID0gYnVja2V0cy5nZXQoZGF5KSB8fCB7IGRheSwgYnl0ZXM6IDAsIGZpbGVzOiAwIH0KICAgIGJ1Y2tldC5ieXRlcyArPSBieXRlcwogICAgYnVja2V0LmZpbGVzICs9IGZpbGVzCiAgICBidWNrZXRzLnNldChkYXksIGJ1Y2tldCkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHdhbGsocm9vdCwgZGlyLCBkZXB0aCkgewogICAgaWYgKGRlcHRoID4gbGltaXRzLm1heERlcHRoKSByZXR1cm4KICAgIGxldCBoYW5kbGUKICAgIHRyeSB7CiAgICAgIGhhbmRsZSA9IGF3YWl0IG9wZW5kaXIoZGlyKQogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybgogICAgfQogICAgY29uc3QgY2hpbGRyZW4gPSBbXQogICAgdHJ5IHsKICAgICAgZm9yIGF3YWl0IChjb25zdCBlbnRyeSBvZiBoYW5kbGUpIHsKICAgICAgICBpZiAobGltaXRzLnNraXBOYW1lcy5oYXMoZW50cnkubmFtZSkpIGNvbnRpbnVlCiAgICAgICAgaWYgKChyb290LnNraXAgfHwgW10pLmluY2x1ZGVzKGVudHJ5Lm5hbWUpKSBjb250aW51ZQogICAgICAgIGNoaWxkcmVuLnB1c2goZW50cnkpCiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4KICAgIH0KICAgIGZvciAoY29uc3QgZW50cnkgb2YgY2hpbGRyZW4pIHsKICAgICAgY29uc3QgZnVsbCA9IGpvaW4oZGlyLCBlbnRyeS5uYW1lKQogICAgICBsZXQgc3QKICAgICAgdHJ5IHsKICAgICAgICBzdCA9IGF3YWl0IGxzdGF0KGZ1bGwpCiAgICAgIH0gY2F0Y2ggewogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgaWYgKHN0LmlzU3ltYm9saWNMaW5rKCkpIGNvbnRpbnVlCiAgICAgIGlmIChzdC5pc0RpcmVjdG9yeSgpKSB7CiAgICAgICAgaWYgKHN0LmJpcnRodGltZU1zID49IHNpbmNlKSB7CiAgICAgICAgICBjb25zdCBtID0gYXdhaXQgbWVhc3VyZShmdWxsLCB7IC4uLmxpbWl0cywgc2tpcE5hbWVzOiBuZXcgU2V0KCkgfSkKICAgICAgICAgIGJ1bXAoZGF5S2V5KHN0LmJpcnRodGltZU1zKSwgbS5ieXRlcywgbS5maWxlcykKICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgfQogICAgICAgIGlmIChzdC5tdGltZU1zID49IHNpbmNlIC0gMzYwMF8wMDApIGF3YWl0IHdhbGsocm9vdCwgZnVsbCwgZGVwdGggKyAxKQogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgaWYgKCFzdC5pc0ZpbGUoKSkgY29udGludWUKICAgICAgY29uc3QgYXQgPSBNYXRoLm1heChzdC5tdGltZU1zLCBzdC5iaXJ0aHRpbWVNcykKICAgICAgaWYgKGF0IDwgc2luY2UpIGNvbnRpbnVlCiAgICAgIGJ1bXAoZGF5S2V5KGF0KSwgc3Quc2l6ZSwgMSkKICAgIH0KICB9CgogIGZvciAoY29uc3Qgcm9vdCBvZiByb290cykgewogICAgdHJ5IHsKICAgICAgYXdhaXQgd2Fsayhyb290LCByb290LnBhdGgsIDApCiAgICB9IGNhdGNoIHsKICAgICAgLyog5Y2V5qC55aSx6LSl5LiN5b2x5ZON5YW25L2ZICovCiAgICB9CiAgfQoKICAvLyDooaXpvZDkuK3pl7TmsqHmlbDmja7nmoTml6XmnJ/vvIzlm77ooajmiY3kuI3kvJrmlq0KICBjb25zdCBvdXQgPSBbXQogIGZvciAobGV0IGkgPSBkYXlzIC0gMTsgaSA+PSAwOyBpLS0pIHsKICAgIGNvbnN0IGtleSA9IGRheUtleShub3cgLSBpICogODY0MDBfMDAwKQogICAgY29uc3QgYnVja2V0ID0gYnVja2V0cy5nZXQoa2V5KSB8fCB7IGRheToga2V5LCBieXRlczogMCwgZmlsZXM6IDAgfQogICAgb3V0LnB1c2goYnVja2V0KQogIH0KICByZXR1cm4gewogICAgZGF5cywKICAgIHNpbmNlLAogICAgZ2VuZXJhdGVkQXQ6IG5vdywKICAgIHRvdGFsQnl0ZXM6IG91dC5yZWR1Y2UoKHN1bSwgaXRlbSkgPT4gc3VtICsgaXRlbS5ieXRlcywgMCksCiAgICB0b3RhbEZpbGVzOiBvdXQucmVkdWNlKChzdW0sIGl0ZW0pID0+IHN1bSArIGl0ZW0uZmlsZXMsIDApLAogICAgbWF4Qnl0ZXM6IG91dC5yZWR1Y2UoKG1heCwgaXRlbSkgPT4gTWF0aC5tYXgobWF4LCBpdGVtLmJ5dGVzKSwgMCksCiAgICBidWNrZXRzOiBvdXQsCiAgfQp9Cg==
+/**
+ * 增长趋势：按天统计「最近 N 天新写入/新增」的体积，画小柱状图。
+ *
+ * 与「今天」扫描同一套剪枝规则，但输出按天分桶：
+ * 文件取 max(mtime, birthtime) 所在的自然日；目录 birthtime >= since 时整棵计入创建日。
+ */
+import { opendir, lstat } from 'node:fs/promises'
+import { join } from 'node:path'
+import { measure } from './scan.js'
+
+const DEFAULT_LIMITS = {
+  maxFilesPerEntry: 400_000,
+  maxDepth: 12,
+  skipNames: new Set(['$RECYCLE.BIN', 'System Volume Information', 'WinSxS', 'node_modules']),
+}
+
+const dayKey = (ms) => {
+  const d = new Date(ms)
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
+}
+
+/**
+ * @param {Array<{path:string, skip?:string[]}>} roots
+ * @param {{days?:number, now?:number, limits?:object}} opts
+ */
+export async function scanDaily(roots, opts = {}) {
+  const days = Number(opts.days) > 0 ? Number(opts.days) : 14
+  const now = opts.now ?? Date.now()
+  const since = now - days * 86400_000
+  const limits = { ...DEFAULT_LIMITS, ...(opts.limits || {}) }
+  const buckets = new Map()
+
+  const bump = (day, bytes, files) => {
+    const bucket = buckets.get(day) || { day, bytes: 0, files: 0 }
+    bucket.bytes += bytes
+    bucket.files += files
+    buckets.set(day, bucket)
+  }
+
+  async function walk(root, dir, depth) {
+    if (depth > limits.maxDepth) return
+    let handle
+    try {
+      handle = await opendir(dir)
+    } catch {
+      return
+    }
+    const children = []
+    try {
+      for await (const entry of handle) {
+        if (limits.skipNames.has(entry.name)) continue
+        if ((root.skip || []).includes(entry.name)) continue
+        children.push(entry)
+      }
+    } catch {
+      return
+    }
+    for (const entry of children) {
+      const full = join(dir, entry.name)
+      let st
+      try {
+        st = await lstat(full)
+      } catch {
+        continue
+      }
+      if (st.isSymbolicLink()) continue
+      if (st.isDirectory()) {
+        if (st.birthtimeMs >= since) {
+          const m = await measure(full, { ...limits, skipNames: new Set() })
+          bump(dayKey(st.birthtimeMs), m.bytes, m.files)
+          continue
+        }
+        if (st.mtimeMs >= since - 3600_000) await walk(root, full, depth + 1)
+        continue
+      }
+      if (!st.isFile()) continue
+      const at = Math.max(st.mtimeMs, st.birthtimeMs)
+      if (at < since) continue
+      bump(dayKey(at), st.size, 1)
+    }
+  }
+
+  for (const root of roots) {
+    try {
+      await walk(root, root.path, 0)
+    } catch {
+      /* 单根失败不影响其余 */
+    }
+  }
+
+  // 补齐中间没数据的日期，图表才不会断
+  const out = []
+  for (let i = days - 1; i >= 0; i--) {
+    const key = dayKey(now - i * 86400_000)
+    const bucket = buckets.get(key) || { day: key, bytes: 0, files: 0 }
+    out.push(bucket)
+  }
+  return {
+    days,
+    since,
+    generatedAt: now,
+    totalBytes: out.reduce((sum, item) => sum + item.bytes, 0),
+    totalFiles: out.reduce((sum, item) => sum + item.files, 0),
+    maxBytes: out.reduce((max, item) => Math.max(max, item.bytes), 0),
+    buckets: out,
+  }
+}

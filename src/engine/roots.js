@@ -1,1 +1,105 @@
-LyoqCiAqIOm7mOiupOebkeinhuague+8mui/meS6m+S9jee9ruaYr+OAjOijheS4nOilv+S8muiQveWIsOeahOWcsOaWueOAjeOAggogKiDmr4/kuKrmoLnmjInkuIDnuqfmnaHnm67liIfliIbvvIzkuIDmnaEgPSDkuIDkuKrlupTnlKggLyDkuIDkuKrljIUgLyDkuIDkuKrku5PlupPjgIIKICovCmltcG9ydCB7IGhvbWVkaXIgfSBmcm9tICdub2RlOm9zJwppbXBvcnQgeyBqb2luIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBleGlzdHNTeW5jIH0gZnJvbSAnbm9kZTpmcycKCmNvbnN0IGlzV2luID0gcHJvY2Vzcy5wbGF0Zm9ybSA9PT0gJ3dpbjMyJwoKZnVuY3Rpb24gd2luUm9vdHMoKSB7CiAgY29uc3QgaG9tZSA9IGhvbWVkaXIoKQogIGNvbnN0IGxvY2FsID0gcHJvY2Vzcy5lbnYuTE9DQUxBUFBEQVRBIHx8IGpvaW4oaG9tZSwgJ0FwcERhdGEnLCAnTG9jYWwnKQogIGNvbnN0IHJvYW1pbmcgPSBwcm9jZXNzLmVudi5BUFBEQVRBIHx8IGpvaW4oaG9tZSwgJ0FwcERhdGEnLCAnUm9hbWluZycpCiAgY29uc3QgcHJvZ3JhbURhdGEgPSBwcm9jZXNzLmVudi5Qcm9ncmFtRGF0YSB8fCAnQzpcXFByb2dyYW1EYXRhJwogIGNvbnN0IHN5c3RlbVJvb3QgPSBwcm9jZXNzLmVudi5TeXN0ZW1Sb290IHx8ICdDOlxcV2luZG93cycKICByZXR1cm4gWwogICAgeyBsYWJlbDogJ1Byb2dyYW0gRmlsZXMnLCBwYXRoOiAnQzpcXFByb2dyYW0gRmlsZXMnIH0sCiAgICB7IGxhYmVsOiAnUHJvZ3JhbSBGaWxlcyAoeDg2KScsIHBhdGg6ICdDOlxcUHJvZ3JhbSBGaWxlcyAoeDg2KScgfSwKICAgIHsgbGFiZWw6ICfnlKjmiLfnqIvluo/nm67lvZUnLCBwYXRoOiBqb2luKGxvY2FsLCAnUHJvZ3JhbXMnKSB9LAogICAgeyBsYWJlbDogJ1JvYW1pbmcg5pWw5o2uJywgcGF0aDogcm9hbWluZyB9LAogICAgeyBsYWJlbDogJ0xvY2FsIOaVsOaNricsIHBhdGg6IGxvY2FsIH0sCiAgICB7IGxhYmVsOiAn57O757uf5Li05pe255uu5b2VJywgcGF0aDogam9pbihzeXN0ZW1Sb290LCAnVGVtcCcpIH0sCiAgICB7IGxhYmVsOiAn55So5oi35Li05pe255uu5b2VJywgcGF0aDogam9pbihsb2NhbCwgJ1RlbXAnKSB9LAogICAgeyBsYWJlbDogJ+ezu+e7n+Wuieijhee8k+WtmCcsIHBhdGg6IGpvaW4oc3lzdGVtUm9vdCwgJ0luc3RhbGxlcicpIH0sCiAgICB7IGxhYmVsOiAnUHJvZ3JhbURhdGEnLCBwYXRoOiBwcm9ncmFtRGF0YSB9LAogICAgeyBsYWJlbDogJ+eUqOaIt+S4u+ebruW9lScsIHBhdGg6IGhvbWUgfSwKICAgIHsgbGFiZWw6ICd3aW5nZXQg5L6/5pC65YyFJywgcGF0aDogam9pbihsb2NhbCwgJ01pY3Jvc29mdCcsICdXaW5HZXQnLCAnUGFja2FnZXMnKSB9LAogICAgeyBsYWJlbDogJ2Nob2NvbGF0ZXkg5YyFJywgcGF0aDogam9pbihwcm9ncmFtRGF0YSwgJ2Nob2NvbGF0ZXknLCAnbGliJykgfSwKICAgIHsgbGFiZWw6ICducG0g5YWo5bGAJywgcGF0aDogam9pbihyb2FtaW5nLCAnbnBtJywgJ25vZGVfbW9kdWxlcycpIH0sCiAgICB7IGxhYmVsOiAncGlwIOeUqOaIt+WMhScsIHBhdGg6IGpvaW4ocm9hbWluZywgJ1B5dGhvbicpIH0sCiAgICB7IGxhYmVsOiAnY29uZGEgYmFzZScsIHBhdGg6IGpvaW4oaG9tZSwgJ21pbmljb25kYTMnKSB9LAogICAgeyBsYWJlbDogJ2NvbmRhIGJhc2UoYW5hY29uZGEpJywgcGF0aDogam9pbihob21lLCAnYW5hY29uZGEzJykgfSwKICAgIHsgbGFiZWw6ICdDb21meVVJJywgcGF0aDogam9pbihob21lLCAnQ29tZnlVSScpIH0sCiAgICB7IGxhYmVsOiAnT2xsYW1hIOaooeWeiycsIHBhdGg6IGpvaW4oaG9tZSwgJy5vbGxhbWEnLCAnbW9kZWxzJykgfSwKICAgIHsgbGFiZWw6ICfnlKjmiLcgLmNhY2hlJywgcGF0aDogam9pbihob21lLCAnLmNhY2hlJykgfSwKICAgIHsgbGFiZWw6ICfnlKjmiLcgLmxvY2FsL2JpbicsIHBhdGg6IGpvaW4oaG9tZSwgJy5sb2NhbCcsICdiaW4nKSB9LAogICAgeyBsYWJlbDogJ2NhcmdvIGJpbicsIHBhdGg6IGpvaW4oaG9tZSwgJy5jYXJnbycsICdiaW4nKSB9LAogIF0KfQoKLyoqCiAqIOOAjOS7iuWkqeWkmuS6huS7gOS5iOOAjeS4k+eUqOague+8muWPquaJq+acgOWuueaYk+iiq+WQhOenjeW3peWFt+WBt+WBt+WGmea7oeeahOWcsOaWueOAggogKiBvd25lckRlcHRoIOWGs+WumuS4gOihjOS7o+ihqOWkmuWkp+eahOiMg+WbtO+8iEM6XCDnlKggMiDlsYLvvIzlhbbkvZkgMSDlsYLvvInjgIIKICovCmV4cG9ydCBmdW5jdGlvbiByZXNvbHZlUmVjZW50Um9vdHMoY29uZmlnID0ge30pIHsKICBjb25zdCBob21lID0gaG9tZWRpcigpCiAgY29uc3QgbG9jYWwgPSBwcm9jZXNzLmVudi5MT0NBTEFQUERBVEEgfHwgam9pbihob21lLCAnQXBwRGF0YScsICdMb2NhbCcpCiAgY29uc3Qgcm9hbWluZyA9IHByb2Nlc3MuZW52LkFQUERBVEEgfHwgam9pbihob21lLCAnQXBwRGF0YScsICdSb2FtaW5nJykKICBjb25zdCBzeXN0ZW1Sb290ID0gcHJvY2Vzcy5lbnYuU3lzdGVtUm9vdCB8fCAnQzpcXFdpbmRvd3MnCiAgaWYgKCFpc1dpbikgewogICAgcmV0dXJuIFsKICAgICAgeyBsYWJlbDogJ1Jvb3QnLCBwYXRoOiAnLycsIG93bmVyRGVwdGg6IDMgfSwKICAgICAgeyBsYWJlbDogJ0hvbWUnLCBwYXRoOiBob21lLCBvd25lckRlcHRoOiAxIH0sCiAgICAgIHsgbGFiZWw6ICd0bXAnLCBwYXRoOiAnL3RtcCcsIG93bmVyRGVwdGg6IDEgfSwKICAgIF0uZmlsdGVyKChyb290KSA9PiBleGlzdHNTeW5jKHJvb3QucGF0aCkpCiAgfQogIGNvbnN0IHJvb3RzID0gWwogICAgeyBsYWJlbDogJ+ezu+e7n+S4tOaXtuebruW9lScsIHBhdGg6IGpvaW4oc3lzdGVtUm9vdCwgJ1RlbXAnKSwgb3duZXJEZXB0aDogMSB9LAogICAgeyBsYWJlbDogJ+eUqOaIt+S4tOaXtuebruW9lScsIHBhdGg6IGpvaW4obG9jYWwsICdUZW1wJyksIG93bmVyRGVwdGg6IDEgfSwKICAgIHsgbGFiZWw6ICdMb2NhbCcsIHBhdGg6IGxvY2FsLCBvd25lckRlcHRoOiAxIH0sCiAgICB7IGxhYmVsOiAnUm9hbWluZycsIHBhdGg6IHJvYW1pbmcsIG93bmVyRGVwdGg6IDEgfSwKICAgIHsgbGFiZWw6ICfkuIvovb0nLCBwYXRoOiBqb2luKGhvbWUsICdEb3dubG9hZHMnKSwgb3duZXJEZXB0aDogMSB9LAogICAgeyBsYWJlbDogJ+ahjOmdoicsIHBhdGg6IGpvaW4oaG9tZSwgJ0Rlc2t0b3AnKSwgb3duZXJEZXB0aDogMSB9LAogICAgeyBsYWJlbDogJ0Mg55uYJywgcGF0aDogJ0M6XFwnLCBvd25lckRlcHRoOiAyLCBza2lwOiBbJ1dpbmRvd3MnLCAnUHJvZ3JhbSBGaWxlcycsICdQcm9ncmFtIEZpbGVzICh4ODYpJywgJ1Byb2dyYW1EYXRhJywgJ1VzZXJzJywgJyRSZWN5Y2xlLkJpbiddIH0sCiAgXQogIGNvbnN0IGV4dHJhID0gKGNvbmZpZy5leHRyYVJlY2VudFJvb3RzIHx8IFtdKS5tYXAoKGl0ZW0pID0+ICh0eXBlb2YgaXRlbSA9PT0gJ3N0cmluZycgPyB7IHBhdGg6IGl0ZW0sIG93bmVyRGVwdGg6IDIgfSA6IGl0ZW0pKQogIHJldHVybiBbLi4ucm9vdHMsIC4uLmV4dHJhXS5maWx0ZXIoKHJvb3QpID0+IHJvb3QucGF0aCAmJiBleGlzdHNTeW5jKHJvb3QucGF0aCkpCn0KCgpmdW5jdGlvbiBwb3NpeFJvb3RzKCkgewogIGNvbnN0IGhvbWUgPSBob21lZGlyKCkKICByZXR1cm4gWwogICAgeyBsYWJlbDogJ0FwcGxpY2F0aW9ucycsIHBhdGg6ICcvQXBwbGljYXRpb25zJyB9LAogICAgeyBsYWJlbDogJ0hvbWVicmV3IENlbGxhcicsIHBhdGg6ICcvb3B0L2hvbWVicmV3L0NlbGxhcicgfSwKICAgIHsgbGFiZWw6ICducG0g5YWo5bGAJywgcGF0aDogJy91c3IvbG9jYWwvbGliL25vZGVfbW9kdWxlcycgfSwKICAgIHsgbGFiZWw6ICfnlKjmiLcgYmluJywgcGF0aDogam9pbihob21lLCAnLmxvY2FsJywgJ2JpbicpIH0sCiAgICB7IGxhYmVsOiAnQ29tZnlVSScsIHBhdGg6IGpvaW4oaG9tZSwgJ0NvbWZ5VUknKSB9LAogICAgeyBsYWJlbDogJ09sbGFtYSDmqKHlnosnLCBwYXRoOiBqb2luKGhvbWUsICcub2xsYW1hJywgJ21vZGVscycpIH0sCiAgICB7IGxhYmVsOiAn55So5oi3IC5jYWNoZScsIHBhdGg6IGpvaW4oaG9tZSwgJy5jYWNoZScpIH0sCiAgXQp9CgovKioKICog5ZCI5bm244CM6buY6K6k5qC5ICsg6YWN572u6YeM55qE6aKd5aSW5qC544CN77yM5Lii5o6J5LiN5a2Y5Zyo5LiO5pi+5byPIHNraXAg55qE44CCCiAqIEBwYXJhbSB7e2V4dHJhUm9vdHM/OiBBcnJheTxzdHJpbmd8e3BhdGg6c3RyaW5nLGxhYmVsPzpzdHJpbmcsZGVwdGg/Om51bWJlcn0+LCBpbmNsdWRlRGVmYXVsdHM/OiBib29sZWFufX0gY29uZmlnCiAqLwpleHBvcnQgZnVuY3Rpb24gcmVzb2x2ZVJvb3RzKGNvbmZpZyA9IHt9KSB7CiAgY29uc3QgYmFzZSA9IGNvbmZpZy5pbmNsdWRlRGVmYXVsdHMgPT09IGZhbHNlID8gW10gOiBpc1dpbiA/IHdpblJvb3RzKCkgOiBwb3NpeFJvb3RzKCkKICBjb25zdCBleHRyYSA9IChjb25maWcuZXh0cmFSb290cyB8fCBbXSkubWFwKChpdGVtKSA9PgogICAgdHlwZW9mIGl0ZW0gPT09ICdzdHJpbmcnID8geyBwYXRoOiBpdGVtIH0gOiB7IC4uLml0ZW0gfSwKICApCiAgY29uc3QgYWxsID0gWy4uLmJhc2UsIC4uLmV4dHJhXS5maWx0ZXIoKHJvb3QpID0+IHJvb3QgJiYgcm9vdC5wYXRoICYmICFyb290LnNraXApCiAgY29uc3Qgc2VlbiA9IG5ldyBTZXQoKQogIGNvbnN0IG91dCA9IFtdCiAgZm9yIChjb25zdCByb290IG9mIGFsbCkgewogICAgY29uc3Qga2V5ID0gaXNXaW4gPyByb290LnBhdGgudG9Mb3dlckNhc2UoKSA6IHJvb3QucGF0aAogICAgaWYgKHNlZW4uaGFzKGtleSkpIGNvbnRpbnVlCiAgICBzZWVuLmFkZChrZXkpCiAgICBpZiAoIWV4aXN0c1N5bmMocm9vdC5wYXRoKSkgY29udGludWUKICAgIG91dC5wdXNoKHsgbGFiZWw6IHJvb3QubGFiZWwgfHwgcm9vdC5wYXRoLCBwYXRoOiByb290LnBhdGgsIGRlcHRoOiByb290LmRlcHRoID8/IDEgfSkKICB9CiAgcmV0dXJuIG91dAp9Cg==
+/**
+ * 默认监视根：这些位置是「装东西会落到的地方」。
+ * 每个根按一级条目切分，一条 = 一个应用 / 一个包 / 一个仓库。
+ */
+import { homedir } from 'node:os'
+import { join } from 'node:path'
+import { existsSync } from 'node:fs'
+
+const isWin = process.platform === 'win32'
+
+function winRoots() {
+  const home = homedir()
+  const local = process.env.LOCALAPPDATA || join(home, 'AppData', 'Local')
+  const roaming = process.env.APPDATA || join(home, 'AppData', 'Roaming')
+  const programData = process.env.ProgramData || 'C:\\ProgramData'
+  const systemRoot = process.env.SystemRoot || 'C:\\Windows'
+  return [
+    { label: 'Program Files', path: 'C:\\Program Files' },
+    { label: 'Program Files (x86)', path: 'C:\\Program Files (x86)' },
+    { label: '用户程序目录', path: join(local, 'Programs') },
+    { label: 'Roaming 数据', path: roaming },
+    { label: 'Local 数据', path: local },
+    { label: '系统临时目录', path: join(systemRoot, 'Temp') },
+    { label: '用户临时目录', path: join(local, 'Temp') },
+    { label: '系统安装缓存', path: join(systemRoot, 'Installer') },
+    { label: 'ProgramData', path: programData },
+    { label: '用户主目录', path: home },
+    { label: 'winget 便携包', path: join(local, 'Microsoft', 'WinGet', 'Packages') },
+    { label: 'chocolatey 包', path: join(programData, 'chocolatey', 'lib') },
+    { label: 'npm 全局', path: join(roaming, 'npm', 'node_modules') },
+    { label: 'pip 用户包', path: join(roaming, 'Python') },
+    { label: 'conda base', path: join(home, 'miniconda3') },
+    { label: 'conda base(anaconda)', path: join(home, 'anaconda3') },
+    { label: 'ComfyUI', path: join(home, 'ComfyUI') },
+    { label: 'Ollama 模型', path: join(home, '.ollama', 'models') },
+    { label: '用户 .cache', path: join(home, '.cache') },
+    { label: '用户 .local/bin', path: join(home, '.local', 'bin') },
+    { label: 'cargo bin', path: join(home, '.cargo', 'bin') },
+  ]
+}
+
+/**
+ * 「今天多了什么」专用根：只扫最容易被各种工具偷偷写满的地方。
+ * ownerDepth 决定一行代表多大的范围（C:\ 用 2 层，其余 1 层）。
+ */
+export function resolveRecentRoots(config = {}) {
+  const home = homedir()
+  const local = process.env.LOCALAPPDATA || join(home, 'AppData', 'Local')
+  const roaming = process.env.APPDATA || join(home, 'AppData', 'Roaming')
+  const systemRoot = process.env.SystemRoot || 'C:\\Windows'
+  if (!isWin) {
+    return [
+      { label: 'Root', path: '/', ownerDepth: 3 },
+      { label: 'Home', path: home, ownerDepth: 1 },
+      { label: 'tmp', path: '/tmp', ownerDepth: 1 },
+    ].filter((root) => existsSync(root.path))
+  }
+  const roots = [
+    { label: '系统临时目录', path: join(systemRoot, 'Temp'), ownerDepth: 1 },
+    { label: '用户临时目录', path: join(local, 'Temp'), ownerDepth: 1 },
+    { label: 'Local', path: local, ownerDepth: 1 },
+    { label: 'Roaming', path: roaming, ownerDepth: 1 },
+    { label: '下载', path: join(home, 'Downloads'), ownerDepth: 1 },
+    { label: '桌面', path: join(home, 'Desktop'), ownerDepth: 1 },
+    { label: 'C 盘', path: 'C:\\', ownerDepth: 2, skip: ['Windows', 'Program Files', 'Program Files (x86)', 'ProgramData', 'Users', '$Recycle.Bin'] },
+  ]
+  const extra = (config.extraRecentRoots || []).map((item) => (typeof item === 'string' ? { path: item, ownerDepth: 2 } : item))
+  return [...roots, ...extra].filter((root) => root.path && existsSync(root.path))
+}
+
+
+function posixRoots() {
+  const home = homedir()
+  return [
+    { label: 'Applications', path: '/Applications' },
+    { label: 'Homebrew Cellar', path: '/opt/homebrew/Cellar' },
+    { label: 'npm 全局', path: '/usr/local/lib/node_modules' },
+    { label: '用户 bin', path: join(home, '.local', 'bin') },
+    { label: 'ComfyUI', path: join(home, 'ComfyUI') },
+    { label: 'Ollama 模型', path: join(home, '.ollama', 'models') },
+    { label: '用户 .cache', path: join(home, '.cache') },
+  ]
+}
+
+/**
+ * 合并「默认根 + 配置里的额外根」，丢掉不存在与显式 skip 的。
+ * @param {{extraRoots?: Array<string|{path:string,label?:string,depth?:number}>, includeDefaults?: boolean}} config
+ */
+export function resolveRoots(config = {}) {
+  const base = config.includeDefaults === false ? [] : isWin ? winRoots() : posixRoots()
+  const extra = (config.extraRoots || []).map((item) =>
+    typeof item === 'string' ? { path: item } : { ...item },
+  )
+  const all = [...base, ...extra].filter((root) => root && root.path && !root.skip)
+  const seen = new Set()
+  const out = []
+  for (const root of all) {
+    const key = isWin ? root.path.toLowerCase() : root.path
+    if (seen.has(key)) continue
+    seen.add(key)
+    if (!existsSync(root.path)) continue
+    out.push({ label: root.label || root.path, path: root.path, depth: root.depth ?? 1 })
+  }
+  return out
+}

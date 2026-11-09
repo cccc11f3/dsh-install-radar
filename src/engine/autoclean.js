@@ -1,1 +1,105 @@
-LyoqCiAqIOiHquWKqOa4heeQhu+8muWPqua4heOAjPCfn6Igc2FmZSDkuJTlpJ/ogIHjgI3nmoTkuLTml7blnoPlnL7vvIzpu5jorqTlhbPpl63jgIIKICoKICog5LiO5omL5Yqo5riF55CG5YWx55So5ZCM5LiA5aWX5Yik5a6a77yIcmlzay5hc3Nlc3NSaXNr77yJ5LiO55m95ZCN5Y2V77yIY2xlYW4uY2hlY2tBbGxvd2Vk77yJ77yMCiAqIOS9huabtOS/neWuiO+8mgogKiAgIC0g5Y+q5omr5Li05pe255uu5b2V55m95ZCN5Y2V55qEKirkuIDnuqflrZDpobkqKu+8iOS4jemAkuW9kuS5see/u++8iQogKiAgIC0g5Y+q5YigIHJpc2sgPT09ICdzYWZlJyDnmoTvvIhjZHAtKuOAgUhlYWRsZXNzQ2hyb21lKuOAgXBpcC11bnBhY2stKuOAgeWuieijheWMheKApu+8iQogKiAgIC0g5Y+q5Yig44CM5Yib5bu65pe26Ze05pep5LqOIE4g5aSp5YmN44CN55qE77yI6buY6K6kIDcg5aSp77yJCiAqICAgLSDmr4/mnaHpg73lhpkgY2xlYW4tbG9nLmpzb25s77yIbm90ZT1hdXRv77yJ77yM5Y+v6L+95rqvCiAqLwppbXBvcnQgeyByZWFkZGlyLCBzdGF0LCBybSwgYXBwZW5kRmlsZSwgbWtkaXIgfSBmcm9tICdub2RlOmZzL3Byb21pc2VzJwppbXBvcnQgeyBqb2luIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBhbGxvd2VkUm9vdHMgfSBmcm9tICcuL2NsZWFuLmpzJwppbXBvcnQgeyBhc3Nlc3NSaXNrLCBDTEVBTl9NSU5fQllURVMgfSBmcm9tICcuL3Jpc2suanMnCmltcG9ydCB7IG1lYXN1cmUgfSBmcm9tICcuL3NjYW4uanMnCgpjb25zdCBEQVkgPSA4NjQwMF8wMDAKCi8qKgogKiBAcGFyYW0ge3tob21lOnN0cmluZywgbWluQWdlRGF5cz86bnVtYmVyLCBkcnlSdW4/OmJvb2xlYW4sIG1heEl0ZW1zPzpudW1iZXJ9fSBvcHRzCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYXV0b0NsZWFuU3dlZXAob3B0cyA9IHt9KSB7CiAgY29uc3QgbWluQWdlRGF5cyA9IE51bWJlcihvcHRzLm1pbkFnZURheXMpID4gMCA/IE51bWJlcihvcHRzLm1pbkFnZURheXMpIDogNwogIGNvbnN0IGN1dG9mZiA9IChOdW1iZXIob3B0cy5ub3cpID4gMCA/IE51bWJlcihvcHRzLm5vdykgOiBEYXRlLm5vdygpKSAtIG1pbkFnZURheXMgKiBEQVkKICBjb25zdCBkcnlSdW4gPSBvcHRzLmRyeVJ1biA9PT0gdHJ1ZQogIGNvbnN0IG1heEl0ZW1zID0gTnVtYmVyKG9wdHMubWF4SXRlbXMpID4gMCA/IE51bWJlcihvcHRzLm1heEl0ZW1zKSA6IDYwCgogIGNvbnN0IHJvb3RzID0gQXJyYXkuaXNBcnJheShvcHRzLnJvb3RzKSAmJiBvcHRzLnJvb3RzLmxlbmd0aCA+IDAgPyBvcHRzLnJvb3RzIDogYWxsb3dlZFJvb3RzKCkKICBjb25zdCBjYW5kaWRhdGVzID0gW10KICBsZXQgc2Nhbm5lZCA9IDAKCiAgZm9yIChjb25zdCByb290IG9mIHJvb3RzKSB7CiAgICBsZXQgbGlzdAogICAgdHJ5IHsKICAgICAgbGlzdCA9IGF3YWl0IHJlYWRkaXIocm9vdCwgeyB3aXRoRmlsZVR5cGVzOiB0cnVlIH0pCiAgICB9IGNhdGNoIHsKICAgICAgY29udGludWUKICAgIH0KICAgIGZvciAoY29uc3QgZW50cnkgb2YgbGlzdCkgewogICAgICBjb25zdCBmdWxsID0gam9pbihyb290LCBlbnRyeS5uYW1lKQogICAgICBsZXQgaW5mbwogICAgICB0cnkgewogICAgICAgIGluZm8gPSBhd2FpdCBzdGF0KGZ1bGwpCiAgICAgIH0gY2F0Y2ggewogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgaWYgKCFpbmZvLmlzRmlsZSgpICYmICFpbmZvLmlzRGlyZWN0b3J5KCkpIGNvbnRpbnVlCiAgICAgIHNjYW5uZWQrKwogICAgICBjb25zdCBjcmVhdGVkQXQgPSBpbmZvLmJpcnRodGltZU1zIHx8IGluZm8ubXRpbWVNcwogICAgICBpZiAoY3JlYXRlZEF0ID4gY3V0b2ZmKSBjb250aW51ZQogICAgICBjb25zdCByaXNrID0gYXNzZXNzUmlzayhmdWxsLCB7IGJ5dGVzOiBpbmZvLnNpemUgfSkKICAgICAgaWYgKHJpc2subGV2ZWwgIT09ICdzYWZlJykgY29udGludWUKICAgICAgY29uc3QgYnl0ZXMgPSBpbmZvLmlzRGlyZWN0b3J5KCkgPyAoYXdhaXQgbWVhc3VyZShmdWxsKSkuYnl0ZXMgOiBpbmZvLnNpemUKICAgICAgaWYgKGJ5dGVzIDwgQ0xFQU5fTUlOX0JZVEVTKSBjb250aW51ZQogICAgICBjYW5kaWRhdGVzLnB1c2goewogICAgICAgIHBhdGg6IGZ1bGwsCiAgICAgICAgYnl0ZXMsCiAgICAgICAgYWdlRGF5czogTWF0aC5mbG9vcigoRGF0ZS5ub3coKSAtIGNyZWF0ZWRBdCkgLyBEQVkpLAogICAgICAgIGNvbnNlcXVlbmNlOiByaXNrLmNvbnNlcXVlbmNlLAogICAgICB9KQogICAgfQogIH0KCiAgY2FuZGlkYXRlcy5zb3J0KChhLCBiKSA9PiBiLmJ5dGVzIC0gYS5ieXRlcykKICBjb25zdCBwaWNrZWQgPSBjYW5kaWRhdGVzLnNsaWNlKDAsIG1heEl0ZW1zKQoKICBpZiAoZHJ5UnVuKSB7CiAgICByZXR1cm4gewogICAgICBkcnlSdW46IHRydWUsCiAgICAgIG1pbkFnZURheXMsCiAgICAgIHNjYW5uZWQsCiAgICAgIGNhbmRpZGF0ZXM6IHBpY2tlZCwKICAgICAgdG90YWxCeXRlczogcGlja2VkLnJlZHVjZSgoc3VtLCBpdGVtKSA9PiBzdW0gKyBpdGVtLmJ5dGVzLCAwKSwKICAgICAgcmVtb3ZlZDogMCwKICAgICAgZnJlZWQ6IDAsCiAgICB9CiAgfQoKICBjb25zdCByZW1vdmVkID0gW10KICBmb3IgKGNvbnN0IGl0ZW0gb2YgcGlja2VkKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBybShpdGVtLnBhdGgsIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KQogICAgICByZW1vdmVkLnB1c2goaXRlbSkKICAgIH0gY2F0Y2ggewogICAgICAvKiDmraPlnKjooqvljaDnlKjlsLHot7Pov4fvvIzkuIvmrKHph4fmoLflho3or5UgKi8KICAgIH0KICB9CiAgY29uc3QgZnJlZWQgPSByZW1vdmVkLnJlZHVjZSgoc3VtLCBpdGVtKSA9PiBzdW0gKyBpdGVtLmJ5dGVzLCAwKQogIGlmIChyZW1vdmVkLmxlbmd0aCA+IDApIHsKICAgIGNvbnN0IGRpciA9IGpvaW4ob3B0cy5ob21lLCAnaW5zdGFsbC1yYWRhcicpCiAgICBhd2FpdCBta2RpcihkaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgICBhd2FpdCBhcHBlbmRGaWxlKAogICAgICBqb2luKGRpciwgJ2NsZWFuLWxvZy5qc29ubCcpLAogICAgICBgJHtKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgYXQ6IERhdGUubm93KCksCiAgICAgICAgbm90ZTogYGF1dG8oPiR7bWluQWdlRGF5c31kLCBzYWZlKWAsCiAgICAgICAgcGF0aHM6IHJlbW92ZWQubWFwKChpdGVtKSA9PiBpdGVtLnBhdGgpLAogICAgICAgIGZyZWVkLAogICAgICB9KX1cbmAsCiAgICAgICd1dGY4JywKICAgICkKICB9CgogIHJldHVybiB7IGRyeVJ1bjogZmFsc2UsIG1pbkFnZURheXMsIHNjYW5uZWQsIGNhbmRpZGF0ZXM6IHBpY2tlZCwgdG90YWxCeXRlczogcGlja2VkLnJlZHVjZSgoc3VtLCBpdGVtKSA9PiBzdW0gKyBpdGVtLmJ5dGVzLCAwKSwgcmVtb3ZlZDogcmVtb3ZlZC5sZW5ndGgsIGZyZWVkIH0KfQo=
+/**
+ * 自动清理：只清「🟢 safe 且够老」的临时垃圾，默认关闭。
+ *
+ * 与手动清理共用同一套判定（risk.assessRisk）与白名单（clean.checkAllowed），
+ * 但更保守：
+ *   - 只扫临时目录白名单的**一级子项**（不递归乱翻）
+ *   - 只删 risk === 'safe' 的（cdp-*、HeadlessChrome*、pip-unpack-*、安装包…）
+ *   - 只删「创建时间早于 N 天前」的（默认 7 天）
+ *   - 每条都写 clean-log.jsonl（note=auto），可追溯
+ */
+import { readdir, stat, rm, appendFile, mkdir } from 'node:fs/promises'
+import { join } from 'node:path'
+import { allowedRoots } from './clean.js'
+import { assessRisk, CLEAN_MIN_BYTES } from './risk.js'
+import { measure } from './scan.js'
+
+const DAY = 86400_000
+
+/**
+ * @param {{home:string, minAgeDays?:number, dryRun?:boolean, maxItems?:number}} opts
+ */
+export async function autoCleanSweep(opts = {}) {
+  const minAgeDays = Number(opts.minAgeDays) > 0 ? Number(opts.minAgeDays) : 7
+  const cutoff = (Number(opts.now) > 0 ? Number(opts.now) : Date.now()) - minAgeDays * DAY
+  const dryRun = opts.dryRun === true
+  const maxItems = Number(opts.maxItems) > 0 ? Number(opts.maxItems) : 60
+
+  const roots = Array.isArray(opts.roots) && opts.roots.length > 0 ? opts.roots : allowedRoots()
+  const candidates = []
+  let scanned = 0
+
+  for (const root of roots) {
+    let list
+    try {
+      list = await readdir(root, { withFileTypes: true })
+    } catch {
+      continue
+    }
+    for (const entry of list) {
+      const full = join(root, entry.name)
+      let info
+      try {
+        info = await stat(full)
+      } catch {
+        continue
+      }
+      if (!info.isFile() && !info.isDirectory()) continue
+      scanned++
+      const createdAt = info.birthtimeMs || info.mtimeMs
+      if (createdAt > cutoff) continue
+      const risk = assessRisk(full, { bytes: info.size })
+      if (risk.level !== 'safe') continue
+      const bytes = info.isDirectory() ? (await measure(full)).bytes : info.size
+      if (bytes < CLEAN_MIN_BYTES) continue
+      candidates.push({
+        path: full,
+        bytes,
+        ageDays: Math.floor((Date.now() - createdAt) / DAY),
+        consequence: risk.consequence,
+      })
+    }
+  }
+
+  candidates.sort((a, b) => b.bytes - a.bytes)
+  const picked = candidates.slice(0, maxItems)
+
+  if (dryRun) {
+    return {
+      dryRun: true,
+      minAgeDays,
+      scanned,
+      candidates: picked,
+      totalBytes: picked.reduce((sum, item) => sum + item.bytes, 0),
+      removed: 0,
+      freed: 0,
+    }
+  }
+
+  const removed = []
+  for (const item of picked) {
+    try {
+      await rm(item.path, { recursive: true, force: true })
+      removed.push(item)
+    } catch {
+      /* 正在被占用就跳过，下次采样再试 */
+    }
+  }
+  const freed = removed.reduce((sum, item) => sum + item.bytes, 0)
+  if (removed.length > 0) {
+    const dir = join(opts.home, 'install-radar')
+    await mkdir(dir, { recursive: true })
+    await appendFile(
+      join(dir, 'clean-log.jsonl'),
+      `${JSON.stringify({
+        at: Date.now(),
+        note: `auto(>${minAgeDays}d, safe)`,
+        paths: removed.map((item) => item.path),
+        freed,
+      })}\n`,
+      'utf8',
+    )
+  }
+
+  return { dryRun: false, minAgeDays, scanned, candidates: picked, totalBytes: picked.reduce((sum, item) => sum + item.bytes, 0), removed: removed.length, freed }
+}

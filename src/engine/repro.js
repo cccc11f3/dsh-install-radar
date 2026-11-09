@@ -1,1 +1,255 @@
-LyoqCiAqIOWkjeeOsOe6v+e0ou+8muS7juOAjOacgOWPr+iDveWHuuS6i+eahOmCo+S4gOi9ruS8muivneOAjemHjO+8jOaKiuecn+ato+WcqOi3kea1j+iniOWZqOiHquWKqOWMlueahOiEmuacrOaPquWHuuadpeOAggogKgogKiDlhajpg6jnprvnur/lj6ror7vvvJoKICogICAxLiDlj5bor6XkvJror53miYDmnIkgc2hlbGwg5ZG95Luk77yM5pS26ZuG44CM5YCZ6YCJ55uu5b2V44CN77yI5Lya6K+dIGN3ZCArIOWRveS7pOmHjCBjZC9TZXQtTG9jYXRpb24vTmV3LUl0ZW0g55qE57ud5a+56Lev5b6E77yJCiAqICAgMi4g5oq95ZG95Luk6YeM5Ye6546w55qE6ISa5pys5paH5Lu25ZCN77yILmpzLy5tanMvLmNqcy8udHMvLnB5Ly5wczEvLmJhdC8uY21k77yJ77yM5oyJ5YCZ6YCJ55uu5b2V6Kej5p6Q5oiQ57ud5a+56Lev5b6ECiAqICAgMy4g6Kej5p6Q5LiN5Ye65p2l55qE77yM5Zyo5YCZ6YCJ55uu5b2V6YeM5rWF5bGC77yI4omkMyDlsYLvvInmjInmlofku7blkI3mib4KICogICA0LiDor7vmlofku7blhoXlrrnvvIznnIvmnInmsqHmnIkgQ0RQIOeJueW+ge+8iHVzZXItZGF0YS1kaXIgLyByZW1vdGUtZGVidWdnaW5nIC8gY2RwLSAvIGNocm9tZS5leGXvvIkKICogICA1LiDliKTmlq3lroPoh6rlt7HmnInmsqHmnInmuIXnkIbkuLTml7YgcHJvZmlsZe+8jOayoeacieeahOe7meS4gOauteWPr+ebtOaOpeeymOi0tOeahOa4heeQhumSqeWtkAogKiAgIDYuIOi/nuiEmuacrOaWh+S7tumDveayoeacieeahO+8iOWRveS7pOmHjOebtOaOpeaLiei1tyBDaHJvbWXvvInvvIzljZXni6znu5nkuIDkuKrjgIzlhoXogZTpqbHliqjjgI3nu5PorrrkuI7pkqnlrZAKICovCmltcG9ydCB7IHJlYWRkaXIsIHJlYWRGaWxlLCBzdGF0IH0gZnJvbSAnbm9kZTpmcy9wcm9taXNlcycKaW1wb3J0IHsgYmFzZW5hbWUsIGlzQWJzb2x1dGUsIGpvaW4sIHJlc29sdmUgfSBmcm9tICdub2RlOnBhdGgnCmltcG9ydCB7IGNvbGxlY3RDb21tYW5kcyB9IGZyb20gJy4vc2Vzc2lvbnMuanMnCgpjb25zdCBTQ1JJUFRfRVhUID0gL1wuKGpzfG1qc3xjanN8dHN8cHl8cHMxfGJhdHxjbWQpJC9pCmNvbnN0IENEUF9ISU5UID0gLy0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0fC0tdXNlci1kYXRhLWRpcnxjZHAtfGNocm9tZVwuZXhlfGNocm9taXVtfHBsYXl3cmlnaHR8cHVwcGV0ZWVyL2kKY29uc3QgQ0xFQU5VUF9ISU5UID0gL3JtU3luY3xybVxzKy1yZnxSZW1vdmUtSXRlbXxmc1wucm1cYnx1bmxpbmt8cm1kaXJ8ZmluYWxseVxzKlx7fHByb2Nlc3NcLm9uXChbJyJdZXhpdHx0cmFwXHN8Y2xlYW51cHxkaXNwb3NlL2kKY29uc3QgTUFYX1NDQU5fRklMRVMgPSA2MDAKCi8qKiDlkb3ku6Tph4zlh7rnjrDnmoTnm67lvZXvvJpjZCAvIFNldC1Mb2NhdGlvbiAvIE5ldy1JdGVtIC8gVGVzdC1QYXRoICovCmZ1bmN0aW9uIGRpcnNJbihjb21tYW5kKSB7CiAgY29uc3Qgb3V0ID0gW10KICBjb25zdCBwYXR0ZXJucyA9IFsKICAgIC8oPzpTZXQtTG9jYXRpb258Y2R8UHVzaC1Mb2NhdGlvbilccytbJyJdPyhbQS1aYS16XTpbXlxzJyI7fF0rKS9naSwKICAgIC9OZXctSXRlbVxzKy1JdGVtVHlwZVxzK0RpcmVjdG9yeVteO3xdKj9bJyJdKFtBLVphLXpdOlteJyJdKylbJyJdL2dpLAogICAgL1Rlc3QtUGF0aFxzK1snIl0oW0EtWmEtel06W14nIl0rKVsnIl0vZ2ksCiAgXQogIGZvciAoY29uc3QgcGF0dGVybiBvZiBwYXR0ZXJucykgewogICAgbGV0IG1hdGNoCiAgICB3aGlsZSAoKG1hdGNoID0gcGF0dGVybi5leGVjKGNvbW1hbmQpKSAhPT0gbnVsbCkgb3V0LnB1c2gobWF0Y2hbMV0ucmVwbGFjZSgvW1xcL10rJC8sICcnKSkKICB9CiAgcmV0dXJuIG91dAp9Cgphc3luYyBmdW5jdGlvbiByZWFkVGV4dChmaWxlLCBtYXhCeXRlcyA9IDUxMiAqIDEwMjQpIHsKICB0cnkgewogICAgY29uc3QgaW5mbyA9IGF3YWl0IHN0YXQoZmlsZSkKICAgIGlmICghaW5mby5pc0ZpbGUoKSB8fCBpbmZvLnNpemUgPiBtYXhCeXRlcykgcmV0dXJuICcnCiAgICByZXR1cm4gYXdhaXQgcmVhZEZpbGUoZmlsZSwgJ3V0ZjgnKQogIH0gY2F0Y2ggewogICAgcmV0dXJuICcnCiAgfQp9Cgphc3luYyBmdW5jdGlvbiBleGlzdHMoZmlsZSkgewogIHRyeSB7CiAgICBhd2FpdCBzdGF0KGZpbGUpCiAgICByZXR1cm4gdHJ1ZQogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlCiAgfQp9CgovKiog5ZyoIGJhc2Ug5LiL5rWF5bGC5oyJ5paH5Lu25ZCN5om+ICovCmFzeW5jIGZ1bmN0aW9uIHNoYWxsb3dGaW5kKGJhc2UsIG5hbWUsIGRlcHRoID0gMykgewogIGlmIChkZXB0aCA8IDApIHJldHVybiAnJwogIGxldCBsaXN0CiAgdHJ5IHsKICAgIGxpc3QgPSBhd2FpdCByZWFkZGlyKGJhc2UsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KQogIH0gY2F0Y2ggewogICAgcmV0dXJuICcnCiAgfQogIGZvciAoY29uc3QgZW50cnkgb2YgbGlzdCkgewogICAgaWYgKGVudHJ5LmlzRmlsZSgpICYmIGVudHJ5Lm5hbWUudG9Mb3dlckNhc2UoKSA9PT0gbmFtZS50b0xvd2VyQ2FzZSgpKSByZXR1cm4gam9pbihiYXNlLCBlbnRyeS5uYW1lKQogIH0KICBmb3IgKGNvbnN0IGVudHJ5IG9mIGxpc3QpIHsKICAgIGlmICghZW50cnkuaXNEaXJlY3RvcnkoKSkgY29udGludWUKICAgIGlmICgvXihub2RlX21vZHVsZXN8XC5naXR8ZGlzdHxidWlsZHxcLnZlbnZ8dmVudnxfX3B5Y2FjaGVfXykkL2kudGVzdChlbnRyeS5uYW1lKSkgY29udGludWUKICAgIGNvbnN0IGhpdCA9IGF3YWl0IHNoYWxsb3dGaW5kKGpvaW4oYmFzZSwgZW50cnkubmFtZSksIG5hbWUsIGRlcHRoIC0gMSkKICAgIGlmIChoaXQpIHJldHVybiBoaXQKICB9CiAgcmV0dXJuICcnCn0KCi8qKiDlnKggYmFzZSDkuIvmtYXlsYLmlLbpm4bohJrmnKzmlofku7bvvIjmi7/kuI3liLDmlofku7blkI3nur/ntKLml7blhZzlupXvvIkgKi8KYXN5bmMgZnVuY3Rpb24gc2hhbGxvd1NjcmlwdHMoYmFzZSwgZGVwdGggPSAyLCBhY2MgPSBbXSkgewogIGlmIChkZXB0aCA8IDAgfHwgYWNjLmxlbmd0aCA+IE1BWF9TQ0FOX0ZJTEVTKSByZXR1cm4gYWNjCiAgbGV0IGxpc3QKICB0cnkgewogICAgbGlzdCA9IGF3YWl0IHJlYWRkaXIoYmFzZSwgeyB3aXRoRmlsZVR5cGVzOiB0cnVlIH0pCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gYWNjCiAgfQogIGZvciAoY29uc3QgZW50cnkgb2YgbGlzdCkgewogICAgaWYgKGFjYy5sZW5ndGggPiBNQVhfU0NBTl9GSUxFUykgYnJlYWsKICAgIGlmIChlbnRyeS5pc0ZpbGUoKSAmJiBTQ1JJUFRfRVhULnRlc3QoZW50cnkubmFtZSkpIGFjYy5wdXNoKGpvaW4oYmFzZSwgZW50cnkubmFtZSkpCiAgICBlbHNlIGlmIChlbnRyeS5pc0RpcmVjdG9yeSgpICYmICEvXihub2RlX21vZHVsZXN8XC5naXR8ZGlzdHxidWlsZHxcLnZlbnZ8dmVudnxfX3B5Y2FjaGVfXykkL2kudGVzdChlbnRyeS5uYW1lKSkgewogICAgICBhd2FpdCBzaGFsbG93U2NyaXB0cyhqb2luKGJhc2UsIGVudHJ5Lm5hbWUpLCBkZXB0aCAtIDEsIGFjYykKICAgIH0KICB9CiAgcmV0dXJuIGFjYwp9CgovKioKICogQHBhcmFtIHt7aG9tZTpzdHJpbmcsIHNlc3Npb25JZDpzdHJpbmcsIGxpbWl0PzpudW1iZXJ9fSBvcHRzCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmluZFJlcHJvQ2x1ZXMoeyBob21lLCBzZXNzaW9uSWQsIGxpbWl0ID0gNiB9KSB7CiAgY29uc3QgY29tbWFuZHMgPSBhd2FpdCBjb2xsZWN0Q29tbWFuZHMoaG9tZSkKICBjb25zdCBtaW5lID0gY29tbWFuZHMuZmlsdGVyKChjb21tYW5kKSA9PiBjb21tYW5kLnNlc3Npb25JZCA9PT0gc2Vzc2lvbklkKQogIGlmIChtaW5lLmxlbmd0aCA9PT0gMCkgcmV0dXJuIHsgc2Vzc2lvbklkLCBjb21tYW5kczogMCwgY2FuZGlkYXRlczogW10sIGlubGluZTogbnVsbCwgbm90ZTogJ+ivpeS8muivneayoeacieWPr+ivuyBzaGVsbCDlkb3ku6QnIH0KCiAgY29uc3QgYmFzZXMgPSBbXQogIGNvbnN0IHB1c2hCYXNlID0gKHZhbHVlKSA9PiB7CiAgICBpZiAoIXZhbHVlIHx8ICFpc0Fic29sdXRlKHZhbHVlKSkgcmV0dXJuCiAgICBjb25zdCByZWFsID0gcmVzb2x2ZSh2YWx1ZSkKICAgIGlmICghYmFzZXMuc29tZSgoYmFzZSkgPT4gYmFzZS50b0xvd2VyQ2FzZSgpID09PSByZWFsLnRvTG93ZXJDYXNlKCkpKSBiYXNlcy5wdXNoKHJlYWwpCiAgfQogIGZvciAoY29uc3QgY29tbWFuZCBvZiBtaW5lKSB7CiAgICBwdXNoQmFzZShjb21tYW5kLmN3ZCkKICAgIGZvciAoY29uc3QgZGlyIG9mIGRpcnNJbihjb21tYW5kLmNvbW1hbmQpKSBwdXNoQmFzZShkaXIpCiAgfQoKICAvLyAxKSDlkb3ku6Tph4zlh7rnjrDov4fnmoTohJrmnKzlkI0g4oaSIOWcqOWAmemAieebruW9lemHjOino+aekAogIGNvbnN0IG5hbWVzID0gbmV3IE1hcCgpCiAgZm9yIChjb25zdCBjb21tYW5kIG9mIG1pbmUpIHsKICAgIGNvbnN0IG1hdGNoZXMgPSBjb21tYW5kLmNvbW1hbmQubWF0Y2goL1teXHMiJ2AoKXw7XStcLig/OmpzfG1qc3xjanN8dHN8cHl8cHMxfGJhdHxjbWQpXGIvZ2kpIHx8IFtdCiAgICBmb3IgKGNvbnN0IHJhdyBvZiBtYXRjaGVzKSB7CiAgICAgIGNvbnN0IGNsZWFuID0gcmF3LnJlcGxhY2UoL15bXFwvXSsvLCAnJykKICAgICAgY29uc3QgbmFtZSA9IGJhc2VuYW1lKGNsZWFuKQogICAgICBpZiAoIW5hbWUgfHwgL14obm9kZXxub2RlanN8bnBtfHBucG18eWFybikkL2kudGVzdChuYW1lKSkgY29udGludWUKICAgICAgY29uc3QgYnVja2V0ID0gbmFtZXMuZ2V0KG5hbWUudG9Mb3dlckNhc2UoKSkgfHwgeyBuYW1lLCBwYXRoczogbmV3IFNldCgpLCB1c2VzOiAwLCBzYW1wbGU6ICcnIH0KICAgICAgYnVja2V0LnVzZXMrKwogICAgICBpZiAoIWJ1Y2tldC5zYW1wbGUpIGJ1Y2tldC5zYW1wbGUgPSBjb21tYW5kLmNvbW1hbmQuc3BsaXQoJ1xuJylbMF0uc2xpY2UoMCwgMTYwKQogICAgICBpZiAoaXNBYnNvbHV0ZShyYXcpKSBidWNrZXQucGF0aHMuYWRkKHJlc29sdmUocmF3KSkKICAgICAgbmFtZXMuc2V0KG5hbWUudG9Mb3dlckNhc2UoKSwgYnVja2V0KQogICAgfQogIH0KCiAgY29uc3QgcmVzb2x2ZWQgPSBuZXcgTWFwKCkKICBmb3IgKGNvbnN0IGJ1Y2tldCBvZiBuYW1lcy52YWx1ZXMoKSkgewogICAgY29uc3QgdHJpZWQgPSBbXQogICAgZm9yIChjb25zdCBiYXNlIG9mIGJhc2VzKSB7CiAgICAgIGNvbnN0IGNhbmRpZGF0ZSA9IGpvaW4oYmFzZSwgYnVja2V0Lm5hbWUpCiAgICAgIHRyaWVkLnB1c2goY2FuZGlkYXRlKQogICAgICBpZiAoYXdhaXQgZXhpc3RzKGNhbmRpZGF0ZSkpIHsKICAgICAgICByZXNvbHZlZC5zZXQoY2FuZGlkYXRlLnRvTG93ZXJDYXNlKCksIHsgcGF0aDogY2FuZGlkYXRlLCB1c2VzOiBidWNrZXQudXNlcywgc2FtcGxlOiBidWNrZXQuc2FtcGxlIH0pCiAgICAgICAgYnJlYWsKICAgICAgfQogICAgfQogICAgaWYgKFsuLi5yZXNvbHZlZC52YWx1ZXMoKV0uc29tZSgoaXRlbSkgPT4gYmFzZW5hbWUoaXRlbS5wYXRoKS50b0xvd2VyQ2FzZSgpID09PSBidWNrZXQubmFtZS50b0xvd2VyQ2FzZSgpKSkgY29udGludWUKICAgIGZvciAoY29uc3QgYmFzZSBvZiBiYXNlcykgewogICAgICBjb25zdCBoaXQgPSBhd2FpdCBzaGFsbG93RmluZChiYXNlLCBidWNrZXQubmFtZSkKICAgICAgaWYgKGhpdCkgewogICAgICAgIHJlc29sdmVkLnNldChoaXQudG9Mb3dlckNhc2UoKSwgeyBwYXRoOiBoaXQsIHVzZXM6IGJ1Y2tldC51c2VzLCBzYW1wbGU6IGJ1Y2tldC5zYW1wbGUgfSkKICAgICAgICBicmVhawogICAgICB9CiAgICB9CiAgfQoKICAvLyAyKSDlhZzlupXvvJrku47lgJnpgInnm67lvZXph4zmtYXmiavohJrmnKzvvIzlhoXlrrnph4zmnIkgQ0RQIOeJueW+geeahOaJjeeulwogIGlmIChyZXNvbHZlZC5zaXplID09PSAwKSB7CiAgICBmb3IgKGNvbnN0IGJhc2Ugb2YgYmFzZXMpIHsKICAgICAgZm9yIChjb25zdCBmaWxlIG9mIGF3YWl0IHNoYWxsb3dTY3JpcHRzKGJhc2UpKSB7CiAgICAgICAgY29uc3QgYm9keSA9IGF3YWl0IHJlYWRUZXh0KGZpbGUpCiAgICAgICAgaWYgKGJvZHkgJiYgQ0RQX0hJTlQudGVzdChib2R5KSkgcmVzb2x2ZWQuc2V0KGZpbGUudG9Mb3dlckNhc2UoKSwgeyBwYXRoOiBmaWxlLCB1c2VzOiAwLCBzYW1wbGU6ICco5pyq5Zyo5ZG95Luk6YeM55u05o6l54K55ZCN77yM5oyJ5YaF5a655ZG95LitKScgfSkKICAgICAgICBpZiAocmVzb2x2ZWQuc2l6ZSA+PSAxMikgYnJlYWsKICAgICAgfQogICAgfQogIH0KCiAgY29uc3QgY2FuZGlkYXRlcyA9IFtdCiAgZm9yIChjb25zdCBpdGVtIG9mIHJlc29sdmVkLnZhbHVlcygpKSB7CiAgICBjb25zdCBib2R5ID0gYXdhaXQgcmVhZFRleHQoaXRlbS5wYXRoKQogICAgaWYgKCFib2R5KSBjb250aW51ZQogICAgY29uc3QgY2RwTGluZXMgPSBib2R5CiAgICAgIC5zcGxpdCgnXG4nKQogICAgICAuZmlsdGVyKChsaW5lKSA9PiBDRFBfSElOVC50ZXN0KGxpbmUpKQogICAgICAubWFwKChsaW5lKSA9PiBsaW5lLnRyaW0oKS5zbGljZSgwLCAxNzApKQogICAgaWYgKGNkcExpbmVzLmxlbmd0aCA9PT0gMCkgY29udGludWUKICAgIGxldCBpbmZvCiAgICB0cnkgewogICAgICBpbmZvID0gYXdhaXQgc3RhdChpdGVtLnBhdGgpCiAgICB9IGNhdGNoIHsKICAgICAgaW5mbyA9IG51bGwKICAgIH0KICAgIGNvbnN0IGNsZWFuc1VwID0gQ0xFQU5VUF9ISU5ULnRlc3QoYm9keSkKICAgIGNvbnN0IGNocm9tZUJha2VkID0gL2Nocm9tZVwuZXhlfGNocm9taXVtfG1zZWRnZS9pLnRlc3QoYm9keSkKICAgIGNhbmRpZGF0ZXMucHVzaCh7CiAgICAgIHBhdGg6IGl0ZW0ucGF0aCwKICAgICAgYnl0ZXM6IGluZm8/LnNpemUgPz8gMCwKICAgICAgbXRpbWVNczogaW5mbz8ubXRpbWVNcyA/PyBudWxsLAogICAgICB1c2VkSW5Db21tYW5kczogaXRlbS51c2VzLAogICAgICBzYW1wbGU6IGl0ZW0uc2FtcGxlLAogICAgICBjZHBMaW5lczogY2RwTGluZXMuc2xpY2UoMCwgNCksCiAgICAgIGJ1aWxkc1Byb2ZpbGVEaXI6IC9ta2R0ZW1wfHVzZXJEYXRhRGlyfHVzZXItZGF0YS1kaXJ8dG1wZGlyfG9zXC50bXBkaXJ8dGVtcGZpbGV8Z3VpZC9pLnRlc3QoYm9keSksCiAgICAgIGNocm9tZUJha2VkLAogICAgICBjbGVhbnNVcCwKICAgICAgdmVyZGljdDogY2xlYW5zVXAKICAgICAgICA/ICfohJrmnKzph4zmnInmuIXnkIbpgLvovpHvvIhjbGVhbnVwL2ZpbmFsbHkvcm0vZXhpdCDpkqnlrZDvvInvvIzkuLTml7YgcHJvZmlsZSDlupTor6XlnKjpgIDlh7rml7booqvliKAnCiAgICAgICAgOiAn6ISa5pys6YeM5rKh5pyJ5riF55CG6YC76L6RIOKAlOKAlCDkuLTml7YgcHJvZmlsZSDlj6rov5vkuI3lh7rvvIzov5nlsLHmmK/loIbnp6/mnaXmupAnLAogICAgICBob29rOiBjbGVhbnNVcCA/ICcnIDogYnVpbGRIb29rKGl0ZW0ucGF0aCwgYm9keSksCiAgICB9KQogIH0KICBjYW5kaWRhdGVzLnNvcnQoKGEsIGIpID0+IGIuY2RwTGluZXMubGVuZ3RoIC0gYS5jZHBMaW5lcy5sZW5ndGggfHwgYi51c2VkSW5Db21tYW5kcyAtIGEudXNlZEluQ29tbWFuZHMpCgogIC8vIDMpIOWujOWFqOayoeacieiEmuacrOaWh+S7tu+8muWRveS7pOmHjOebtOaOpeaLiei1t+a1j+iniOWZqAogIGNvbnN0IGlubGluZUNvbW1hbmQgPSBtaW5lLmZpbmQoKGNvbW1hbmQpID0+IC9jaHJvbWVcLmV4ZXxtc2VkZ2VcLmV4ZS9pLnRlc3QoY29tbWFuZC5jb21tYW5kKSAmJiAvdXNlci1kYXRhLWRpcnxyZW1vdGUtZGVidWdnaW5nfC0taGVhZGxlc3MvaS50ZXN0KGNvbW1hbmQuY29tbWFuZCkpCiAgY29uc3QgaW5saW5lID0gaW5saW5lQ29tbWFuZCAmJiBjYW5kaWRhdGVzLmxlbmd0aCA9PT0gMAogICAgPyB7CiAgICAgICAgc2FtcGxlOiBpbmxpbmVDb21tYW5kLmNvbW1hbmQuc3BsaXQoJ1xuJykuc2xpY2UoMCwgMykuam9pbignXG4nKS5zbGljZSgwLCA2MDApLAogICAgICAgIHRpbWU6IGlubGluZUNvbW1hbmQudGltZSwKICAgICAgICB2ZXJkaWN0OiAn6L+Z5LiA6L2u5piv5ZG95Luk6YeM55u05o6l5ouJ6LW3IENocm9tZe+8iOayoeacieeLrOeri+iEmuacrOaWh+S7tu+8ie+8jOaJgOS7peayoeacieaWh+S7tuWPr+aUueKAlOKAlOWPquiDveWcqOWRveS7pOWxgumdouWKoCBmaW5hbGx5IOa4heeQhicsCiAgICAgICAgaG9vazogYnVpbGRIb29rKCdpbmxpbmUucHMxJywgJycpLAogICAgICB9CiAgICA6IG51bGwKCiAgcmV0dXJuIHsKICAgIHNlc3Npb25JZCwKICAgIGN3ZDogbWluZS5maW5kKChjb21tYW5kKSA9PiBjb21tYW5kLmN3ZCk/LmN3ZCB8fCAnJywKICAgIGJhc2VzOiBiYXNlcy5zbGljZSgwLCA2KSwKICAgIGNvbW1hbmRzOiBtaW5lLmxlbmd0aCwKICAgIGNhbmRpZGF0ZXM6IGNhbmRpZGF0ZXMuc2xpY2UoMCwgbGltaXQpLAogICAgaW5saW5lLAogICAgbm90ZTogY2FuZGlkYXRlcy5sZW5ndGggPT09IDAgJiYgIWlubGluZSA/ICfmsqHmib7liLDluKYgQ0RQIOeJueW+geeahOiEmuacrO+8jOS5n+ayoeaJvuWIsOWGheiBlOeahOa1j+iniOWZqOWRveS7pCcgOiAnJywKICB9Cn0KCi8qKiDmjInohJrmnKzor63oqIDnu5njgIzpgIDlh7rml7bliKDmjonkuLTml7YgcHJvZmlsZeOAjeeahOmSqeWtkOW7uuiuru+8iOWPquaYr+W7uuiuru+8jOS4jeWGmeaWh+S7tu+8iSAqLwpmdW5jdGlvbiBidWlsZEhvb2soZmlsZSwgYm9keSkgewogIGNvbnN0IGlzTm9kZSA9IC9cLihqc3xtanN8Y2pzfHRzKSQvaS50ZXN0KGZpbGUpCiAgY29uc3QgaXNQeXRob24gPSAvXC5weSQvaS50ZXN0KGZpbGUpCiAgaWYgKGlzTm9kZSkgewogICAgY29uc3QgdXNlc1B1cHBldGVlciA9IC9wdXBwZXRlZXJ8cGxheXdyaWdodC9pLnRlc3QoYm9keSkKICAgIHJldHVybiBgLy8g5Zyo5ouJ6LW35rWP6KeI5Zmo55qE5Zyw5pa55bu655uu5b2V77yM6YCA5Ye65pe25Yig5o6JCmltcG9ydCBmcyBmcm9tICdub2RlOmZzJwppbXBvcnQgb3MgZnJvbSAnbm9kZTpvcycKaW1wb3J0IHBhdGggZnJvbSAnbm9kZTpwYXRoJwoKY29uc3QgcHJvZmlsZURpciA9IHBhdGguam9pbihvcy50bXBkaXIoKSwgXGBjZHAtYWdlbnQtXCR7RGF0ZS5ub3coKX1cYCkKZnMubWtkaXJTeW5jKHByb2ZpbGVEaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCmNvbnN0IGNsZWFudXAgPSAoKSA9PiB7IHRyeSB7IGZzLnJtU3luYyhwcm9maWxlRGlyLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSkgfSBjYXRjaCB7fSB9CnByb2Nlc3Mub24oJ2V4aXQnLCBjbGVhbnVwKQpwcm9jZXNzLm9uKCdTSUdJTlQnLCAoKSA9PiB7IGNsZWFudXAoKTsgcHJvY2Vzcy5leGl0KDEzMCkgfSkKcHJvY2Vzcy5vbigndW5jYXVnaHRFeGNlcHRpb24nLCAoZXJyKSA9PiB7IGNsZWFudXAoKTsgdGhyb3cgZXJyIH0pCgovLyDlkK/liqjlj4LmlbDph4zmioogLS11c2VyLWRhdGEtZGlyIOaNouaIkCBwcm9maWxlRGlyJHt1c2VzUHVwcGV0ZWVyID8gJ1xuLy8gcHVwcGV0ZWVyL3BsYXl3cmlnaHQ6IOebtOaOpeS8oCB1c2VyRGF0YURpcjogcHJvZmlsZURpcicgOiAnJ31gCiAgfQogIGlmIChpc1B5dGhvbikgewogICAgcmV0dXJuIGBpbXBvcnQgYXRleGl0LCBzaHV0aWwsIHRlbXBmaWxlCgpwcm9maWxlX2RpciA9IHRlbXBmaWxlLm1rZHRlbXAocHJlZml4PSJjZHAtYWdlbnQtIikKYXRleGl0LnJlZ2lzdGVyKGxhbWJkYTogc2h1dGlsLnJtdHJlZShwcm9maWxlX2RpciwgaWdub3JlX2Vycm9ycz1UcnVlKSkKIyBzdWJwcm9jZXNzIOWPguaVsOmHjOeUqCBmIi0tdXNlci1kYXRhLWRpcj17cHJvZmlsZV9kaXJ9ImAKICB9CiAgcmV0dXJuIGAkcHJvZmlsZSA9IEpvaW4tUGF0aCAkZW52OlRFTVAgKCJjZHAtYWdlbnQtIiArIFtndWlkXTo6TmV3R3VpZCgpLlRvU3RyaW5nKCdOJykpCk5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlICRwcm9maWxlIHwgT3V0LU51bGwKdHJ5IHsKICAgICMg5Y6f5p2l55qE5ZCv5Yqo5ZG95Luk77yM5Y+C5pWw6YeM5YqgICItLXVzZXItZGF0YS1kaXI9JHByb2ZpbGUiCn0gZmluYWxseSB7CiAgICBSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggJHByb2ZpbGUgLVJlY3Vyc2UgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCn1gCn0KCmV4cG9ydCB7IENEUF9ISU5UIGFzIFJFUFJPX0NEUF9ISU5UIH0K
+/**
+ * 复现线索：从「最可能出事的那一轮会话」里，把真正在跑浏览器自动化的脚本揪出来。
+ *
+ * 全部离线只读：
+ *   1. 取该会话所有 shell 命令，收集「候选目录」（会话 cwd + 命令里 cd/Set-Location/New-Item 的绝对路径）
+ *   2. 抽命令里出现的脚本文件名（.js/.mjs/.cjs/.ts/.py/.ps1/.bat/.cmd），按候选目录解析成绝对路径
+ *   3. 解析不出来的，在候选目录里浅层（≤3 层）按文件名找
+ *   4. 读文件内容，看有没有 CDP 特征（user-data-dir / remote-debugging / cdp- / chrome.exe）
+ *   5. 判断它自己有没有清理临时 profile，没有的给一段可直接粘贴的清理钩子
+ *   6. 连脚本文件都没有的（命令里直接拉起 Chrome），单独给一个「内联驱动」结论与钩子
+ */
+import { readdir, readFile, stat } from 'node:fs/promises'
+import { basename, isAbsolute, join, resolve } from 'node:path'
+import { collectCommands } from './sessions.js'
+
+const SCRIPT_EXT = /\.(js|mjs|cjs|ts|py|ps1|bat|cmd)$/i
+const CDP_HINT = /--remote-debugging-port|--user-data-dir|cdp-|chrome\.exe|chromium|playwright|puppeteer/i
+const CLEANUP_HINT = /rmSync|rm\s+-rf|Remove-Item|fs\.rm\b|unlink|rmdir|finally\s*\{|process\.on\(['"]exit|trap\s|cleanup|dispose/i
+const MAX_SCAN_FILES = 600
+
+/** 命令里出现的目录：cd / Set-Location / New-Item / Test-Path */
+function dirsIn(command) {
+  const out = []
+  const patterns = [
+    /(?:Set-Location|cd|Push-Location)\s+['"]?([A-Za-z]:[^\s'";|]+)/gi,
+    /New-Item\s+-ItemType\s+Directory[^;|]*?['"]([A-Za-z]:[^'"]+)['"]/gi,
+    /Test-Path\s+['"]([A-Za-z]:[^'"]+)['"]/gi,
+  ]
+  for (const pattern of patterns) {
+    let match
+    while ((match = pattern.exec(command)) !== null) out.push(match[1].replace(/[\\/]+$/, ''))
+  }
+  return out
+}
+
+async function readText(file, maxBytes = 512 * 1024) {
+  try {
+    const info = await stat(file)
+    if (!info.isFile() || info.size > maxBytes) return ''
+    return await readFile(file, 'utf8')
+  } catch {
+    return ''
+  }
+}
+
+async function exists(file) {
+  try {
+    await stat(file)
+    return true
+  } catch {
+    return false
+  }
+}
+
+/** 在 base 下浅层按文件名找 */
+async function shallowFind(base, name, depth = 3) {
+  if (depth < 0) return ''
+  let list
+  try {
+    list = await readdir(base, { withFileTypes: true })
+  } catch {
+    return ''
+  }
+  for (const entry of list) {
+    if (entry.isFile() && entry.name.toLowerCase() === name.toLowerCase()) return join(base, entry.name)
+  }
+  for (const entry of list) {
+    if (!entry.isDirectory()) continue
+    if (/^(node_modules|\.git|dist|build|\.venv|venv|__pycache__)$/i.test(entry.name)) continue
+    const hit = await shallowFind(join(base, entry.name), name, depth - 1)
+    if (hit) return hit
+  }
+  return ''
+}
+
+/** 在 base 下浅层收集脚本文件（拿不到文件名线索时兜底） */
+async function shallowScripts(base, depth = 2, acc = []) {
+  if (depth < 0 || acc.length > MAX_SCAN_FILES) return acc
+  let list
+  try {
+    list = await readdir(base, { withFileTypes: true })
+  } catch {
+    return acc
+  }
+  for (const entry of list) {
+    if (acc.length > MAX_SCAN_FILES) break
+    if (entry.isFile() && SCRIPT_EXT.test(entry.name)) acc.push(join(base, entry.name))
+    else if (entry.isDirectory() && !/^(node_modules|\.git|dist|build|\.venv|venv|__pycache__)$/i.test(entry.name)) {
+      await shallowScripts(join(base, entry.name), depth - 1, acc)
+    }
+  }
+  return acc
+}
+
+/**
+ * @param {{home:string, sessionId:string, limit?:number}} opts
+ */
+export async function findReproClues({ home, sessionId, limit = 6 }) {
+  const commands = await collectCommands(home)
+  const mine = commands.filter((command) => command.sessionId === sessionId)
+  if (mine.length === 0) return { sessionId, commands: 0, candidates: [], inline: null, note: '该会话没有可读 shell 命令' }
+
+  const bases = []
+  const pushBase = (value) => {
+    if (!value || !isAbsolute(value)) return
+    const real = resolve(value)
+    if (!bases.some((base) => base.toLowerCase() === real.toLowerCase())) bases.push(real)
+  }
+  for (const command of mine) {
+    pushBase(command.cwd)
+    for (const dir of dirsIn(command.command)) pushBase(dir)
+  }
+
+  // 1) 命令里出现过的脚本名 → 在候选目录里解析
+  const names = new Map()
+  for (const command of mine) {
+    const matches = command.command.match(/[^\s"'`()|;]+\.(?:js|mjs|cjs|ts|py|ps1|bat|cmd)\b/gi) || []
+    for (const raw of matches) {
+      const clean = raw.replace(/^[\\/]+/, '')
+      const name = basename(clean)
+      if (!name || /^(node|nodejs|npm|pnpm|yarn)$/i.test(name)) continue
+      const bucket = names.get(name.toLowerCase()) || { name, paths: new Set(), uses: 0, sample: '' }
+      bucket.uses++
+      if (!bucket.sample) bucket.sample = command.command.split('\n')[0].slice(0, 160)
+      if (isAbsolute(raw)) bucket.paths.add(resolve(raw))
+      names.set(name.toLowerCase(), bucket)
+    }
+  }
+
+  const resolved = new Map()
+  for (const bucket of names.values()) {
+    const tried = []
+    for (const base of bases) {
+      const candidate = join(base, bucket.name)
+      tried.push(candidate)
+      if (await exists(candidate)) {
+        resolved.set(candidate.toLowerCase(), { path: candidate, uses: bucket.uses, sample: bucket.sample })
+        break
+      }
+    }
+    if ([...resolved.values()].some((item) => basename(item.path).toLowerCase() === bucket.name.toLowerCase())) continue
+    for (const base of bases) {
+      const hit = await shallowFind(base, bucket.name)
+      if (hit) {
+        resolved.set(hit.toLowerCase(), { path: hit, uses: bucket.uses, sample: bucket.sample })
+        break
+      }
+    }
+  }
+
+  // 2) 兜底：从候选目录里浅扫脚本，内容里有 CDP 特征的才算
+  if (resolved.size === 0) {
+    for (const base of bases) {
+      for (const file of await shallowScripts(base)) {
+        const body = await readText(file)
+        if (body && CDP_HINT.test(body)) resolved.set(file.toLowerCase(), { path: file, uses: 0, sample: '(未在命令里直接点名，按内容命中)' })
+        if (resolved.size >= 12) break
+      }
+    }
+  }
+
+  const candidates = []
+  for (const item of resolved.values()) {
+    const body = await readText(item.path)
+    if (!body) continue
+    const cdpLines = body
+      .split('\n')
+      .filter((line) => CDP_HINT.test(line))
+      .map((line) => line.trim().slice(0, 170))
+    if (cdpLines.length === 0) continue
+    let info
+    try {
+      info = await stat(item.path)
+    } catch {
+      info = null
+    }
+    const cleansUp = CLEANUP_HINT.test(body)
+    const chromeBaked = /chrome\.exe|chromium|msedge/i.test(body)
+    candidates.push({
+      path: item.path,
+      bytes: info?.size ?? 0,
+      mtimeMs: info?.mtimeMs ?? null,
+      usedInCommands: item.uses,
+      sample: item.sample,
+      cdpLines: cdpLines.slice(0, 4),
+      buildsProfileDir: /mkdtemp|userDataDir|user-data-dir|tmpdir|os\.tmpdir|tempfile|guid/i.test(body),
+      chromeBaked,
+      cleansUp,
+      verdict: cleansUp
+        ? '脚本里有清理逻辑（cleanup/finally/rm/exit 钩子），临时 profile 应该在退出时被删'
+        : '脚本里没有清理逻辑 —— 临时 profile 只进不出，这就是堆积来源',
+      hook: cleansUp ? '' : buildHook(item.path, body),
+    })
+  }
+  candidates.sort((a, b) => b.cdpLines.length - a.cdpLines.length || b.usedInCommands - a.usedInCommands)
+
+  // 3) 完全没有脚本文件：命令里直接拉起浏览器
+  const inlineCommand = mine.find((command) => /chrome\.exe|msedge\.exe/i.test(command.command) && /user-data-dir|remote-debugging|--headless/i.test(command.command))
+  const inline = inlineCommand && candidates.length === 0
+    ? {
+        sample: inlineCommand.command.split('\n').slice(0, 3).join('\n').slice(0, 600),
+        time: inlineCommand.time,
+        verdict: '这一轮是命令里直接拉起 Chrome（没有独立脚本文件），所以没有文件可改——只能在命令层面加 finally 清理',
+        hook: buildHook('inline.ps1', ''),
+      }
+    : null
+
+  return {
+    sessionId,
+    cwd: mine.find((command) => command.cwd)?.cwd || '',
+    bases: bases.slice(0, 6),
+    commands: mine.length,
+    candidates: candidates.slice(0, limit),
+    inline,
+    note: candidates.length === 0 && !inline ? '没找到带 CDP 特征的脚本，也没找到内联的浏览器命令' : '',
+  }
+}
+
+/** 按脚本语言给「退出时删掉临时 profile」的钩子建议（只是建议，不写文件） */
+function buildHook(file, body) {
+  const isNode = /\.(js|mjs|cjs|ts)$/i.test(file)
+  const isPython = /\.py$/i.test(file)
+  if (isNode) {
+    const usesPuppeteer = /puppeteer|playwright/i.test(body)
+    return `// 在拉起浏览器的地方建目录，退出时删掉
+import fs from 'node:fs'
+import os from 'node:os'
+import path from 'node:path'
+
+const profileDir = path.join(os.tmpdir(), \`cdp-agent-\${Date.now()}\`)
+fs.mkdirSync(profileDir, { recursive: true })
+const cleanup = () => { try { fs.rmSync(profileDir, { recursive: true, force: true }) } catch {} }
+process.on('exit', cleanup)
+process.on('SIGINT', () => { cleanup(); process.exit(130) })
+process.on('uncaughtException', (err) => { cleanup(); throw err })
+
+// 启动参数里把 --user-data-dir 换成 profileDir${usesPuppeteer ? '\n// puppeteer/playwright: 直接传 userDataDir: profileDir' : ''}`
+  }
+  if (isPython) {
+    return `import atexit, shutil, tempfile
+
+profile_dir = tempfile.mkdtemp(prefix="cdp-agent-")
+atexit.register(lambda: shutil.rmtree(profile_dir, ignore_errors=True))
+# subprocess 参数里用 f"--user-data-dir={profile_dir}"`
+  }
+  return `$profile = Join-Path $env:TEMP ("cdp-agent-" + [guid]::NewGuid().ToString('N'))
+New-Item -ItemType Directory -Force $profile | Out-Null
+try {
+    # 原来的启动命令，参数里加 "--user-data-dir=$profile"
+} finally {
+    Remove-Item -LiteralPath $profile -Recurse -Force -ErrorAction SilentlyContinue
+}`
+}
+
+export { CDP_HINT as REPRO_CDP_HINT }

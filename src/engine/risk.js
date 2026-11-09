@@ -1,1 +1,164 @@
-LyoqCiAqIOWQjuaenOivhOS8sO+8muWIoOS6hui/meS4quS4nOilv+S8muaAjuagt+OAggogKiDlj6rlgZrliKTmlq3vvIzkuI3lgZrliKDpmaTvvJvpnaLmnb/kuIrmr4/kuIDooYzpg73luKbov5nkuKrnu5PorrrvvIznoa7orqTmoYbph4zkuZ/lho3lhpnkuIDmrKHjgIIKICoKICog5LiJ5qGj77yaCiAqICAgc2FmZSAgICAg4oCU4oCUIOWIoOS6huayoeW9seWTje+8jOaIluS4i+asoeS8muiHquWKqOmHjeW7ugogKiAgIGNhdXRpb24gIOKAlOKAlCDlj6/og73lvbHlk43mraPlnKjov5DooYznmoTnqIvluo8gLyDkuIvmrKHopoHph43mlrDkuIvovb0KICogICBkYW5nZXIgICDigJTigJQg5Lya56C05Z2P5bey6KOF5Lic6KW/5oiW5Lii5pWw5o2u77yM6Z2i5p2/5LiN5o+Q5L6b5LiA6ZSu5YigCiAqLwpjb25zdCBSVUxFUyA9IFsKICB7CiAgICB0ZXN0OiAvW1xcL11UZW1wW1xcL11jZHAtW15cXC9dKyQvaSwKICAgIGxldmVsOiAnc2FmZScsCiAgICBjb25zZXF1ZW5jZTogJ+aXoOW9seWTje+8mua1j+iniOWZqOiHquWKqOWMluavj+asoemDveS8muaWsOW7uiBwcm9maWxl77yM5LiL5qyh6L+Q6KGM5Lya6YeN5bu6JywKICB9LAogIHsKICAgIHRlc3Q6IC9bXFwvXVRlbXBbXFwvXShIZWFkbGVzc0Nocm9tZXxwaXAtdW5wYWNrLXxzY29wZWRfZGlyfGNocm9tZV98Y2hyb21lLXNob3QtfGNocm9tZS1wcm9maWxlLSlbXlxcL10qJC9pLAogICAgbGV2ZWw6ICdzYWZlJywKICAgIGNvbnNlcXVlbmNlOiAn5peg5b2x5ZON77ya5Li05pe26Kej5YyFL+aXoOWktOa1j+iniOWZqOebruW9le+8jOi/m+eoi+mAgOWHuuWQjuacrOadpeS5n+ivpeiiq+a4heaOiScsCiAgfSwKICB7CiAgICB0ZXN0OiAvW1xcL11cLnBucG0tc3RvcmUkL2ksCiAgICBsZXZlbDogJ2RhbmdlcicsCiAgICBjb25zZXF1ZW5jZTogJ+S8muegtOWdj+W3suijheS+nei1lu+8mnBucG0g55qE56Gs6ZO+5o6l5rqQ77yM5Yig5LqG546w5pyJIG5vZGVfbW9kdWxlcyDlj5jmiJDmlq3pk77vvIzlv4Xpobvph43mlrAgaW5zdGFsbCcsCiAgfSwKICB7CiAgICB0ZXN0OiAvW1xcL11cLmNhY2hlW1xcL11odWdnaW5nZmFjZXxbXFwvXWh1Z2dpbmdmYWNlW1xcL11odWIvaSwKICAgIGxldmVsOiAnY2F1dGlvbicsCiAgICBjb25zZXF1ZW5jZTogJ+imgemHjeaWsOS4i+i9veaooeWei++8muS4i+asoeeUqOWIsOS8mumHjeaWsOaLieWHoOWNgSBHQiDmnYPph43vvIznvZHnu5zlt67ml7blvojkuYUnLAogIH0sCiAgewogICAgdGVzdDogL1tcXC9dcGlwW1xcL11jYWNoZXxbXFwvXVwuY2FjaGVbXFwvXXBpcC9pLAogICAgbGV2ZWw6ICdjYXV0aW9uJywKICAgIGNvbnNlcXVlbmNlOiAn6KaB6YeN5paw5LiL6L295YyF77ya5LiL5qyhIHBpcCBpbnN0YWxsIOS8muS7jue9keS4iumHjeaWsOaLie+8jOS4jeW9seWTjeW3suijheWlveeahCcsCiAgfSwKICB7CiAgICB0ZXN0OiAvW1xcL11XaW5kb3dzW1xcL11JbnN0YWxsZXIkL2ksCiAgICBsZXZlbDogJ2RhbmdlcicsCiAgICBjb25zZXF1ZW5jZTogJ+S8muW9seWTjeWNuOi9veS4juS/ruWkje+8mk1TSSDnvJPlrZjliKDkuobku6XlkI7nqIvluo/ml6Dms5XjgIzmm7TmlLkv5L+u5aSN44CN77yM5Y246L295Y+v6IO955WZ5LiL5q6L6aq4JywKICB9LAogIHsKICAgIHRlc3Q6IC9bXFwvXVRlbXAkL2ksCiAgICBsZXZlbDogJ2NhdXRpb24nLAogICAgY29uc2VxdWVuY2U6ICflj6/og73lvbHlk43mraPlnKjov5DooYznmoTnqIvluo/vvJrmraPlnKjlronoo4Uv5LiL6L2955qE5Lya5Lit5pat77yM5bu66K6u5YWI5YWz5o6J55u45YWz56iL5bqP5YaN5riFJywKICB9LAogIHsKICAgIHRlc3Q6IC9cLihleGV8bXNpfHppcHw3enxyYXIpJC9pLAogICAgbGV2ZWw6ICdzYWZlJywKICAgIGNvbnNlcXVlbmNlOiAn5Y+q5piv5a6J6KOF5YyFL+WOi+e8qeWMhe+8muijheWujOaIluino+WOi+WujOWwseayoeeUqOS6hu+8jOmZpOmdnui/mOimgeeVmeedgOmHjeijhScsCiAgfSwKICB7CiAgICB0ZXN0OiAvW1xcL10oc2l0ZS1wYWNrYWdlc3xkaXN0LXBhY2thZ2VzfG5vZGVfbW9kdWxlcylbXFwvXS9pLAogICAgbGV2ZWw6ICdkYW5nZXInLAogICAgY29uc2VxdWVuY2U6ICfkvJrnoLTlnY/lt7Loo4Xkvp3otZbvvJrliKDmjonlkI7lr7nlupTnqIvluo8v6aG555uu55u05o6l6LeR5LiN6LW35p2lJywKICB9LAogIHsKICAgIHRlc3Q6IC9bXFwvXVVzZXIgRGF0YShbXFwvXXwkKXxbXFwvXURlZmF1bHRbXFwvXShIaXN0b3J5fEJvb2ttYXJrc3xMb2dpbiBEYXRhKSQvaSwKICAgIGxldmVsOiAnZGFuZ2VyJywKICAgIGNvbnNlcXVlbmNlOiAn5Lya5Lii5rWP6KeI5Zmo5pWw5o2u77ya55m75b2V54q25oCB44CB5Y6G5Y+y44CB5Lmm562+6YO95Zyo6YeM6Z2iJywKICB9LAogIHsKICAgIHRlc3Q6IC9bXFwvXVwub2xsYW1hW1xcL11tb2RlbHMvaSwKICAgIGxldmVsOiAnY2F1dGlvbicsCiAgICBjb25zZXF1ZW5jZTogJ+imgemHjeaWsOS4i+i9veaooeWei++8muacrOWcsOWkp+aooeWei+adg+mHje+8jOmHjeS4i+W+iOaFoicsCiAgfSwKICB7CiAgICB0ZXN0OiAvW1xcL11cJFJlY3ljbGVcLkJpbi9pLAogICAgbGV2ZWw6ICdjYXV0aW9uJywKICAgIGNvbnNlcXVlbmNlOiAn5Zue5pS256uZ6YeM55qE5Lic6KW/5bCx55yf55qE5rKh5LqG77ya6YeM6Z2i6L+Y5pyJ5L2g5omL5Yqo5Yig55qE5paH5Lu2JywKICB9LApdCgovKiog5Li05pe255uu5b2V5qC55pys6Lqr77ya5LiN6IO95pW05qC55LiA6ZSu5riF77yI5pyN5Yqh56uv5Lmf5Lya5ouS77yJ77yMVUkg6YeM5LiN57uZ5Yu+6YCJ5qGGICovCmZ1bmN0aW9uIGlzVGVtcFJvb3QocGF0aCkgewogIGNvbnN0IHAgPSBTdHJpbmcocGF0aCB8fCAnJykucmVwbGFjZSgvW1xcL10rJC8sICcnKS50b0xvd2VyQ2FzZSgpCiAgaWYgKCFwKSByZXR1cm4gZmFsc2UKICBjb25zdCByb290cyA9IFtdCiAgaWYgKHByb2Nlc3MucGxhdGZvcm0gPT09ICd3aW4zMicpIHsKICAgIHJvb3RzLnB1c2goYCR7U3RyaW5nKHByb2Nlc3MuZW52LlN5c3RlbVJvb3QgfHwgJ0M6XFxXaW5kb3dzJykudG9Mb3dlckNhc2UoKX1cXHRlbXBgKQogICAgcm9vdHMucHVzaChgJHtTdHJpbmcocHJvY2Vzcy5lbnYuTE9DQUxBUFBEQVRBIHx8IGAke3Byb2Nlc3MuZW52LlVTRVJQUk9GSUxFfVxcQXBwRGF0YVxcTG9jYWxgKS50b0xvd2VyQ2FzZSgpfVxcdGVtcGApCiAgICByb290cy5wdXNoKCdjOlxcdGVtcCcpCiAgfQogIGNvbnN0IHRtcCA9IFN0cmluZyhwcm9jZXNzLmVudi5UTVAgfHwgcHJvY2Vzcy5lbnYuVEVNUCB8fCAnJykucmVwbGFjZSgvW1xcL10rJC8sICcnKS50b0xvd2VyQ2FzZSgpCiAgaWYgKHRtcCkgcm9vdHMucHVzaCh0bXApCiAgcmV0dXJuIHJvb3RzLmluY2x1ZGVzKHApCn0KCi8qKgogKiBAcGFyYW0ge3N0cmluZ30gdGFyZ2V0IOi3r+W+hAogKiBAcGFyYW0ge3tieXRlcz86bnVtYmVyfX0gaW5mbwogKiBAcmV0dXJucyB7e2xldmVsOidzYWZlJ3wnY2F1dGlvbid8J2RhbmdlcicsIGNvbnNlcXVlbmNlOnN0cmluZywgaXNSb290Pzpib29sZWFufX0KICovCmV4cG9ydCBmdW5jdGlvbiBhc3Nlc3NSaXNrKHRhcmdldCwgaW5mbyA9IHt9KSB7CiAgLy8g5b2S5LiA5YyW6YeN5aSN5YiG6ZqU56ym77yM6YG/5YWNIEM6XFxXaW5kb3dzXFxUZW1wIOi/meenjeWGmeazlee7lei/h+inhOWImQogIGNvbnN0IHBhdGggPSBTdHJpbmcodGFyZ2V0IHx8ICcnKS5yZXBsYWNlKC8oW1xcL10pW1xcL10rL2csICckMScpCiAgaWYgKGlzVGVtcFJvb3QocGF0aCkpIHsKICAgIHJldHVybiB7CiAgICAgIGxldmVsOiAnY2F1dGlvbicsCiAgICAgIGNvbnNlcXVlbmNlOiAn6L+Z5piv5Li05pe255uu5b2V5qC577yM5LiN6IO95pW05qC55LiA6ZSu5riF77ya6KaB5riF6K+35Yu+6YCJ6YeM6Z2i55qE5a2Q55uu5b2V77yI5pW05qC55riF5Lya5oqK5q2j5Zyo6L+Q6KGM55qE56iL5bqP5LiA6LW35ouW5LiL5rC077yJJywKICAgICAgaXNSb290OiB0cnVlLAogICAgfQogIH0KICBmb3IgKGNvbnN0IHJ1bGUgb2YgUlVMRVMpIHsKICAgIGlmIChydWxlLnRlc3QudGVzdChwYXRoKSkgcmV0dXJuIHsgbGV2ZWw6IHJ1bGUubGV2ZWwsIGNvbnNlcXVlbmNlOiBydWxlLmNvbnNlcXVlbmNlIH0KICB9CiAgY29uc3QgYnl0ZXMgPSBOdW1iZXIoaW5mby5ieXRlcykgfHwgMAogIGlmIChieXRlcyA+IDUgKiAxMDI0ICoqIDMpIHsKICAgIHJldHVybiB7IGxldmVsOiAnY2F1dGlvbicsIGNvbnNlcXVlbmNlOiAn5L2T56ev5b6I5aSn77yIPjUgR0LvvInvvJrliKDliY3noa7orqTov5nkuI3mmK/kvaDopoHnlZnnmoTpobnnm64v5qih5Z6L55uu5b2VJyB9CiAgfQogIHJldHVybiB7IGxldmVsOiAnY2F1dGlvbicsIGNvbnNlcXVlbmNlOiAn5LiN56Gu5a6a55So6YCU77ya5Yig5YmN5omT5byA55uu5b2V55yL5LiA55y877yM5Yir5oqK6L+Y5Zyo55So55qE5Lic6KW/5Yig5LqGJyB9Cn0KCi8qKiDpnaLmnb/nlKjvvJpjbGVhbiDmjInpkq7mmK/lkKblh7rnjrDvvIjkvY7kuo4gNTAgTUIg5LiN57uZ5oyJ6ZKu77yM6YG/5YWN6K+v5Yig5q2j5Zyo55So55qE5Li05pe25paH5Lu277yJICovCmV4cG9ydCBjb25zdCBDTEVBTl9NSU5fQllURVMgPSA1MCAqIDEwMjQgKiAxMDI0CgovKioKICog5Y246L295ZCO5p6c77ya5a+544CM5Lya6K+d6KOF6L+b5p2l55qE5Lic6KW/44CN77yM5Y245o6J5Lya5oCO5qC344CCCiAqIOS4jua4heeQhuWQjuaenOS4jeWQjOKAlOKAlOi/memHjOivtOeahOaYr+WKn+iDveWxguW9seWTje+8jOS4jeaYr+ejgeebmOmjjumZqeOAggogKiBAcGFyYW0ge3tlY28/OnN0cmluZywgbmFtZT86c3RyaW5nLCBwYXRoPzpzdHJpbmd9fSBpdGVtCiAqIEByZXR1cm5zIHt7bGV2ZWw6J3NhZmUnfCdjYXV0aW9uJ3wnZGFuZ2VyJywgY29uc2VxdWVuY2U6c3RyaW5nfX0KICovCmV4cG9ydCBmdW5jdGlvbiBhc3Nlc3NVbmluc3RhbGwoaXRlbSA9IHt9KSB7CiAgY29uc3QgZWNvID0gU3RyaW5nKGl0ZW0uZWNvIHx8ICcnKQogIGNvbnN0IG5hbWUgPSBTdHJpbmcoaXRlbS5uYW1lIHx8ICcnKQogIGNvbnN0IHBhdGggPSBTdHJpbmcoaXRlbS5wYXRoIHx8ICcnKQoKICBpZiAoZWNvID09PSAncHl0aG9uJykgewogICAgcmV0dXJuIHsKICAgICAgbGV2ZWw6ICdjYXV0aW9uJywKICAgICAgY29uc2VxdWVuY2U6IGDljbjmjonlkI7kvp3otZYgJHtuYW1lfSDnmoTohJrmnKzkvJogSW1wb3J0RXJyb3LvvJvnlKggcGlwIOmHjeijheWNs+WPr+aBouWkje+8iOW3suijheeahOWFtuWug+WMheS4jeWPl+W9seWTje+8iWAsCiAgICB9CiAgfQogIGlmIChlY28gPT09ICdub2RlJykgewogICAgaWYgKC9bXFwvXW5vZGVfbW9kdWxlc1tcXC9dL2kudGVzdChwYXRoKSkgewogICAgICByZXR1cm4gewogICAgICAgIGxldmVsOiAnZGFuZ2VyJywKICAgICAgICBjb25zZXF1ZW5jZTogYOS8muegtOWdj+ivpemhueebru+8mumhueebrumHjCBpbXBvcnQgJHtuYW1lfSDnmoTku6PnoIHkvJrnm7TmjqXot5HkuI3otbfmnaXvvIzopoHph43mlrAgbnBtIGluc3RhbGwg5omN5oGi5aSNYCwKICAgICAgfQogICAgfQogICAgcmV0dXJuIHsgbGV2ZWw6ICdjYXV0aW9uJywgY29uc2VxdWVuY2U6IGDlhajlsYDlkb3ku6QgJHtuYW1lfSDkvJrmtojlpLHvvJvph43mlrAgbnBtIGkgLWcg5Y+v5oGi5aSNYCB9CiAgfQogIGlmIChlY28gPT09ICdnaXQnKSB7CiAgICByZXR1cm4gewogICAgICBsZXZlbDogJ2RhbmdlcicsCiAgICAgIGNvbnNlcXVlbmNlOiBg5pW05Liq55uu5b2V5Lya6KKr5Yig5o6J77yaJHtuYW1lfSDnmoTmupDnoIHkuI7ph4zpnaLoo4Xlpb3nmoTkvp3otZYv5qih5Z6L5YWo6YOo5raI5aSx77yM5Y+q6IO96YeN5pawIGNsb25l77yI5pyJ5pys5Zyw5pS55Yqo5Lmf5Lya5Lii77yJYCwKICAgIH0KICB9CiAgaWYgKGVjbyA9PT0gJ3dpbmdldCcgfHwgZWNvID09PSAnY2hvY28nKSB7CiAgICByZXR1cm4gewogICAgICBsZXZlbDogJ2NhdXRpb24nLAogICAgICBjb25zZXF1ZW5jZTogYOeoi+W6jyAke25hbWV9IOS8muiiq+WNuOi9ve+8jOahjOmdoi/lvIDlp4voj5zljZXlv6vmjbfmlrnlvI/lpLHmlYjvvJvphY3nva7kuIDoiKzkv53nlZnlnKggQXBwRGF0YWAsCiAgICB9CiAgfQogIGlmIChlY28gPT09ICdweXRob24tZW52JyB8fCBlY28gPT09ICdjb25kYScpIHsKICAgIHJldHVybiB7IGxldmVsOiAnZGFuZ2VyJywgY29uc2VxdWVuY2U6IGDmlbTkuKrov5DooYznjq/looPkvJrooqvliKDpmaTvvJror6Xnjq/looPph4zoo4XnmoTmiYDmnInljIXkuIDotbfmtojlpLFgIH0KICB9CiAgaWYgKGVjbyA9PT0gJ2Rvd25sb2FkJyB8fCBlY28gPT09ICdpbnN0YWxsZXInKSB7CiAgICByZXR1cm4geyBsZXZlbDogJ3NhZmUnLCBjb25zZXF1ZW5jZTogJ+WIoOeahOWPquaYr+WuieijheWMhS/kuIvovb3mlofku7bvvIzlt7Loo4Xlpb3nmoTnqIvluo/kuI3lj5flvbHlk40nIH0KICB9CiAgaWYgKHBhdGgpIHsKICAgIHJldHVybiB7IGxldmVsOiAnY2F1dGlvbicsIGNvbnNlcXVlbmNlOiAn5Yig6Zmk6K+l6Lev5b6E5Lya56e76Zmk5a+55bqU5paH5Lu277yb5Yig5YmN56Gu6K6k5rKh5pyJ56iL5bqP6L+Y5Zyo55So5a6DJyB9CiAgfQogIHJldHVybiB7IGxldmVsOiAnY2F1dGlvbicsIGNvbnNlcXVlbmNlOiAn5pyq5om+5Yiw6JC955uY5Lqn54mp77yM5peg5rOV5Yik5pat5Y246L295b2x5ZONJyB9Cn0K
+/**
+ * 后果评估：删了这个东西会怎样。
+ * 只做判断，不做删除；面板上每一行都带这个结论，确认框里也再写一次。
+ *
+ * 三档：
+ *   safe     —— 删了没影响，或下次会自动重建
+ *   caution  —— 可能影响正在运行的程序 / 下次要重新下载
+ *   danger   —— 会破坏已装东西或丢数据，面板不提供一键删
+ */
+const RULES = [
+  {
+    test: /[\\/]Temp[\\/]cdp-[^\\/]+$/i,
+    level: 'safe',
+    consequence: '无影响：浏览器自动化每次都会新建 profile，下次运行会重建',
+  },
+  {
+    test: /[\\/]Temp[\\/](HeadlessChrome|pip-unpack-|scoped_dir|chrome_|chrome-shot-|chrome-profile-)[^\\/]*$/i,
+    level: 'safe',
+    consequence: '无影响：临时解包/无头浏览器目录，进程退出后本来也该被清掉',
+  },
+  {
+    test: /[\\/]\.pnpm-store$/i,
+    level: 'danger',
+    consequence: '会破坏已装依赖：pnpm 的硬链接源，删了现有 node_modules 变成断链，必须重新 install',
+  },
+  {
+    test: /[\\/]\.cache[\\/]huggingface|[\\/]huggingface[\\/]hub/i,
+    level: 'caution',
+    consequence: '要重新下载模型：下次用到会重新拉几十 GB 权重，网络差时很久',
+  },
+  {
+    test: /[\\/]pip[\\/]cache|[\\/]\.cache[\\/]pip/i,
+    level: 'caution',
+    consequence: '要重新下载包：下次 pip install 会从网上重新拉，不影响已装好的',
+  },
+  {
+    test: /[\\/]Windows[\\/]Installer$/i,
+    level: 'danger',
+    consequence: '会影响卸载与修复：MSI 缓存删了以后程序无法「更改/修复」，卸载可能留下残骸',
+  },
+  {
+    test: /[\\/]Temp$/i,
+    level: 'caution',
+    consequence: '可能影响正在运行的程序：正在安装/下载的会中断，建议先关掉相关程序再清',
+  },
+  {
+    test: /\.(exe|msi|zip|7z|rar)$/i,
+    level: 'safe',
+    consequence: '只是安装包/压缩包：装完或解压完就没用了，除非还要留着重装',
+  },
+  {
+    test: /[\\/](site-packages|dist-packages|node_modules)[\\/]/i,
+    level: 'danger',
+    consequence: '会破坏已装依赖：删掉后对应程序/项目直接跑不起来',
+  },
+  {
+    test: /[\\/]User Data([\\/]|$)|[\\/]Default[\\/](History|Bookmarks|Login Data)$/i,
+    level: 'danger',
+    consequence: '会丢浏览器数据：登录状态、历史、书签都在里面',
+  },
+  {
+    test: /[\\/]\.ollama[\\/]models/i,
+    level: 'caution',
+    consequence: '要重新下载模型：本地大模型权重，重下很慢',
+  },
+  {
+    test: /[\\/]\$Recycle\.Bin/i,
+    level: 'caution',
+    consequence: '回收站里的东西就真的没了：里面还有你手动删的文件',
+  },
+]
+
+/** 临时目录根本身：不能整根一键清（服务端也会拒），UI 里不给勾选框 */
+function isTempRoot(path) {
+  const p = String(path || '').replace(/[\\/]+$/, '').toLowerCase()
+  if (!p) return false
+  const roots = []
+  if (process.platform === 'win32') {
+    roots.push(`${String(process.env.SystemRoot || 'C:\\Windows').toLowerCase()}\\temp`)
+    roots.push(`${String(process.env.LOCALAPPDATA || `${process.env.USERPROFILE}\\AppData\\Local`).toLowerCase()}\\temp`)
+    roots.push('c:\\temp')
+  }
+  const tmp = String(process.env.TMP || process.env.TEMP || '').replace(/[\\/]+$/, '').toLowerCase()
+  if (tmp) roots.push(tmp)
+  return roots.includes(p)
+}
+
+/**
+ * @param {string} target 路径
+ * @param {{bytes?:number}} info
+ * @returns {{level:'safe'|'caution'|'danger', consequence:string, isRoot?:boolean}}
+ */
+export function assessRisk(target, info = {}) {
+  // 归一化重复分隔符，避免 C:\\Windows\\Temp 这种写法绕过规则
+  const path = String(target || '').replace(/([\\/])[\\/]+/g, '$1')
+  if (isTempRoot(path)) {
+    return {
+      level: 'caution',
+      consequence: '这是临时目录根，不能整根一键清：要清请勾选里面的子目录（整根清会把正在运行的程序一起拖下水）',
+      isRoot: true,
+    }
+  }
+  for (const rule of RULES) {
+    if (rule.test.test(path)) return { level: rule.level, consequence: rule.consequence }
+  }
+  const bytes = Number(info.bytes) || 0
+  if (bytes > 5 * 1024 ** 3) {
+    return { level: 'caution', consequence: '体积很大（>5 GB）：删前确认这不是你要留的项目/模型目录' }
+  }
+  return { level: 'caution', consequence: '不确定用途：删前打开目录看一眼，别把还在用的东西删了' }
+}
+
+/** 面板用：clean 按钮是否出现（低于 50 MB 不给按钮，避免误删正在用的临时文件） */
+export const CLEAN_MIN_BYTES = 50 * 1024 * 1024
+
+/**
+ * 卸载后果：对「会话装进来的东西」，卸掉会怎样。
+ * 与清理后果不同——这里说的是功能层影响，不是磁盘风险。
+ * @param {{eco?:string, name?:string, path?:string}} item
+ * @returns {{level:'safe'|'caution'|'danger', consequence:string}}
+ */
+export function assessUninstall(item = {}) {
+  const eco = String(item.eco || '')
+  const name = String(item.name || '')
+  const path = String(item.path || '')
+
+  if (eco === 'python') {
+    return {
+      level: 'caution',
+      consequence: `卸掉后依赖 ${name} 的脚本会 ImportError；用 pip 重装即可恢复（已装的其它包不受影响）`,
+    }
+  }
+  if (eco === 'node') {
+    if (/[\\/]node_modules[\\/]/i.test(path)) {
+      return {
+        level: 'danger',
+        consequence: `会破坏该项目：项目里 import ${name} 的代码会直接跑不起来，要重新 npm install 才恢复`,
+      }
+    }
+    return { level: 'caution', consequence: `全局命令 ${name} 会消失；重新 npm i -g 可恢复` }
+  }
+  if (eco === 'git') {
+    return {
+      level: 'danger',
+      consequence: `整个目录会被删掉：${name} 的源码与里面装好的依赖/模型全部消失，只能重新 clone（有本地改动也会丢）`,
+    }
+  }
+  if (eco === 'winget' || eco === 'choco') {
+    return {
+      level: 'caution',
+      consequence: `程序 ${name} 会被卸载，桌面/开始菜单快捷方式失效；配置一般保留在 AppData`,
+    }
+  }
+  if (eco === 'python-env' || eco === 'conda') {
+    return { level: 'danger', consequence: `整个运行环境会被删除：该环境里装的所有包一起消失` }
+  }
+  if (eco === 'download' || eco === 'installer') {
+    return { level: 'safe', consequence: '删的只是安装包/下载文件，已装好的程序不受影响' }
+  }
+  if (path) {
+    return { level: 'caution', consequence: '删除该路径会移除对应文件；删前确认没有程序还在用它' }
+  }
+  return { level: 'caution', consequence: '未找到落盘产物，无法判断卸载影响' }
+}

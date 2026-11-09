@@ -1,1 +1,66 @@
-IyBkc2gtaW5zdGFsbC1yYWRhcgoKUGVyLXNlc3Npb24gaW5zdGFsbCByYWRhciBmb3IgRGVlcFNlZWsgSGFybmVzcyAoZHNoKTogdHJhY2sgKip3aGF0IGV2ZXJ5IGNvbnZlcnNhdGlvbiBpbnN0YWxsZWQgb24gdGhpcyBtYWNoaW5lKiog4oCUIFB5dGhvbiBwYWNrYWdlcywgZ2xvYmFsIG5wbSBwYWNrYWdlcywgZ2l0IGNsb25lcywgd2luZ2V0L2Nob2NvIHByb2dyYW1zIOKAlCB3aXRoICoqc2l6ZSwgcmVhbCBwYXRoLCBjcmVhdGVkIHRpbWUsIHB1cnBvc2UsIHVuaW5zdGFsbCBjb25zZXF1ZW5jZSBhbmQgdGhlIHJlYXNvbiBpdCB3YXMgaW5zdGFsbGVkKiouCgpUaHJlZSBjb21wbGVtZW50YXJ5IGV2aWRlbmNlIHNvdXJjZXMgKG1pc3MgYW55IG9uZSBhbmQgeW91IGdldCAiQzogbG9zdCAyMCBHQiBhbmQgdGhlIHBsdWdpbiBzZWVzIG5vdGhpbmciKToKCnwgU291cmNlIHwgQW5zd2VycyB8IExpbWl0cyB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCAqKlNlc3Npb24gbG9ncyoqIChgJERTSF9IT01FL3Nlc3Npb25zLyoqL3Nlc3Npb24udiouanNvbmwuenN0ZGAsIGB0b29sL2NhbGxgKSB8IHdoaWNoIHNlc3Npb24sIHdoaWNoIHR1cm4sIHdoaWNoIGNvbW1hbmQgaW5zdGFsbGVkIFg7IHdoZXJlIGl0IGxhbmRlZCwgaG93IGJpZywgd2h5IHwgb25seSBzZWVzIGNvbW1hbmQgZXZpZGVuY2U7IGAkdmFyYCB0YXJnZXRzIGFuZCByZW1vdGUgc2NyaXB0cyBzdGF5IGludmlzaWJsZSB8CnwgKipTbmFwc2hvdCBkaWZmKiogKGJhc2VsaW5lIHZzIG5vdykgfCBuZXcgZW50cmllcyBpbiB0aGUgd2F0Y2hlZCByb290cywgZGlyZWN0b3JpZXMgdGhhdCBncmV3IHwgbmVlZHMgYSBiYXNlbGluZTsgcm9vdHMgb3V0c2lkZSB0aGUgd2F0Y2ggbGlzdCBhcmUgYmxpbmQgfAp8ICoqVGltZXN0YW1wIHN3ZWVwKiogKGBEZXZpY2VgIHRhYikgfCAid2hpY2ggZm9sZGVyIGF0ZSB0aGUgZGlzayBpbiB0aGUgbGFzdCBOIGRheXMiIGluY2x1ZGluZyB0ZW1wIGRpcnMgYW5kIG90aGVyIHRvb2xzIHwgdGltZSB3aW5kb3cgb25seSwgbm8ganVkZ2VtZW50IG9mIGludGVudCB8CgojIyBGZWF0dXJlcwoKLSAqKkxlZnQgc2lkZWJhciBwYW5lbCoqIChgc2lkZWJhci5wYW5lbGxpc3RgLCBhYm92ZSBXb3Jrc3BhY2VzKSB3aXRoIHR3byB0b3AtbGV2ZWwgdGFiczogKipGcm9tIHNlc3Npb25zKiogKGJsdWUpIGFuZCAqKk5vdCBmcm9tIHNlc3Npb25zKiogKG9yYW5nZSksIGVhY2ggd2l0aCBzdWItdmlld3MgKHBlciBzZXNzaW9uIC8gYnkga2luZCAvIGJ5IG1vbnRoLCBhbmQgYSAxLzMvNy1kYXkgc3dlZXApLgotICoqRXZlcnkgcm93KiogY2Fycmllczogc2l6ZSwgcGF0aCAoY29weSAvIG9wZW4gaW4gRXhwbG9yZXIpLCBjcmVhdGVkIHRpbWUsIHB1cnBvc2UsICoq8J+OryB3aHkgaXQgd2FzIGluc3RhbGxlZCoqIChhZ2VudCdzIG93biBub3RlIOKGkiBpdHMgcmVhc29uaW5nIHNlbnRlbmNlIOKGkiB5b3VyIHByb21wdCksIGFuZCAqKvCfn6Lwn5+h8J+UtCB1bmluc3RhbGwgY29uc2VxdWVuY2UqKi4KLSAqKlByb2Nlc3Mg4oaSIGRpc2sgY2F1c2FsIHRhYmxlKio6IHNhbXBsZXMgYFdpbjMyX1Byb2Nlc3NgIGV2ZXJ5IDkwIHMsIGNsYXNzaWZpZXMgQ2hyb21lL0NEUCBsYXVuY2hlcywgdGVtcCBicm93c2VyIHByb2ZpbGVzLCBwaXAvbnBtIGluc3RhbGxzLCBtb2RlbCBkb3dubG9hZHMsIGJ1aWxkcywgZmZtcGVnOyBncm91cHMgYnkgbGF1bmNoZXIgYW5kIGpvaW5zIHdpdGggb24tZGlzayBzaXplLgotICoqQmFja3RyYWNlKiogZm9yIGRpcmVjdG9yaWVzIGxlZnQgYmVoaW5kOiBjb3JyZWxhdGVzIGxlZnRvdmVyIGBjZHAtKmAgZGlycyB3aXRoIHRoZSBzZXNzaW9uIGNvbW1hbmRzIGFjdGl2ZSBhdCB0aGVpciBjcmVhdGlvbiB0aW1lIChwcm9iYWJpbGl0eSArIGV2aWRlbmNlKSwgdGhlbiBmaW5kcyB0aGUgZHJpdmVyIHNjcmlwdCBhbmQgdGVsbHMgeW91IHdoZXRoZXIgaXQgY2xlYW5zIHVwLCB3aXRoIGEgcmVhZHktdG8tcGFzdGUgY2xlYW51cCBob29rLgotICoqQ2xlYW51cCoqIHdpdGggdHdvLXN0ZXAgY29uZmlybSwgYSB0ZW1wLWRpcmVjdG9yeSB3aGl0ZWxpc3QsIGEgNTAgTUIgZmxvb3IsIGBkYW5nZXJgIGNsYXNzZXMgZXhjbHVkZWQsIG11bHRpLXNlbGVjdCB3aXRoIPCfn6Iv8J+fovCfn6Egc2VsZWN0LWFsbCwgaW4tcGxhY2Ugcm93IHJlbW92YWwgKG5vIHJlZmV0Y2gsIG5vIHNjcm9sbCBqdW1wKSBhbmQgYW4gYXV0by1jbGVhbiBzd2l0Y2ggKG9mZiBieSBkZWZhdWx0LCBzYWZlIGl0ZW1zIG9sZGVyIHRoYW4gTiBkYXlzIG9ubHkpLgotICoqNiBhZ2VudCB0b29scyoqOiBgaW5zdGFsbF9yYWRhcl9yZXBvcnQgLyBzZXNzaW9ucyAvIHJlY2VudCAvIGJhc2VsaW5lIC8gZGlmZiAvIGF1ZGl0IC8gaGlzdG9yeSAvIHByb2NzIC8gcmVwcm8gLyBhdXRvY2xlYW5gLgotICoqQ0xJKiogKGBub2RlIGJpbi9yYWRhci5tanMg4oCmYCkgd29ya3Mgd2l0aG91dCBkc2guCgojIyBJbnN0YWxsCgpgYGBwb3dlcnNoZWxsCmRzaCBwbHVnaW4gLS1wcm9maWxlIGRlc2t0b3AgYWRkIGRzaC1pbnN0YWxsLXJhZGFyCmBgYAoKUmVzdGFydCBkc2ggKG9yIGhvdC1lbmFibGUgdGhlIHBsdWdpbikuIEFuIGljb24gYXBwZWFycyBpbiB0aGUgbGVmdCBzaWRlYmFyIGFib3ZlIFdvcmtzcGFjZXMuCgojIyBBZ2VudCB0b29scwoKfCBUb29sIHwgVXNlIHwKfCAtLS0gfCAtLS0gfAp8IGBpbnN0YWxsX3JhZGFyX3JlcG9ydGAgfCBmdWxsIHBlci1zZXNzaW9uIHJlcG9ydCArIHdyaXRlcyBgJERTSF9IT01FL2luc3RhbGwtcmFkYXIvcmVwb3J0Lm1kYCB8CnwgYGluc3RhbGxfcmFkYXJfc2Vzc2lvbnNgIHwgc2Vzc2lvbiBjb21tYW5kIGV2aWRlbmNlIG9ubHksIGZpbHRlcmFibGUgfAp8IGBpbnN0YWxsX3JhZGFyX3JlY2VudGAgfCAid2hvIGF0ZSB0aGUgZGlzayBpbiB0aGUgbGFzdCBOIGRheXMiLCBhZ2dyZWdhdGVkIGJ5IG93bmVyIGZvbGRlciB8CnwgYGluc3RhbGxfcmFkYXJfYmFzZWxpbmVgIC8gYGluc3RhbGxfcmFkYXJfZGlmZmAgfCB0YWtlIGEgYmFzZWxpbmUgLyBkaWZmIHNpbmNlIGJhc2VsaW5lIHwKfCBgaW5zdGFsbF9yYWRhcl9hdWRpdGAgfCBpbmRleCBgc2Vzc2lvbnMvYCBhbmQgcmVjb3JkIHZhbmlzaGVkIHNlc3Npb24gZGlycyB8CnwgYGluc3RhbGxfcmFkYXJfaGlzdG9yeWAgfCBiYWNrdHJhY2UgbGVmdG92ZXIgdGVtcCBkaXJzIGFnYWluc3Qgc2Vzc2lvbiBjb21tYW5kcyAocHJvYmFiaWxpdHkpIHwKfCBgaW5zdGFsbF9yYWRhcl9wcm9jc2AgfCBwcm9jZXNzIGNvbW1hbmQtbGluZSBjYXVzYWwgdGFibGUgKENEUCAvIHBpcCAvIG5wbSAvIG1vZGVscyAvIGJ1aWxkcykgfAp8IGBpbnN0YWxsX3JhZGFyX3JlcHJvYCB8IGZpbmQgdGhlIGRyaXZlciBzY3JpcHQgYmVoaW5kIGxlZnRvdmVyIGRpcnMgKyBjbGVhbnVwIGhvb2sgfAp8IGBpbnN0YWxsX3JhZGFyX2F1dG9jbGVhbmAgfCB0b2dnbGUgLyBwcmV2aWV3IHNjaGVkdWxlZCBzYWZlIGNsZWFudXAgfAoKIyMgQ0xJCgpgYGBwb3dlcnNoZWxsCm5vZGUgYmluL3JhZGFyLm1qcyByb290cyAgICAgICAgICAgICAgICAgICAgICMgd2hpY2ggcm9vdHMgYXJlIHdhdGNoZWQKbm9kZSBiaW4vcmFkYXIubWpzIGJhc2VsaW5lICAgICAgICAgICAgICAgICAgIyB0YWtlIGEgYmFzZWxpbmUKbm9kZSBiaW4vcmFkYXIubWpzIHNjYW4gICAgICAgICAgICAgICAgICAgICAgIyBjdXJyZW50IHNuYXBzaG90LCB0b3AgMTUKbm9kZSBiaW4vcmFkYXIubWpzIHNlc3Npb25zICAgICAgICAgICAgICAgICAgIyB3aGF0IGhpc3Rvcnkgc2Vzc2lvbnMgaW5zdGFsbGVkCm5vZGUgYmluL3JhZGFyLm1qcyByZWNlbnQgLS1kYXlzIDMgICAgICAgICAgICMgZGlzayBncm93dGggYnkgb3duZXIKbm9kZSBiaW4vcmFkYXIubWpzIGRpZmYgICAgICAgICAgICAgICAgICAgICAgIyBuZXcgLyBncm93biBzaW5jZSBiYXNlbGluZQpub2RlIGJpbi9yYWRhci5tanMgcmVwb3J0IC0tb3V0IHJlcG9ydC5tZApgYGAKCiMjIFNhZmV0eQoKLSBDbGVhbnVwIG9ubHkgZXZlciB0b3VjaGVzIHRoZSB0ZW1wLWRpcmVjdG9yeSB3aGl0ZWxpc3QgKGAlU3lzdGVtUm9vdCVcVGVtcGAsIGAlTE9DQUxBUFBEQVRBJVxUZW1wYCwgYEM6XFRlbXBgLCBgVE1QYCk7IHRoZSByb290cyB0aGVtc2VsdmVzIGFyZSByZWZ1c2VkLgotIGBkYW5nZXJgIGNsYXNzZXMgKGAucG5wbS1zdG9yZWAsIGBXaW5kb3dzXEluc3RhbGxlcmAsIGBzaXRlLXBhY2thZ2VzYCwgYG5vZGVfbW9kdWxlc2AsIGJyb3dzZXIgYFVzZXIgRGF0YWApIG5ldmVyIGdldCBhIG9uZS1jbGljayBkZWxldGUuCi0gTm90aGluZyBpcyBkZWxldGVkIHdpdGhvdXQgYSBzZWNvbmQgY29uZmlybWF0aW9uOyBldmVyeSByZW1vdmFsIGlzIGFwcGVuZGVkIHRvIGAkRFNIX0hPTUUvaW5zdGFsbC1yYWRhci9jbGVhbi1sb2cuanNvbmxgLgotIFJlYWQtb25seSB3aXRoIHJlc3BlY3QgdG8gc2Vzc2lvbiBsb2dzOiB0aGUgcGx1Z2luIG5ldmVyIHdyaXRlcyB1bmRlciBgc2Vzc2lvbnMvYC4KCiMjIExpY2Vuc2UKCk1JVAo=
+# dsh-install-radar
+
+Per-session install radar for DeepSeek Harness (dsh): track **what every conversation installed on this machine** — Python packages, global npm packages, git clones, winget/choco programs — with **size, real path, created time, purpose, uninstall consequence and the reason it was installed**.
+
+Three complementary evidence sources (miss any one and you get "C: lost 20 GB and the plugin sees nothing"):
+
+| Source | Answers | Limits |
+| --- | --- | --- |
+| **Session logs** (`$DSH_HOME/sessions/**/session.v*.jsonl.zstd`, `tool/call`) | which session, which turn, which command installed X; where it landed, how big, why | only sees command evidence; `$var` targets and remote scripts stay invisible |
+| **Snapshot diff** (baseline vs now) | new entries in the watched roots, directories that grew | needs a baseline; roots outside the watch list are blind |
+| **Timestamp sweep** (`Device` tab) | "which folder ate the disk in the last N days" including temp dirs and other tools | time window only, no judgement of intent |
+
+## Features
+
+- **Left sidebar panel** (`sidebar.panellist`, above Workspaces) with two top-level tabs: **From sessions** (blue) and **Not from sessions** (orange), each with sub-views (per session / by kind / by month, and a 1/3/7-day sweep).
+- **Every row** carries: size, path (copy / open in Explorer), created time, purpose, **🎯 why it was installed** (agent's own note → its reasoning sentence → your prompt), and **🟢🟡🔴 uninstall consequence**.
+- **Process → disk causal table**: samples `Win32_Process` every 90 s, classifies Chrome/CDP launches, temp browser profiles, pip/npm installs, model downloads, builds, ffmpeg; groups by launcher and joins with on-disk size.
+- **Backtrace** for directories left behind: correlates leftover `cdp-*` dirs with the session commands active at their creation time (probability + evidence), then finds the driver script and tells you whether it cleans up, with a ready-to-paste cleanup hook.
+- **Cleanup** with two-step confirm, a temp-directory whitelist, a 50 MB floor, `danger` classes excluded, multi-select with 🟢/🟢🟡 select-all, in-place row removal (no refetch, no scroll jump) and an auto-clean switch (off by default, safe items older than N days only).
+- **6 agent tools**: `install_radar_report / sessions / recent / baseline / diff / audit / history / procs / repro / autoclean`.
+- **CLI** (`node bin/radar.mjs …`) works without dsh.
+
+## Install
+
+```powershell
+dsh plugin --profile desktop add dsh-install-radar
+```
+
+Restart dsh (or hot-enable the plugin). An icon appears in the left sidebar above Workspaces.
+
+## Agent tools
+
+| Tool | Use |
+| --- | --- |
+| `install_radar_report` | full per-session report + writes `$DSH_HOME/install-radar/report.md` |
+| `install_radar_sessions` | session command evidence only, filterable |
+| `install_radar_recent` | "who ate the disk in the last N days", aggregated by owner folder |
+| `install_radar_baseline` / `install_radar_diff` | take a baseline / diff since baseline |
+| `install_radar_audit` | index `sessions/` and record vanished session dirs |
+| `install_radar_history` | backtrace leftover temp dirs against session commands (probability) |
+| `install_radar_procs` | process command-line causal table (CDP / pip / npm / models / builds) |
+| `install_radar_repro` | find the driver script behind leftover dirs + cleanup hook |
+| `install_radar_autoclean` | toggle / preview scheduled safe cleanup |
+
+## CLI
+
+```powershell
+node bin/radar.mjs roots                     # which roots are watched
+node bin/radar.mjs baseline                  # take a baseline
+node bin/radar.mjs scan                      # current snapshot, top 15
+node bin/radar.mjs sessions                  # what history sessions installed
+node bin/radar.mjs recent --days 3           # disk growth by owner
+node bin/radar.mjs diff                      # new / grown since baseline
+node bin/radar.mjs report --out report.md
+```
+
+## Safety
+
+- Cleanup only ever touches the temp-directory whitelist (`%SystemRoot%\Temp`, `%LOCALAPPDATA%\Temp`, `C:\Temp`, `TMP`); the roots themselves are refused.
+- `danger` classes (`.pnpm-store`, `Windows\Installer`, `site-packages`, `node_modules`, browser `User Data`) never get a one-click delete.
+- Nothing is deleted without a second confirmation; every removal is appended to `$DSH_HOME/install-radar/clean-log.jsonl`.
+- Read-only with respect to session logs: the plugin never writes under `sessions/`.
+
+## License
+
+MIT

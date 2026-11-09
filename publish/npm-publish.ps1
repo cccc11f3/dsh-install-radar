@@ -1,1 +1,68 @@
-IyDlj5HluIPliLAgbnBt77yI5a6Y5pa55rqQ77yJ44CC55So5rOV77yaCiMgICBwd3NoIC1GaWxlIHB1Ymxpc2hcbnBtLXB1Ymxpc2gucHMxCiMgICBwd3NoIC1GaWxlIHB1Ymxpc2hcbnBtLXB1Ymxpc2gucHMxIC1SZWdpc3RyeSBodHRwczovL3JlZ2lzdHJ5Lm5wbWpzLm9yZwpwYXJhbSgKICBbc3RyaW5nXSRSZWdpc3RyeSA9ICdodHRwczovL3JlZ2lzdHJ5Lm5wbWpzLm9yZycKKQoKJEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokcm9vdCA9IFNwbGl0LVBhdGggLVBhcmVudCAkUFNTY3JpcHRSb290ClNldC1Mb2NhdGlvbiAkcm9vdAoKJHBrZyA9IEdldC1Db250ZW50IChKb2luLVBhdGggJHJvb3QgJ3BhY2thZ2UuanNvbicpIC1SYXcgfCBDb252ZXJ0RnJvbS1Kc29uCldyaXRlLUhvc3QgIuWMheWQjSAgOiAkKCRwa2cubmFtZSkiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgpXcml0ZS1Ib3N0ICLniYjmnKwgIDogJCgkcGtnLnZlcnNpb24pIiAtRm9yZWdyb3VuZENvbG9yIEN5YW4KV3JpdGUtSG9zdCAi5rqQICAgIDogJFJlZ2lzdHJ5IiAtRm9yZWdyb3VuZENvbG9yIEN5YW4KCiMgMSkg55m75b2V5qOA5p+lCiR3aG8gPSAkbnVsbAp0cnkgeyAkd2hvID0gKG5wbSB3aG9hbWkgLS1yZWdpc3RyeSAkUmVnaXN0cnkgMj4kbnVsbCkgfSBjYXRjaCB7ICR3aG8gPSAkbnVsbCB9CmlmICgtbm90ICR3aG8pIHsKICBXcml0ZS1Ib3N0ICIiCiAgV3JpdGUtSG9zdCAi6L+Y5rKh55m75b2VICRSZWdpc3RyeeOAgiIgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICBXcml0ZS1Ib3N0ICLlhYjmiafooYzlhbbkuK3kuIDkuKrvvJoiIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93CiAgV3JpdGUtSG9zdCAiICBucG0gbG9naW4gLS1yZWdpc3RyeT0kUmVnaXN0cnkiIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93CiAgV3JpdGUtSG9zdCAiICBgJGVudjpOUE1fVE9LRU49J25wbV94eHgnICAgIyDnhLblkI7ph43ot5HmnKzohJrmnKwiIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93CiAgaWYgKCRlbnY6TlBNX1RPS0VOKSB7CiAgICBXcml0ZS1Ib3N0ICLmo4DmtYvliLAgTlBNX1RPS0VO77yM5bCd6K+V55SoIHRva2VuIOeUn+aIkOS4tOaXtiAubnBtcmMg4oCmIiAtRm9yZWdyb3VuZENvbG9yIFllbGxvdwogICAgJG5wbXJjID0gSm9pbi1QYXRoICRyb290ICcubnBtcmMucHVibGlzaCcKICAgICIvL3JlZ2lzdHJ5Lm5wbWpzLm9yZy86X2F1dGhUb2tlbj0kZW52Ok5QTV9UT0tFTiIgfCBTZXQtQ29udGVudCAtUGF0aCAkbnBtcmMgLUVuY29kaW5nIGFzY2lpCiAgICAkZW52Om5wbV9jb25maWdfdXNlcmNvbmZpZyA9ICRucG1yYwogICAgJHdobyA9IChucG0gd2hvYW1pIC0tcmVnaXN0cnkgJFJlZ2lzdHJ5IDI+JG51bGwpCiAgICBpZiAoLW5vdCAkd2hvKSB7IFdyaXRlLUhvc3QgInRva2VuIOaXoOaViO+8jOe7iOatouOAgiIgLUZvcmVncm91bmRDb2xvciBSZWQ7IGV4aXQgMSB9CiAgfSBlbHNlIHsKICAgIGV4aXQgMQogIH0KfQpXcml0ZS1Ib3N0ICLlt7LnmbvlvZXvvJokd2hvIiAtRm9yZWdyb3VuZENvbG9yIEdyZWVuCgojIDIpIOWQjeWtl+WNoOeUqOajgOafpQp0cnkgewogICRleGlzdGluZyA9IEludm9rZS1SZXN0TWV0aG9kICJodHRwczovL3JlZ2lzdHJ5Lm5wbWpzLm9yZy8kKCRwa2cubmFtZSkiIC1UaW1lb3V0U2VjIDIwCiAgJG93bmVyID0gJGV4aXN0aW5nLm1haW50YWluZXJzIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5uYW1lIH0KICBpZiAoJG93bmVyIC1ub3Rjb250YWlucyAkd2hvKSB7CiAgICBXcml0ZS1Ib3N0ICLljIXlkI0gJCgkcGtnLm5hbWUpIOW3suiiqyAkKCRvd25lciAtam9pbiAnLCAnKSDljaDnlKjvvIznu4jmraLjgIIiIC1Gb3JlZ3JvdW5kQ29sb3IgUmVkCiAgICBleGl0IDEKICB9CiAgV3JpdGUtSG9zdCAi5YyF5bey5a2Y5Zyo5LiU5bGe5LqO5L2g77yM5bCG5Y+R5biDICQoJHBrZy52ZXJzaW9uKe+8iOWQjOWQjeeJiOacrOS8miA0MDPvvIkiIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93Cn0gY2F0Y2ggewogIFdyaXRlLUhvc3QgIuWMheWQjeWPr+eUqO+8iOmmluasoeWPkeW4g++8iSIgLUZvcmVncm91bmRDb2xvciBHcmVlbgp9CgojIDMpIOaJk+WMhemihOiniCArIOWPkeW4gwpXcml0ZS1Ib3N0ICIiCldyaXRlLUhvc3QgIj09IG5wbSBwYWNr77yI6aKE6KeI77yJID09IiAtRm9yZWdyb3VuZENvbG9yIEN5YW4KbnBtIHBhY2sgLS1kcnktcnVuIDI+JjEgfCBTZWxlY3QtT2JqZWN0IC1MYXN0IDgKCldyaXRlLUhvc3QgIiIKV3JpdGUtSG9zdCAiPT0gbnBtIHB1Ymxpc2ggPT0iIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgpucG0gcHVibGlzaCAtLXJlZ2lzdHJ5ICRSZWdpc3RyeQppZiAoJExBU1RFWElUQ09ERSAtbmUgMCkgeyBXcml0ZS1Ib3N0ICLlj5HluIPlpLHotKXvvIzpgIDlh7rnoIEgJExBU1RFWElUQ09ERSIgLUZvcmVncm91bmRDb2xvciBSZWQ7IGV4aXQgJExBU1RFWElUQ09ERSB9CgojIDQpIOWbnuafpQpTdGFydC1TbGVlcCAtU2Vjb25kcyAyCiRsaXZlID0gKG5wbSB2aWV3ICRwa2cubmFtZSB2ZXJzaW9uIC0tcmVnaXN0cnkgJFJlZ2lzdHJ5IDI+JG51bGwpCldyaXRlLUhvc3QgIiIKV3JpdGUtSG9zdCAi57q/5LiK54mI5pys77yaJGxpdmUiIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4KV3JpdGUtSG9zdCAi5a6J6KOF5ZG95Luk77yaZHNoIHBsdWdpbiAtLXByb2ZpbGUgZGVza3RvcCBhZGQgJCgkcGtnLm5hbWUpIiAtRm9yZWdyb3VuZENvbG9yIEdyZWVuCldyaXRlLUhvc3QgIumhtemdoiAgICDvvJpodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS8kKCRwa2cubmFtZSkiIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4K
+# 发布到 npm（官方源）。用法：
+#   pwsh -File publish\npm-publish.ps1
+#   pwsh -File publish\npm-publish.ps1 -Registry https://registry.npmjs.org
+param(
+  [string]$Registry = 'https://registry.npmjs.org'
+)
+
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent $PSScriptRoot
+Set-Location $root
+
+$pkg = Get-Content (Join-Path $root 'package.json') -Raw | ConvertFrom-Json
+Write-Host "包名  : $($pkg.name)" -ForegroundColor Cyan
+Write-Host "版本  : $($pkg.version)" -ForegroundColor Cyan
+Write-Host "源    : $Registry" -ForegroundColor Cyan
+
+# 1) 登录检查
+$who = $null
+try { $who = (npm whoami --registry $Registry 2>$null) } catch { $who = $null }
+if (-not $who) {
+  Write-Host ""
+  Write-Host "还没登录 $Registry。" -ForegroundColor Yellow
+  Write-Host "先执行其中一个：" -ForegroundColor Yellow
+  Write-Host "  npm login --registry=$Registry" -ForegroundColor Yellow
+  Write-Host "  `$env:NPM_TOKEN='npm_xxx'   # 然后重跑本脚本" -ForegroundColor Yellow
+  if ($env:NPM_TOKEN) {
+    Write-Host "检测到 NPM_TOKEN，尝试用 token 生成临时 .npmrc …" -ForegroundColor Yellow
+    $npmrc = Join-Path $root '.npmrc.publish'
+    "//registry.npmjs.org/:_authToken=$env:NPM_TOKEN" | Set-Content -Path $npmrc -Encoding ascii
+    $env:npm_config_userconfig = $npmrc
+    $who = (npm whoami --registry $Registry 2>$null)
+    if (-not $who) { Write-Host "token 无效，终止。" -ForegroundColor Red; exit 1 }
+  } else {
+    exit 1
+  }
+}
+Write-Host "已登录：$who" -ForegroundColor Green
+
+# 2) 名字占用检查
+try {
+  $existing = Invoke-RestMethod "https://registry.npmjs.org/$($pkg.name)" -TimeoutSec 20
+  $owner = $existing.maintainers | ForEach-Object { $_.name }
+  if ($owner -notcontains $who) {
+    Write-Host "包名 $($pkg.name) 已被 $($owner -join ', ') 占用，终止。" -ForegroundColor Red
+    exit 1
+  }
+  Write-Host "包已存在且属于你，将发布 $($pkg.version)（同名版本会 403）" -ForegroundColor Yellow
+} catch {
+  Write-Host "包名可用（首次发布）" -ForegroundColor Green
+}
+
+# 3) 打包预览 + 发布
+Write-Host ""
+Write-Host "== npm pack（预览） ==" -ForegroundColor Cyan
+npm pack --dry-run 2>&1 | Select-Object -Last 8
+
+Write-Host ""
+Write-Host "== npm publish ==" -ForegroundColor Cyan
+npm publish --registry $Registry
+if ($LASTEXITCODE -ne 0) { Write-Host "发布失败，退出码 $LASTEXITCODE" -ForegroundColor Red; exit $LASTEXITCODE }
+
+# 4) 回查
+Start-Sleep -Seconds 2
+$live = (npm view $pkg.name version --registry $Registry 2>$null)
+Write-Host ""
+Write-Host "线上版本：$live" -ForegroundColor Green
+Write-Host "安装命令：dsh plugin --profile desktop add $($pkg.name)" -ForegroundColor Green
+Write-Host "页面    ：https://www.npmjs.com/package/$($pkg.name)" -ForegroundColor Green

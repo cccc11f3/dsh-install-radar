@@ -1,1 +1,7 @@
-bm9kZV9tb2R1bGVzLwpyZXBvcnRzLwppbnN0YWxsLXJhZGFyLwoqLnRnegoubnBtcmMucHVibGlzaAoqLmxvZwouRFNfU3RvcmUK
+node_modules/
+reports/
+install-radar/
+*.tgz
+.npmrc.publish
+*.log
+.DS_Store

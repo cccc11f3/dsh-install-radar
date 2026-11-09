@@ -1,1 +1,54 @@
-LyoqCiAqIOiHquWKqOa4heeQhuiHqua1i++8iOWFqOaymeeuse+8jOS4jeeisOecn+WunuS4tOaXtuebruW9le+8ie+8mgogKiAgIDEuIOmihOiniOiDveWRveS4reOAjOWkn+iAgSArIOWkn+WkpyArIHNhZmXjgI3nmoTpobkKICogICAyLiDnnJ/liKDog73liKDmjonlroMKICogICAzLiDkuI3lpJ/lpKfnmoTkuI3liKAKICogICA0LiDkuI3lnKjnmb3lkI3ljZXph4znmoTkuIDlvovkuI3liKAKICog55So5rOV77yabm9kZSB0ZXN0L2F1dG9jbGVhbi1jaGVjay5tanMKICovCmltcG9ydCB7IG1rZGlyLCB3cml0ZUZpbGUsIHRydW5jYXRlLCBybSB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCB7IGV4aXN0c1N5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBqb2luIH0gZnJvbSAnbm9kZTpwYXRoJwppbXBvcnQgeyBhdXRvQ2xlYW5Td2VlcCB9IGZyb20gJy4uL3NyYy9lbmdpbmUvYXV0b2NsZWFuLmpzJwoKLy8g55uu5b2V5ZCN6KaB6ZW/5b6X5YOP55yf5a6e5Li05pe255uu5b2V77yILi4uXFRlbXBcY2RwLXh4eO+8ie+8jOWQpuWImSBzYWZlIOWIpOWumuS4jeS8muWRveS4rQpjb25zdCBvdXRlciA9IGpvaW4ocHJvY2Vzcy5lbnYuVEVNUCB8fCBwcm9jZXNzLmVudi5UTVAgfHwgJy4nLCAnX19yYWRhcl9hdXRvY2xlYW5fc2FuZGJveF9fJykKY29uc3Qgc2FuZGJveFJvb3QgPSBqb2luKG91dGVyLCAnVGVtcCcpCmF3YWl0IHJtKG91dGVyLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSkKYXdhaXQgbWtkaXIoc2FuZGJveFJvb3QsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCgpjb25zdCBiaWdEaXIgPSBqb2luKHNhbmRib3hSb290LCAnY2RwLWF1dG90ZXN0LWJpZycpCmNvbnN0IHNtYWxsRGlyID0gam9pbihzYW5kYm94Um9vdCwgJ2NkcC1hdXRvdGVzdC1zbWFsbCcpCmNvbnN0IGRhbmdlckRpciA9IGpvaW4oc2FuZGJveFJvb3QsICcucG5wbS1zdG9yZScpCmNvbnN0IGZ1dHVyZSA9IERhdGUubm93KCkgKyA4ICogODY0MDBfMDAwCgphd2FpdCBta2RpcihiaWdEaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCmNvbnN0IGJpZ0ZpbGUgPSBqb2luKGJpZ0RpciwgJ3Byb2ZpbGUuYmluJykKYXdhaXQgd3JpdGVGaWxlKGJpZ0ZpbGUsICcnKQphd2FpdCB0cnVuY2F0ZShiaWdGaWxlLCA2MCAqIDEwMjQgKiAxMDI0KQoKYXdhaXQgbWtkaXIoc21hbGxEaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCmF3YWl0IHdyaXRlRmlsZShqb2luKHNtYWxsRGlyLCAndGlueS50eHQnKSwgJ3gnLnJlcGVhdCgxMDI0KSkKCmF3YWl0IG1rZGlyKGRhbmdlckRpciwgeyByZWN1cnNpdmU6IHRydWUgfSkKY29uc3QgZGFuZ2VyRmlsZSA9IGpvaW4oZGFuZ2VyRGlyLCAnc3RvcmUuYmluJykKYXdhaXQgd3JpdGVGaWxlKGRhbmdlckZpbGUsICcnKQphd2FpdCB0cnVuY2F0ZShkYW5nZXJGaWxlLCA2MCAqIDEwMjQgKiAxMDI0KQoKY29uc3Qgb3B0cyA9IHsgaG9tZTogc2FuZGJveFJvb3QsIG1pbkFnZURheXM6IDcsIG5vdzogZnV0dXJlLCByb290czogW3NhbmRib3hSb290XSB9CmNvbnN0IHByZXZpZXcgPSBhd2FpdCBhdXRvQ2xlYW5Td2VlcCh7IC4uLm9wdHMsIGRyeVJ1bjogdHJ1ZSB9KQpjb25zdCBwYXRocyA9IHByZXZpZXcuY2FuZGlkYXRlcy5tYXAoKGl0ZW0pID0+IGl0ZW0ucGF0aC50b0xvd2VyQ2FzZSgpKQppZiAoIXBhdGhzLmluY2x1ZGVzKGJpZ0Rpci50b0xvd2VyQ2FzZSgpKSkgdGhyb3cgbmV3IEVycm9yKCdwcmV2aWV3IG1pc3NlZCB0aGUgYWdlZCA2MCBNQiBjZHAtKiBkaXInKQppZiAocGF0aHMuaW5jbHVkZXMoc21hbGxEaXIudG9Mb3dlckNhc2UoKSkpIHRocm93IG5ldyBFcnJvcigncHJldmlldyBtdXN0IHNraXAgaXRlbXMgYmVsb3cgNTAgTUInKQppZiAocGF0aHMuaW5jbHVkZXMoZGFuZ2VyRGlyLnRvTG93ZXJDYXNlKCkpKSB0aHJvdyBuZXcgRXJyb3IoJ3ByZXZpZXcgbXVzdCBza2lwIGRhbmdlciBpdGVtcyAoLnBucG0tc3RvcmUpJykKCmNvbnN0IHJlYWwgPSBhd2FpdCBhdXRvQ2xlYW5Td2VlcCh7IC4uLm9wdHMsIGRyeVJ1bjogZmFsc2UgfSkKaWYgKHJlYWwucmVtb3ZlZCAhPT0gMSkgdGhyb3cgbmV3IEVycm9yKGBleHBlY3RlZCBleGFjdGx5IDEgcmVtb3ZhbCwgZ290ICR7cmVhbC5yZW1vdmVkfWApCmlmIChleGlzdHNTeW5jKGJpZ0RpcikpIHRocm93IG5ldyBFcnJvcignYWdlZCBjZHAtKiBkaXIgc3RpbGwgZXhpc3RzJykKaWYgKCFleGlzdHNTeW5jKHNtYWxsRGlyKSkgdGhyb3cgbmV3IEVycm9yKCdzbWFsbCBkaXIgbXVzdCBzdXJ2aXZlJykKaWYgKCFleGlzdHNTeW5jKGRhbmdlckRpcikpIHRocm93IG5ldyBFcnJvcignZGFuZ2VyIGRpciBtdXN0IHN1cnZpdmUnKQoKYXdhaXQgcm0oc2FuZGJveFJvb3QsIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KQoKY29uc29sZS5sb2coJ09LJykKY29uc29sZS5sb2coYCAg5rKZ566x5omr5o+PICR7cHJldmlldy5zY2FubmVkfSDpobkgwrcg5ZG95LitICR7cHJldmlldy5jYW5kaWRhdGVzLmxlbmd0aH0g6aG5IMK3IOWIoOmZpCAke3JlYWwucmVtb3ZlZH0g6aG5IMK3IOmHiuaUviAkeyhyZWFsLmZyZWVkIC8gMTAyNCAqKiAyKS50b0ZpeGVkKDApfSBNQmApCg==
+/**
+ * 自动清理自测（全沙箱，不碰真实临时目录）：
+ *   1. 预览能命中「够老 + 够大 + safe」的项
+ *   2. 真删能删掉它
+ *   3. 不够大的不删
+ *   4. 不在白名单里的一律不删
+ * 用法：node test/autoclean-check.mjs
+ */
+import { mkdir, writeFile, truncate, rm } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { join } from 'node:path'
+import { autoCleanSweep } from '../src/engine/autoclean.js'
+
+// 目录名要长得像真实临时目录（...\Temp\cdp-xxx），否则 safe 判定不会命中
+const outer = join(process.env.TEMP || process.env.TMP || '.', '__radar_autoclean_sandbox__')
+const sandboxRoot = join(outer, 'Temp')
+await rm(outer, { recursive: true, force: true })
+await mkdir(sandboxRoot, { recursive: true })
+
+const bigDir = join(sandboxRoot, 'cdp-autotest-big')
+const smallDir = join(sandboxRoot, 'cdp-autotest-small')
+const dangerDir = join(sandboxRoot, '.pnpm-store')
+const future = Date.now() + 8 * 86400_000
+
+await mkdir(bigDir, { recursive: true })
+const bigFile = join(bigDir, 'profile.bin')
+await writeFile(bigFile, '')
+await truncate(bigFile, 60 * 1024 * 1024)
+
+await mkdir(smallDir, { recursive: true })
+await writeFile(join(smallDir, 'tiny.txt'), 'x'.repeat(1024))
+
+await mkdir(dangerDir, { recursive: true })
+const dangerFile = join(dangerDir, 'store.bin')
+await writeFile(dangerFile, '')
+await truncate(dangerFile, 60 * 1024 * 1024)
+
+const opts = { home: sandboxRoot, minAgeDays: 7, now: future, roots: [sandboxRoot] }
+const preview = await autoCleanSweep({ ...opts, dryRun: true })
+const paths = preview.candidates.map((item) => item.path.toLowerCase())
+if (!paths.includes(bigDir.toLowerCase())) throw new Error('preview missed the aged 60 MB cdp-* dir')
+if (paths.includes(smallDir.toLowerCase())) throw new Error('preview must skip items below 50 MB')
+if (paths.includes(dangerDir.toLowerCase())) throw new Error('preview must skip danger items (.pnpm-store)')
+
+const real = await autoCleanSweep({ ...opts, dryRun: false })
+if (real.removed !== 1) throw new Error(`expected exactly 1 removal, got ${real.removed}`)
+if (existsSync(bigDir)) throw new Error('aged cdp-* dir still exists')
+if (!existsSync(smallDir)) throw new Error('small dir must survive')
+if (!existsSync(dangerDir)) throw new Error('danger dir must survive')
+
+await rm(sandboxRoot, { recursive: true, force: true })
+
+console.log('OK')
+console.log(`  沙箱扫描 ${preview.scanned} 项 · 命中 ${preview.candidates.length} 项 · 删除 ${real.removed} 项 · 释放 ${(real.freed / 1024 ** 2).toFixed(0)} MB`)

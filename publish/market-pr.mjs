@@ -1,1 +1,157 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICog5ZCRIGF3ZXNvbWUtZHNoLXBsdWdpbiDluILlnLrmj5AgUFLvvJrlj6rliqDkuIDkuKrmlofku7YgZGF0YS9wbHVnaW5zLzxvd25lcj5fXzxyZXBvPi55bWzjgIIKICog6KeE5YiZ5p2l5rqQ77yaYXdlc29tZS1kc2gtcGx1Z2luL2F3ZXNvbWUtZHNoLXBsdWdpbiDnmoQgY29udHJpYnV0aW5nLm1kCiAqCiAqIOeUqOazle+8mgogKiAgICRlbnY6R0lUSFVCX1RPS0VOPSdnaHBfeHh4JwogKiAgIG5vZGUgcHVibGlzaC9tYXJrZXQtcHIubWpzIC0tdXNlciA8b3duZXI+IFstLXJlcG8gZHNoLWluc3RhbGwtcmFkYXJdIFstLWRyeV0KICoKICog5LiN5bimIHRva2VuIOaXtuiHquWKqOi/m+WFpSAtLWRyeSDmqKHlvI/vvIzlj6rmiZPljbDlsIbopoHlgZrnmoTkuovkuI7mnIDnu4ggWUFNTOOAggogKi8KaW1wb3J0IHsgcmVhZEZpbGVTeW5jIH0gZnJvbSAnbm9kZTpmcycKaW1wb3J0IHsgZGlybmFtZSwgam9pbiwgcmVzb2x2ZSB9IGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gJ25vZGU6dXJsJwoKY29uc3QgaGVyZSA9IGRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKQpjb25zdCByb290ID0gcmVzb2x2ZShoZXJlLCAnLi4nKQoKY29uc3QgYXJncyA9IG5ldyBNYXAoKQpmb3IgKGxldCBpID0gMjsgaSA8IHByb2Nlc3MuYXJndi5sZW5ndGg7IGkgKz0gMikgewogIGNvbnN0IGtleSA9IHByb2Nlc3MuYXJndltpXQogIGlmICgha2V5LnN0YXJ0c1dpdGgoJy0tJykpIGNvbnRpbnVlCiAgY29uc3QgdmFsdWUgPSBwcm9jZXNzLmFyZ3ZbaSArIDFdCiAgYXJncy5zZXQoa2V5LnNsaWNlKDIpLCB2YWx1ZSAmJiAhdmFsdWUuc3RhcnRzV2l0aCgnLS0nKSA/IHZhbHVlIDogdHJ1ZSkKfQoKY29uc3QgdG9rZW4gPSBwcm9jZXNzLmVudi5HSVRIVUJfVE9LRU4gfHwgcHJvY2Vzcy5lbnYuR0hfVE9LRU4KY29uc3Qgb3duZXIgPSBhcmdzLmdldCgndXNlcicpCmNvbnN0IHJlcG8gPSBhcmdzLmdldCgncmVwbycpIHx8ICdkc2gtaW5zdGFsbC1yYWRhcicKY29uc3QgZHJ5ID0gYXJncy5nZXQoJ2RyeScpID09PSB0cnVlIHx8ICF0b2tlbgpjb25zdCBVUFNUUkVBTSA9ICdhd2Vzb21lLWRzaC1wbHVnaW4vYXdlc29tZS1kc2gtcGx1Z2luJwpjb25zdCBCUkFOQ0ggPSBgYWRkLSR7cmVwb31gCgppZiAoIW93bmVyKSB7CiAgY29uc29sZS5lcnJvcign57y65bCRIC0tdXNlciA8R2l0SHViIOeUqOaIt+WQjT4nKQogIHByb2Nlc3MuZXhpdCgxKQp9Cgpjb25zdCBwa2cgPSBKU09OLnBhcnNlKHJlYWRGaWxlU3luYyhqb2luKHJvb3QsICdwYWNrYWdlLmpzb24nKSwgJ3V0ZjgnKSkKY29uc3QgZW50cnkgPSByZWFkRmlsZVN5bmMoam9pbihoZXJlLCAnZW50cnkueW1sJyksICd1dGY4JykKICAucmVwbGFjZUFsbCgnX19PV05FUl9fJywgb3duZXIpCiAgLnJlcGxhY2VBbGwoJ19fUkVQT19fJywgcmVwbykKICAucmVwbGFjZUFsbCgnX19WRVJTSU9OX18nLCBwa2cudmVyc2lvbikKY29uc3QgZmlsZVBhdGggPSBgZGF0YS9wbHVnaW5zLyR7b3duZXJ9X18ke3JlcG99LnltbGAKCmNvbnNvbGUubG9nKCc9PT0g5bCG5o+Q5Lqk55qE5biC5Zy65p2h55uuID09PScpCmNvbnNvbGUubG9nKGVudHJ5KQpjb25zb2xlLmxvZyhgPT09IOebruagh+aWh+S7tu+8miR7ZmlsZVBhdGh9ID09PWApCgppZiAoZHJ5KSB7CiAgY29uc29sZS5sb2coJ++8iGRyeSDmqKHlvI/vvJrmsqHmnIkgR0lUSFVCX1RPS0VO77yM5Y+q5omT5Y2w6K6h5YiS77yJJykKICBjb25zb2xlLmxvZyhgCuiuoeWIku+8mgogIDEuIFBPU1QgL3JlcG9zLyR7VVBTVFJFQU19L2ZvcmtzICAgICAgICAgICAgICAgICAgICAgIyBmb3JrIOW4guWcuuS7k+W6k+WIsCAke293bmVyfQogIDIuIOetiSBmb3JrIOWPr+eUqO+8iOi9ruivoiBHRVQgL3JlcG9zLyR7b3duZXJ9L2F3ZXNvbWUtZHNoLXBsdWdpbu+8iQogIDMuIEdFVCAgL3JlcG9zLyR7VVBTVFJFQU19L2dpdC9yZWYvaGVhZHMvbWFpbiAgICAgICAgICMg5Y+W5LiK5ri4IG1haW4g55qEIHNoYQogIDQuIFBPU1QgL3JlcG9zLyR7b3duZXJ9L2F3ZXNvbWUtZHNoLXBsdWdpbi9naXQvcmVmcyAgICMg5ZyoIGZvcmsg5LiK5bu65YiG5pSvICR7QlJBTkNIfQogIDUuIFBVVCAgL3JlcG9zLyR7b3duZXJ9L2F3ZXNvbWUtZHNoLXBsdWdpbi9jb250ZW50cy8ke2ZpbGVQYXRofQogIDYuIFBPU1QgL3JlcG9zLyR7VVBTVFJFQU19L3B1bGxzICAgICAgICAgICAgICAgICAgICAgICMg5byAIFBS77yIaGVhZD0ke293bmVyfToke0JSQU5DSH0sIGJhc2U9bWFpbu+8iQpgKQogIHByb2Nlc3MuZXhpdCgwKQp9Cgpjb25zdCBhcGkgPSBhc3luYyAocGF0aCwgaW5pdCA9IHt9KSA9PiB7CiAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbSR7cGF0aH1gLCB7CiAgICAuLi5pbml0LAogICAgaGVhZGVyczogewogICAgICBBY2NlcHQ6ICdhcHBsaWNhdGlvbi92bmQuZ2l0aHViK2pzb24nLAogICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7dG9rZW59YCwKICAgICAgJ1VzZXItQWdlbnQnOiAnZHNoLWluc3RhbGwtcmFkYXItcHVibGlzaCcsCiAgICAgIC4uLihpbml0LmhlYWRlcnMgfHwge30pLAogICAgfSwKICB9KQogIGNvbnN0IHRleHQgPSBhd2FpdCByZXNwb25zZS50ZXh0KCkKICBsZXQgYm9keSA9IG51bGwKICB0cnkgewogICAgYm9keSA9IHRleHQgPyBKU09OLnBhcnNlKHRleHQpIDogbnVsbAogIH0gY2F0Y2ggewogICAgYm9keSA9IHRleHQKICB9CiAgcmV0dXJuIHsgb2s6IHJlc3BvbnNlLm9rLCBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywgYm9keSB9Cn0KCmNvbnNvbGUubG9nKCcxKSBmb3JrIOW4guWcuuS7k+W6kyDigKYnKQpjb25zdCBmb3JrID0gYXdhaXQgYXBpKGAvcmVwb3MvJHtVUFNUUkVBTX0vZm9ya3NgLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGRlZmF1bHRfYnJhbmNoX29ubHk6IHRydWUgfSkgfSkKaWYgKGZvcmsub2sgfHwgZm9yay5zdGF0dXMgPT09IDIwMikgY29uc29sZS5sb2coJyAgIOW3suivt+axgiBmb3JrJykKZWxzZSBpZiAoZm9yay5zdGF0dXMgPT09IDQyMikgY29uc29sZS5sb2coJyAgIGZvcmsg5bey5a2Y5ZyoJykKZWxzZSB7CiAgY29uc29sZS5lcnJvcihgICAgZm9yayDlpLHotKXvvJpIVFRQICR7Zm9yay5zdGF0dXN9ICR7SlNPTi5zdHJpbmdpZnkoZm9yay5ib2R5KS5zbGljZSgwLCAzMDApfWApCiAgcHJvY2Vzcy5leGl0KDEpCn0KCmNvbnNvbGUubG9nKCcyKSDnrYkgZm9yayDlsLHnu6og4oCmJykKbGV0IHJlYWR5ID0gZmFsc2UKZm9yIChsZXQgaSA9IDA7IGkgPCAzMDsgaSsrKSB7CiAgY29uc3QgY2hlY2sgPSBhd2FpdCBhcGkoYC9yZXBvcy8ke293bmVyfS9hd2Vzb21lLWRzaC1wbHVnaW5gKQogIGlmIChjaGVjay5vaykgewogICAgcmVhZHkgPSB0cnVlCiAgICBicmVhawogIH0KICBhd2FpdCBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gc2V0VGltZW91dChkb25lLCAyMDAwKSkKfQppZiAoIXJlYWR5KSB7CiAgY29uc29sZS5lcnJvcignICAgZm9yayDov5/ov5/msqHlsLHnu6rvvIznqI3lkI7ph43ot5HmnKzohJrmnKzljbPlj6/vvIhmb3JrIOS8muS/neeVme+8iScpCiAgcHJvY2Vzcy5leGl0KDEpCn0KCmNvbnNvbGUubG9nKCczKSDlj5bkuIrmuLggbWFpbiBzaGEg4oCmJykKY29uc3QgcmVmID0gYXdhaXQgYXBpKGAvcmVwb3MvJHtVUFNUUkVBTX0vZ2l0L3JlZi9oZWFkcy9tYWluYCkKaWYgKCFyZWYub2spIHsKICBjb25zb2xlLmVycm9yKGAgICDlj5YgcmVmIOWksei0pe+8mkhUVFAgJHtyZWYuc3RhdHVzfWApCiAgcHJvY2Vzcy5leGl0KDEpCn0KY29uc3Qgc2hhID0gcmVmLmJvZHkub2JqZWN0LnNoYQoKY29uc29sZS5sb2coYDQpIOWcqCBmb3JrIOS4iuW7uuWIhuaUryAke0JSQU5DSH0g4oCmYCkKY29uc3QgYnJhbmNoID0gYXdhaXQgYXBpKGAvcmVwb3MvJHtvd25lcn0vYXdlc29tZS1kc2gtcGx1Z2luL2dpdC9yZWZzYCwgewogIG1ldGhvZDogJ1BPU1QnLAogIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcmVmOiBgcmVmcy9oZWFkcy8ke0JSQU5DSH1gLCBzaGEgfSksCn0pCmlmICghYnJhbmNoLm9rICYmIGJyYW5jaC5zdGF0dXMgIT09IDQyMikgewogIGNvbnNvbGUuZXJyb3IoYCAgIOW7uuWIhuaUr+Wksei0pe+8mkhUVFAgJHticmFuY2guc3RhdHVzfSAke0pTT04uc3RyaW5naWZ5KGJyYW5jaC5ib2R5KS5zbGljZSgwLCAyMDApfWApCiAgcHJvY2Vzcy5leGl0KDEpCn0KCmNvbnNvbGUubG9nKGA1KSDlhpnlhaUgJHtmaWxlUGF0aH0g4oCmYCkKY29uc3QgcHV0ID0gYXdhaXQgYXBpKGAvcmVwb3MvJHtvd25lcn0vYXdlc29tZS1kc2gtcGx1Z2luL2NvbnRlbnRzLyR7ZmlsZVBhdGh9YCwgewogIG1ldGhvZDogJ1BVVCcsCiAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgbWVzc2FnZTogYGZlYXQ6IGFkZCAke3BrZy5uYW1lfWAsCiAgICBjb250ZW50OiBCdWZmZXIuZnJvbShlbnRyeSwgJ3V0ZjgnKS50b1N0cmluZygnYmFzZTY0JyksCiAgICBicmFuY2g6IEJSQU5DSCwKICB9KSwKfSkKaWYgKCFwdXQub2spIHsKICBjb25zb2xlLmVycm9yKGAgICDlhpnlhaXlpLHotKXvvJpIVFRQICR7cHV0LnN0YXR1c30gJHtKU09OLnN0cmluZ2lmeShwdXQuYm9keSkuc2xpY2UoMCwgMzAwKX1gKQogIHByb2Nlc3MuZXhpdCgxKQp9Cgpjb25zb2xlLmxvZygnNikg5byAIFBSIOKApicpCmNvbnN0IHByID0gYXdhaXQgYXBpKGAvcmVwb3MvJHtVUFNUUkVBTX0vcHVsbHNgLCB7CiAgbWV0aG9kOiAnUE9TVCcsCiAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgdGl0bGU6IGBBZGQgJHtwa2cubmFtZX1gLAogICAgaGVhZDogYCR7b3duZXJ9OiR7QlJBTkNIfWAsCiAgICBiYXNlOiAnbWFpbicsCiAgICBib2R5OiByZWFkRmlsZVN5bmMoam9pbihoZXJlLCAnUFIubWQnKSwgJ3V0ZjgnKSwKICB9KSwKfSkKaWYgKHByLm9rKSB7CiAgY29uc29sZS5sb2coYCAgIOW3suW8gCBQUu+8miR7cHIuYm9keS5odG1sX3VybH1gKQp9IGVsc2UgaWYgKHByLnN0YXR1cyA9PT0gNDIyKSB7CiAgY29uc29sZS5sb2coJyAgIFBSIOWPr+iDveW3suWtmOWcqO+8mmh0dHBzOi8vZ2l0aHViLmNvbS8nICsgVVBTVFJFQU0gKyAnL3B1bGxzJykKfSBlbHNlIHsKICBjb25zb2xlLmVycm9yKGAgICBQUiDlpLHotKXvvJpIVFRQICR7cHIuc3RhdHVzfSAke0pTT04uc3RyaW5naWZ5KHByLmJvZHkpLnNsaWNlKDAsIDQwMCl9YCkKICBwcm9jZXNzLmV4aXQoMSkKfQo=
+#!/usr/bin/env node
+/**
+ * 向 awesome-dsh-plugin 市场提 PR：只加一个文件 data/plugins/<owner>__<repo>.yml。
+ * 规则来源：awesome-dsh-plugin/awesome-dsh-plugin 的 contributing.md
+ *
+ * 用法：
+ *   $env:GITHUB_TOKEN='ghp_xxx'
+ *   node publish/market-pr.mjs --user <owner> [--repo dsh-install-radar] [--dry]
+ *
+ * 不带 token 时自动进入 --dry 模式，只打印将要做的事与最终 YAML。
+ */
+import { readFileSync } from 'node:fs'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const root = resolve(here, '..')
+
+const args = new Map()
+for (let i = 2; i < process.argv.length; i += 2) {
+  const key = process.argv[i]
+  if (!key.startsWith('--')) continue
+  const value = process.argv[i + 1]
+  args.set(key.slice(2), value && !value.startsWith('--') ? value : true)
+}
+
+const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
+const owner = args.get('user')
+const repo = args.get('repo') || 'dsh-install-radar'
+const dry = args.get('dry') === true || !token
+const UPSTREAM = 'awesome-dsh-plugin/awesome-dsh-plugin'
+const BRANCH = `add-${repo}`
+
+if (!owner) {
+  console.error('缺少 --user <GitHub 用户名>')
+  process.exit(1)
+}
+
+const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'))
+const entry = readFileSync(join(here, 'entry.yml'), 'utf8')
+  .replaceAll('__OWNER__', owner)
+  .replaceAll('__REPO__', repo)
+  .replaceAll('__VERSION__', pkg.version)
+const filePath = `data/plugins/${owner}__${repo}.yml`
+
+console.log('=== 将提交的市场条目 ===')
+console.log(entry)
+console.log(`=== 目标文件：${filePath} ===`)
+
+if (dry) {
+  console.log('（dry 模式：没有 GITHUB_TOKEN，只打印计划）')
+  console.log(`
+计划：
+  1. POST /repos/${UPSTREAM}/forks                     # fork 市场仓库到 ${owner}
+  2. 等 fork 可用（轮询 GET /repos/${owner}/awesome-dsh-plugin）
+  3. GET  /repos/${UPSTREAM}/git/ref/heads/main         # 取上游 main 的 sha
+  4. POST /repos/${owner}/awesome-dsh-plugin/git/refs   # 在 fork 上建分支 ${BRANCH}
+  5. PUT  /repos/${owner}/awesome-dsh-plugin/contents/${filePath}
+  6. POST /repos/${UPSTREAM}/pulls                      # 开 PR（head=${owner}:${BRANCH}, base=main）
+`)
+  process.exit(0)
+}
+
+const api = async (path, init = {}) => {
+  const response = await fetch(`https://api.github.com${path}`, {
+    ...init,
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${token}`,
+      'User-Agent': 'dsh-install-radar-publish',
+      ...(init.headers || {}),
+    },
+  })
+  const text = await response.text()
+  let body = null
+  try {
+    body = text ? JSON.parse(text) : null
+  } catch {
+    body = text
+  }
+  return { ok: response.ok, status: response.status, body }
+}
+
+console.log('1) fork 市场仓库 …')
+const fork = await api(`/repos/${UPSTREAM}/forks`, { method: 'POST', body: JSON.stringify({ default_branch_only: true }) })
+if (fork.ok || fork.status === 202) console.log('   已请求 fork')
+else if (fork.status === 422) console.log('   fork 已存在')
+else {
+  console.error(`   fork 失败：HTTP ${fork.status} ${JSON.stringify(fork.body).slice(0, 300)}`)
+  process.exit(1)
+}
+
+console.log('2) 等 fork 就绪 …')
+let ready = false
+for (let i = 0; i < 30; i++) {
+  const check = await api(`/repos/${owner}/awesome-dsh-plugin`)
+  if (check.ok) {
+    ready = true
+    break
+  }
+  await new Promise((done) => setTimeout(done, 2000))
+}
+if (!ready) {
+  console.error('   fork 迟迟没就绪，稍后重跑本脚本即可（fork 会保留）')
+  process.exit(1)
+}
+
+console.log('3) 取上游 main sha …')
+const ref = await api(`/repos/${UPSTREAM}/git/ref/heads/main`)
+if (!ref.ok) {
+  console.error(`   取 ref 失败：HTTP ${ref.status}`)
+  process.exit(1)
+}
+const sha = ref.body.object.sha
+
+console.log(`4) 在 fork 上建分支 ${BRANCH} …`)
+const branch = await api(`/repos/${owner}/awesome-dsh-plugin/git/refs`, {
+  method: 'POST',
+  body: JSON.stringify({ ref: `refs/heads/${BRANCH}`, sha }),
+})
+if (!branch.ok && branch.status !== 422) {
+  console.error(`   建分支失败：HTTP ${branch.status} ${JSON.stringify(branch.body).slice(0, 200)}`)
+  process.exit(1)
+}
+
+console.log(`5) 写入 ${filePath} …`)
+const put = await api(`/repos/${owner}/awesome-dsh-plugin/contents/${filePath}`, {
+  method: 'PUT',
+  body: JSON.stringify({
+    message: `feat: add ${pkg.name}`,
+    content: Buffer.from(entry, 'utf8').toString('base64'),
+    branch: BRANCH,
+  }),
+})
+if (!put.ok) {
+  console.error(`   写入失败：HTTP ${put.status} ${JSON.stringify(put.body).slice(0, 300)}`)
+  process.exit(1)
+}
+
+console.log('6) 开 PR …')
+const pr = await api(`/repos/${UPSTREAM}/pulls`, {
+  method: 'POST',
+  body: JSON.stringify({
+    title: `Add ${pkg.name}`,
+    head: `${owner}:${BRANCH}`,
+    base: 'main',
+    body: readFileSync(join(here, 'PR.md'), 'utf8'),
+  }),
+})
+if (pr.ok) {
+  console.log(`   已开 PR：${pr.body.html_url}`)
+} else if (pr.status === 422) {
+  console.log('   PR 可能已存在：https://github.com/' + UPSTREAM + '/pulls')
+} else {
+  console.error(`   PR 失败：HTTP ${pr.status} ${JSON.stringify(pr.body).slice(0, 400)}`)
+  process.exit(1)
+}

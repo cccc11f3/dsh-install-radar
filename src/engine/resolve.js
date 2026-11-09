@@ -1,1 +1,296 @@
-LyoqCiAqIOW9kuWboOWxgu+8muaKiuOAjOijheS6hiBY44CN6L+Z5Liq5ZCN5a2X77yM6JC95Yiw56OB55uY5LiK5LiA5Liq55yf5a6e6Lev5b6E77yM5bm25Y+W5Yiw5L2T56ev44CCCiAqIOmhuuW6j++8mueUn+aAgee6puWumui3r+W+hCDihpIg5rOo5YaM6KGo5bey5a6J6KOF56iL5bqPIOKGkiDlv6vnhafph4zlkIzlkI3mnaHnm64g4oaSIOaUvuW8g++8iOagh+iusOacquaJvuWIsO+8ieOAggogKi8KaW1wb3J0IHsgZXhlY0ZpbGUgfSBmcm9tICdub2RlOmNoaWxkX3Byb2Nlc3MnCmltcG9ydCB7IGV4aXN0c1N5bmMgfSBmcm9tICdub2RlOmZzJwppbXBvcnQgeyBqb2luLCByZXNvbHZlIGFzIHJlc29sdmVQYXRoLCBpc0Fic29sdXRlLCBiYXNlbmFtZSB9IGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgc3RhdCwgcmVhZGRpciB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCB7IG1lYXN1cmUgfSBmcm9tICcuL3NjYW4uanMnCmltcG9ydCB7IGxvYWRJbnN0YWxsZWRQcm9ncmFtcywgZmluZFByb2dyYW0gfSBmcm9tICcuL3JlZ2lzdHJ5LmpzJwppbXBvcnQgeyBnZXRDYWNoZWRTaXplLCBwdXRDYWNoZWRTaXplIH0gZnJvbSAnLi9zaXplY2FjaGUuanMnCgpjb25zdCBJU19XSU4gPSBwcm9jZXNzLnBsYXRmb3JtID09PSAnd2luMzInCgpmdW5jdGlvbiBydW4oY21kLCBhcmdzLCB0aW1lb3V0ID0gODAwMCkgewogIHJldHVybiBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgdHJ5IHsKICAgICAgZXhlY0ZpbGUoY21kLCBhcmdzLCB7IHRpbWVvdXQsIHdpbmRvd3NIaWRlOiB0cnVlIH0sIChlcnJvciwgc3Rkb3V0KSA9PiB7CiAgICAgICAgZG9uZShlcnJvciA/IG51bGwgOiBTdHJpbmcoc3Rkb3V0KS50cmltKCkpCiAgICAgIH0pCiAgICB9IGNhdGNoIHsKICAgICAgZG9uZShudWxsKQogICAgfQogIH0pCn0KCi8qKiDkuIDmrKHmgKfmjqLmtYvmnKzmnLogUHl0aG9uIC8gbnBtIOeahOecn+WunuWuieijheS9jee9ru+8jOmBv+WFjemAkOWMheeMnOi3r+W+hCAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcHJvYmVFbnZpcm9ubWVudCgpIHsKICBjb25zdCBlbnYgPSB7IHB5dGhvblB1cmVsaWI6ICcnLCBweXRob25Vc2VyU2l0ZTogJycsIG5wbUdsb2JhbFJvb3Q6ICcnLCBweXRob25WZXJzaW9uOiAnJyB9CiAgY29uc3QgcHlPdXQgPSBhd2FpdCBydW4oJ3B5dGhvbicsIFsKICAgICctYycsCiAgICAnaW1wb3J0IHN5c2NvbmZpZyxzeXM7cHJpbnQoc3lzY29uZmlnLmdldF9wYXRocygpLmdldCgicHVyZWxpYiIsIiIpKTtwcmludChzeXMudmVyc2lvbi5zcGxpdCgpWzBdKScsCiAgXSkKICBpZiAocHlPdXQpIHsKICAgIGNvbnN0IFtwdXJlbGliLCB2ZXJzaW9uXSA9IHB5T3V0LnNwbGl0KC9ccj9cbi8pCiAgICBlbnYucHl0aG9uUHVyZWxpYiA9IHB1cmVsaWIgfHwgJycKICAgIGVudi5weXRob25WZXJzaW9uID0gdmVyc2lvbiB8fCAnJwogIH0KICBjb25zdCB1c2VyU2l0ZSA9IGF3YWl0IHJ1bigncHl0aG9uJywgWyctbScsICdzaXRlJywgJy0tdXNlci1zaXRlJ10pCiAgaWYgKHVzZXJTaXRlKSBlbnYucHl0aG9uVXNlclNpdGUgPSB1c2VyU2l0ZQogIGlmIChJU19XSU4pIHsKICAgIGNvbnN0IG5wbVJvb3QgPSBhd2FpdCBydW4oJ25wbScsIFsncm9vdCcsICctZyddLCAxNTAwMCkKICAgIGlmIChucG1Sb290KSBlbnYubnBtR2xvYmFsUm9vdCA9IG5wbVJvb3QKICAgIGlmICghZW52Lm5wbUdsb2JhbFJvb3QgJiYgcHJvY2Vzcy5lbnYuQVBQREFUQSkgewogICAgICBjb25zdCBndWVzcyA9IGpvaW4ocHJvY2Vzcy5lbnYuQVBQREFUQSwgJ25wbScsICdub2RlX21vZHVsZXMnKQogICAgICBpZiAoZXhpc3RzU3luYyhndWVzcykpIGVudi5ucG1HbG9iYWxSb290ID0gZ3Vlc3MKICAgIH0KICB9IGVsc2UgewogICAgZW52Lm5wbUdsb2JhbFJvb3QgPSAnL3Vzci9sb2NhbC9saWIvbm9kZV9tb2R1bGVzJwogIH0KICByZXR1cm4gZW52Cn0KCmNvbnN0IG5vcm0gPSAodmFsdWUpID0+IFN0cmluZyh2YWx1ZSB8fCAnJykudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXHNfLlwtXS9nLCAnJykKCmZ1bmN0aW9uIHNhZmVSZXNvbHZlKGJhc2UsIHRhcmdldCkgewogIGlmICghdGFyZ2V0KSByZXR1cm4gJycKICBjb25zdCBjbGVhbmVkID0gU3RyaW5nKHRhcmdldCkucmVwbGFjZSgvXlsnIl18WyciXSQvZywgJycpLnRyaW0oKQogIGlmICghY2xlYW5lZCkgcmV0dXJuICcnCiAgaWYgKGlzQWJzb2x1dGUoY2xlYW5lZCkpIHJldHVybiBjbGVhbmVkCiAgcmV0dXJuIGJhc2UgPyByZXNvbHZlUGF0aChiYXNlLCBjbGVhbmVkKSA6ICcnCn0KCi8qKiBzaXRlLXBhY2thZ2VzIOmHjOaMieWMheWQjeaJvuebruW9le+8iOS4peagvO+8muWPtuWQjeW9kuS4gOWMluWQjuebuOetie+8iSAqLwphc3luYyBmdW5jdGlvbiBmaW5kSW5TaXRlUGFja2FnZXMoc2l0ZURpciwgbmFtZSkgewogIGlmICghc2l0ZURpciB8fCAhZXhpc3RzU3luYyhzaXRlRGlyKSkgcmV0dXJuICcnCiAgY29uc3QgdGFyZ2V0ID0gbm9ybShuYW1lKQogIHRyeSB7CiAgICBjb25zdCBsaXN0ID0gYXdhaXQgcmVhZGRpcihzaXRlRGlyLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkKICAgIGNvbnN0IGhpdCA9IGxpc3QuZmluZCgoZW50cnkpID0+IGVudHJ5LmlzRGlyZWN0b3J5KCkgJiYgbm9ybShlbnRyeS5uYW1lKSA9PT0gdGFyZ2V0KQogICAgcmV0dXJuIGhpdCA/IGpvaW4oc2l0ZURpciwgaGl0Lm5hbWUpIDogJycKICB9IGNhdGNoIHsKICAgIHJldHVybiAnJwogIH0KfQoKLyoqIHdpbmdldCDljIXnm67lvZXph4zmjIkgaWQg5om+ICovCmFzeW5jIGZ1bmN0aW9uIGZpbmRXaW5nZXQoaWQpIHsKICBjb25zdCBkaXIgPSBqb2luKHByb2Nlc3MuZW52LkxPQ0FMQVBQREFUQSB8fCAnJywgJ01pY3Jvc29mdCcsICdXaW5HZXQnLCAnUGFja2FnZXMnKQogIGlmICghZXhpc3RzU3luYyhkaXIpIHx8ICFpZCkgcmV0dXJuICcnCiAgdHJ5IHsKICAgIGNvbnN0IGxpc3QgPSBhd2FpdCByZWFkZGlyKGRpcikKICAgIGNvbnN0IGhpdCA9IGxpc3QuZmluZCgoZW50cnkpID0+IG5vcm0oZW50cnkpLnN0YXJ0c1dpdGgobm9ybShpZCkpKQogICAgcmV0dXJuIGhpdCA/IGpvaW4oZGlyLCBoaXQpIDogJycKICB9IGNhdGNoIHsKICAgIHJldHVybiAnJwogIH0KfQoKLyoqIOW/q+eFp+mHjOS4peagvOWQjOWQje+8iOWPtuWQjeW9kuS4gOWMluebuOetie+8ieeahOebruW9lSAqLwpmdW5jdGlvbiBtYXRjaFNuYXBzaG90RXhhY3Qoc25hcHNob3QsIG5hbWUpIHsKICBjb25zdCB0YXJnZXQgPSBub3JtKG5hbWUpCiAgaWYgKCF0YXJnZXQpIHJldHVybiBudWxsCiAgbGV0IGJlc3QgPSBudWxsCiAgZm9yIChjb25zdCBlbnRyeSBvZiBzbmFwc2hvdCkgewogICAgaWYgKG5vcm0oZW50cnkubmFtZSkgIT09IHRhcmdldCkgY29udGludWUKICAgIGlmICghYmVzdCB8fCBlbnRyeS5ieXRlcyA+IGJlc3QuYnl0ZXMpIGJlc3QgPSBlbnRyeQogIH0KICByZXR1cm4gYmVzdAp9Cgphc3luYyBmdW5jdGlvbiBkZXNjcmliZVBhdGgocGF0aCkgewogIGNvbnN0IHN0ID0gYXdhaXQgc3RhdChwYXRoKQogIGNvbnN0IGNhY2hlZCA9IGdldENhY2hlZFNpemUocGF0aCwgc3QubXRpbWVNcykKICBpZiAoY2FjaGVkKSByZXR1cm4gY2FjaGVkCiAgbGV0IGluZm8KICBpZiAoc3QuaXNEaXJlY3RvcnkoKSkgewogICAgY29uc3QgbSA9IGF3YWl0IG1lYXN1cmUocGF0aCkKICAgIGluZm8gPSB7IGJ5dGVzOiBtLmJ5dGVzLCBmaWxlczogbS5maWxlcywgaXNEaXI6IHRydWUsIGJpcnRodGltZU1zOiBzdC5iaXJ0aHRpbWVNcywgbXRpbWVNczogc3QubXRpbWVNcyB9CiAgfSBlbHNlIHsKICAgIGluZm8gPSB7IGJ5dGVzOiBzdC5zaXplLCBmaWxlczogMSwgaXNEaXI6IGZhbHNlLCBiaXJ0aHRpbWVNczogc3QuYmlydGh0aW1lTXMsIG10aW1lTXM6IHN0Lm10aW1lTXMgfQogIH0KICBwdXRDYWNoZWRTaXplKHBhdGgsIGluZm8pCiAgcmV0dXJuIGluZm8KfQoKLyoqCiAqIOaKiuS4gOadoeWuieijheS6i+S7tuino+aekOaIkOejgeebmOadoeebruOAggogKiBAcGFyYW0ge29iamVjdH0gaW5zdGFsbCDmnaXoh6ogc2Vzc2lvbnMuanMg55qE5a6J6KOF5LqL5Lu2CiAqIEBwYXJhbSB7QXJyYXl9IHNuYXBzaG90IOW9k+WJjeW/q+eFp+adoeebrgogKiBAcGFyYW0ge29iamVjdH0gZW52IHByb2JlRW52aXJvbm1lbnQoKSDnmoTnu5PmnpwKICogQHBhcmFtIHtBcnJheX0gcHJvZ3JhbXMg5bey5a6J6KOF56iL5bqP5riF5Y2V77yIcmVnaXN0cnkuanPvvIkKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZXNvbHZlSW5zdGFsbChpbnN0YWxsLCBzbmFwc2hvdCwgZW52LCBwcm9ncmFtcyA9IFtdKSB7CiAgY29uc3Qgb3V0ID0gW10KICBjb25zdCBzZWVuID0gbmV3IFNldCgpCgogIGZvciAoY29uc3QgcGFyc2VkIG9mIGluc3RhbGwuZXZlbnRzKSB7CiAgICBjb25zdCBiYXNlID0gcGFyc2VkLmN3ZEhpbnQgfHwgaW5zdGFsbC5jd2QgfHwgJycKICAgIGNvbnN0IHN1YmplY3RzID0gcGFyc2VkLm5hbWVzLmxlbmd0aCA+IDAgPyBwYXJzZWQubmFtZXMgOiBbcGFyc2VkLm91dFBhdGgsIHBhcnNlZC51cmxdLmZpbHRlcihCb29sZWFuKQoKICAgIGZvciAoY29uc3QgbmFtZSBvZiBzdWJqZWN0cykgewogICAgICBsZXQgcGF0aCA9ICcnCiAgICAgIGxldCBjb25maWRlbmNlID0gJ2xvdycKICAgICAgbGV0IG5vdGUgPSAnJwogICAgICBsZXQgYnl0ZXMgPSAwCiAgICAgIGxldCBmaWxlcyA9IDAKICAgICAgbGV0IGlzRGlyID0gZmFsc2UKICAgICAgbGV0IGJpcnRodGltZU1zID0gbnVsbAoKICAgICAgLy8gMSkg55Sf5oCB57qm5a6a6Lev5b6ECiAgICAgIGlmIChwYXJzZWQuZWNvID09PSAncHl0aG9uJykgewogICAgICAgIGNvbnN0IGxlYWYgPSBuYW1lLnJlcGxhY2UoL1stLl0vZywgJ18nKQogICAgICAgIGZvciAoY29uc3QgZGlyIG9mIFtlbnYucHl0aG9uUHVyZWxpYiwgZW52LnB5dGhvblVzZXJTaXRlXSkgewogICAgICAgICAgY29uc3QgaGl0ID0gYXdhaXQgZmluZEluU2l0ZVBhY2thZ2VzKGRpciwgbmFtZSkKICAgICAgICAgIGlmIChoaXQpIHsKICAgICAgICAgICAgcGF0aCA9IGhpdAogICAgICAgICAgICBjb25maWRlbmNlID0gJ2hpZ2gnCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICB9CiAgICAgICAgICBpZiAoZGlyICYmIGV4aXN0c1N5bmMoam9pbihkaXIsIG5hbWUpKSkgewogICAgICAgICAgICBwYXRoID0gam9pbihkaXIsIG5hbWUpCiAgICAgICAgICAgIGNvbmZpZGVuY2UgPSAnaGlnaCcKICAgICAgICAgICAgYnJlYWsKICAgICAgICAgIH0KICAgICAgICAgIGlmIChkaXIgJiYgZXhpc3RzU3luYyhqb2luKGRpciwgbGVhZikpKSB7CiAgICAgICAgICAgIHBhdGggPSBqb2luKGRpciwgbGVhZikKICAgICAgICAgICAgY29uZmlkZW5jZSA9ICdoaWdoJwogICAgICAgICAgICBicmVhawogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAvLyDlj5HooYzlkI0g4omgIGltcG9ydCDlkI3vvIh0ZW5jZW50Y2xvdWQtc2RrLXB5dGhvbi1haTNkIOKGkiB0ZW5jZW50Y2xvdWTvvInvvJrmjInliY3nvIDpgJDmrrXpgIDljJYKICAgICAgICBpZiAoIXBhdGgpIHsKICAgICAgICAgIGNvbnN0IHBhcnRzID0gbmFtZS5zcGxpdCgvWy0uXS8pLmZpbHRlcihCb29sZWFuKQogICAgICAgICAgZm9yIChsZXQgdGFrZSA9IHBhcnRzLmxlbmd0aCAtIDE7IHRha2UgPj0gMSAmJiAhcGF0aDsgdGFrZS0tKSB7CiAgICAgICAgICAgIGNvbnN0IGd1ZXNzID0gcGFydHMuc2xpY2UoMCwgdGFrZSkuam9pbignXycpCiAgICAgICAgICAgIGZvciAoY29uc3QgZGlyIG9mIFtlbnYucHl0aG9uUHVyZWxpYiwgZW52LnB5dGhvblVzZXJTaXRlXSkgewogICAgICAgICAgICAgIGlmICghZGlyKSBjb250aW51ZQogICAgICAgICAgICAgIGNvbnN0IGNhbmRpZGF0ZSA9IGpvaW4oZGlyLCBndWVzcykKICAgICAgICAgICAgICBpZiAoZXhpc3RzU3luYyhjYW5kaWRhdGUpKSB7CiAgICAgICAgICAgICAgICBwYXRoID0gY2FuZGlkYXRlCiAgICAgICAgICAgICAgICBjb25maWRlbmNlID0gJ21lZGl1bScKICAgICAgICAgICAgICAgIG5vdGUgPSBg5Y+R6KGM5ZCNICR7bmFtZX0g55qEIGltcG9ydCDljIXmjInliY3nvIDlrprkvY3kuLogJHtndWVzc31gCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSBlbHNlIGlmIChwYXJzZWQuZWNvID09PSAnbm9kZScpIHsKICAgICAgICBjb25zdCBnbG9iYWwgPSBlbnYubnBtR2xvYmFsUm9vdCA/IGpvaW4oZW52Lm5wbUdsb2JhbFJvb3QsIG5hbWUpIDogJycKICAgICAgICBjb25zdCBsb2NhbCA9IGJhc2UgPyBqb2luKGJhc2UsICdub2RlX21vZHVsZXMnLCBuYW1lKSA6ICcnCiAgICAgICAgaWYgKGdsb2JhbCAmJiBleGlzdHNTeW5jKGdsb2JhbCkpIHsKICAgICAgICAgIHBhdGggPSBnbG9iYWwKICAgICAgICAgIGNvbmZpZGVuY2UgPSAnaGlnaCcKICAgICAgICB9IGVsc2UgaWYgKGxvY2FsICYmIGV4aXN0c1N5bmMobG9jYWwpKSB7CiAgICAgICAgICBwYXRoID0gbG9jYWwKICAgICAgICAgIGNvbmZpZGVuY2UgPSAnaGlnaCcKICAgICAgICB9CiAgICAgIH0gZWxzZSBpZiAocGFyc2VkLmVjbyA9PT0gJ3dpbmdldCcpIHsKICAgICAgICBwYXRoID0gYXdhaXQgZmluZFdpbmdldChuYW1lKQogICAgICAgIGlmIChwYXRoKSBjb25maWRlbmNlID0gJ2hpZ2gnCiAgICAgIH0gZWxzZSBpZiAocGFyc2VkLmVjbyA9PT0gJ2Nob2NvJykgewogICAgICAgIGNvbnN0IHAgPSBqb2luKHByb2Nlc3MuZW52LlByb2dyYW1EYXRhIHx8ICdDOlxcUHJvZ3JhbURhdGEnLCAnY2hvY29sYXRleScsICdsaWInLCBuYW1lKQogICAgICAgIGlmIChleGlzdHNTeW5jKHApKSB7CiAgICAgICAgICBwYXRoID0gcAogICAgICAgICAgY29uZmlkZW5jZSA9ICdoaWdoJwogICAgICAgIH0KICAgICAgfSBlbHNlIGlmIChwYXJzZWQuZWNvID09PSAnZ2l0JykgewogICAgICAgIGNvbnN0IGV4cGxpY2l0ID0gc2FmZVJlc29sdmUoYmFzZSwgcGFyc2VkLm91dFBhdGggfHwgJycpCiAgICAgICAgY29uc3QgYnlDd2QgPSBiYXNlID8gam9pbihiYXNlLCBuYW1lKSA6ICcnCiAgICAgICAgaWYgKGV4cGxpY2l0ICYmIGV4aXN0c1N5bmMoZXhwbGljaXQpKSB7CiAgICAgICAgICBwYXRoID0gZXhwbGljaXQKICAgICAgICAgIGNvbmZpZGVuY2UgPSBwYXJzZWQub3V0UGF0aCA/ICdoaWdoJyA6ICdtZWRpdW0nCiAgICAgICAgfSBlbHNlIGlmIChieUN3ZCAmJiBleGlzdHNTeW5jKGJ5Q3dkKSkgewogICAgICAgICAgcGF0aCA9IGJ5Q3dkCiAgICAgICAgICBjb25maWRlbmNlID0gJ21lZGl1bScKICAgICAgICB9IGVsc2UgaWYgKHBhcnNlZC5jd2RIaW50ICYmIGJhc2UgPT09IHBhcnNlZC5jd2RIaW50ICYmIGV4aXN0c1N5bmMoYmFzZSkgJiYgWydwYWNrYWdlLmpzb24nLCAnUkVBRE1FLm1kJywgJ3JlcXVpcmVtZW50cy50eHQnLCAncHlwcm9qZWN0LnRvbWwnLCAnLmdpdCddLnNvbWUoKG1hcmtlcikgPT4gZXhpc3RzU3luYyhqb2luKGJhc2UsIG1hcmtlcikpKSkgewogICAgICAgICAgLy8g5ZG95Luk6YeM5pi+5byPIGNkIOWIsOS6huafkOS4quebruW9leOAgeWFi+mahuWGheWuueaRiuW5s+WcqOmHjOmdou+8iOayoeacieWQjOWQjeWtkOebruW9le+8iQogICAgICAgICAgcGF0aCA9IGJhc2UKICAgICAgICAgIGNvbmZpZGVuY2UgPSAnbG93JwogICAgICAgICAgbm90ZSA9ICfku5PlupPlhoXlrrnooqvmlL7lhaXor6Xnm67lvZXvvIzmsqHmnInlkIzlkI3lrZDnm67lvZUnCiAgICAgICAgfQogICAgICB9IGVsc2UgaWYgKHBhcnNlZC5lY28gPT09ICdweXRob24tZW52JyB8fCBwYXJzZWQuZWNvID09PSAnY29uZGEnKSB7CiAgICAgICAgY29uc3QgZXhwbGljaXQgPSBzYWZlUmVzb2x2ZShiYXNlLCBwYXJzZWQub3V0UGF0aCB8fCBuYW1lKQogICAgICAgIGlmIChleHBsaWNpdCAmJiBleGlzdHNTeW5jKGV4cGxpY2l0KSkgewogICAgICAgICAgcGF0aCA9IGV4cGxpY2l0CiAgICAgICAgICBjb25maWRlbmNlID0gJ2hpZ2gnCiAgICAgICAgfQogICAgICB9CgogICAgICAvLyAyKSDms6jlhozooajvvJrlt7Llronoo4XnqIvluo/muIXljZXvvIhHVUkg56iL5bqPIC8g5a6J6KOF5ZmoIC8gd2luZ2V0IOmDveS4jeS4gOWumueVmeWcqOWbuuWumuebruW9le+8iQogICAgICBpZiAoIXBhdGgpIHsKICAgICAgICBsZXQgcHJvZ3JhbSA9IGZpbmRQcm9ncmFtKG5hbWUsIHByb2dyYW1zKQogICAgICAgIC8vIHdpbmdldCBpZCDlvaLlpoIgUHVibGlzaGVyLlByb2R1Y3TvvJrlj5HluIPogIXliY3nvIDkvJrmjKHkvY/ljLnphY3vvIzljrvmjonlho3or5XkuIDmrKEKICAgICAgICBpZiAoIXByb2dyYW0gJiYgbmFtZS5pbmNsdWRlcygnLicpKSB7CiAgICAgICAgICBjb25zdCB0YWlsID0gbmFtZS5zcGxpdCgnLicpLmZpbHRlcihCb29sZWFuKS5wb3AoKQogICAgICAgICAgaWYgKHRhaWwgJiYgdGFpbC5sZW5ndGggPj0gNCkgcHJvZ3JhbSA9IGZpbmRQcm9ncmFtKHRhaWwsIHByb2dyYW1zKQogICAgICAgIH0KICAgICAgICBpZiAocHJvZ3JhbSkgewogICAgICAgICAgaWYgKHByb2dyYW0ubG9jYXRpb24pIHsKICAgICAgICAgICAgcGF0aCA9IHByb2dyYW0ubG9jYXRpb24KICAgICAgICAgICAgY29uZmlkZW5jZSA9ICdtZWRpdW0nCiAgICAgICAgICAgIG5vdGUgPSBg5rOo5YaM6KGo55m76K6w5ZCN77yaJHtwcm9ncmFtLm5hbWV9JHtwcm9ncmFtLnZlcnNpb24gPyBgIHYke3Byb2dyYW0udmVyc2lvbn1gIDogJyd9YAogICAgICAgICAgfSBlbHNlIGlmIChwcm9ncmFtLmVzdGltYXRlZEJ5dGVzID4gMCkgewogICAgICAgICAgICBieXRlcyA9IHByb2dyYW0uZXN0aW1hdGVkQnl0ZXMKICAgICAgICAgICAgY29uZmlkZW5jZSA9ICdtZWRpdW0nCiAgICAgICAgICAgIG5vdGUgPSBg5rOo5YaM6KGo5Lyw566X5L2T56ev77yIJHtwcm9ncmFtLm5hbWV977yJ77yM5a6J6KOF5L2N572u5pyq55m76K6wYAogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQoKICAgICAgLy8gMykg5b+r54Wn6YeM5Lil5qC85ZCM5ZCNCiAgICAgIGlmICghcGF0aCAmJiAhYnl0ZXMpIHsKICAgICAgICBjb25zdCBoaXQgPSBtYXRjaFNuYXBzaG90RXhhY3Qoc25hcHNob3QsIG5hbWUpCiAgICAgICAgaWYgKGhpdCkgewogICAgICAgICAgcGF0aCA9IGhpdC5wYXRoCiAgICAgICAgICBieXRlcyA9IGhpdC5ieXRlcwogICAgICAgICAgZmlsZXMgPSBoaXQuZmlsZXMgPz8gMAogICAgICAgICAgaXNEaXIgPSBoaXQuaXNEaXIKICAgICAgICAgIGJpcnRodGltZU1zID0gaGl0LmJpcnRodGltZU1zID8/IG51bGwKICAgICAgICAgIGNvbmZpZGVuY2UgPSAnbWVkaXVtJwogICAgICAgICAgbm90ZSA9ICfmjInlkI3np7DlnKjlvZPliY3lv6vnhafph4zljLnphY3liLAnCiAgICAgICAgfQogICAgICB9CgogICAgICBpZiAocGF0aCAmJiBieXRlcyA9PT0gMCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCBpbmZvID0gYXdhaXQgZGVzY3JpYmVQYXRoKHBhdGgpCiAgICAgICAgICBieXRlcyA9IGluZm8uYnl0ZXMKICAgICAgICAgIGZpbGVzID0gaW5mby5maWxlcwogICAgICAgICAgaXNEaXIgPSBpbmZvLmlzRGlyCiAgICAgICAgICBiaXJ0aHRpbWVNcyA9IGluZm8uYmlydGh0aW1lTXMKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgIHBhdGggPSAnJwogICAgICAgIH0KICAgICAgfQoKICAgICAgLy8g5LiL6L29IC8g6L+c56iL6ISa5pys6L+Z57G777yM5rKh5pyJ6JC955uY5Lqn54mp5bCx5LiN5b+F5Ye6546w5Zyo5oql5ZGK6YeMCiAgICAgIGNvbnN0IG5vdGhpbmcgPSAhcGF0aCAmJiBieXRlcyA9PT0gMAogICAgICBpZiAobm90aGluZyAmJiAocGFyc2VkLmVjbyA9PT0gJ2Rvd25sb2FkJyB8fCBwYXJzZWQuZWNvID09PSAncmVtb3RlLXNjcmlwdCcpKSBjb250aW51ZQogICAgICBpZiAobm90aGluZyAmJiBzZWVuLmhhcyhuYW1lKSkgY29udGludWUKICAgICAgc2Vlbi5hZGQobmFtZSkKCiAgICAgIG91dC5wdXNoKHsKICAgICAgICBuYW1lOiBuYW1lIHx8IHBhcnNlZC5hY3Rpb24sCiAgICAgICAgcGF0aCwKICAgICAgICBieXRlcywKICAgICAgICBmaWxlcywKICAgICAgICBpc0RpciwKICAgICAgICBiaXJ0aHRpbWVNcywKICAgICAgICBjb25maWRlbmNlOiBub3RoaW5nID8gJ25vbmUnIDogY29uZmlkZW5jZSwKICAgICAgICBlY286IHBhcnNlZC5lY28sCiAgICAgICAgYWN0aW9uOiBwYXJzZWQuYWN0aW9uLAogICAgICAgIGV2aWRlbmNlOiBwYXJzZWQuc2VnbWVudCB8fCBpbnN0YWxsLmNvbW1hbmQ/LnNwbGl0KCdcbicpLmZpbmQoQm9vbGVhbikgfHwgJycsCiAgICAgICAgbm90ZTogbm90aGluZwogICAgICAgICAgPyBwYXJzZWQuZWNvID09PSAncmVtb3RlLXNjcmlwdCcKICAgICAgICAgICAgPyAn6L+c56iL6ISa5pys5a6J6KOF77yM5Lqn54mp5L2N572u5pyq55+lJwogICAgICAgICAgICA6ICfmnKrlnKjmnKzmnLrmib7liLDlr7nlupTkuqfniaknCiAgICAgICAgICA6IG5vdGUsCiAgICAgIH0pCiAgICB9CiAgfQogIHJldHVybiBvdXQKfQoKZXhwb3J0IHsgYmFzZW5hbWUsIG5vcm0gfQo=
+/**
+ * 归因层：把「装了 X」这个名字，落到磁盘上一个真实路径，并取到体积。
+ * 顺序：生态约定路径 → 注册表已安装程序 → 快照里同名条目 → 放弃（标记未找到）。
+ */
+import { execFile } from 'node:child_process'
+import { existsSync } from 'node:fs'
+import { join, resolve as resolvePath, isAbsolute, basename } from 'node:path'
+import { stat, readdir } from 'node:fs/promises'
+import { measure } from './scan.js'
+import { loadInstalledPrograms, findProgram } from './registry.js'
+import { getCachedSize, putCachedSize } from './sizecache.js'
+
+const IS_WIN = process.platform === 'win32'
+
+function run(cmd, args, timeout = 8000) {
+  return new Promise((done) => {
+    try {
+      execFile(cmd, args, { timeout, windowsHide: true }, (error, stdout) => {
+        done(error ? null : String(stdout).trim())
+      })
+    } catch {
+      done(null)
+    }
+  })
+}
+
+/** 一次性探测本机 Python / npm 的真实安装位置，避免逐包猜路径 */
+export async function probeEnvironment() {
+  const env = { pythonPurelib: '', pythonUserSite: '', npmGlobalRoot: '', pythonVersion: '' }
+  const pyOut = await run('python', [
+    '-c',
+    'import sysconfig,sys;print(sysconfig.get_paths().get("purelib",""));print(sys.version.split()[0])',
+  ])
+  if (pyOut) {
+    const [purelib, version] = pyOut.split(/\r?\n/)
+    env.pythonPurelib = purelib || ''
+    env.pythonVersion = version || ''
+  }
+  const userSite = await run('python', ['-m', 'site', '--user-site'])
+  if (userSite) env.pythonUserSite = userSite
+  if (IS_WIN) {
+    const npmRoot = await run('npm', ['root', '-g'], 15000)
+    if (npmRoot) env.npmGlobalRoot = npmRoot
+    if (!env.npmGlobalRoot && process.env.APPDATA) {
+      const guess = join(process.env.APPDATA, 'npm', 'node_modules')
+      if (existsSync(guess)) env.npmGlobalRoot = guess
+    }
+  } else {
+    env.npmGlobalRoot = '/usr/local/lib/node_modules'
+  }
+  return env
+}
+
+const norm = (value) => String(value || '').toLowerCase().replace(/[\s_.\-]/g, '')
+
+function safeResolve(base, target) {
+  if (!target) return ''
+  const cleaned = String(target).replace(/^['"]|['"]$/g, '').trim()
+  if (!cleaned) return ''
+  if (isAbsolute(cleaned)) return cleaned
+  return base ? resolvePath(base, cleaned) : ''
+}
+
+/** site-packages 里按包名找目录（严格：叶名归一化后相等） */
+async function findInSitePackages(siteDir, name) {
+  if (!siteDir || !existsSync(siteDir)) return ''
+  const target = norm(name)
+  try {
+    const list = await readdir(siteDir, { withFileTypes: true })
+    const hit = list.find((entry) => entry.isDirectory() && norm(entry.name) === target)
+    return hit ? join(siteDir, hit.name) : ''
+  } catch {
+    return ''
+  }
+}
+
+/** winget 包目录里按 id 找 */
+async function findWinget(id) {
+  const dir = join(process.env.LOCALAPPDATA || '', 'Microsoft', 'WinGet', 'Packages')
+  if (!existsSync(dir) || !id) return ''
+  try {
+    const list = await readdir(dir)
+    const hit = list.find((entry) => norm(entry).startsWith(norm(id)))
+    return hit ? join(dir, hit) : ''
+  } catch {
+    return ''
+  }
+}
+
+/** 快照里严格同名（叶名归一化相等）的目录 */
+function matchSnapshotExact(snapshot, name) {
+  const target = norm(name)
+  if (!target) return null
+  let best = null
+  for (const entry of snapshot) {
+    if (norm(entry.name) !== target) continue
+    if (!best || entry.bytes > best.bytes) best = entry
+  }
+  return best
+}
+
+async function describePath(path) {
+  const st = await stat(path)
+  const cached = getCachedSize(path, st.mtimeMs)
+  if (cached) return cached
+  let info
+  if (st.isDirectory()) {
+    const m = await measure(path)
+    info = { bytes: m.bytes, files: m.files, isDir: true, birthtimeMs: st.birthtimeMs, mtimeMs: st.mtimeMs }
+  } else {
+    info = { bytes: st.size, files: 1, isDir: false, birthtimeMs: st.birthtimeMs, mtimeMs: st.mtimeMs }
+  }
+  putCachedSize(path, info)
+  return info
+}
+
+/**
+ * 把一条安装事件解析成磁盘条目。
+ * @param {object} install 来自 sessions.js 的安装事件
+ * @param {Array} snapshot 当前快照条目
+ * @param {object} env probeEnvironment() 的结果
+ * @param {Array} programs 已安装程序清单（registry.js）
+ */
+export async function resolveInstall(install, snapshot, env, programs = []) {
+  const out = []
+  const seen = new Set()
+
+  for (const parsed of install.events) {
+    const base = parsed.cwdHint || install.cwd || ''
+    const subjects = parsed.names.length > 0 ? parsed.names : [parsed.outPath, parsed.url].filter(Boolean)
+
+    for (const name of subjects) {
+      let path = ''
+      let confidence = 'low'
+      let note = ''
+      let bytes = 0
+      let files = 0
+      let isDir = false
+      let birthtimeMs = null
+
+      // 1) 生态约定路径
+      if (parsed.eco === 'python') {
+        const leaf = name.replace(/[-.]/g, '_')
+        for (const dir of [env.pythonPurelib, env.pythonUserSite]) {
+          const hit = await findInSitePackages(dir, name)
+          if (hit) {
+            path = hit
+            confidence = 'high'
+            break
+          }
+          if (dir && existsSync(join(dir, name))) {
+            path = join(dir, name)
+            confidence = 'high'
+            break
+          }
+          if (dir && existsSync(join(dir, leaf))) {
+            path = join(dir, leaf)
+            confidence = 'high'
+            break
+          }
+        }
+        // 发行名 ≠ import 名（tencentcloud-sdk-python-ai3d → tencentcloud）：按前缀逐段退化
+        if (!path) {
+          const parts = name.split(/[-.]/).filter(Boolean)
+          for (let take = parts.length - 1; take >= 1 && !path; take--) {
+            const guess = parts.slice(0, take).join('_')
+            for (const dir of [env.pythonPurelib, env.pythonUserSite]) {
+              if (!dir) continue
+              const candidate = join(dir, guess)
+              if (existsSync(candidate)) {
+                path = candidate
+                confidence = 'medium'
+                note = `发行名 ${name} 的 import 包按前缀定位为 ${guess}`
+                break
+              }
+            }
+          }
+        }
+      } else if (parsed.eco === 'node') {
+        const global = env.npmGlobalRoot ? join(env.npmGlobalRoot, name) : ''
+        const local = base ? join(base, 'node_modules', name) : ''
+        if (global && existsSync(global)) {
+          path = global
+          confidence = 'high'
+        } else if (local && existsSync(local)) {
+          path = local
+          confidence = 'high'
+        }
+      } else if (parsed.eco === 'winget') {
+        path = await findWinget(name)
+        if (path) confidence = 'high'
+      } else if (parsed.eco === 'choco') {
+        const p = join(process.env.ProgramData || 'C:\\ProgramData', 'chocolatey', 'lib', name)
+        if (existsSync(p)) {
+          path = p
+          confidence = 'high'
+        }
+      } else if (parsed.eco === 'git') {
+        const explicit = safeResolve(base, parsed.outPath || '')
+        const byCwd = base ? join(base, name) : ''
+        if (explicit && existsSync(explicit)) {
+          path = explicit
+          confidence = parsed.outPath ? 'high' : 'medium'
+        } else if (byCwd && existsSync(byCwd)) {
+          path = byCwd
+          confidence = 'medium'
+        } else if (parsed.cwdHint && base === parsed.cwdHint && existsSync(base) && ['package.json', 'README.md', 'requirements.txt', 'pyproject.toml', '.git'].some((marker) => existsSync(join(base, marker)))) {
+          // 命令里显式 cd 到了某个目录、克隆内容摊平在里面（没有同名子目录）
+          path = base
+          confidence = 'low'
+          note = '仓库内容被放入该目录，没有同名子目录'
+        }
+      } else if (parsed.eco === 'python-env' || parsed.eco === 'conda') {
+        const explicit = safeResolve(base, parsed.outPath || name)
+        if (explicit && existsSync(explicit)) {
+          path = explicit
+          confidence = 'high'
+        }
+      }
+
+      // 2) 注册表：已安装程序清单（GUI 程序 / 安装器 / winget 都不一定留在固定目录）
+      if (!path) {
+        let program = findProgram(name, programs)
+        // winget id 形如 Publisher.Product：发布者前缀会挡住匹配，去掉再试一次
+        if (!program && name.includes('.')) {
+          const tail = name.split('.').filter(Boolean).pop()
+          if (tail && tail.length >= 4) program = findProgram(tail, programs)
+        }
+        if (program) {
+          if (program.location) {
+            path = program.location
+            confidence = 'medium'
+            note = `注册表登记名：${program.name}${program.version ? ` v${program.version}` : ''}`
+          } else if (program.estimatedBytes > 0) {
+            bytes = program.estimatedBytes
+            confidence = 'medium'
+            note = `注册表估算体积（${program.name}），安装位置未登记`
+          }
+        }
+      }
+
+      // 3) 快照里严格同名
+      if (!path && !bytes) {
+        const hit = matchSnapshotExact(snapshot, name)
+        if (hit) {
+          path = hit.path
+          bytes = hit.bytes
+          files = hit.files ?? 0
+          isDir = hit.isDir
+          birthtimeMs = hit.birthtimeMs ?? null
+          confidence = 'medium'
+          note = '按名称在当前快照里匹配到'
+        }
+      }
+
+      if (path && bytes === 0) {
+        try {
+          const info = await describePath(path)
+          bytes = info.bytes
+          files = info.files
+          isDir = info.isDir
+          birthtimeMs = info.birthtimeMs
+        } catch {
+          path = ''
+        }
+      }
+
+      // 下载 / 远程脚本这类，没有落盘产物就不必出现在报告里
+      const nothing = !path && bytes === 0
+      if (nothing && (parsed.eco === 'download' || parsed.eco === 'remote-script')) continue
+      if (nothing && seen.has(name)) continue
+      seen.add(name)
+
+      out.push({
+        name: name || parsed.action,
+        path,
+        bytes,
+        files,
+        isDir,
+        birthtimeMs,
+        confidence: nothing ? 'none' : confidence,
+        eco: parsed.eco,
+        action: parsed.action,
+        evidence: parsed.segment || install.command?.split('\n').find(Boolean) || '',
+        note: nothing
+          ? parsed.eco === 'remote-script'
+            ? '远程脚本安装，产物位置未知'
+            : '未在本机找到对应产物'
+          : note,
+      })
+    }
+  }
+  return out
+}
+
+export { basename, norm }

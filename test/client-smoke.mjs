@@ -1,1 +1,316 @@
-LyoqCiAqIOWuouaIt+err+WNiumDqOWIhueahOWGkueDn+a1i+ivle+8muS4jeW8gOa1j+iniOWZqO+8jOWPqumqjOivgQogKiAgIC0gd2luZG93Ll9fTW9kdWxlTG9hZGVyX18g55qEIGZhY3Rvcnkg6IO96LeR6YCaCiAqICAgLSBhcHBseSgpIOecn+eahOazqOWGjOS6hiBzaWRlYmFyLnBhbmVsbGlzdO+8iGlkPWluc3RhbGwtcmFkYXLvvInlkowgbWFpbu+8iGtleT1pbnN0YWxsLXJhZGFy77yJCiAqICAgLSDnu4Tku7blh73mlbDog73mnoTpgKDlh7rlhYPntKDmoJHvvIjkuI3muLLmn5PvvIzlj6rosIPnlKjkuIDmrKHvvIkKICog55So5rOV77yabm9kZSB0ZXN0L2NsaWVudC1zbW9rZS5tanMKICovCmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gJ25vZGU6ZnMnCgpjb25zdCBzb3VyY2UgPSByZWFkRmlsZVN5bmMobmV3IFVSTCgnLi4vc3JjL2NsaWVudC5qcycsIGltcG9ydC5tZXRhLnVybCksICd1dGY4JykKCmxldCBsb2FkZWQKY29uc3QgcmVnaXN0cmF0aW9ucyA9IFtdCmxldCBlbGVtZW50Q2FsbHMgPSAwCgpjb25zdCBmYWtlUmVhY3QgPSB7CiAgY3JlYXRlRWxlbWVudDogKHR5cGUsIHByb3BzLCAuLi5jaGlsZHJlbikgPT4gewogICAgZWxlbWVudENhbGxzKysKICAgIHJldHVybiB7IHR5cGUsIHByb3BzOiBwcm9wcyB8fCB7fSwgY2hpbGRyZW4gfQogIH0sCiAgdXNlU3RhdGU6IChpbml0aWFsKSA9PiBbaW5pdGlhbCwgKCkgPT4ge31dLAogIHVzZUVmZmVjdDogKCkgPT4ge30sCiAgdXNlTWVtbzogKGZuKSA9PiBmbigpLAogIHVzZVJlZjogKGluaXRpYWwpID0+ICh7IGN1cnJlbnQ6IGluaXRpYWwgfSksCiAgdXNlQ2FsbGJhY2s6IChmbikgPT4gZm4sCn0KCmdsb2JhbFRoaXMud2luZG93ID0gewogIF9fTW9kdWxlTG9hZGVyX186IHsKICAgIGxvYWQoeyBpZCwgZmFjdG9yeSB9KSB7CiAgICAgIGxvYWRlZCA9IHsgaWQsIGV4cG9ydHM6IGZhY3RvcnkoKCkgPT4gZmFrZVJlYWN0KSB9CiAgICB9LAogIH0sCn0KCi8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1uZXctZnVuYwpuZXcgRnVuY3Rpb24oc291cmNlKSgpCgppZiAoIWxvYWRlZCkgdGhyb3cgbmV3IEVycm9yKCdjbGllbnQgYnVuZGxlIG5ldmVyIGNhbGxlZCBfX01vZHVsZUxvYWRlcl9fLmxvYWQnKQpjb25zdCBtb2QgPSBsb2FkZWQuZXhwb3J0cwppZiAodHlwZW9mIG1vZC5hcHBseSAhPT0gJ2Z1bmN0aW9uJykgdGhyb3cgbmV3IEVycm9yKCdjbGllbnQgZXhwb3J0cy5hcHBseSBtaXNzaW5nJykKCmNvbnN0IHJwY0NhbGxzID0gW10KY29uc3QgY3R4ID0gewogIGdldDogKCkgPT4gKHsKICAgIHJwYzogewogICAgICBjYWxsOiBhc3luYyAoY2hhbm5lbCwgZW5kcG9pbnQpID0+IHsKICAgICAgICBycGNDYWxscy5wdXNoKGAke2NoYW5uZWx9OiR7ZW5kcG9pbnR9YCkKICAgICAgICByZXR1cm4geyBvazogdHJ1ZSwgdmFsdWU6IHsgdG90YWxzOiB7IHNlc3Npb25zOiAwLCBpdGVtczogMCwgc2l6ZTogJzAgQicgfSwgcGVyU2Vzc2lvbjogW10sIHVuYXR0cmlidXRlZDogW10gfSB9CiAgICAgIH0sCiAgICB9LAogIH0pLAogIHNsb3RzOiB7CiAgICBpbmplY3Q6IChfbmFtZSwgZm4pID0+IGZuKCksCiAgICByZWdpc3RlcjogKG9wdGlvbnMsIGNvbXBvbmVudCkgPT4gewogICAgICByZWdpc3RyYXRpb25zLnB1c2goeyBvcHRpb25zLCBjb21wb25lbnQgfSkKICAgICAgcmV0dXJuICgpID0+IHt9CiAgICB9LAogIH0sCiAgZWZmZWN0OiAoZm4pID0+IGZuKCksCiAgbG9jYWxlOiB7IHJlZ2lzdGVyOiAoKSA9PiAoKSA9PiB7fSwgc3Vic2NyaWJlOiAoKSA9PiAoKSA9PiB7fSB9LAogIGdldDogKG5hbWUpID0+IChuYW1lID09PSAnY29ubmVjdGlvbicgPyB7IHJwYzogeyBjYWxsOiBhc3luYyAoY2hhbm5lbCwgZW5kcG9pbnQpID0+IChycGNDYWxscy5wdXNoKGAke2NoYW5uZWx9OiR7ZW5kcG9pbnR9YCksIHsgb2s6IHRydWUsIHZhbHVlOiB7IHRvdGFsczogeyBzZXNzaW9uczogMCwgaXRlbXM6IDAsIHNpemU6ICcwIEInIH0sIHBlclNlc3Npb246IFtdLCB1bmF0dHJpYnV0ZWQ6IFtdIH0gfSkgfSB9IDogdW5kZWZpbmVkKSwKfQoKbW9kLmFwcGx5KGN0eCkKCmNvbnN0IHBhbmVsRW50cnkgPSByZWdpc3RyYXRpb25zLmZpbmQoKGVudHJ5KSA9PiBlbnRyeS5vcHRpb25zLm5hbWUgPT09ICdzaWRlYmFyLnBhbmVsbGlzdCcpCmNvbnN0IG1haW5FbnRyeSA9IHJlZ2lzdHJhdGlvbnMuZmluZCgoZW50cnkpID0+IGVudHJ5Lm9wdGlvbnMubmFtZSA9PT0gJ21haW4nKQppZiAoIXBhbmVsRW50cnkpIHRocm93IG5ldyBFcnJvcignc2lkZWJhci5wYW5lbGxpc3Qgd2FzIG5vdCByZWdpc3RlcmVkJykKaWYgKCFtYWluRW50cnkpIHRocm93IG5ldyBFcnJvcignbWFpbiB3YXMgbm90IHJlZ2lzdGVyZWQnKQppZiAocGFuZWxFbnRyeS5vcHRpb25zLmlkICE9PSAnaW5zdGFsbC1yYWRhcicpIHRocm93IG5ldyBFcnJvcihgdW5leHBlY3RlZCBwYW5lbCBpZDogJHtwYW5lbEVudHJ5Lm9wdGlvbnMuaWR9YCkKaWYgKG1haW5FbnRyeS5vcHRpb25zLmtleSAhPT0gJ2luc3RhbGwtcmFkYXInKSB0aHJvdyBuZXcgRXJyb3IoYHVuZXhwZWN0ZWQgbWFpbiBrZXk6ICR7bWFpbkVudHJ5Lm9wdGlvbnMua2V5fWApCmlmIChwYW5lbEVudHJ5Lm9wdGlvbnMub3JkZXIgIT09IC0yMCkgdGhyb3cgbmV3IEVycm9yKGB1bmV4cGVjdGVkIG9yZGVyOiAke3BhbmVsRW50cnkub3B0aW9ucy5vcmRlcn1gKQoKLy8g57uE5Lu26IO95p6E6YCg77ya5Zu+5qCHICsg6Z2i5p2/CmNvbnN0IGdseXBoID0gcGFuZWxFbnRyeS5jb21wb25lbnQoeyBzaXplOiAxNiwgYWN0aXZlOiB0cnVlIH0pCmlmICghZ2x5cGgpIHRocm93IG5ldyBFcnJvcignZ2x5cGggY29tcG9uZW50IHJldHVybmVkIG5vdGhpbmcnKQpjb25zdCBpbmplY3RlZCA9IG1haW5FbnRyeS5vcHRpb25zLmluamVjdCA/IG1haW5FbnRyeS5vcHRpb25zLmluamVjdCgpIDoge30KY29uc3QgcGFuZWwgPSBtYWluRW50cnkuY29tcG9uZW50KHsgLi4uaW5qZWN0ZWQgfSkKaWYgKCFwYW5lbCkgdGhyb3cgbmV3IEVycm9yKCdwYW5lbCBjb21wb25lbnQgcmV0dXJuZWQgbm90aGluZycpCgpjb25zdCBzYW1wbGVTZXNzaW9uID0gewogIGlkOiAnc2Vzc2lvbi10ZXN0JywKICB0aXRsZTogJ+a1i+ivleS8muivnScsCiAgY3dkOiAnRTpcXERlZXBTZWVrIEhhcm5lc3Plt6XkvZzljLonLAogIHNpemU6ICcxLjIgR0InLAogIGl0ZW1zOiBbCiAgICB7CiAgICAgIG5hbWU6ICdDb21meVVJJywKICAgICAgZWNvOiAnZ2l0JywKICAgICAgc2l6ZTogJzEuMiBHQicsCiAgICAgIHBhdGg6ICdFOlxcQ29tZnlVSScsCiAgICAgIHB1cnBvc2U6ICdDb21meVVJ77ya6IqC54K55byPIFN0YWJsZSBEaWZmdXNpb24g5bel5L2c5rWBJywKICAgICAgY29uZmlkZW5jZTogJ2hpZ2gnLAogICAgICBjb21tYW5kOiAnZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9jb21meWFub255bW91cy9Db21meVVJJywKICAgICAgYmlydGh0aW1lOiBEYXRlLm5vdygpLAogICAgICB1bmluc3RhbGw6ICdSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggIkU6XFxDb21meVVJIiAtUmVjdXJzZSAtRm9yY2UnLAogICAgfSwKICAgIHsgbmFtZTogJ3RvcmNoJywgZWNvOiAncHl0aG9uJywgc2l6ZTogJzIuNCBHQicsIHBhdGg6ICcnLCBwdXJwb3NlOiAnUHlUb3JjaCDov5DooYzml7YnLCBjb25maWRlbmNlOiAnbm9uZScsIG5vdGU6ICfmnKrlnKjmnKzmnLrmib7liLDlr7nlupTkuqfniaknIH0sCiAgICB7IG5hbWU6ICdibGVuZGVyJywgZWNvOiAnd2luZ2V0Jywgc2l6ZTogJzMwMCBNQicsIHBhdGg6ICdDOlxcUHJvZ3JhbSBGaWxlc1xcQmxlbmRlciBGb3VuZGF0aW9uJywgcHVycG9zZTogJzNEIOW7uuaooScsIGNvbmZpZGVuY2U6ICdsb3cnIH0sCiAgXSwKfQpjb25zdCBibG9jayA9IG1vZC5fX2ludGVybmFscy5TZXNzaW9uQmxvY2soeyBzZXNzaW9uOiBzYW1wbGVTZXNzaW9uLCBkZWZhdWx0T3BlbjogdHJ1ZSB9KQppZiAoIWJsb2NrKSB0aHJvdyBuZXcgRXJyb3IoJ1Nlc3Npb25CbG9jayByZXR1cm5lZCBub3RoaW5nJykKY29uc3QgZmxhdCA9IEpTT04uc3RyaW5naWZ5KGJsb2NrKQppZiAoZmxhdC5pbmNsdWRlcygnQ29tZnlVSScpKSB0aHJvdyBuZXcgRXJyb3IoJ1Nlc3Npb25CbG9jayBtdXN0IGJlIGNvbGxhcHNlZCBieSBkZWZhdWx0JykKaWYgKCFmbGF0LmluY2x1ZGVzKCfmtYvor5XkvJror50nKSkgdGhyb3cgbmV3IEVycm9yKCdTZXNzaW9uQmxvY2sgZGlkIG5vdCByZW5kZXIgaXRzIHRpdGxlJykKCmNvbnN0IHBhbmVsV2l0aERhdGEgPSBtYWluRW50cnkuY29tcG9uZW50KHsgLi4uaW5qZWN0ZWQsIF9fZm9yY2VEYXRhOiB0cnVlIH0pCmlmICghcGFuZWxXaXRoRGF0YSkgdGhyb3cgbmV3IEVycm9yKCdwYW5lbCBjb21wb25lbnQgcmV0dXJuZWQgbm90aGluZycpCgovLyB2MC4z77ya5YiG57uE5Y2h54mHICsg5Y246L295ZG95Luk5oyJ6ZKuCmNvbnN0IGdyb3VwID0geyBrZXk6ICdnaXQnLCB0aXRsZTogJ+S7o+eggeS7k+W6kycsIHNpemU6ICcxLjIgR0InLCBpdGVtczogc2FtcGxlU2Vzc2lvbi5pdGVtcyB9CmNvbnN0IGdyb3VwVHJlZSA9IEpTT04uc3RyaW5naWZ5KG1vZC5fX2ludGVybmFscy5JdGVtR3JvdXAoeyBncm91cCwgZGVmYXVsdE9wZW46IHRydWUgfSkpCmlmICghZ3JvdXBUcmVlLmluY2x1ZGVzKCfku6PnoIHku5PlupMnKSkgdGhyb3cgbmV3IEVycm9yKCdJdGVtR3JvdXAgZGlkIG5vdCByZW5kZXIgaXRzIHRpdGxlJykKY29uc3QgaXRlbVRyZWUgPSBKU09OLnN0cmluZ2lmeShtb2QuX19pbnRlcm5hbHMuSXRlbSh7IGl0ZW06IHNhbXBsZVNlc3Npb24uaXRlbXNbMF0gfSkpCmlmICghaXRlbVRyZWUuaW5jbHVkZXMoJ+WNuOi9veWRveS7pCcpKSB0aHJvdyBuZXcgRXJyb3IoJ0l0ZW0gZGlkIG5vdCByZW5kZXIgdGhlIHVuaW5zdGFsbCBjaGlwJykKaWYgKCFpdGVtVHJlZS5pbmNsdWRlcygnUmVtb3ZlLUl0ZW0nKSkgdGhyb3cgbmV3IEVycm9yKCd1bmluc3RhbGwgY29tbWFuZCBub3QgcmVuZGVyZWQnKQoKLy8gdjAuNe+8mumdnuS8muivneaWsOWinu+8iOaXtumXtOaIs+aJq+aPj++8iSsg5LqM5q615byP5riF55CGICsg6L+b56iL5a6h6K6h6KGMCmNvbnN0IHJlY2VudEl0ZW0gPSB7CiAgcGF0aDogJ0M6XFxXSU5ET1dTXFxUZW1wXFxjZHAtc2VxKicsCiAgc2l6ZTogJzcuNiBHQicsCiAgYnl0ZXM6IDguMWU5LAogIGZpbGVzOiAxMjM0NSwKICBsYWJlbDogJ+ezu+e7n+S4tOaXtuebruW9lScsCiAgcHVycG9zZTogJ+a1j+iniOWZqOiHquWKqOWMlu+8iENEUO+8ieeahOS4tOaXtiBwcm9maWxlIOebruW9le+8jOWPr+aVtOebruW9leWIoCcsCiAgc2FtcGxlczogWydDOlxcV0lORE9XU1xcVGVtcFxcY2RwLXNlcS05NDAxJ10sCn0KY29uc3QgYXNrVHJlZSA9IEpTT04uc3RyaW5naWZ5KG1vZC5fX2ludGVybmFscy5SZWNlbnRSb3coeyBpdGVtOiByZWNlbnRJdGVtLCBycGM6IG51bGwsIG9uQXNrOiAoKSA9PiB7fSB9KSkKaWYgKCFhc2tUcmVlLmluY2x1ZGVzKCfmuIXnkIYnKSkgdGhyb3cgbmV3IEVycm9yKCdSZWNlbnRSb3cgZGlkIG5vdCByZW5kZXIgdGhlIGNsZWFuIGJ1dHRvbicpCmNvbnN0IHBlbmRpbmdUcmVlID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLlJlY2VudFJvdyh7IGl0ZW06IHJlY2VudEl0ZW0sIHJwYzogbnVsbCwgcGVuZGluZzogdHJ1ZSwgb25Bc2s6ICgpID0+IHt9LCBvbkNvbmZpcm06ICgpID0+IHt9LCBvbkNhbmNlbDogKCkgPT4ge30gfSksCikKaWYgKCFwZW5kaW5nVHJlZS5pbmNsdWRlcygn56Gu6K6k5Yig6Zmk77yfJykpIHRocm93IG5ldyBFcnJvcignUmVjZW50Um93IGRpZCBub3QgcmVuZGVyIHRoZSBjb25maXJtIHN0ZXAnKQoKLy8gdjAuNu+8muWQjuaenOagh+azqCArIDUwTUIg6Zeo5qebICsg5Y6G5Y+y5L6n5YaZICsg5Zug5p6c6KGoCmNvbnN0IHJpc2t5ID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLlJlY2VudFJvdyh7CiAgICBpdGVtOiB7IC4uLnJlY2VudEl0ZW0sIHJpc2s6ICdzYWZlJywgY29uc2VxdWVuY2U6ICfml6DlvbHlk43vvJrmtY/op4jlmajoh6rliqjljJbmr4/mrKHpg73kvJrmlrDlu7ogcHJvZmlsZScsIGNsZWFuYWJsZTogdHJ1ZSB9LAogICAgcnBjOiBudWxsLAogICAgb25Bc2s6ICgpID0+IHt9LAogIH0pLAopCmlmICghcmlza3kuaW5jbHVkZXMoJ+aXoOW9seWTjScpKSB0aHJvdyBuZXcgRXJyb3IoJ1JlY2VudFJvdyBkaWQgbm90IHJlbmRlciB0aGUgY29uc2VxdWVuY2Ugbm90ZScpCmNvbnN0IHRvb1NtYWxsID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLlJlY2VudFJvdyh7IGl0ZW06IHsgLi4ucmVjZW50SXRlbSwgYnl0ZXM6IDEwMjQsIHNpemU6ICcxIEtCJywgY2xlYW5hYmxlOiBmYWxzZSB9LCBycGM6IG51bGwsIG9uQXNrOiAoKSA9PiB7fSB9KSwKKQppZiAodG9vU21hbGwuaW5jbHVkZXMoJyJkc2gtaXItY2hpcCBkc2gtaXItY2hpcC0tZGFuZ2VyIicpKSB0aHJvdyBuZXcgRXJyb3IoJ2NsZWFuIGJ1dHRvbiBtdXN0IGJlIGhpZGRlbiBiZWxvdyA1MCBNQicpCmNvbnN0IGhpc3RUcmVlID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLkhpc3RvcnlSb3coewogICAgcm93OiB7IHNlc3Npb25JZDogJ3MxJywgdGl0bGU6ICflpI3liLYzRDPlubbmm7/mjaLmiZPljbDmnLrlvaLosaEnLCBjb3VudDogMjk4LCBoaWdoOiAxNTcsIGJ5dGVzOiAxLjhlMTAsIGZpcnN0QXQ6IDE3OTQwMDAwMDAwMDAsIGxhc3RBdDogMTc5NDEwMDAwMDAwMCwgc2FtcGxlczogWydjaHJvbWUuZXhlIC0tdXNlci1kYXRhLWRpcj0uLi4nXSB9LAogIH0pLAopCmlmICghaGlzdFRyZWUuaW5jbHVkZXMoJ+mrmOamgueOhycpKSB0aHJvdyBuZXcgRXJyb3IoJ0hpc3RvcnlSb3cgZGlkIG5vdCByZW5kZXIgdGhlIHByb2JhYmlsaXR5IHZlcmRpY3QnKQpjb25zdCBjYXVzYWxUcmVlID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLkNhdXNhbFJvdyh7CiAgICByb3c6IHsgbGF1bmNoZXI6ICdub2RlLmV4ZSAocGlkIDEyMzQpJywgbGFiZWw6ICdDRFAg6LCD6K+V56uv5Y+jJywgY291bnQ6IDQyLCBwYXRoczogWydDOlxcV2luZG93c1xcVGVtcFxcY2RwLXNlcS0xJ10sIGRpc2s6IFt7IHBhdGg6ICdDOlxcV2luZG93c1xcVGVtcFxcY2RwLXNlcSonLCBzaXplOiAnNy42IEdCJyB9XSwgcGFyZW50Q29tbWFuZDogJ25vZGUgZHJpdmVyLmpzJyB9LAogIH0pLAopCmlmICghY2F1c2FsVHJlZS5pbmNsdWRlcygnNy42IEdCJykpIHRocm93IG5ldyBFcnJvcignQ2F1c2FsUm93IGRpZCBub3Qgam9pbiBkaXNrIHVzYWdlJykKCi8vIHYwLjfvvJrkvJror53mnaHnm67nmoTljbjovb3lkI7mnpwgKyDlpI3njrDnur/ntKLooYwKY29uc3Qgc2Vzc2lvbkl0ZW1UcmVlID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLkl0ZW0oewogICAgaXRlbTogewogICAgICBuYW1lOiAnSHVueXVhbjNELTInLAogICAgICBlY286ICdnaXQnLAogICAgICBzaXplOiAnMTcuNyBHQicsCiAgICAgIHBhdGg6ICdFOlxcM0RBSScsCiAgICAgIHB1cnBvc2U6ICfmlocv5Zu+55SfIDNEIOaooeWei+eUn+aIkOW3peWFtycsCiAgICAgIGNvbmZpZGVuY2U6ICdsb3cnLAogICAgICB1bmluc3RhbGw6ICdSZW1vdmUtSXRlbSAtTGl0ZXJhbFBhdGggIkU6XFwzREFJIiAtUmVjdXJzZSAtRm9yY2UnLAogICAgICB1bmluc3RhbGxSaXNrOiB7IGxldmVsOiAnZGFuZ2VyJywgY29uc2VxdWVuY2U6ICfmlbTkuKrnm67lvZXkvJrooqvliKDmjonvvJrmupDnoIHkuI7mqKHlnovkuIDotbfmtojlpLEnIH0sCiAgICB9LAogICAgcnBjOiBudWxsLAogIH0pLAopCmlmICghc2Vzc2lvbkl0ZW1UcmVlLmluY2x1ZGVzKCfljbjovb3lkI7mnpwnKSkgdGhyb3cgbmV3IEVycm9yKCdJdGVtIGRpZCBub3QgcmVuZGVyIHRoZSB1bmluc3RhbGwgY29uc2VxdWVuY2UnKQpjb25zdCByZXByb1RyZWUgPSBKU09OLnN0cmluZ2lmeSgKICBtb2QuX19pbnRlcm5hbHMuUmVwcm9Sb3coewogICAgcm93OiB7CiAgICAgIHBhdGg6ICdFOlxc5aSn6IKl6bG8XFx0b29sc1xcZXZhbC5tanMnLAogICAgICB1c2VkSW5Db21tYW5kczogODUsCiAgICAgIHZlcmRpY3Q6ICfohJrmnKzph4zmsqHmnInmuIXnkIbpgLvovpEg4oCU4oCUIOS4tOaXtiBwcm9maWxlIOWPqui/m+S4jeWHuicsCiAgICAgIGNkcExpbmVzOiBbIictLXVzZXItZGF0YS1kaXI9QzpcXFxcV2luZG93c1xcXFxUZW1wXFxcXGNkcC1ldmFsLSciXSwKICAgICAgaG9vazogJ2NvbnN0IGNsZWFudXAgPSAoKSA9PiB7IGZzLnJtU3luYyhwcm9maWxlRGlyKSB9JywKICAgIH0sCiAgfSksCikKaWYgKCFyZXByb1RyZWUuaW5jbHVkZXMoJ2V2YWwubWpzJykpIHRocm93IG5ldyBFcnJvcignUmVwcm9Sb3cgZGlkIG5vdCByZW5kZXIgdGhlIHNjcmlwdCBwYXRoJykKaWYgKCFyZXByb1RyZWUuaW5jbHVkZXMoJ+ayoeaciea4heeQhumAu+i+kScpKSB0aHJvdyBuZXcgRXJyb3IoJ1JlcHJvUm93IGRpZCBub3QgcmVuZGVyIHRoZSB2ZXJkaWN0JykKCi8vIHYwLjjvvJrkuInoibIgZW1vamkgKyDlpJrpgIkKY29uc3Qgcmlza1NhZmUgPSBKU09OLnN0cmluZ2lmeShtb2QuX19pbnRlcm5hbHMuUmlza05vdGUoeyBsZXZlbDogJ3NhZmUnLCB0ZXh0OiAn5peg5b2x5ZONJyB9KSkKY29uc3Qgcmlza1dhcm4gPSBKU09OLnN0cmluZ2lmeShtb2QuX19pbnRlcm5hbHMuUmlza05vdGUoeyBsZXZlbDogJ2NhdXRpb24nLCB0ZXh0OiAn6ZyA5rOo5oSPJyB9KSkKY29uc3Qgcmlza0RhbmdlciA9IEpTT04uc3RyaW5naWZ5KG1vZC5fX2ludGVybmFscy5SaXNrTm90ZSh7IGxldmVsOiAnZGFuZ2VyJywgdGV4dDogJ+S4jeimgeWIoCcgfSkpCmlmICghcmlza1NhZmUuaW5jbHVkZXMoJ/Cfn6InKSkgdGhyb3cgbmV3IEVycm9yKCdzYWZlIHJpc2sgbWlzc2luZyDwn5+iJykKaWYgKCFyaXNrV2Fybi5pbmNsdWRlcygn8J+foScpKSB0aHJvdyBuZXcgRXJyb3IoJ2NhdXRpb24gcmlzayBtaXNzaW5nIPCfn6EnKQppZiAoIXJpc2tEYW5nZXIuaW5jbHVkZXMoJ/CflLQnKSkgdGhyb3cgbmV3IEVycm9yKCdkYW5nZXIgcmlzayBtaXNzaW5nIPCflLQnKQoKY29uc3QgcGlja1RyZWUgPSBKU09OLnN0cmluZ2lmeSgKICBtb2QuX19pbnRlcm5hbHMuUmVjZW50Um93KHsgaXRlbTogeyAuLi5yZWNlbnRJdGVtLCBjbGVhbmFibGU6IHRydWUgfSwgcnBjOiBudWxsLCBzZWxlY3RlZDogdHJ1ZSwgb25Ub2dnbGU6ICgpID0+IHt9LCBvbkFzazogKCkgPT4ge30gfSksCikKaWYgKCFwaWNrVHJlZS5pbmNsdWRlcygnInR5cGUiOiJjaGVja2JveCInKSkgdGhyb3cgbmV3IEVycm9yKCdSZWNlbnRSb3cgZGlkIG5vdCByZW5kZXIgdGhlIGNoZWNrYm94JykKaWYgKCFwaWNrVHJlZS5pbmNsdWRlcygnZHNoLWlyLXJlY2VudC0tcGlja2VkJykpIHRocm93IG5ldyBFcnJvcignc2VsZWN0ZWQgcm93IG1pc3NpbmcgaGlnaGxpZ2h0JykKY29uc3QgbG9ja2VkVHJlZSA9IEpTT04uc3RyaW5naWZ5KAogIG1vZC5fX2ludGVybmFscy5SZWNlbnRSb3coeyBpdGVtOiB7IC4uLnJlY2VudEl0ZW0sIGNsZWFuYWJsZTogZmFsc2UgfSwgcnBjOiBudWxsLCBvblRvZ2dsZTogKCkgPT4ge30sIG9uQXNrOiAoKSA9PiB7fSB9KSwKKQppZiAobG9ja2VkVHJlZS5pbmNsdWRlcygnInR5cGUiOiJjaGVja2JveCInKSkgdGhyb3cgbmV3IEVycm9yKCdub24tY2xlYW5hYmxlIHJvdyBtdXN0IG5vdCBiZSBzZWxlY3RhYmxlJykKaWYgKCFsb2NrZWRUcmVlLmluY2x1ZGVzKCfwn5S0JykpIHRocm93IG5ldyBFcnJvcignbm9uLWNsZWFuYWJsZSByb3cgbWlzc2luZyDwn5S0IG1hcmtlcicpCgovLyB2MC4577ya6LaL5Yq/5p+x54q25Zu+ICsg6Ieq5Yqo5riF55CG5byA5YWzCmNvbnN0IHRyZW5kVHJlZSA9IEpTT04uc3RyaW5naWZ5KAogIG1vZC5fX2ludGVybmFscy5UcmVuZEJhcnMoewogICAgdHJlbmQ6IHsKICAgICAgZGF5czogMTQsCiAgICAgIHRvdGFsQnl0ZXM6IDNlOSwKICAgICAgbWF4Qnl0ZXM6IDEuNWU5LAogICAgICBidWNrZXRzOiBbCiAgICAgICAgeyBkYXk6ICcyMDI2LTExLTA4JywgYnl0ZXM6IDEuNWU5LCBmaWxlczogMTAgfSwKICAgICAgICB7IGRheTogJzIwMjYtMTEtMDknLCBieXRlczogMS41ZTksIGZpbGVzOiA1IH0sCiAgICAgIF0sCiAgICB9LAogIH0pLAopCmlmICghdHJlbmRUcmVlLmluY2x1ZGVzKCdkc2gtaXItYmFycycpKSB0aHJvdyBuZXcgRXJyb3IoJ1RyZW5kQmFycyBtaXNzaW5nIGJhcnMnKQppZiAoIXRyZW5kVHJlZS5pbmNsdWRlcygnMTEtMDgnKSkgdGhyb3cgbmV3IEVycm9yKCdUcmVuZEJhcnMgbWlzc2luZyBkYXkgbGFiZWxzJykKCmNvbnN0IGF1dG9UcmVlID0gSlNPTi5zdHJpbmdpZnkobW9kLl9faW50ZXJuYWxzLkF1dG9DbGVhblJvdyh7IGF1dG9DbGVhbjogeyBlbmFibGVkOiBmYWxzZSwgbWluQWdlRGF5czogNyB9LCBvbkNoYW5nZTogKCkgPT4ge30gfSkpCmlmICghYXV0b1RyZWUuaW5jbHVkZXMoJ+WumuaXtuiHquWKqOa4heeQhicpKSB0aHJvdyBuZXcgRXJyb3IoJ0F1dG9DbGVhblJvdyBtaXNzaW5nIGxhYmVsJykKaWYgKCFhdXRvVHJlZS5pbmNsdWRlcygnInR5cGUiOiJzZWxlY3QiJykpIHRocm93IG5ldyBFcnJvcignQXV0b0NsZWFuUm93IG1pc3NpbmcgZGF5IHNlbGVjdG9yJykKY29uc3QgYXV0b09uID0gSlNPTi5zdHJpbmdpZnkobW9kLl9faW50ZXJuYWxzLkF1dG9DbGVhblJvdyh7IGF1dG9DbGVhbjogeyBlbmFibGVkOiB0cnVlLCBtaW5BZ2VEYXlzOiAxNCB9LCBvbkNoYW5nZTogKCkgPT4ge30gfSkpCmlmICghYXV0b09uLmluY2x1ZGVzKCfwn5+iJykpIHRocm93IG5ldyBFcnJvcignQXV0b0NsZWFuUm93IG1pc3NpbmcgZW5hYmxlZCBzdGF0ZScpCgovLyB2MC4xMO+8mumAieaLqeagj+WQuOmZhO+8iHN0aWNree+8iSsg56Gu6K6k5oCBCmNvbnN0IGJhclRyZWUgPSBKU09OLnN0cmluZ2lmeSgKICBtb2QuX19pbnRlcm5hbHMuU2VsQmFyKHsKICAgIGNsZWFuYWJsZUNvdW50OiAxMiwKICAgIHRvdGFsQ291bnQ6IDYwLAogICAgc2FmZUNvdW50OiA5LAogICAgc2VsZWN0ZWRDb3VudDogMywKICAgIHNlbGVjdGVkU2l6ZTogJzUuNCBHQicsCiAgICBidXN5OiBmYWxzZSwKICAgIHBlbmRpbmc6IGZhbHNlLAogICAgb25TZWxlY3RTYWZlOiAoKSA9PiB7fSwKICAgIG9uU2VsZWN0QWxsOiAoKSA9PiB7fSwKICAgIG9uQ2xlYXI6ICgpID0+IHt9LAogICAgb25EZWxldGU6ICgpID0+IHt9LAogIH0pLAopCmlmICghYmFyVHJlZS5pbmNsdWRlcygnZHNoLWlyLXNlbGJhcldyYXAnKSkgdGhyb3cgbmV3IEVycm9yKCdTZWxCYXIgbWlzc2luZyBzdGlja3kgd3JhcHBlciBjbGFzcycpCmlmICghYmFyVHJlZS5pbmNsdWRlcygn5Y+q6YCJ5a6J5YWoIDknKSkgdGhyb3cgbmV3IEVycm9yKCdTZWxCYXIgbWlzc2luZyBzYWZlLW9ubHkgc2VsZWN0aW9uJykKaWYgKCFiYXJUcmVlLmluY2x1ZGVzKCflhajpgInvvIjlkKvpnIDms6jmhI/vvIkgMTInKSkgdGhyb3cgbmV3IEVycm9yKCdTZWxCYXIgbWlzc2luZyBzZWxlY3QtYWxsLXdpdGgtY2F1dGlvbicpCmlmICghYmFyVHJlZS5pbmNsdWRlcygn5Yig6Zmk6YCJ5LitIDMnKSkgdGhyb3cgbmV3IEVycm9yKCdTZWxCYXIgbWlzc2luZyBzZWxlY3Rpb24gY291bnQnKQpjb25zdCBiYXJQZW5kaW5nID0gSlNPTi5zdHJpbmdpZnkoCiAgbW9kLl9faW50ZXJuYWxzLlNlbEJhcih7CiAgICBjbGVhbmFibGVDb3VudDogMTIsCiAgICB0b3RhbENvdW50OiA2MCwKICAgIHNhZmVDb3VudDogOSwKICAgIHNlbGVjdGVkQ291bnQ6IDMsCiAgICBzZWxlY3RlZFNpemU6ICc1LjQgR0InLAogICAgYnVzeTogZmFsc2UsCiAgICBwZW5kaW5nOiB0cnVlLAogICAgb25Db25maXJtOiAoKSA9PiB7fSwKICAgIG9uQ2FuY2VsOiAoKSA9PiB7fSwKICB9KSwKKQppZiAoIWJhclBlbmRpbmcuaW5jbHVkZXMoJy0tY29uZmlybScpKSB0aHJvdyBuZXcgRXJyb3IoJ1NlbEJhciBtaXNzaW5nIGNvbmZpcm0gc3R5bGluZycpCmlmICghYmFyUGVuZGluZy5pbmNsdWRlcygn56Gu6K6k5Yig6Zmk5Lul5LiLJykpIHRocm93IG5ldyBFcnJvcignU2VsQmFyIG1pc3NpbmcgY29uZmlybSB0ZXh0JykKCi8vIHYwLjEx77ya5riF55CG5ZCO5Y6f5Zyw5pGY6Zmk77yI5LiN6YeN5paw5ouJ5Y+W77yJCmNvbnN0IGJlZm9yZSA9IHsKICBpdGVtczogWwogICAgeyBwYXRoOiAnQzpcXFdpbmRvd3NcXFRlbXBcXGNkcC1zZXEqJywgYnl0ZXM6IDhlOSwgZmlsZXM6IDEwMCwgc2l6ZTogJzcuNSBHQicgfSwKICAgIHsgcGF0aDogJ0M6XFxVc2Vyc1xceFxcQXBwRGF0YVxcTG9jYWxcXFRlbXBcXGRzaC1jaC1wcm9iZScsIGJ5dGVzOiAyZTgsIGZpbGVzOiAxMCwgc2l6ZTogJzE5MCBNQicgfSwKICAgIHsgcGF0aDogJ0M6XFxVc2Vyc1xceFxcRGVza3RvcFxcc2V0dXAuZXhlJywgYnl0ZXM6IDNlOCwgZmlsZXM6IDEsIHNpemU6ICcyODYgTUInIH0sCiAgXSwKICB0b3RhbEJ5dGVzOiA4ZTkgKyAyZTggKyAzZTgsCiAgdG90YWxGaWxlczogMTExLAogIHNpbmNlTGFiZWw6ICcyMDI2LTExLTA2IDEzOjAwOjAwJywKfQpjb25zdCBhZnRlciA9IG1vZC5fX2ludGVybmFscy5maWx0ZXJDbGVhbmVkKGJlZm9yZSwgewogIGl0ZW1zOiBbCiAgICB7IHBhdGg6ICdDOlxcV2luZG93c1xcVGVtcFxcY2RwLXNlcS05NDAxJywgb2s6IHRydWUsIGJ5dGVzOiA0ZTkgfSwKICAgIHsgcGF0aDogJ0M6XFxXaW5kb3dzXFxUZW1wXFxjZHAtc2VxLTk0MDInLCBvazogdHJ1ZSwgYnl0ZXM6IDRlOSB9LAogICAgeyBwYXRoOiAnQzpcXFVzZXJzXFx4XFxBcHBEYXRhXFxMb2NhbFxcVGVtcFxcZHNoLWNoLXByb2JlJywgb2s6IGZhbHNlLCByZWFzb246ICfooqvljaDnlKgnIH0sCiAgXSwKfSkKaWYgKGFmdGVyLnJlY2VudC5pdGVtcy5sZW5ndGggIT09IDIpIHRocm93IG5ldyBFcnJvcihgZXhwZWN0ZWQgMiByb3dzIGxlZnQsIGdvdCAke2FmdGVyLnJlY2VudC5pdGVtcy5sZW5ndGh9YCkKaWYgKGFmdGVyLnJlY2VudC5pdGVtcy5zb21lKChpdGVtKSA9PiBpdGVtLnBhdGguaW5jbHVkZXMoJ2NkcC1zZXEqJykpKSB0aHJvdyBuZXcgRXJyb3IoJ3dpbGRjYXJkIHJvdyBzaG91bGQgYmUgcmVtb3ZlZCcpCmlmICghYWZ0ZXIucmVjZW50Lml0ZW1zLnNvbWUoKGl0ZW0pID0+IGl0ZW0ucGF0aC5pbmNsdWRlcygnZHNoLWNoLXByb2JlJykpKSB0aHJvdyBuZXcgRXJyb3IoJ2ZhaWxlZCBjbGVhbiBtdXN0IGtlZXAgdGhlIHJvdycpCmlmIChhZnRlci5yZWNlbnQudG90YWxCeXRlcyAhPT0gNWU4KSB0aHJvdyBuZXcgRXJyb3IoYHRvdGFscyBub3QgYWRqdXN0ZWQ6ICR7YWZ0ZXIucmVjZW50LnRvdGFsQnl0ZXN9YCkKaWYgKCFhZnRlci5yZW1vdmVkLnNvbWUoKHBhdGgpID0+IHBhdGguaW5jbHVkZXMoJ2NkcC1zZXEqJykpKSB0aHJvdyBuZXcgRXJyb3IoJ3JlbW92ZWQgbGlzdCBtaXNzaW5nIHRoZSB3aWxkY2FyZCByb3cnKQoKLy8gdjAuMTLvvJrmnaHnm67ljaHniYfkuqTmm7/lupXoibIgKyDjgIzkuLrku4DkuYjoo4XjgI0KY29uc3QgY2FyZEEgPSBKU09OLnN0cmluZ2lmeShtb2QuX19pbnRlcm5hbHMuSXRlbSh7IGl0ZW06IHNhbXBsZVNlc3Npb24uaXRlbXNbMF0sIHJwYzogbnVsbCwgaW5kZXg6IDAgfSkpCmNvbnN0IGNhcmRCID0gSlNPTi5zdHJpbmdpZnkobW9kLl9faW50ZXJuYWxzLkl0ZW0oeyBpdGVtOiBzYW1wbGVTZXNzaW9uLml0ZW1zWzFdLCBycGM6IG51bGwsIGluZGV4OiAxIH0pKQppZiAoIWNhcmRBLmluY2x1ZGVzKCdkc2gtaXItaXRlbUNhcmQnKSkgdGhyb3cgbmV3IEVycm9yKCdJdGVtIG1pc3NpbmcgY2FyZCB3cmFwcGVyJykKaWYgKGNhcmRBLmluY2x1ZGVzKCctLWFsdCcpKSB0aHJvdyBuZXcgRXJyb3IoJ2ZpcnN0IGNhcmQgbXVzdCBub3QgYmUgdGhlIGFsdCB2YXJpYW50JykKaWYgKCFjYXJkQi5pbmNsdWRlcygnZHNoLWlyLWl0ZW1DYXJkLS1hbHQnKSkgdGhyb3cgbmV3IEVycm9yKCdzZWNvbmQgY2FyZCBtaXNzaW5nIGFsdCB2YXJpYW50JykKY29uc3Qgd2l0aFdoeSA9IEpTT04uc3RyaW5naWZ5KAogIG1vZC5fX2ludGVybmFscy5JdGVtKHsKICAgIGl0ZW06IHsgLi4uc2FtcGxlU2Vzc2lvbi5pdGVtc1swXSwgd2h5OiB7IGtpbmQ6ICdhZ2VudC1ub3RlJywgdGV4dDogJ+WuieijheW5tumqjOivgeiFvuiur+S6kSBhaTNkIFNESycgfSB9LAogICAgcnBjOiBudWxsLAogICAgaW5kZXg6IDAsCiAgfSksCikKaWYgKCF3aXRoV2h5LmluY2x1ZGVzKCfkuLrku4DkuYjoo4UnKSkgdGhyb3cgbmV3IEVycm9yKCdJdGVtIG1pc3Npbmcgd2h5IGxpbmUnKQppZiAoIXdpdGhXaHkuaW5jbHVkZXMoJ+iFvuiur+S6kSBhaTNkIFNESycpKSB0aHJvdyBuZXcgRXJyb3IoJ3doeSB0ZXh0IG1pc3NpbmcnKQoKY29uc29sZS5sb2coJ09LJykKY29uc29sZS5sb2coJyAgaW5qZWN0OicsIEpTT04uc3RyaW5naWZ5KG1vZC5pbmplY3QpKQpjb25zb2xlLmxvZygnICByZWdpc3RyYXRpb25zOicsIHJlZ2lzdHJhdGlvbnMubWFwKChlbnRyeSkgPT4gYCR7ZW50cnkub3B0aW9ucy5uYW1lfSgke2VudHJ5Lm9wdGlvbnMuaWQgPz8gZW50cnkub3B0aW9ucy5rZXl9KSBvcmRlcj0ke2VudHJ5Lm9wdGlvbnMub3JkZXIgPz8gJy0nfWApLmpvaW4oJywgJykpCmNvbnNvbGUubG9nKCcgIGNyZWF0ZUVsZW1lbnQgY2FsbHM6JywgZWxlbWVudENhbGxzKQpjb25zb2xlLmxvZygnICBycGMgc28gZmFyOicsIHJwY0NhbGxzLmxlbmd0aCA9PT0gMCA/ICcobm9uZSB1bnRpbCBtb3VudCknIDogcnBjQ2FsbHMuam9pbignLCAnKSkK
+/**
+ * 客户端半部分的冒烟测试：不开浏览器，只验证
+ *   - window.__ModuleLoader__ 的 factory 能跑通
+ *   - apply() 真的注册了 sidebar.panellist（id=install-radar）和 main（key=install-radar）
+ *   - 组件函数能构造出元素树（不渲染，只调用一次）
+ * 用法：node test/client-smoke.mjs
+ */
+import { readFileSync } from 'node:fs'
+
+const source = readFileSync(new URL('../src/client.js', import.meta.url), 'utf8')
+
+let loaded
+const registrations = []
+let elementCalls = 0
+
+const fakeReact = {
+  createElement: (type, props, ...children) => {
+    elementCalls++
+    return { type, props: props || {}, children }
+  },
+  useState: (initial) => [initial, () => {}],
+  useEffect: () => {},
+  useMemo: (fn) => fn(),
+  useRef: (initial) => ({ current: initial }),
+  useCallback: (fn) => fn,
+}
+
+globalThis.window = {
+  __ModuleLoader__: {
+    load({ id, factory }) {
+      loaded = { id, exports: factory(() => fakeReact) }
+    },
+  },
+}
+
+// eslint-disable-next-line no-new-func
+new Function(source)()
+
+if (!loaded) throw new Error('client bundle never called __ModuleLoader__.load')
+const mod = loaded.exports
+if (typeof mod.apply !== 'function') throw new Error('client exports.apply missing')
+
+const rpcCalls = []
+const ctx = {
+  get: () => ({
+    rpc: {
+      call: async (channel, endpoint) => {
+        rpcCalls.push(`${channel}:${endpoint}`)
+        return { ok: true, value: { totals: { sessions: 0, items: 0, size: '0 B' }, perSession: [], unattributed: [] } }
+      },
+    },
+  }),
+  slots: {
+    inject: (_name, fn) => fn(),
+    register: (options, component) => {
+      registrations.push({ options, component })
+      return () => {}
+    },
+  },
+  effect: (fn) => fn(),
+  locale: { register: () => () => {}, subscribe: () => () => {} },
+  get: (name) => (name === 'connection' ? { rpc: { call: async (channel, endpoint) => (rpcCalls.push(`${channel}:${endpoint}`), { ok: true, value: { totals: { sessions: 0, items: 0, size: '0 B' }, perSession: [], unattributed: [] } }) } } : undefined),
+}
+
+mod.apply(ctx)
+
+const panelEntry = registrations.find((entry) => entry.options.name === 'sidebar.panellist')
+const mainEntry = registrations.find((entry) => entry.options.name === 'main')
+if (!panelEntry) throw new Error('sidebar.panellist was not registered')
+if (!mainEntry) throw new Error('main was not registered')
+if (panelEntry.options.id !== 'install-radar') throw new Error(`unexpected panel id: ${panelEntry.options.id}`)
+if (mainEntry.options.key !== 'install-radar') throw new Error(`unexpected main key: ${mainEntry.options.key}`)
+if (panelEntry.options.order !== -20) throw new Error(`unexpected order: ${panelEntry.options.order}`)
+
+// 组件能构造：图标 + 面板
+const glyph = panelEntry.component({ size: 16, active: true })
+if (!glyph) throw new Error('glyph component returned nothing')
+const injected = mainEntry.options.inject ? mainEntry.options.inject() : {}
+const panel = mainEntry.component({ ...injected })
+if (!panel) throw new Error('panel component returned nothing')
+
+const sampleSession = {
+  id: 'session-test',
+  title: '测试会话',
+  cwd: 'E:\\DeepSeek Harness工作区',
+  size: '1.2 GB',
+  items: [
+    {
+      name: 'ComfyUI',
+      eco: 'git',
+      size: '1.2 GB',
+      path: 'E:\\ComfyUI',
+      purpose: 'ComfyUI：节点式 Stable Diffusion 工作流',
+      confidence: 'high',
+      command: 'git clone https://github.com/comfyanonymous/ComfyUI',
+      birthtime: Date.now(),
+      uninstall: 'Remove-Item -LiteralPath "E:\\ComfyUI" -Recurse -Force',
+    },
+    { name: 'torch', eco: 'python', size: '2.4 GB', path: '', purpose: 'PyTorch 运行时', confidence: 'none', note: '未在本机找到对应产物' },
+    { name: 'blender', eco: 'winget', size: '300 MB', path: 'C:\\Program Files\\Blender Foundation', purpose: '3D 建模', confidence: 'low' },
+  ],
+}
+const block = mod.__internals.SessionBlock({ session: sampleSession, defaultOpen: true })
+if (!block) throw new Error('SessionBlock returned nothing')
+const flat = JSON.stringify(block)
+if (flat.includes('ComfyUI')) throw new Error('SessionBlock must be collapsed by default')
+if (!flat.includes('测试会话')) throw new Error('SessionBlock did not render its title')
+
+const panelWithData = mainEntry.component({ ...injected, __forceData: true })
+if (!panelWithData) throw new Error('panel component returned nothing')
+
+// v0.3：分组卡片 + 卸载命令按钮
+const group = { key: 'git', title: '代码仓库', size: '1.2 GB', items: sampleSession.items }
+const groupTree = JSON.stringify(mod.__internals.ItemGroup({ group, defaultOpen: true }))
+if (!groupTree.includes('代码仓库')) throw new Error('ItemGroup did not render its title')
+const itemTree = JSON.stringify(mod.__internals.Item({ item: sampleSession.items[0] }))
+if (!itemTree.includes('卸载命令')) throw new Error('Item did not render the uninstall chip')
+if (!itemTree.includes('Remove-Item')) throw new Error('uninstall command not rendered')
+
+// v0.5：非会话新增（时间戳扫描）+ 二段式清理 + 进程审计行
+const recentItem = {
+  path: 'C:\\WINDOWS\\Temp\\cdp-seq*',
+  size: '7.6 GB',
+  bytes: 8.1e9,
+  files: 12345,
+  label: '系统临时目录',
+  purpose: '浏览器自动化（CDP）的临时 profile 目录，可整目录删',
+  samples: ['C:\\WINDOWS\\Temp\\cdp-seq-9401'],
+}
+const askTree = JSON.stringify(mod.__internals.RecentRow({ item: recentItem, rpc: null, onAsk: () => {} }))
+if (!askTree.includes('清理')) throw new Error('RecentRow did not render the clean button')
+const pendingTree = JSON.stringify(
+  mod.__internals.RecentRow({ item: recentItem, rpc: null, pending: true, onAsk: () => {}, onConfirm: () => {}, onCancel: () => {} }),
+)
+if (!pendingTree.includes('确认删除？')) throw new Error('RecentRow did not render the confirm step')
+
+// v0.6：后果标注 + 50MB 门槛 + 历史侧写 + 因果表
+const risky = JSON.stringify(
+  mod.__internals.RecentRow({
+    item: { ...recentItem, risk: 'safe', consequence: '无影响：浏览器自动化每次都会新建 profile', cleanable: true },
+    rpc: null,
+    onAsk: () => {},
+  }),
+)
+if (!risky.includes('无影响')) throw new Error('RecentRow did not render the consequence note')
+const tooSmall = JSON.stringify(
+  mod.__internals.RecentRow({ item: { ...recentItem, bytes: 1024, size: '1 KB', cleanable: false }, rpc: null, onAsk: () => {} }),
+)
+if (tooSmall.includes('"dsh-ir-chip dsh-ir-chip--danger"')) throw new Error('clean button must be hidden below 50 MB')
+const histTree = JSON.stringify(
+  mod.__internals.HistoryRow({
+    row: { sessionId: 's1', title: '复制3D3并替换打印机形象', count: 298, high: 157, bytes: 1.8e10, firstAt: 1794000000000, lastAt: 1794100000000, samples: ['chrome.exe --user-data-dir=...'] },
+  }),
+)
+if (!histTree.includes('高概率')) throw new Error('HistoryRow did not render the probability verdict')
+const causalTree = JSON.stringify(
+  mod.__internals.CausalRow({
+    row: { launcher: 'node.exe (pid 1234)', label: 'CDP 调试端口', count: 42, paths: ['C:\\Windows\\Temp\\cdp-seq-1'], disk: [{ path: 'C:\\Windows\\Temp\\cdp-seq*', size: '7.6 GB' }], parentCommand: 'node driver.js' },
+  }),
+)
+if (!causalTree.includes('7.6 GB')) throw new Error('CausalRow did not join disk usage')
+
+// v0.7：会话条目的卸载后果 + 复现线索行
+const sessionItemTree = JSON.stringify(
+  mod.__internals.Item({
+    item: {
+      name: 'Hunyuan3D-2',
+      eco: 'git',
+      size: '17.7 GB',
+      path: 'E:\\3DAI',
+      purpose: '文/图生 3D 模型生成工具',
+      confidence: 'low',
+      uninstall: 'Remove-Item -LiteralPath "E:\\3DAI" -Recurse -Force',
+      uninstallRisk: { level: 'danger', consequence: '整个目录会被删掉：源码与模型一起消失' },
+    },
+    rpc: null,
+  }),
+)
+if (!sessionItemTree.includes('卸载后果')) throw new Error('Item did not render the uninstall consequence')
+const reproTree = JSON.stringify(
+  mod.__internals.ReproRow({
+    row: {
+      path: 'E:\\大肥鱼\\tools\\eval.mjs',
+      usedInCommands: 85,
+      verdict: '脚本里没有清理逻辑 —— 临时 profile 只进不出',
+      cdpLines: ["'--user-data-dir=C:\\\\Windows\\\\Temp\\\\cdp-eval-'"],
+      hook: 'const cleanup = () => { fs.rmSync(profileDir) }',
+    },
+  }),
+)
+if (!reproTree.includes('eval.mjs')) throw new Error('ReproRow did not render the script path')
+if (!reproTree.includes('没有清理逻辑')) throw new Error('ReproRow did not render the verdict')
+
+// v0.8：三色 emoji + 多选
+const riskSafe = JSON.stringify(mod.__internals.RiskNote({ level: 'safe', text: '无影响' }))
+const riskWarn = JSON.stringify(mod.__internals.RiskNote({ level: 'caution', text: '需注意' }))
+const riskDanger = JSON.stringify(mod.__internals.RiskNote({ level: 'danger', text: '不要删' }))
+if (!riskSafe.includes('🟢')) throw new Error('safe risk missing 🟢')
+if (!riskWarn.includes('🟡')) throw new Error('caution risk missing 🟡')
+if (!riskDanger.includes('🔴')) throw new Error('danger risk missing 🔴')
+
+const pickTree = JSON.stringify(
+  mod.__internals.RecentRow({ item: { ...recentItem, cleanable: true }, rpc: null, selected: true, onToggle: () => {}, onAsk: () => {} }),
+)
+if (!pickTree.includes('"type":"checkbox"')) throw new Error('RecentRow did not render the checkbox')
+if (!pickTree.includes('dsh-ir-recent--picked')) throw new Error('selected row missing highlight')
+const lockedTree = JSON.stringify(
+  mod.__internals.RecentRow({ item: { ...recentItem, cleanable: false }, rpc: null, onToggle: () => {}, onAsk: () => {} }),
+)
+if (lockedTree.includes('"type":"checkbox"')) throw new Error('non-cleanable row must not be selectable')
+if (!lockedTree.includes('🔴')) throw new Error('non-cleanable row missing 🔴 marker')
+
+// v0.9：趋势柱状图 + 自动清理开关
+const trendTree = JSON.stringify(
+  mod.__internals.TrendBars({
+    trend: {
+      days: 14,
+      totalBytes: 3e9,
+      maxBytes: 1.5e9,
+      buckets: [
+        { day: '2026-11-08', bytes: 1.5e9, files: 10 },
+        { day: '2026-11-09', bytes: 1.5e9, files: 5 },
+      ],
+    },
+  }),
+)
+if (!trendTree.includes('dsh-ir-bars')) throw new Error('TrendBars missing bars')
+if (!trendTree.includes('11-08')) throw new Error('TrendBars missing day labels')
+
+const autoTree = JSON.stringify(mod.__internals.AutoCleanRow({ autoClean: { enabled: false, minAgeDays: 7 }, onChange: () => {} }))
+if (!autoTree.includes('定时自动清理')) throw new Error('AutoCleanRow missing label')
+if (!autoTree.includes('"type":"select"')) throw new Error('AutoCleanRow missing day selector')
+const autoOn = JSON.stringify(mod.__internals.AutoCleanRow({ autoClean: { enabled: true, minAgeDays: 14 }, onChange: () => {} }))
+if (!autoOn.includes('🟢')) throw new Error('AutoCleanRow missing enabled state')
+
+// v0.10：选择栏吸附（sticky）+ 确认态
+const barTree = JSON.stringify(
+  mod.__internals.SelBar({
+    cleanableCount: 12,
+    totalCount: 60,
+    safeCount: 9,
+    selectedCount: 3,
+    selectedSize: '5.4 GB',
+    busy: false,
+    pending: false,
+    onSelectSafe: () => {},
+    onSelectAll: () => {},
+    onClear: () => {},
+    onDelete: () => {},
+  }),
+)
+if (!barTree.includes('dsh-ir-selbarWrap')) throw new Error('SelBar missing sticky wrapper class')
+if (!barTree.includes('只选安全 9')) throw new Error('SelBar missing safe-only selection')
+if (!barTree.includes('全选（含需注意） 12')) throw new Error('SelBar missing select-all-with-caution')
+if (!barTree.includes('删除选中 3')) throw new Error('SelBar missing selection count')
+const barPending = JSON.stringify(
+  mod.__internals.SelBar({
+    cleanableCount: 12,
+    totalCount: 60,
+    safeCount: 9,
+    selectedCount: 3,
+    selectedSize: '5.4 GB',
+    busy: false,
+    pending: true,
+    onConfirm: () => {},
+    onCancel: () => {},
+  }),
+)
+if (!barPending.includes('--confirm')) throw new Error('SelBar missing confirm styling')
+if (!barPending.includes('确认删除以下')) throw new Error('SelBar missing confirm text')
+
+// v0.11：清理后原地摘除（不重新拉取）
+const before = {
+  items: [
+    { path: 'C:\\Windows\\Temp\\cdp-seq*', bytes: 8e9, files: 100, size: '7.5 GB' },
+    { path: 'C:\\Users\\x\\AppData\\Local\\Temp\\dsh-ch-probe', bytes: 2e8, files: 10, size: '190 MB' },
+    { path: 'C:\\Users\\x\\Desktop\\setup.exe', bytes: 3e8, files: 1, size: '286 MB' },
+  ],
+  totalBytes: 8e9 + 2e8 + 3e8,
+  totalFiles: 111,
+  sinceLabel: '2026-11-06 13:00:00',
+}
+const after = mod.__internals.filterCleaned(before, {
+  items: [
+    { path: 'C:\\Windows\\Temp\\cdp-seq-9401', ok: true, bytes: 4e9 },
+    { path: 'C:\\Windows\\Temp\\cdp-seq-9402', ok: true, bytes: 4e9 },
+    { path: 'C:\\Users\\x\\AppData\\Local\\Temp\\dsh-ch-probe', ok: false, reason: '被占用' },
+  ],
+})
+if (after.recent.items.length !== 2) throw new Error(`expected 2 rows left, got ${after.recent.items.length}`)
+if (after.recent.items.some((item) => item.path.includes('cdp-seq*'))) throw new Error('wildcard row should be removed')
+if (!after.recent.items.some((item) => item.path.includes('dsh-ch-probe'))) throw new Error('failed clean must keep the row')
+if (after.recent.totalBytes !== 5e8) throw new Error(`totals not adjusted: ${after.recent.totalBytes}`)
+if (!after.removed.some((path) => path.includes('cdp-seq*'))) throw new Error('removed list missing the wildcard row')
+
+// v0.12：条目卡片交替底色 + 「为什么装」
+const cardA = JSON.stringify(mod.__internals.Item({ item: sampleSession.items[0], rpc: null, index: 0 }))
+const cardB = JSON.stringify(mod.__internals.Item({ item: sampleSession.items[1], rpc: null, index: 1 }))
+if (!cardA.includes('dsh-ir-itemCard')) throw new Error('Item missing card wrapper')
+if (cardA.includes('--alt')) throw new Error('first card must not be the alt variant')
+if (!cardB.includes('dsh-ir-itemCard--alt')) throw new Error('second card missing alt variant')
+const withWhy = JSON.stringify(
+  mod.__internals.Item({
+    item: { ...sampleSession.items[0], why: { kind: 'agent-note', text: '安装并验证腾讯云 ai3d SDK' } },
+    rpc: null,
+    index: 0,
+  }),
+)
+if (!withWhy.includes('为什么装')) throw new Error('Item missing why line')
+if (!withWhy.includes('腾讯云 ai3d SDK')) throw new Error('why text missing')
+
+console.log('OK')
+console.log('  inject:', JSON.stringify(mod.inject))
+console.log('  registrations:', registrations.map((entry) => `${entry.options.name}(${entry.options.id ?? entry.options.key}) order=${entry.options.order ?? '-'}`).join(', '))
+console.log('  createElement calls:', elementCalls)
+console.log('  rpc so far:', rpcCalls.length === 0 ? '(none until mount)' : rpcCalls.join(', '))

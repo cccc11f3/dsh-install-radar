@@ -1,1 +1,269 @@
-LyoqCiAqIOi/m+eoi+Wuoeiuoe+8muS4jeatouebryBDRFDvvIzlh6HmmK/jgIzkvJrmjIHnu63lvoDno4Hnm5jph4zloIbkuJzopb/jgI3nmoTlkb3ku6TooYzpg73orrDkuIDnrJTjgIIKICoKICog5oqTIFdpbjMyX1Byb2Nlc3Mg55qE5a6M5pW0IENvbW1hbmRMaW5lIOS4jiBQYXJlbnRQcm9jZXNzSWTvvIzmjInnsbvliKvlvZLnsbvvvJoKICogICBjZHAgLyBicm93c2VyLXByb2ZpbGUgLyBucG0gLyBwaXAgLyBtb2RlbCAvIG5vZGUtc2NyaXB0IC8gcHl0aG9uLXNjcmlwdCAvIGJ1aWxkIC8gZmZtcGVnCiAqIOeEtuWQjuaKiuOAjOWPkei1t+iAhe+8iOeItui/m+eoi++8ieKGkiDnsbvliKsg4oaSIOasoeaVsCDihpIg5YWz6IGU6Lev5b6E44CN6IGa5oiQ5LiA5byg5Zug5p6c6KGo77yMCiAqIOmdouadv+WGjeaLv+i/meW8oOihqOWOu+WSjOejgeebmOWNoOeUqOWvuei0puOAggogKi8KaW1wb3J0IHsgZXhlY0ZpbGUgfSBmcm9tICdub2RlOmNoaWxkX3Byb2Nlc3MnCmltcG9ydCB7IGFwcGVuZEZpbGUsIG1rZGlyLCByZWFkRmlsZSwgd3JpdGVGaWxlIH0gZnJvbSAnbm9kZTpmcy9wcm9taXNlcycKaW1wb3J0IHsgam9pbiB9IGZyb20gJ25vZGU6cGF0aCcKCi8qKiDnsbvliKsg4oaSIOWRveS7pOihjOeJueW+gSAqLwpjb25zdCBQQVRURVJOUyA9IFsKICB7IGtleTogJ2NkcCcsIHJlOiAvLS1yZW1vdGUtZGVidWdnaW5nLShwb3J0fHBpcGUpL2ksIGxhYmVsOiAnQ0RQIOiwg+ivleerr+WPoycgfSwKICB7IGtleTogJ2Jyb3dzZXItcHJvZmlsZScsIHJlOiAvLS11c2VyLWRhdGEtZGlyPSg/OiJbXiJdKig/OnRlbXB8Y2RwLXxjaHJvbWUtcHJvZmlsZSlbXiJdKiJ8XFMqKD86dGVtcHxjZHAtfGNocm9tZS1wcm9maWxlKVxTKikvaSwgbGFiZWw6ICfkuLTml7bmtY/op4jlmaggcHJvZmlsZScgfSwKICB7IGtleTogJ21vZGVsJywgcmU6IC9odWdnaW5nZmFjZS1jbGlccytkb3dubG9hZHxoZl9odWJfZG93bmxvYWR8XC5zYWZldGVuc29yc3xvbGxhbWFccysocHVsbHxydW4pfC0tbW9kZWxbLV9dZGlyL2ksIGxhYmVsOiAn5qih5Z6L5LiL6L29JyB9LAogIHsga2V5OiAncGlwJywgcmU6IC9cYihwaXAzP3x1dilccytpbnN0YWxsXGIvaSwgbGFiZWw6ICdwaXAg5a6J6KOFJyB9LAogIHsga2V5OiAnbnBtJywgcmU6IC9cYihucG18cG5wbXx5YXJufGJ1bilccysoaW5zdGFsbHxpfGFkZHxleGVjfGRseHxjcmVhdGUpXGIvaSwgbGFiZWw6ICdOb2RlIOWMheWuieijhScgfSwKICB7IGtleTogJ2J1aWxkJywgcmU6IC9lbGVjdHJvbi1idWlsZGVyfHZpdGVccytidWlsZHx3ZWJwYWNrfHRzZG93bnxlc2J1aWxkL2ksIGxhYmVsOiAn5YmN56uvL+aJk+WMheaehOW7uicgfSwKICB7IGtleTogJ2ZmbXBlZycsIHJlOiAvXGJmZm1wZWdcYi9pLCBsYWJlbDogJ+mfs+inhumikei9rOeggScgfSwKICB7IGtleTogJ25vZGUtc2NyaXB0JywgcmU6IC9eXHMqIj9bXiJdKltcXC9dP25vZGUoXC5leGUpPyI/XHMrLipcLihqc3xtanN8Y2pzKVxiL2ksIGxhYmVsOiAnTm9kZSDohJrmnKwnLCBuYW1lR2F0ZTogL15ub2RlKFwuZXhlKT8kL2kgfSwKICB7IGtleTogJ3B5dGhvbi1zY3JpcHQnLCByZTogL15ccyoiP1teIl0qcHl0aG9uWzAtOS5dKihcLmV4ZSk/Ij9ccysuKlwucHlcYi9pLCBsYWJlbDogJ1B5dGhvbiDohJrmnKwnLCBuYW1lR2F0ZTogL15weXRob25bMC05Ll0qKFwuZXhlKT8kL2kgfSwKXQoKLyoqIENocm9taXVtIOeahOWkmui/m+eoi+WtkOinkuiJsu+8mkdQVS/muLLmn5MvY3Jhc2hwYWQg6YO95LiN566X44CM5ZCv5Yqo6ICF44CNICovCmNvbnN0IENIUk9NSVVNX0NISUxEID0gLy0tdHlwZT0oPyFicm93c2VyXGIpW1x3LV0rL2kKCmNvbnN0IFNDUklQVCA9IGAkRXJyb3JBY3Rpb25QcmVmZXJlbmNlPSdTaWxlbnRseUNvbnRpbnVlJzsKR2V0LUNpbUluc3RhbmNlIFdpbjMyX1Byb2Nlc3MgLVByb3BlcnR5IFByb2Nlc3NJZCxQYXJlbnRQcm9jZXNzSWQsTmFtZSxDb21tYW5kTGluZSxDcmVhdGlvbkRhdGUgfAogIFdoZXJlLU9iamVjdCB7ICRfLkNvbW1hbmRMaW5lIH0gfAogIFNlbGVjdC1PYmplY3QgUHJvY2Vzc0lkLFBhcmVudFByb2Nlc3NJZCxOYW1lLENvbW1hbmRMaW5lLENyZWF0aW9uRGF0ZSB8CiAgQ29udmVydFRvLUpzb24gLUNvbXByZXNzIC1EZXB0aCAzYAoKZnVuY3Rpb24gcnVuUG93ZXJTaGVsbChzY3JpcHQsIHRpbWVvdXQgPSAzMDAwMCkgewogIHJldHVybiBuZXcgUHJvbWlzZSgoZG9uZSkgPT4gewogICAgaWYgKHByb2Nlc3MucGxhdGZvcm0gIT09ICd3aW4zMicpIHJldHVybiBkb25lKG51bGwpCiAgICBleGVjRmlsZSgKICAgICAgJ3Bvd2Vyc2hlbGwuZXhlJywKICAgICAgWyctTm9Qcm9maWxlJywgJy1Ob25JbnRlcmFjdGl2ZScsICctRXhlY3V0aW9uUG9saWN5JywgJ0J5cGFzcycsICctQ29tbWFuZCcsIHNjcmlwdF0sCiAgICAgIHsgdGltZW91dCwgd2luZG93c0hpZGU6IHRydWUsIG1heEJ1ZmZlcjogNjQgKiAxMDI0ICogMTAyNCB9LAogICAgICAoZXJyb3IsIHN0ZG91dCkgPT4gZG9uZShlcnJvciA/IG51bGwgOiBTdHJpbmcoc3Rkb3V0KS50cmltKCkpLAogICAgKQogIH0pCn0KCmNvbnN0IHBhcnNlRGF0ZSA9ICh2YWx1ZSkgPT4gewogIGlmICh0eXBlb2YgdmFsdWUgPT09ICdudW1iZXInKSByZXR1cm4gdmFsdWUKICBjb25zdCB0ZXh0ID0gU3RyaW5nKHZhbHVlIHx8ICcnKQogIGNvbnN0IG0gPSB0ZXh0Lm1hdGNoKC9cL0RhdGVcKChcZCspLykKICByZXR1cm4gbSA/IE51bWJlcihtWzFdKSA6IG51bGwKfQoKLyoqIOaKk+S4gOasoei/m+eoi+ihqCAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc25hcHNob3RQcm9jZXNzZXMoKSB7CiAgY29uc3QgdGV4dCA9IGF3YWl0IHJ1blBvd2VyU2hlbGwoU0NSSVBUKQogIGlmICghdGV4dCkgcmV0dXJuIFtdCiAgbGV0IHBhcnNlZAogIHRyeSB7CiAgICBwYXJzZWQgPSBKU09OLnBhcnNlKHRleHQpCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gW10KICB9CiAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkocGFyc2VkKSA/IHBhcnNlZCA6IFtwYXJzZWRdCiAgcmV0dXJuIGxpc3QubWFwKChpdGVtKSA9PiAoewogICAgcGlkOiBpdGVtLlByb2Nlc3NJZCwKICAgIHBwaWQ6IGl0ZW0uUGFyZW50UHJvY2Vzc0lkLAogICAgbmFtZTogaXRlbS5OYW1lIHx8ICcnLAogICAgY29tbWFuZDogaXRlbS5Db21tYW5kTGluZSB8fCAnJywKICAgIHN0YXJ0ZWRBdDogcGFyc2VEYXRlKGl0ZW0uQ3JlYXRpb25EYXRlKSwKICB9KSkKfQoKLyoqIOS7juWRveS7pOihjOmHjOaKveWug+S7rOWPr+iDveWGmeebmOeahOebruW9lSAqLwpmdW5jdGlvbiBwYXRoc09mKGNvbW1hbmQpIHsKICBjb25zdCBwYXRocyA9IFtdCiAgZm9yIChjb25zdCByZSBvZiBbLy0tdXNlci1kYXRhLWRpcj0oIlteIl0rInxcUyspL2ksIC8tLWNhY2hlLWRpcj0oIlteIl0rInxcUyspL2ksIC8tLW1vZGVsWy1fXWRpcj0oIlteIl0rInxcUyspL2ksIC8tb1xzKygiKFteIl0rKSJ8XFMrXC4oPzptcDR8d2F2fHBuZ3xqcGcpKS9pXSkgewogICAgY29uc3QgbSA9IHJlLmV4ZWMoY29tbWFuZCkKICAgIGlmIChtICYmIG1bMV0pIHBhdGhzLnB1c2gobVsxXS5yZXBsYWNlKC9eInwiJC9nLCAnJykpCiAgfQogIHJldHVybiBwYXRocwp9CgovKiog5b2S57G75LiA5p2h5ZG95Luk6KGMICovCmV4cG9ydCBmdW5jdGlvbiBjbGFzc2lmeUNvbW1hbmQoY29tbWFuZCwgbmFtZSA9ICcnKSB7CiAgaWYgKCFjb21tYW5kKSByZXR1cm4gW10KICBpZiAoQ0hST01JVU1fQ0hJTEQudGVzdChjb21tYW5kKSkgcmV0dXJuIFtdCiAgY29uc3QgaGl0cyA9IFtdCiAgZm9yIChjb25zdCBwYXR0ZXJuIG9mIFBBVFRFUk5TKSB7CiAgICBpZiAocGF0dGVybi5uYW1lR2F0ZSAmJiAhcGF0dGVybi5uYW1lR2F0ZS50ZXN0KG5hbWUpKSBjb250aW51ZQogICAgaWYgKHBhdHRlcm4ucmUudGVzdChjb21tYW5kKSkgaGl0cy5wdXNoKHsga2V5OiBwYXR0ZXJuLmtleSwgbGFiZWw6IHBhdHRlcm4ubGFiZWwgfSkKICB9CiAgcmV0dXJuIGhpdHMKfQoKLyoqCiAqIOaJvuWHuuaJgOacieWRveS4reOAjOS8muaMgee7reeUn+mVv+OAjeeJueW+geeahOi/m+eoi++8jOW5tui/mOWOn+eItui/m+eoi+mTvuOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZpbmRXYXRjaGVkUHJvY2Vzc2VzKCkgewogIGNvbnN0IHByb2NzID0gYXdhaXQgc25hcHNob3RQcm9jZXNzZXMoKQogIGNvbnN0IGJ5UGlkID0gbmV3IE1hcChwcm9jcy5tYXAoKHByb2MpID0+IFtwcm9jLnBpZCwgcHJvY10pKQogIGNvbnN0IGhpdHMgPSBbXQogIGZvciAoY29uc3QgcHJvYyBvZiBwcm9jcykgewogICAgY29uc3QgY2F0ZWdvcmllcyA9IGNsYXNzaWZ5Q29tbWFuZChwcm9jLmNvbW1hbmQsIHByb2MubmFtZSkKICAgIGlmIChjYXRlZ29yaWVzLmxlbmd0aCA9PT0gMCkgY29udGludWUKICAgIGNvbnN0IGNoYWluID0gW10KICAgIGxldCBjdXJzb3IgPSBieVBpZC5nZXQocHJvYy5wcGlkKQogICAgZm9yIChsZXQgZGVwdGggPSAwOyBjdXJzb3IgJiYgZGVwdGggPCA0OyBkZXB0aCsrKSB7CiAgICAgIGNoYWluLnB1c2goeyBwaWQ6IGN1cnNvci5waWQsIG5hbWU6IGN1cnNvci5uYW1lLCBjb21tYW5kOiBjdXJzb3IuY29tbWFuZC5zbGljZSgwLCA0MDApIH0pCiAgICAgIGN1cnNvciA9IGJ5UGlkLmdldChjdXJzb3IucHBpZCkKICAgIH0KICAgIGNvbnN0IGRhdGFEaXIgPSAvLS11c2VyLWRhdGEtZGlyPSgiW14iXSsifFxTKykvaS5leGVjKHByb2MuY29tbWFuZCkKICAgIGNvbnN0IHBvcnQgPSAvLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQ9KFxkKykvaS5leGVjKHByb2MuY29tbWFuZCkKICAgIGhpdHMucHVzaCh7CiAgICAgIHBpZDogcHJvYy5waWQsCiAgICAgIG5hbWU6IHByb2MubmFtZSwKICAgICAgY29tbWFuZDogcHJvYy5jb21tYW5kLnNsaWNlKDAsIDYwMCksCiAgICAgIGNhdGVnb3JpZXMsCiAgICAgIHVzZXJEYXRhRGlyOiBkYXRhRGlyID8gZGF0YURpclsxXS5yZXBsYWNlKC9eWyInXXxbIiddKiQvZywgJycpIDogJycsCiAgICAgIHBvcnQ6IHBvcnQgPyBOdW1iZXIocG9ydFsxXSkgOiBudWxsLAogICAgICBwYXRoczogcGF0aHNPZihwcm9jLmNvbW1hbmQpLAogICAgICBzdGFydGVkQXQ6IHByb2Muc3RhcnRlZEF0LAogICAgICBwYXJlbnRzOiBjaGFpbiwKICAgIH0pCiAgfQogIHJldHVybiB7IGhpdHMsIHNhbXBsZWRBdDogRGF0ZS5ub3coKSwgdG90YWw6IHByb2NzLmxlbmd0aCB9Cn0KCi8qKiDlhbzlrrnml6fosIPnlKjvvJrlj6rlhbPlv4MgQ0RQICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBmaW5kQ2RwTGF1bmNoZXJzKCkgewogIGNvbnN0IHsgaGl0cywgc2FtcGxlZEF0LCB0b3RhbCB9ID0gYXdhaXQgZmluZFdhdGNoZWRQcm9jZXNzZXMoKQogIGNvbnN0IGNkcCA9IGhpdHMuZmlsdGVyKChoaXQpID0+IGhpdC5jYXRlZ29yaWVzLnNvbWUoKGNhdGVnb3J5KSA9PiBjYXRlZ29yeS5rZXkgPT09ICdjZHAnIHx8IGNhdGVnb3J5LmtleSA9PT0gJ2Jyb3dzZXItcHJvZmlsZScpKQogIHJldHVybiB7IGhpdHM6IGNkcCwgc2FtcGxlZEF0LCB0b3RhbCB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHJlYWRKc29uKGZpbGUsIGZhbGxiYWNrKSB7CiAgdHJ5IHsKICAgIHJldHVybiBKU09OLnBhcnNlKGF3YWl0IHJlYWRGaWxlKGZpbGUsICd1dGY4JykpCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsbGJhY2sKICB9Cn0KCi8qKgogKiDph4fmoLfokL3nm5jvvJrmlrDnmoTjgIzlj5HotbfogIUgw5cg57G75Yir44CN6K6w5LiA6KGM77yI5oyJIHBpZCvnsbvliKvljrvph43vvInjgIIKICogQHBhcmFtIHt7aG9tZTpzdHJpbmd9fSBvcHRzCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2FtcGxlV2F0Y2hlZFByb2Nlc3Nlcyh7IGhvbWUgfSkgewogIGNvbnN0IGRpciA9IGpvaW4oaG9tZSwgJ2luc3RhbGwtcmFkYXInKQogIGNvbnN0IGxvZ0ZpbGUgPSBqb2luKGRpciwgJ3Byb2Mtd2F0Y2guanNvbmwnKQogIGNvbnN0IHN0YXRlRmlsZSA9IGpvaW4oZGlyLCAncHJvYy1zZWVuLmpzb24nKQogIGF3YWl0IG1rZGlyKGRpciwgeyByZWN1cnNpdmU6IHRydWUgfSkKCiAgY29uc3Qgc2VlbiA9IChhd2FpdCByZWFkSnNvbihzdGF0ZUZpbGUsIHt9KSkgfHwge30KICBjb25zdCB7IGhpdHMsIHNhbXBsZWRBdCwgdG90YWwgfSA9IGF3YWl0IGZpbmRXYXRjaGVkUHJvY2Vzc2VzKCkKICBjb25zdCBhZGRlZCA9IFtdCiAgZm9yIChjb25zdCBoaXQgb2YgaGl0cykgewogICAgZm9yIChjb25zdCBjYXRlZ29yeSBvZiBoaXQuY2F0ZWdvcmllcykgewogICAgICBjb25zdCBrZXkgPSBgJHtjYXRlZ29yeS5rZXl9fCR7aGl0LnBpZH1gCiAgICAgIGlmIChzZWVuW2tleV0pIGNvbnRpbnVlCiAgICAgIHNlZW5ba2V5XSA9IHNhbXBsZWRBdAogICAgICBhZGRlZC5wdXNoKHsKICAgICAgICBjYXRlZ29yeTogY2F0ZWdvcnkua2V5LAogICAgICAgIGxhYmVsOiBjYXRlZ29yeS5sYWJlbCwKICAgICAgICBwaWQ6IGhpdC5waWQsCiAgICAgICAgbmFtZTogaGl0Lm5hbWUsCiAgICAgICAgY29tbWFuZDogaGl0LmNvbW1hbmQsCiAgICAgICAgcGF0aHM6IGhpdC5wYXRocywKICAgICAgICB1c2VyRGF0YURpcjogaGl0LnVzZXJEYXRhRGlyLAogICAgICAgIHN0YXJ0ZWRBdDogaGl0LnN0YXJ0ZWRBdCwKICAgICAgICBwYXJlbnRzOiBoaXQucGFyZW50cywKICAgICAgfSkKICAgIH0KICB9CiAgaWYgKGFkZGVkLmxlbmd0aCA+IDApIHsKICAgIGF3YWl0IGFwcGVuZEZpbGUobG9nRmlsZSwgYCR7SlNPTi5zdHJpbmdpZnkoeyBhdDogc2FtcGxlZEF0LCBhZGRlZCB9KX1cbmAsICd1dGY4JykKICB9CiAgY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKHNlZW4pCiAgaWYgKGtleXMubGVuZ3RoID4gODAwKSB7CiAgICBjb25zdCB0cmltbWVkID0ge30KICAgIGZvciAoY29uc3Qga2V5IG9mIGtleXMuc2xpY2UoLTgwMCkpIHRyaW1tZWRba2V5XSA9IHNlZW5ba2V5XQogICAgYXdhaXQgd3JpdGVGaWxlKHN0YXRlRmlsZSwgSlNPTi5zdHJpbmdpZnkodHJpbW1lZCksICd1dGY4JykKICB9IGVsc2UgewogICAgYXdhaXQgd3JpdGVGaWxlKHN0YXRlRmlsZSwgSlNPTi5zdHJpbmdpZnkoc2VlbiksICd1dGY4JykKICB9CiAgcmV0dXJuIHsgYWRkZWQsIGhpdHMsIHNhbXBsZWRBdCwgdG90YWwsIGxvZ1BhdGg6IGxvZ0ZpbGUgfQp9CgovKiog5YW85a655pen6LCD55So5ZCNICovCmV4cG9ydCBjb25zdCBzYW1wbGVDZHBMYXVuY2hlcnMgPSBzYW1wbGVXYXRjaGVkUHJvY2Vzc2VzCgovKioKICog6K+75Y6G5Y+y77yM6IGa5ZCI5oiQ44CM5Y+R6LW36ICFIOKGkiDnsbvliKsg4oaSIOasoeaVsCDihpIg5YWz6IGU6Lev5b6E44CN55qE5Zug5p6c6KGo44CCCiAqIEBwYXJhbSB7e2hvbWU6c3RyaW5nLCBsaW1pdD86bnVtYmVyfX0gb3B0cwogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlYWRQcm9jV2F0Y2goeyBob21lLCBsaW1pdCA9IDIwMCB9KSB7CiAgY29uc3QgbG9nRmlsZSA9IGpvaW4oaG9tZSwgJ2luc3RhbGwtcmFkYXInLCAncHJvYy13YXRjaC5qc29ubCcpCiAgbGV0IHRleHQgPSAnJwogIHRyeSB7CiAgICB0ZXh0ID0gYXdhaXQgcmVhZEZpbGUobG9nRmlsZSwgJ3V0ZjgnKQogIH0gY2F0Y2ggewogICAgcmV0dXJuIHsgcm93czogW10sIHRvdGFsOiAwLCBsb2dQYXRoOiBsb2dGaWxlLCBieUNhdGVnb3J5OiBbXSB9CiAgfQogIGNvbnN0IHJvd3MgPSBuZXcgTWFwKCkKICBjb25zdCBieUNhdGVnb3J5ID0gbmV3IE1hcCgpCiAgbGV0IHRvdGFsID0gMAogIGZvciAoY29uc3QgbGluZSBvZiB0ZXh0LnNwbGl0KCdcbicpKSB7CiAgICBpZiAoIWxpbmUudHJpbSgpKSBjb250aW51ZQogICAgbGV0IHJlY29yZAogICAgdHJ5IHsKICAgICAgcmVjb3JkID0gSlNPTi5wYXJzZShsaW5lKQogICAgfSBjYXRjaCB7CiAgICAgIGNvbnRpbnVlCiAgICB9CiAgICBmb3IgKGNvbnN0IGl0ZW0gb2YgcmVjb3JkLmFkZGVkIHx8IFtdKSB7CiAgICAgIHRvdGFsKysKICAgICAgY29uc3QgcGFyZW50ID0gKGl0ZW0ucGFyZW50cyB8fCBbXSlbMF0KICAgICAgY29uc3QgbGF1bmNoZXIgPSBwYXJlbnQgPyBgJHtwYXJlbnQubmFtZX0gKHBpZCAke3BhcmVudC5waWR9KWAgOiAn5pyq55+l54i26L+b56iLJwogICAgICBjb25zdCBrZXkgPSBgJHtsYXVuY2hlcn18JHtpdGVtLmNhdGVnb3J5fWAKICAgICAgY29uc3QgYnVja2V0ID0gcm93cy5nZXQoa2V5KSB8fCB7CiAgICAgICAgbGF1bmNoZXIsCiAgICAgICAgY2F0ZWdvcnk6IGl0ZW0uY2F0ZWdvcnksCiAgICAgICAgbGFiZWw6IGl0ZW0ubGFiZWwsCiAgICAgICAgY291bnQ6IDAsCiAgICAgICAgbGFzdEF0OiAwLAogICAgICAgIHBhdGhzOiBuZXcgU2V0KCksCiAgICAgICAgc2FtcGxlczogW10sCiAgICAgICAgcGFyZW50Q29tbWFuZDogcGFyZW50Py5jb21tYW5kIHx8ICcnLAogICAgICB9CiAgICAgIGJ1Y2tldC5jb3VudCsrCiAgICAgIGJ1Y2tldC5sYXN0QXQgPSBNYXRoLm1heChidWNrZXQubGFzdEF0LCByZWNvcmQuYXQgfHwgMCkKICAgICAgZm9yIChjb25zdCBwYXRoIG9mIGl0ZW0ucGF0aHMgfHwgW10pIGJ1Y2tldC5wYXRocy5hZGQocGF0aCkKICAgICAgaWYgKGl0ZW0udXNlckRhdGFEaXIpIGJ1Y2tldC5wYXRocy5hZGQoaXRlbS51c2VyRGF0YURpcikKICAgICAgaWYgKGJ1Y2tldC5zYW1wbGVzLmxlbmd0aCA8IDIpIGJ1Y2tldC5zYW1wbGVzLnB1c2goaXRlbS5jb21tYW5kLnNsaWNlKDAsIDE2MCkpCiAgICAgIHJvd3Muc2V0KGtleSwgYnVja2V0KQoKICAgICAgY29uc3QgY2F0ID0gYnlDYXRlZ29yeS5nZXQoaXRlbS5jYXRlZ29yeSkgfHwgeyBjYXRlZ29yeTogaXRlbS5jYXRlZ29yeSwgbGFiZWw6IGl0ZW0ubGFiZWwsIGNvdW50OiAwIH0KICAgICAgY2F0LmNvdW50KysKICAgICAgYnlDYXRlZ29yeS5zZXQoaXRlbS5jYXRlZ29yeSwgY2F0KQogICAgfQogIH0KICBjb25zdCBsaXN0ID0gWy4uLnJvd3MudmFsdWVzKCldCiAgICAubWFwKChidWNrZXQpID0+ICh7IC4uLmJ1Y2tldCwgcGF0aHM6IFsuLi5idWNrZXQucGF0aHNdLnNsaWNlKDAsIDUpIH0pKQogICAgLnNvcnQoKGEsIGIpID0+IGIuY291bnQgLSBhLmNvdW50KQogICAgLnNsaWNlKDAsIGxpbWl0KQogIHJldHVybiB7CiAgICByb3dzOiBsaXN0LAogICAgdG90YWwsCiAgICBsb2dQYXRoOiBsb2dGaWxlLAogICAgYnlDYXRlZ29yeTogWy4uLmJ5Q2F0ZWdvcnkudmFsdWVzKCldLnNvcnQoKGEsIGIpID0+IGIuY291bnQgLSBhLmNvdW50KSwKICB9Cn0KCi8qKiDlhbzlrrnml6fosIPnlKjlkI3vvJrlj6rnlZkgY2RwIC8gYnJvd3Nlci1wcm9maWxlICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZWFkQ2RwSGlzdG9yeSh7IGhvbWUsIGxpbWl0ID0gMjAwIH0pIHsKICBjb25zdCBhbGwgPSBhd2FpdCByZWFkUHJvY1dhdGNoKHsgaG9tZSwgbGltaXQ6IGxpbWl0ICogNCB9KQogIGNvbnN0IHJvd3MgPSBhbGwucm93cy5maWx0ZXIoKHJvdykgPT4gcm93LmNhdGVnb3J5ID09PSAnY2RwJyB8fCByb3cuY2F0ZWdvcnkgPT09ICdicm93c2VyLXByb2ZpbGUnKQogIHJldHVybiB7CiAgICBsYXVuY2hlcnM6IHJvd3MubWFwKChyb3cpID0+ICh7CiAgICAgIGtleTogcm93LmxhdW5jaGVyLAogICAgICBjb3VudDogcm93LmNvdW50LAogICAgICBzYW1wbGVzOiByb3cucGF0aHMsCiAgICAgIGxhc3RBdDogcm93Lmxhc3RBdCwKICAgICAgcGFyZW50Q29tbWFuZDogcm93LnBhcmVudENvbW1hbmQsCiAgICB9KSksCiAgICB0b3RhbDogcm93cy5yZWR1Y2UoKHN1bSwgcm93KSA9PiBzdW0gKyByb3cuY291bnQsIDApLAogICAgbG9nUGF0aDogYWxsLmxvZ1BhdGgsCiAgfQp9Cg==
+/**
+ * 进程审计：不止盯 CDP，凡是「会持续往磁盘里堆东西」的命令行都记一笔。
+ *
+ * 抓 Win32_Process 的完整 CommandLine 与 ParentProcessId，按类别归类：
+ *   cdp / browser-profile / npm / pip / model / node-script / python-script / build / ffmpeg
+ * 然后把「发起者（父进程）→ 类别 → 次数 → 关联路径」聚成一张因果表，
+ * 面板再拿这张表去和磁盘占用对账。
+ */
+import { execFile } from 'node:child_process'
+import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises'
+import { join } from 'node:path'
+
+/** 类别 → 命令行特征 */
+const PATTERNS = [
+  { key: 'cdp', re: /--remote-debugging-(port|pipe)/i, label: 'CDP 调试端口' },
+  { key: 'browser-profile', re: /--user-data-dir=(?:"[^"]*(?:temp|cdp-|chrome-profile)[^"]*"|\S*(?:temp|cdp-|chrome-profile)\S*)/i, label: '临时浏览器 profile' },
+  { key: 'model', re: /huggingface-cli\s+download|hf_hub_download|\.safetensors|ollama\s+(pull|run)|--model[-_]dir/i, label: '模型下载' },
+  { key: 'pip', re: /\b(pip3?|uv)\s+install\b/i, label: 'pip 安装' },
+  { key: 'npm', re: /\b(npm|pnpm|yarn|bun)\s+(install|i|add|exec|dlx|create)\b/i, label: 'Node 包安装' },
+  { key: 'build', re: /electron-builder|vite\s+build|webpack|tsdown|esbuild/i, label: '前端/打包构建' },
+  { key: 'ffmpeg', re: /\bffmpeg\b/i, label: '音视频转码' },
+  { key: 'node-script', re: /^\s*"?[^"]*[\\/]?node(\.exe)?"?\s+.*\.(js|mjs|cjs)\b/i, label: 'Node 脚本', nameGate: /^node(\.exe)?$/i },
+  { key: 'python-script', re: /^\s*"?[^"]*python[0-9.]*(\.exe)?"?\s+.*\.py\b/i, label: 'Python 脚本', nameGate: /^python[0-9.]*(\.exe)?$/i },
+]
+
+/** Chromium 的多进程子角色：GPU/渲染/crashpad 都不算「启动者」 */
+const CHROMIUM_CHILD = /--type=(?!browser\b)[\w-]+/i
+
+const SCRIPT = `$ErrorActionPreference='SilentlyContinue';
+Get-CimInstance Win32_Process -Property ProcessId,ParentProcessId,Name,CommandLine,CreationDate |
+  Where-Object { $_.CommandLine } |
+  Select-Object ProcessId,ParentProcessId,Name,CommandLine,CreationDate |
+  ConvertTo-Json -Compress -Depth 3`
+
+function runPowerShell(script, timeout = 30000) {
+  return new Promise((done) => {
+    if (process.platform !== 'win32') return done(null)
+    execFile(
+      'powershell.exe',
+      ['-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass', '-Command', script],
+      { timeout, windowsHide: true, maxBuffer: 64 * 1024 * 1024 },
+      (error, stdout) => done(error ? null : String(stdout).trim()),
+    )
+  })
+}
+
+const parseDate = (value) => {
+  if (typeof value === 'number') return value
+  const text = String(value || '')
+  const m = text.match(/\/Date\((\d+)/)
+  return m ? Number(m[1]) : null
+}
+
+/** 抓一次进程表 */
+export async function snapshotProcesses() {
+  const text = await runPowerShell(SCRIPT)
+  if (!text) return []
+  let parsed
+  try {
+    parsed = JSON.parse(text)
+  } catch {
+    return []
+  }
+  const list = Array.isArray(parsed) ? parsed : [parsed]
+  return list.map((item) => ({
+    pid: item.ProcessId,
+    ppid: item.ParentProcessId,
+    name: item.Name || '',
+    command: item.CommandLine || '',
+    startedAt: parseDate(item.CreationDate),
+  }))
+}
+
+/** 从命令行里抽它们可能写盘的目录 */
+function pathsOf(command) {
+  const paths = []
+  for (const re of [/--user-data-dir=("[^"]+"|\S+)/i, /--cache-dir=("[^"]+"|\S+)/i, /--model[-_]dir=("[^"]+"|\S+)/i, /-o\s+("([^"]+)"|\S+\.(?:mp4|wav|png|jpg))/i]) {
+    const m = re.exec(command)
+    if (m && m[1]) paths.push(m[1].replace(/^"|"$/g, ''))
+  }
+  return paths
+}
+
+/** 归类一条命令行 */
+export function classifyCommand(command, name = '') {
+  if (!command) return []
+  if (CHROMIUM_CHILD.test(command)) return []
+  const hits = []
+  for (const pattern of PATTERNS) {
+    if (pattern.nameGate && !pattern.nameGate.test(name)) continue
+    if (pattern.re.test(command)) hits.push({ key: pattern.key, label: pattern.label })
+  }
+  return hits
+}
+
+/**
+ * 找出所有命中「会持续生长」特征的进程，并还原父进程链。
+ */
+export async function findWatchedProcesses() {
+  const procs = await snapshotProcesses()
+  const byPid = new Map(procs.map((proc) => [proc.pid, proc]))
+  const hits = []
+  for (const proc of procs) {
+    const categories = classifyCommand(proc.command, proc.name)
+    if (categories.length === 0) continue
+    const chain = []
+    let cursor = byPid.get(proc.ppid)
+    for (let depth = 0; cursor && depth < 4; depth++) {
+      chain.push({ pid: cursor.pid, name: cursor.name, command: cursor.command.slice(0, 400) })
+      cursor = byPid.get(cursor.ppid)
+    }
+    const dataDir = /--user-data-dir=("[^"]+"|\S+)/i.exec(proc.command)
+    const port = /--remote-debugging-port=(\d+)/i.exec(proc.command)
+    hits.push({
+      pid: proc.pid,
+      name: proc.name,
+      command: proc.command.slice(0, 600),
+      categories,
+      userDataDir: dataDir ? dataDir[1].replace(/^["']|["']*$/g, '') : '',
+      port: port ? Number(port[1]) : null,
+      paths: pathsOf(proc.command),
+      startedAt: proc.startedAt,
+      parents: chain,
+    })
+  }
+  return { hits, sampledAt: Date.now(), total: procs.length }
+}
+
+/** 兼容旧调用：只关心 CDP */
+export async function findCdpLaunchers() {
+  const { hits, sampledAt, total } = await findWatchedProcesses()
+  const cdp = hits.filter((hit) => hit.categories.some((category) => category.key === 'cdp' || category.key === 'browser-profile'))
+  return { hits: cdp, sampledAt, total }
+}
+
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await readFile(file, 'utf8'))
+  } catch {
+    return fallback
+  }
+}
+
+/**
+ * 采样落盘：新的「发起者 × 类别」记一行（按 pid+类别去重）。
+ * @param {{home:string}} opts
+ */
+export async function sampleWatchedProcesses({ home }) {
+  const dir = join(home, 'install-radar')
+  const logFile = join(dir, 'proc-watch.jsonl')
+  const stateFile = join(dir, 'proc-seen.json')
+  await mkdir(dir, { recursive: true })
+
+  const seen = (await readJson(stateFile, {})) || {}
+  const { hits, sampledAt, total } = await findWatchedProcesses()
+  const added = []
+  for (const hit of hits) {
+    for (const category of hit.categories) {
+      const key = `${category.key}|${hit.pid}`
+      if (seen[key]) continue
+      seen[key] = sampledAt
+      added.push({
+        category: category.key,
+        label: category.label,
+        pid: hit.pid,
+        name: hit.name,
+        command: hit.command,
+        paths: hit.paths,
+        userDataDir: hit.userDataDir,
+        startedAt: hit.startedAt,
+        parents: hit.parents,
+      })
+    }
+  }
+  if (added.length > 0) {
+    await appendFile(logFile, `${JSON.stringify({ at: sampledAt, added })}\n`, 'utf8')
+  }
+  const keys = Object.keys(seen)
+  if (keys.length > 800) {
+    const trimmed = {}
+    for (const key of keys.slice(-800)) trimmed[key] = seen[key]
+    await writeFile(stateFile, JSON.stringify(trimmed), 'utf8')
+  } else {
+    await writeFile(stateFile, JSON.stringify(seen), 'utf8')
+  }
+  return { added, hits, sampledAt, total, logPath: logFile }
+}
+
+/** 兼容旧调用名 */
+export const sampleCdpLaunchers = sampleWatchedProcesses
+
+/**
+ * 读历史，聚合成「发起者 → 类别 → 次数 → 关联路径」的因果表。
+ * @param {{home:string, limit?:number}} opts
+ */
+export async function readProcWatch({ home, limit = 200 }) {
+  const logFile = join(home, 'install-radar', 'proc-watch.jsonl')
+  let text = ''
+  try {
+    text = await readFile(logFile, 'utf8')
+  } catch {
+    return { rows: [], total: 0, logPath: logFile, byCategory: [] }
+  }
+  const rows = new Map()
+  const byCategory = new Map()
+  let total = 0
+  for (const line of text.split('\n')) {
+    if (!line.trim()) continue
+    let record
+    try {
+      record = JSON.parse(line)
+    } catch {
+      continue
+    }
+    for (const item of record.added || []) {
+      total++
+      const parent = (item.parents || [])[0]
+      const launcher = parent ? `${parent.name} (pid ${parent.pid})` : '未知父进程'
+      const key = `${launcher}|${item.category}`
+      const bucket = rows.get(key) || {
+        launcher,
+        category: item.category,
+        label: item.label,
+        count: 0,
+        lastAt: 0,
+        paths: new Set(),
+        samples: [],
+        parentCommand: parent?.command || '',
+      }
+      bucket.count++
+      bucket.lastAt = Math.max(bucket.lastAt, record.at || 0)
+      for (const path of item.paths || []) bucket.paths.add(path)
+      if (item.userDataDir) bucket.paths.add(item.userDataDir)
+      if (bucket.samples.length < 2) bucket.samples.push(item.command.slice(0, 160))
+      rows.set(key, bucket)
+
+      const cat = byCategory.get(item.category) || { category: item.category, label: item.label, count: 0 }
+      cat.count++
+      byCategory.set(item.category, cat)
+    }
+  }
+  const list = [...rows.values()]
+    .map((bucket) => ({ ...bucket, paths: [...bucket.paths].slice(0, 5) }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, limit)
+  return {
+    rows: list,
+    total,
+    logPath: logFile,
+    byCategory: [...byCategory.values()].sort((a, b) => b.count - a.count),
+  }
+}
+
+/** 兼容旧调用名：只留 cdp / browser-profile */
+export async function readCdpHistory({ home, limit = 200 }) {
+  const all = await readProcWatch({ home, limit: limit * 4 })
+  const rows = all.rows.filter((row) => row.category === 'cdp' || row.category === 'browser-profile')
+  return {
+    launchers: rows.map((row) => ({
+      key: row.launcher,
+      count: row.count,
+      samples: row.paths,
+      lastAt: row.lastAt,
+      parentCommand: row.parentCommand,
+    })),
+    total: rows.reduce((sum, row) => sum + row.count, 0),
+    logPath: all.logPath,
+  }
+}

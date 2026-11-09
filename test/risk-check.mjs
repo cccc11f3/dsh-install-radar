@@ -1,1 +1,29 @@
-aW1wb3J0IHsgYXNzZXNzUmlzaywgYXNzZXNzVW5pbnN0YWxsLCBDTEVBTl9NSU5fQllURVMgfSBmcm9tICcuLi9zcmMvZW5naW5lL3Jpc2suanMnCgpjb25zdCBjYXNlcyA9IFsKICAnQzpcXFdpbmRvd3NcXFRlbXAnLAogICdDOlxcVXNlcnNcXDEzNzM3XFxBcHBEYXRhXFxMb2NhbFxcVGVtcCcsCiAgJ0M6XFxXaW5kb3dzXFxUZW1wXFxjZHAtc2VxLTEnLAogICdDOlxcLnBucG0tc3RvcmUnLAogICdDOlxcVXNlcnNcXDEzNzM3XFxEZXNrdG9wXFxhLmV4ZScsCiAgJ0M6XFxXaW5kb3dzXFxJbnN0YWxsZXInLAogICdDOlxcUHl0aG9uMzE0XFxMaWJcXHNpdGUtcGFja2FnZXNcXHRvcmNoJywKICAnQzpcXFVzZXJzXFwxMzczN1xcQXBwRGF0YVxcTG9jYWxcXFRlbXBcXHBpcC11bnBhY2stYWJjJywKXQoKZm9yIChjb25zdCB0YXJnZXQgb2YgY2FzZXMpIHsKICBjb25zdCByaXNrID0gYXNzZXNzUmlzayh0YXJnZXQsIHsgYnl0ZXM6IDNlOSB9KQogIGNvbnN0IGNsZWFuYWJsZSA9IDNlOSA+PSBDTEVBTl9NSU5fQllURVMgJiYgcmlzay5sZXZlbCAhPT0gJ2RhbmdlcicgJiYgcmlzay5pc1Jvb3QgIT09IHRydWUKICBjb25zb2xlLmxvZyhgJHtyaXNrLmxldmVsLnBhZEVuZCg4KX0gJHsocmlzay5pc1Jvb3QgPyAnUk9PVCcgOiAnICAgICcpfSBjbGVhbmFibGU9JHtjbGVhbmFibGUgPyAnWScgOiAnbid9ICAke3RhcmdldH1gKQp9Cgpjb25zdCB1bmluc3RhbGxDYXNlcyA9IFsKICB7IGVjbzogJ2dpdCcsIG5hbWU6ICdIdW55dWFuM0QtMicsIHBhdGg6ICdFOlxcM0RBSScgfSwKICB7IGVjbzogJ3B5dGhvbicsIG5hbWU6ICdlZGdlLXR0cycsIHBhdGg6ICdDOlxcUHl0aG9uMzE0XFxMaWJcXHNpdGUtcGFja2FnZXNcXGVkZ2VfdHRzJyB9LAogIHsgZWNvOiAnbm9kZScsIG5hbWU6ICdlbGVjdHJvbicsIHBhdGg6ICdFOlxceFxcbm9kZV9tb2R1bGVzXFxlbGVjdHJvbicgfSwKICB7IGVjbzogJ3dpbmdldCcsIG5hbWU6ICdHeWFuLkZGbXBlZycsIHBhdGg6ICcnIH0sCl0KZm9yIChjb25zdCBpdGVtIG9mIHVuaW5zdGFsbENhc2VzKSB7CiAgY29uc3QgcmlzayA9IGFzc2Vzc1VuaW5zdGFsbChpdGVtKQogIGNvbnNvbGUubG9nKGAke3Jpc2subGV2ZWwucGFkRW5kKDgpfSDljbjovb3lkI7mnpw9JHtyaXNrLmNvbnNlcXVlbmNlLnNsaWNlKDAsIDQ2KX1gKQp9Cg==
+import { assessRisk, assessUninstall, CLEAN_MIN_BYTES } from '../src/engine/risk.js'
+
+const cases = [
+  'C:\\Windows\\Temp',
+  'C:\\Users\\13737\\AppData\\Local\\Temp',
+  'C:\\Windows\\Temp\\cdp-seq-1',
+  'C:\\.pnpm-store',
+  'C:\\Users\\13737\\Desktop\\a.exe',
+  'C:\\Windows\\Installer',
+  'C:\\Python314\\Lib\\site-packages\\torch',
+  'C:\\Users\\13737\\AppData\\Local\\Temp\\pip-unpack-abc',
+]
+
+for (const target of cases) {
+  const risk = assessRisk(target, { bytes: 3e9 })
+  const cleanable = 3e9 >= CLEAN_MIN_BYTES && risk.level !== 'danger' && risk.isRoot !== true
+  console.log(`${risk.level.padEnd(8)} ${(risk.isRoot ? 'ROOT' : '    ')} cleanable=${cleanable ? 'Y' : 'n'}  ${target}`)
+}
+
+const uninstallCases = [
+  { eco: 'git', name: 'Hunyuan3D-2', path: 'E:\\3DAI' },
+  { eco: 'python', name: 'edge-tts', path: 'C:\\Python314\\Lib\\site-packages\\edge_tts' },
+  { eco: 'node', name: 'electron', path: 'E:\\x\\node_modules\\electron' },
+  { eco: 'winget', name: 'Gyan.FFmpeg', path: '' },
+]
+for (const item of uninstallCases) {
+  const risk = assessUninstall(item)
+  console.log(`${risk.level.padEnd(8)} 卸载后果=${risk.consequence.slice(0, 46)}`)
+}

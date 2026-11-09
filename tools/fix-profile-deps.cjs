@@ -1,1 +1,17 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdub2RlOmZzJykKCmNvbnN0IGZpbGUgPSAnRTovRGVlcFNlZWsgSGFybmVzcy9zaHVqdS9wcm9maWxlcy9kZXNrdG9wL3BhY2thZ2UuanNvbicKY29uc3QgcmF3ID0gZnMucmVhZEZpbGVTeW5jKGZpbGUsICd1dGY4JykKY29uc3QgcGtnID0gSlNPTi5wYXJzZShyYXcpCmNvbnN0IGJlZm9yZSA9IHBrZy5kZXBlbmRlbmNpZXNbJ2RzaC1wdXJnZSddCnBrZy5kZXBlbmRlbmNpZXNbJ2RzaC1wdXJnZSddID0gJ2ZpbGU6dmVuZG9yL2RzaC1wdXJnZScKZnMud3JpdGVGaWxlU3luYyhmaWxlLCBKU09OLnN0cmluZ2lmeShwa2csIG51bGwsIDIpICsgJ1xuJywgJ3V0ZjgnKQoKY29uc3QgY2hlY2sgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmaWxlLCAndXRmOCcpKQpjb25zb2xlLmxvZygnYmVmb3JlOicsIGJlZm9yZSkKY29uc29sZS5sb2coJ2FmdGVyIDonLCBjaGVjay5kZXBlbmRlbmNpZXNbJ2RzaC1wdXJnZSddKQpjb25zb2xlLmxvZygnYnVuZGxlcyBoYXMgZHNoLXB1cmdlOicsIGNoZWNrLmRzaC5wcm9maWxlLmJ1bmRsZXMuaW5jbHVkZXMoJ2RzaC1wdXJnZScpKQpjb25zb2xlLmxvZygnYnVuZGxlcyBoYXMgZHNoLWluc3RhbGwtcmFkYXI6JywgY2hlY2suZHNoLnByb2ZpbGUuYnVuZGxlcy5pbmNsdWRlcygnZHNoLWluc3RhbGwtcmFkYXInKSkKY29uc29sZS5sb2coJ3JhZGFyIGRlcDonLCBjaGVjay5kZXBlbmRlbmNpZXNbJ2RzaC1pbnN0YWxsLXJhZGFyJ10pCmNvbnN0IGJ5dGVzID0gZnMucmVhZEZpbGVTeW5jKGZpbGUpCmNvbnNvbGUubG9nKCdCT00/JywgYnl0ZXNbMF0gPT09IDB4ZWYgJiYgYnl0ZXNbMV0gPT09IDB4YmIgJiYgYnl0ZXNbMl0gPT09IDB4YmYpCg==
+const fs = require('node:fs')
+
+const file = 'E:/DeepSeek Harness/shuju/profiles/desktop/package.json'
+const raw = fs.readFileSync(file, 'utf8')
+const pkg = JSON.parse(raw)
+const before = pkg.dependencies['dsh-purge']
+pkg.dependencies['dsh-purge'] = 'file:vendor/dsh-purge'
+fs.writeFileSync(file, JSON.stringify(pkg, null, 2) + '\n', 'utf8')
+
+const check = JSON.parse(fs.readFileSync(file, 'utf8'))
+console.log('before:', before)
+console.log('after :', check.dependencies['dsh-purge'])
+console.log('bundles has dsh-purge:', check.dsh.profile.bundles.includes('dsh-purge'))
+console.log('bundles has dsh-install-radar:', check.dsh.profile.bundles.includes('dsh-install-radar'))
+console.log('radar dep:', check.dependencies['dsh-install-radar'])
+const bytes = fs.readFileSync(file)
+console.log('BOM?', bytes[0] === 0xef && bytes[1] === 0xbb && bytes[2] === 0xbf)

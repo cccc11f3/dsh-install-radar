@@ -1,1 +1,49 @@
-IyDmiormnKzlnLDku5PlupPmjqjliLAgR2l0SHVi77yI5LiN6ZyA6KaB5L2g5oqKIHRva2VuIOS6pOe7meaIke+8ie+8mgojICAgMS4g5YWI5Zyo5rWP6KeI5Zmo6YeM5bu65LiA5Liq56m65LuT5bqT77yaaHR0cHM6Ly9naXRodWIuY29tL25ldyAg77yI5ZCN5a2XIGRzaC1pbnN0YWxsLXJhZGFy77yM5LiN6KaB5Yu+IFJFQURNRS8uZ2l0aWdub3Jl77yJCiMgICAyLiDnhLblkI7ov5DooYzvvJoKIyAgICAgICAgcHdzaCAtRmlsZSBwdWJsaXNoXHB1c2gtdG8tZ2l0aHViLnBzMSAtT3duZXIgPOS9oOeahEdpdEh1YueUqOaIt+WQjT4KIwojIOmmluasoeaOqOmAgeS8muW8ueWHuiBHaXRIdWIg55m75b2V56qX5Y+j77yIR2l0IENyZWRlbnRpYWwgTWFuYWdlcu+8ie+8jOeZu+W9leS4gOasoeS5i+WQjuWwseS4jeeUqOWGjeeZu+OAggpwYXJhbSgKICBbUGFyYW1ldGVyKE1hbmRhdG9yeSA9ICR0cnVlKV1bc3RyaW5nXSRPd25lciwKICBbc3RyaW5nXSRSZXBvID0gJ2RzaC1pbnN0YWxsLXJhZGFyJywKICBbc3RyaW5nXSRCcmFuY2ggPSAnbWFpbicKKQoKJEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokcm9vdCA9IFNwbGl0LVBhdGggLVBhcmVudCAkUFNTY3JpcHRSb290ClNldC1Mb2NhdGlvbiAkcm9vdAoKaWYgKC1ub3QgKFRlc3QtUGF0aCAoSm9pbi1QYXRoICRyb290ICcuZ2l0JykpKSB7CiAgV3JpdGUtSG9zdCAi6L+Y5LiN5pivIGdpdCDku5PlupPvvIzlhYjliJ3lp4vljJYg4oCmIiAtRm9yZWdyb3VuZENvbG9yIFllbGxvdwogIGdpdCBpbml0IC1iICRCcmFuY2gKICBnaXQgYWRkIC1BCiAgZ2l0IGNvbW1pdCAtbSAiZmVhdDogZHNoLWluc3RhbGwtcmFkYXIgMS4wLjAiCn0KCiR1cmwgPSAiaHR0cHM6Ly9naXRodWIuY29tLyRPd25lci8kUmVwby5naXQiCiRleGlzdGluZyA9IChnaXQgcmVtb3RlIDI+JG51bGwpIC1jb250YWlucyAnb3JpZ2luJwppZiAoJGV4aXN0aW5nKSB7IGdpdCByZW1vdGUgc2V0LXVybCBvcmlnaW4gJHVybCB9IGVsc2UgeyBnaXQgcmVtb3RlIGFkZCBvcmlnaW4gJHVybCB9CldyaXRlLUhvc3QgInJlbW90ZSBvcmlnaW4gLT4gJHVybCIgLUZvcmVncm91bmRDb2xvciBDeWFuCgojIOaOoua1i+i/nOerr+aYr+WQpuWPr+iuv+mXru+8iOmcgOimgeS9oOWcqCBHaXRIdWIg5LiK5bey57uP5bu65aW96L+Z5Liq56m65LuT5bqT77yJCmdpdCBscy1yZW1vdGUgLS1leGl0LWNvZGUgLS1oZWFkcyBvcmlnaW4gMj4kbnVsbCB8IE91dC1OdWxsCmlmICgkTEFTVEVYSVRDT0RFIC1uZSAwKSB7CiAgV3JpdGUtSG9zdCAiIgogIFdyaXRlLUhvc3QgIui/nOerr+i/mOS4jeWPr+eUqOOAguivt+WFiOWcqOa1j+iniOWZqOmHjOW7uuepuuS7k+W6k++8miIgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICBXcml0ZS1Ib3N0ICIgIGh0dHBzOi8vZ2l0aHViLmNvbS9uZXcgIOS7k+W6k+WQje+8miRSZXBvICAg5LiN6KaB5Yu+IFJFQURNRSAvIC5naXRpZ25vcmUgLyBsaWNlbnNlIiAtRm9yZWdyb3VuZENvbG9yIFllbGxvdwogIFdyaXRlLUhvc3QgIuW7uuWlveWQjumHjei3keacrOiEmuacrOOAgiIgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICBleGl0IDEKfQoKV3JpdGUtSG9zdCAiIgpXcml0ZS1Ib3N0ICLmjqjpgIHkuK3vvIjlpoLmnpzlvLnlh7rnmbvlvZXnqpflj6PvvIzpgInjgI7lnKjmtY/op4jlmajkuK3nmbvlvZXjgI/ljbPlj6/vvInigKYiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgpnaXQgcHVzaCAtdSBvcmlnaW4gJEJyYW5jaAppZiAoJExBU1RFWElUQ09ERSAtbmUgMCkgeyBXcml0ZS1Ib3N0ICLmjqjpgIHlpLHotKXvvIzpgIDlh7rnoIEgJExBU1RFWElUQ09ERSIgLUZvcmVncm91bmRDb2xvciBSZWQ7IGV4aXQgJExBU1RFWElUQ09ERSB9CgpXcml0ZS1Ib3N0ICIiCldyaXRlLUhvc3QgIuWujOaIkO+8mmh0dHBzOi8vZ2l0aHViLmNvbS8kT3duZXIvJFJlcG8iIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4KV3JpdGUtSG9zdCAiIgpXcml0ZS1Ib3N0ICLkuIvkuIDmraXvvIjkuozpgInkuIDvvInvvJoiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgpXcml0ZS1Ib3N0ICIgIMK3IOaPkOW4guWcuiBQUu+8mm5vZGUgcHVibGlzaFxtYXJrZXQtcHIubWpzIC0tdXNlciAkT3duZXIgLS1yZXBvICRSZXBvIiAtRm9yZWdyb3VuZENvbG9yIEN5YW4KV3JpdGUtSG9zdCAiICDCtyDlj5EgbnBtICAgIO+8mnB3c2ggLUZpbGUgcHVibGlzaFxucG0tcHVibGlzaC5wczEiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgo=
+# 把本地仓库推到 GitHub（不需要你把 token 交给我）：
+#   1. 先在浏览器里建一个空仓库：https://github.com/new  （名字 dsh-install-radar，不要勾 README/.gitignore）
+#   2. 然后运行：
+#        pwsh -File publish\push-to-github.ps1 -Owner <你的GitHub用户名>
+#
+# 首次推送会弹出 GitHub 登录窗口（Git Credential Manager），登录一次之后就不用再登。
+param(
+  [Parameter(Mandatory = $true)][string]$Owner,
+  [string]$Repo = 'dsh-install-radar',
+  [string]$Branch = 'main'
+)
+
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent $PSScriptRoot
+Set-Location $root
+
+if (-not (Test-Path (Join-Path $root '.git'))) {
+  Write-Host "还不是 git 仓库，先初始化 …" -ForegroundColor Yellow
+  git init -b $Branch
+  git add -A
+  git commit -m "feat: dsh-install-radar 1.0.0"
+}
+
+$url = "https://github.com/$Owner/$Repo.git"
+$existing = (git remote 2>$null) -contains 'origin'
+if ($existing) { git remote set-url origin $url } else { git remote add origin $url }
+Write-Host "remote origin -> $url" -ForegroundColor Cyan
+
+# 探测远端是否可访问（需要你在 GitHub 上已经建好这个空仓库）
+git ls-remote --exit-code --heads origin 2>$null | Out-Null
+if ($LASTEXITCODE -ne 0) {
+  Write-Host ""
+  Write-Host "远端还不可用。请先在浏览器里建空仓库：" -ForegroundColor Yellow
+  Write-Host "  https://github.com/new  仓库名：$Repo   不要勾 README / .gitignore / license" -ForegroundColor Yellow
+  Write-Host "建好后重跑本脚本。" -ForegroundColor Yellow
+  exit 1
+}
+
+Write-Host ""
+Write-Host "推送中（如果弹出登录窗口，选『在浏览器中登录』即可）…" -ForegroundColor Cyan
+git push -u origin $Branch
+if ($LASTEXITCODE -ne 0) { Write-Host "推送失败，退出码 $LASTEXITCODE" -ForegroundColor Red; exit $LASTEXITCODE }
+
+Write-Host ""
+Write-Host "完成：https://github.com/$Owner/$Repo" -ForegroundColor Green
+Write-Host ""
+Write-Host "下一步（二选一）：" -ForegroundColor Cyan
+Write-Host "  · 提市场 PR：node publish\market-pr.mjs --user $Owner --repo $Repo" -ForegroundColor Cyan
+Write-Host "  · 发 npm    ：pwsh -File publish\npm-publish.ps1" -ForegroundColor Cyan
