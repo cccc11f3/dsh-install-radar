@@ -56,9 +56,25 @@ $env:GITHUB_TOKEN = 'ghp_xxxxxxxx'
 node publish\github-repo.mjs --user <你的GitHub用户名> --name dsh-install-radar
 ```
 
-> 本地仓库已经初始化并提交好了（40 个文件，1 个 commit，`.git` 约 0.1 MB），
+> 本地仓库已经初始化并提交好了（43 个文件，`.git` 约 0.1 MB），
 > 两条路都是「直接 push」，不需要再 commit。本地 git 身份设成了
 > `YG <yg@users.noreply.github.com>`（仅本仓库，未改全局）。
+
+### 本机实测：git 传输被墙，改用 GitHub API 推送
+
+这台机器上 `api.github.com` 通，但 `github.com:443` 超时（`git push` 报
+`Failed to connect to github.com port 443`）。所以实际用的是 API 推送：
+
+```powershell
+$env:GITHUB_TOKEN = 'ghp_xxx'
+node publish\api-push.mjs --owner <owner> --repo dsh-install-radar --message "feat: …"
+```
+
+它用 `git ls-files` 取本地清单 → `POST /git/trees`（**content 是明文，不是 base64**，这一点踩过坑）
+→ `POST /git/commits` → `PATCH /git/refs/heads/main`。空仓库会先用 Contents API 写一份 README 引导出 `main`。
+
+⚠️ 含 API 推送之后，远端历史与本地 `.git` 是两条独立历史（本地 5 个 commit，远端由 API 生成）。
+以后更新仓库请**继续用 `api-push.mjs`**，不要 `git push`（git 传输在这台机器上本来就通不了）。
 
 ## 4. 提市场 PR（自动）
 
