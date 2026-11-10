@@ -10,6 +10,17 @@ import { execFile } from 'node:child_process'
 import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
+/** 把命令行里的密钥类片段打码，避免审计日志变成泄密文件 */
+export function redact(text) {
+  if (typeof text !== 'string' || text.length === 0) return ''
+  return text
+    .replace(/\b(ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9]{8,}\b/g, '$1_[REDACTED]')
+    .replace(/\bnpm_[A-Za-z0-9]{8,}\b/g, 'npm_[REDACTED]')
+    .replace(/\b(sk|pk|rk)-[A-Za-z0-9_-]{8,}\b/g, '$1-[REDACTED]')
+    .replace(/(_authToken=|_auth=|--otp=|token=)([^\s"'&]+)/gi, '$1[REDACTED]')
+    .replace(/\b(Bearer|Basic)\s+[A-Za-z0-9._~+/=-]{12,}/g, '$1 [REDACTED]')
+}
+
 /** 类别 → 命令行特征 */
 const PATTERNS = [
   { key: 'cdp', re: /--remote-debugging-(port|pipe)/i, label: 'CDP 调试端口' },
@@ -106,7 +117,7 @@ export async function findWatchedProcesses() {
     const chain = []
     let cursor = byPid.get(proc.ppid)
     for (let depth = 0; cursor && depth < 4; depth++) {
-      chain.push({ pid: cursor.pid, name: cursor.name, command: cursor.command.slice(0, 400) })
+      chain.push({ pid: cursor.pid, name: cursor.name, command: redact(cursor.command).slice(0, 400) })
       cursor = byPid.get(cursor.ppid)
     }
     const dataDir = /--user-data-dir=("[^"]+"|\S+)/i.exec(proc.command)
@@ -114,7 +125,7 @@ export async function findWatchedProcesses() {
     hits.push({
       pid: proc.pid,
       name: proc.name,
-      command: proc.command.slice(0, 600),
+      command: redact(proc.command).slice(0, 600),
       categories,
       userDataDir: dataDir ? dataDir[1].replace(/^["']|["']*$/g, '') : '',
       port: port ? Number(port[1]) : null,
@@ -164,7 +175,7 @@ export async function sampleWatchedProcesses({ home }) {
         label: category.label,
         pid: hit.pid,
         name: hit.name,
-        command: hit.command,
+        command: redact(hit.command),
         paths: hit.paths,
         userDataDir: hit.userDataDir,
         startedAt: hit.startedAt,
@@ -231,7 +242,7 @@ export async function readProcWatch({ home, limit = 200 }) {
       bucket.lastAt = Math.max(bucket.lastAt, record.at || 0)
       for (const path of item.paths || []) bucket.paths.add(path)
       if (item.userDataDir) bucket.paths.add(item.userDataDir)
-      if (bucket.samples.length < 2) bucket.samples.push(item.command.slice(0, 160))
+      if (bucket.samples.length < 2) bucket.samples.push(redact(item.command).slice(0, 160))
       rows.set(key, bucket)
 
       const cat = byCategory.get(item.category) || { category: item.category, label: item.label, count: 0 }

@@ -1,6 +1,6 @@
 {
   "name": "dsh-install-radar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Per-session install radar for DeepSeek Harness: what each conversation installed (Python / npm / git / winget), with size, path, created time, purpose, why it was installed and what removing it costs — plus a sidebar panel and process→disk causal audit.",
   "type": "module",
   "main": "src/index.js",
