@@ -204,11 +204,23 @@ const pickTree = JSON.stringify(
 )
 if (!pickTree.includes('"type":"checkbox"')) throw new Error('RecentRow did not render the checkbox')
 if (!pickTree.includes('dsh-ir-recent--picked')) throw new Error('selected row missing highlight')
-const lockedTree = JSON.stringify(
-  mod.__internals.RecentRow({ item: { ...recentItem, cleanable: false }, rpc: null, onToggle: () => {}, onAsk: () => {} }),
+
+// v1.1：所有行都能多选（danger 也行），但单行「清理」仍按 50 MB / danger 门槛
+const dangerTree = JSON.stringify(
+  mod.__internals.RecentRow({
+    item: { path: 'C:\\.pnpm-store', size: '228 MB', bytes: 2.4e8, files: 9, risk: 'danger', consequence: '会破坏已装依赖', cleanable: false, selectable: true },
+    rpc: null,
+    onToggle: () => {},
+    onAsk: () => {},
+  }),
 )
-if (lockedTree.includes('"type":"checkbox"')) throw new Error('non-cleanable row must not be selectable')
-if (!lockedTree.includes('🔴')) throw new Error('non-cleanable row missing 🔴 marker')
+if (!dangerTree.includes('"type":"checkbox"')) throw new Error('danger row must be multi-selectable')
+if (dangerTree.includes('dsh-ir-chip dsh-ir-chip--danger')) throw new Error('danger row must not offer one-click clean')
+if (!dangerTree.includes('🔴')) throw new Error('danger row missing 🔴 marker')
+const explicitOff = JSON.stringify(
+  mod.__internals.RecentRow({ item: { ...recentItem, selectable: false }, rpc: null, onToggle: () => {}, onAsk: () => {} }),
+)
+if (explicitOff.includes('"type":"checkbox"')) throw new Error('selectable:false must hide the checkbox')
 
 // v0.9：趋势柱状图 + 自动清理开关
 const trendTree = JSON.stringify(
@@ -308,6 +320,25 @@ const withWhy = JSON.stringify(
 )
 if (!withWhy.includes('为什么装')) throw new Error('Item missing why line')
 if (!withWhy.includes('腾讯云 ai3d SDK')) throw new Error('why text missing')
+
+// v0.13：一键卸载按钮 + 临时目录根可勾（清空里面）
+const uninstallTree = JSON.stringify(
+  mod.__internals.Item({
+    item: { ...sampleSession.items[0], eco: 'winget', uninstall: 'winget uninstall --id X -e --silent' },
+    rpc: null,
+    index: 0,
+  }),
+)
+if (!uninstallTree.includes('一键卸载')) throw new Error('Item missing one-click uninstall button')
+const rootRow = JSON.stringify(
+  mod.__internals.RecentRow({
+    item: { path: 'C:\\Users\\x\\AppData\\Local\\Temp', size: '2.9 GB', bytes: 3.1e9, files: 1, risk: 'caution', consequence: '这是临时目录根', cleanable: true, isRoot: true },
+    rpc: null,
+    onToggle: () => {},
+    onAsk: () => {},
+  }),
+)
+if (!rootRow.includes('"type":"checkbox"')) throw new Error('temp-root row should be selectable now')
 
 console.log('OK')
 console.log('  inject:', JSON.stringify(mod.inject))

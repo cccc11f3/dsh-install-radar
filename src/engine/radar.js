@@ -148,13 +148,18 @@ export function diffSnapshot(baseline, snapshot) {
  */
 export async function buildReport(opts = {}) {
   const home = opts.home || dshHome()
+  const progress = typeof opts.onProgress === 'function' ? opts.onProgress : () => {}
+  progress('扫描安装根目录', 5)
   await initSizeCache(home)
   const snapshot = await currentSnapshot({ ...opts, home })
+  progress('比对基线', 40)
   const ensured = await ensureBaseline({ ...opts, home, snapshot })
   const baseline = ensured.baseline
   const delta = diffSnapshot(baseline, snapshot)
+  progress('读取已安装程序注册表', 45)
   const env = await probeEnvironment()
   const programs = await loadInstalledPrograms()
+  progress('解析会话日志', 55)
 
   let sessions = []
   let scannedSessions = 0
@@ -163,6 +168,7 @@ export async function buildReport(opts = {}) {
     sessions = collected.sessions
     scannedSessions = collected.scannedSessions
   }
+  progress(`解析安装条目（${sessions.length} 个会话）`, 65)
 
   let audit = null
   try {
@@ -227,6 +233,7 @@ export async function buildReport(opts = {}) {
     })
   }
   perSession.sort((a, b) => (b.lastActive ?? 0) - (a.lastActive ?? 0))
+  progress('整理报告', 95)
 
   const unattributed = delta.newEntries.slice(0, 60).map((entry) => {
     const info = classify(entry.name, entry.path)
@@ -303,7 +310,11 @@ export async function buildRecent(opts = {}) {
     const risk = assessRisk(item.path, { bytes: item.bytes })
     item.risk = risk.level
     item.consequence = risk.consequence
-    item.cleanable = item.bytes >= CLEAN_MIN_BYTES && risk.level !== 'danger' && risk.isRoot !== true
+    // 临时目录根本身也可以勾：服务端会把它展开成里面的子项逐个处理
+    item.isRoot = risk.isRoot === true
+    // 勾选不设门槛：所有行都能多选（danger 也能勾，提交后服务端会逐条拒绝并给原因）
+    item.selectable = true
+    item.cleanable = item.bytes >= CLEAN_MIN_BYTES && risk.level !== 'danger'
   }
   raw.sinceLabel = new Date(raw.since).toLocaleString('sv-SE')
   raw.totalSize = formatBytes(raw.totalBytes)

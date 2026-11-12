@@ -160,6 +160,52 @@ if (ac.result.dryRun !== true) throw new Error('autoclean dry run flag missing')
 console.log('  trend:', `${trend.days} 天 · 合计 ${(trend.totalBytes / 1024 ** 3).toFixed(1)} GB · 峰值 ${(trend.maxBytes / 1024 ** 3).toFixed(1)} GB`)
 console.log('  autoclean:', `enabled=${ac.autoClean.enabled} minAgeDays=${ac.autoClean.minAgeDays} 预览命中 ${ac.result.candidates.length} 项`)
 
+const progressRoute = routes.find((route) => route.path === '/api/install-radar/progress')
+const progressRes = await progressRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/progress', { method: 'POST', body: JSON.stringify({ rpcId: 'smoke-progress' }) }),
+)
+const progressBody = await progressRes.json()
+if (progressBody.result.ok !== true) throw new Error('progress route failed')
+
+const uninstallRoute = routes.find((route) => route.path === '/api/install-radar/uninstall')
+const uninstallRes = await uninstallRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/uninstall', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-uninstall', payload: { eco: 'winget', name: 'X.Y', confirm: false } }),
+  }),
+)
+const uninstallBody = await uninstallRes.json()
+if (uninstallBody.result.ok !== true) throw new Error('uninstall route failed')
+if (uninstallBody.result.value.confirm !== false) throw new Error('uninstall must not run without confirm')
+
+// 一键卸载：失败必须带 ok:false + 原因 + 解决办法（用不存在的 pip 包，不需要网络）
+const fakeUninstall = await uninstallRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/uninstall', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-uninstall-2', payload: { eco: 'python', name: 'dsh-radar-not-installed-xyz', confirm: true } }),
+  }),
+)
+const fakeBody = await fakeUninstall.json()
+const fakeValue = fakeBody.result.value
+if (fakeValue.ok !== false) throw new Error('uninstalling a missing package must report ok:false')
+if (!fakeValue.error) throw new Error('failed uninstall must carry an error message')
+if (!Array.isArray(fakeValue.hints) || fakeValue.hints.length === 0) throw new Error('failed uninstall must carry hints')
+
+// 删除型：路径不存在 → ok:false + 提示，不抛异常
+const missingUninstall = await uninstallRoute.fetch(
+  new Request('http://127.0.0.1/api/install-radar/uninstall', {
+    method: 'POST',
+    body: JSON.stringify({ rpcId: 'smoke-uninstall-3', payload: { eco: 'git', name: 'x', path: 'E:\\__radar_nope__', confirm: true } }),
+  }),
+)
+const missingBody = await missingUninstall.json()
+const missingValue = missingBody.result.value
+if (missingValue.ok !== false) throw new Error('missing path must report ok:false')
+if (!missingValue.hints || missingValue.hints.length === 0) throw new Error('missing path must carry hints')
+
+console.log('  uninstall 失败提示:', fakeValue.hints[0])
+console.log('  uninstall 删除失败提示:', missingValue.hints[0])
+
 console.log('OK')
 console.log('  tools:', toolNames.join(', '))
 console.log('  routes:', paths.join(', '))

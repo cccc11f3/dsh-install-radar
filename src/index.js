@@ -49,7 +49,7 @@ export const name = 'install-radar'
 export const inject = ['tools']
 
 const ROUTE_PREFIX = '/api/install-radar/'
-const METHODS = ['report', 'sessions', 'baseline', 'diff', 'refresh', 'recent', 'open', 'procs', 'clean', 'history', 'repro', 'trend', 'autoclean']
+const METHODS = ['report', 'sessions', 'baseline', 'diff', 'refresh', 'recent', 'open', 'procs', 'clean', 'history', 'repro', 'trend', 'autoclean', 'uninstall', 'progress']
 
 const OUTPUT = {
   type: 'object',
@@ -140,6 +140,160 @@ function renderSessionTable(report) {
 
 export function apply(ctx, config = {}) {
   const base = sessionConfig(config)
+
+  /** 首次扫描进度：report 路由在跑的时候，面板轮询这里画进度条 */
+  let progressState = null
+
+  /** 有些工具「没装」也返回 0（pip / winget 都有这种），必须看输出才能判失败 */
+  function saysNotInstalled(text) {
+    return /not installed|no installed package|找不到与输入条件匹配|未找到已安装|is not installed/i.test(String(text || ''))
+  }
+
+  /** 卸载失败时给「怎么办」，按工具 + 报错内容挑 */
+  function hintsFor(step, outcome) {
+    const tail = `${outcome.err || ''}\n${outcome.out || ''}`.toLowerCase()
+    if (outcome.code === -1 || /enoent|不是内部或外部命令|not recognized/.test(tail)) {
+      return [`没找到 ${step.cmd} 命令：确认它已安装并在 PATH 里`, '或者复制「卸载命令」到终端里手动执行']
+    }
+    if (/elevat|admin|access is denied|拒绝访问|0x80070005/.test(tail)) {
+      return ['需要管理员权限：用「以管理员身份运行」的终端重试这条命令']
+    }
+    if (step.cmd === 'winget') {
+      return [
+        'winget 卸载最常见的原因是程序还在运行——先完全退出（含托盘图标）再试',
+        '包 id 可能不准确：先跑 winget list 查确切 id',
+        '源没更新：winget source update 后再试',
+        '仍失败就把「卸载命令」复制到管理员终端手动执行，看完整报错',
+      ]
+    }
+    if (step.cmd === 'npm') {
+      return ['全局卸载偶尔因权限失败：用管理员终端重试', '确认用的是 npm 包名（不是 import 名）', '可先跑 npm ls -g --depth=0 核对']
+    }
+    if (step.cmd === 'python') {
+      return ['确认这个包装在当前 python 下：python -m pip show <包名>', '多个 Python 并存时指定解释器：py -3.14 -m pip uninstall <包名>', '权限问题可试 --user']
+    }
+    if (step.cmd === 'conda') {
+      return ['确认环境名：conda env list', '环境正在被使用时无法删除，先退出该环境里的程序']
+    }
+    return ['查看下方原始输出定位原因', '或复制命令到终端手动执行']
+  }
+
+  /** 删除型卸载失败的提示 */
+  function deleteHints(items) {
+    if (!items.some((item) => item.ok === false)) return []
+    return [
+      '文件被占用：先退出正在使用它的程序（浏览器 / 编辑器 / 正在跑的脚本）',
+      '权限不足：用管理员终端重试',
+      '路径可能变了：点「重扫」刷新后再看',
+    ]
+  }
+
+  /**
+   * 一键卸载：按生态执行真正的卸载命令（面板里两步确认后才调到这里）。
+   * 只接受报告里出现过的条目，避免被当成任意命令执行器。
+   */
+  async function runUninstall(payload) {
+    const eco = String(payload?.eco || '')
+    const name = String(payload?.name || '')
+    const target = String(payload?.path || '')
+    const confirmed = payload?.confirm === true
+    if (!confirmed) return { confirm: false, eco, name, target }
+    if (!name && !target) throw new Error('缺少 name / path')
+
+    const plan = []
+    if (eco === 'winget') plan.push({ cmd: 'winget', args: ['uninstall', '--id', name, '-e', '--silent', '--accept-source-agreements'] })
+    else if (eco === 'choco') plan.push({ cmd: 'choco', args: ['uninstall', name, '-y'] })
+    else if (eco === 'python') plan.push({ cmd: 'python', args: ['-m', 'pip', 'uninstall', '-y', name] })
+    else if (eco === 'node') {
+      if (/[\\/]node_modules[\\/]/i.test(target)) {
+        const project = target.split(/[\\/]node_modules[\\/]/i)[0]
+        plan.push({ cmd: 'npm', args: ['rm', name], cwd: project })
+      } else plan.push({ cmd: 'npm', args: ['rm', '-g', name] })
+    } else if (eco === 'conda') plan.push({ cmd: 'conda', args: ['env', 'remove', '-n', name, '-y'] })
+
+    // 目录型（git clone / venv / 安装包 / 其它）：走删除
+    if (plan.length === 0) {
+      if (!target || !existsSync(target)) {
+        return {
+          confirm: true,
+          mode: 'delete',
+          ok: false,
+          error: `路径不存在：${target || '(空)'}`,
+          hints: ['这个东西可能已经被手动删掉了', '点「重扫」刷新后再看当前状态'],
+          freed: 0,
+          removed: 0,
+          items: [],
+        }
+      }
+      const result = await cleanTargets([target], { confirm: true, home: base.home, note: 'uninstall' })
+      const failed = result.items.filter((item) => item.ok === false)
+      return {
+        confirm: true,
+        mode: 'delete',
+        ok: failed.length === 0,
+        freed: result.freed,
+        removed: result.removed,
+        items: result.items,
+        hints: deleteHints(result.items),
+        error: failed.length > 0 ? failed.map((item) => `${item.path}：${item.reason}`).join('；') : '',
+      }
+    }
+
+    const results = []
+    for (const step of plan) {
+      const started = Date.now()
+      const outcome = await new Promise((done) => {
+        let out = ''
+        let err = ''
+        const child = spawn(step.cmd, step.args, { cwd: step.cwd, windowsHide: true, shell: process.platform === 'win32' })
+        child.stdout?.on('data', (chunk) => (out += chunk))
+        child.stderr?.on('data', (chunk) => (err += chunk))
+        child.on('error', (error) => done({ ok: false, code: -1, out, err: String(error.message) }))
+        child.on('close', (code) => done({ ok: code === 0, code, out, err }))
+      })
+      const tail = (outcome.err || outcome.out || '').slice(-400)
+      const notInstalled = saysNotInstalled(tail)
+      const ok = outcome.ok && !notInstalled
+      results.push({
+        ...step,
+        ...outcome,
+        ok,
+        notInstalled,
+        ms: Date.now() - started,
+        tail,
+        hints: ok
+          ? []
+          : notInstalled
+            ? [
+                `这条在 ${step.cmd} 里没找到，说明它可能装在别的解释器/别的用户下`,
+                step.cmd === 'python' ? '先确认解释器：py -0p，再用对应版本重试 python -m pip uninstall <包名>' : '先跑一次 list 命令（winget list / npm ls -g）核对确切名字',
+                '也可能已经被卸掉了——点「重扫」看当前状态',
+              ]
+            : hintsFor(step, outcome),
+      })
+    }
+
+    const ok = results.every((row) => row.ok)
+    try {
+      const dir = stateDir(base.home)
+      await mkdir(dir, { recursive: true })
+      await writeFile(
+        join(dir, 'uninstall-log.jsonl'),
+        `${JSON.stringify({ at: Date.now(), eco, name, target, ok, results: results.map((r) => ({ cmd: r.cmd, code: r.code })) })}\n`,
+        { encoding: 'utf8', flag: 'a' },
+      )
+    } catch {
+      /* 日志写失败不影响结果 */
+    }
+    return {
+      confirm: true,
+      mode: 'command',
+      ok,
+      results,
+      hints: results.flatMap((row) => row.hints || []),
+      error: ok ? '' : results.filter((row) => !row.ok).map((row) => `${row.cmd} 退出码 ${row.code}`).join('；'),
+    }
+  }
 
   /**
    * 复现线索要挑「哪一轮」：优先用历史侧写的第一名；
@@ -485,7 +639,20 @@ export function apply(ctx, config = {}) {
     async function reportPayload(force) {
       const ttl = 45_000
       if (!force && cached.value && Date.now() - cached.at < ttl) return cached.value
-      const report = await buildReport({ ...base, includeSessions: true, force })
+      progressState = { phase: '开始扫描', pct: 2, startedAt: Date.now() }
+      let report
+      try {
+        report = await buildReport({
+          ...base,
+          includeSessions: true,
+          force,
+          onProgress: (phase, pct) => {
+            progressState = { phase, pct, startedAt: progressState?.startedAt || Date.now() }
+          },
+        })
+      } finally {
+        progressState = null
+      }
       const value = panelPayload(report)
       const config = await readConfig(base.home)
       value.autoClean = { enabled: false, minAgeDays: 7, ...(config.autoClean || {}) }
@@ -602,6 +769,12 @@ export function apply(ctx, config = {}) {
           result = await autoCleanSweep({ home: base.home, minAgeDays: settings.minAgeDays, dryRun: payload.dryRun === true })
         }
         return { autoClean: settings, result }
+      },
+      async uninstall(body) {
+        return runUninstall(body?.payload || {})
+      },
+      async progress() {
+        return progressState || { phase: '', pct: 0, idle: true }
       },
       async repro(body) {
         const payload = body?.payload || {}

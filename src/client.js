@@ -49,6 +49,13 @@ window.__ModuleLoader__.load({
         copy: '复制路径',
         copied: '已复制',
         uninstall: '卸载命令',
+        uninstallNow: '一键卸载',
+        confirmUninstall: '确认卸载',
+        doUninstall: '执行卸载',
+        gotIt: '知道了',
+        uninstallOk: '卸载成功',
+        uninstallFail: '卸载失败',
+        howToFix: '解决办法',
         openFolder: '打开文件夹',
         tabSessions: '按会话',
         tabEco: '按类型',
@@ -88,6 +95,8 @@ window.__ModuleLoader__.load({
         freed: '已释放',
         noTime: '未知时间',
         recentHead: '今天零点以来新增/写入的东西（不看基线，直接按时间戳扫）',
+        riskFilter: '按风险筛选',
+        scanningDetail: '首次扫描要遍历安装根目录、会话日志和注册表，通常 20-60 秒。',
         recentEmpty: '今天没有扫到新增文件。',
         error: '出错了',
       },
@@ -116,6 +125,13 @@ window.__ModuleLoader__.load({
         copy: 'Copy path',
         copied: 'Copied',
         uninstall: 'Uninstall',
+        uninstallNow: 'Uninstall now',
+        confirmUninstall: 'Confirm uninstall',
+        doUninstall: 'Run uninstall',
+        gotIt: 'Got it',
+        uninstallOk: 'Uninstalled',
+        uninstallFail: 'Uninstall failed',
+        howToFix: 'How to fix',
         openFolder: 'Open folder',
         tabSessions: 'Sessions',
         tabEco: 'By kind',
@@ -155,6 +171,8 @@ window.__ModuleLoader__.load({
         freed: 'freed',
         noTime: 'no date',
         recentHead: 'Written or created since midnight (timestamps, not baseline)',
+        riskFilter: 'Filter by risk',
+        scanningDetail: 'First scan walks install roots, session logs and the registry — usually 20-60s.',
         recentEmpty: 'Nothing new today.',
         error: 'Failed',
       },
@@ -257,6 +275,11 @@ window.__ModuleLoader__.load({
 .dsh-ir-itemCard--alt{border-left-color:rgba(148,163,184,.7);background:rgba(148,163,184,.085)}
 .dsh-ir-itemCard .dsh-ir-item{background:transparent;border-left:none;margin-left:0}
 .dsh-ir-why{padding:2px 12px 2px;font-size:12px;color:var(--dsw-alias-state-business-primary,#6ea8ff);opacity:.95}
+.dsh-ir-prog{padding:18px 22px}
+.dsh-ir-progHead{font-size:12px;color:var(--dsw-alias-label-secondary,#666);margin-bottom:8px;display:flex;gap:8px;align-items:center}
+.dsh-ir-progBar{height:6px;border-radius:3px;background:var(--dsw-alias-bg-l2,rgba(0,0,0,.1));overflow:hidden}
+.dsh-ir-progFill{height:100%;border-radius:3px;background:linear-gradient(90deg,#4d90f0,#6ea8ff);transition:width .4s ease}
+.dsh-ir-progTip{font-size:11px;color:var(--dsw-alias-label-tertiary,#8a8a8a);margin-top:8px}
 .dsh-ir-risk{display:inline-flex;align-items:center;gap:5px;font-size:11px;margin-top:3px}
 .dsh-ir-risk::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
 .dsh-ir-risk--safe{color:#2f9e5f}
@@ -412,6 +435,26 @@ window.__ModuleLoader__.load({
       if (item.confidence === 'none') tags.push(t('notFound'))
       if (item.confidence === 'low') tags.push(t('guessed'))
       const alt = typeof index === 'number' && index % 2 === 1
+      const [confirming, setConfirming] = useState(false)
+      const [running, setRunning] = useState(false)
+      const [result, setResult] = useState(null)
+
+      const runUninstall = () => {
+        if (!rpc) return
+        setRunning(true)
+        callRpc(rpc, 'uninstall', { eco: item.eco, name: item.name, path: item.path, confirm: true })
+          .then((value) => {
+            setResult(value)
+            setRunning(false)
+            setConfirming(false)
+          })
+          .catch((err) => {
+            setResult({ error: err && err.message ? err.message : String(err) })
+            setRunning(false)
+            setConfirming(false)
+          })
+      }
+
       return h(
         'div',
         { className: `dsh-ir-itemCard${alt ? ' dsh-ir-itemCard--alt' : ''}` },
@@ -449,7 +492,65 @@ window.__ModuleLoader__.load({
               )
             : null,
           item.uninstall ? h(CopyChip, { key: 'un', text: item.uninstall, label: t('uninstall'), title: item.uninstall }) : null,
+          item.eco || item.path
+            ? h(
+                'button',
+                {
+                  key: 'run',
+                  type: 'button',
+                  className: 'dsh-ir-chip dsh-ir-chip--danger',
+                  disabled: running,
+                  onClick: () => setConfirming(true),
+                  title: item.uninstall || '',
+                },
+                running ? '…' : t('uninstallNow'),
+              )
+            : null,
         ]),
+        confirming
+          ? h(
+              'div',
+              { className: 'dsh-ir-confirm' },
+              h('span', null, `🔴 ${t('confirmUninstall')} ${item.name}（${item.eco || 'path'}）`),
+              item.uninstall ? h('code', { className: 'dsh-ir-path' }, item.uninstall) : null,
+              h('button', { type: 'button', className: 'dsh-ir-chip dsh-ir-chip--danger', disabled: running, onClick: runUninstall }, t('doUninstall')),
+              h('button', { type: 'button', className: 'dsh-ir-chip', disabled: running, onClick: () => setConfirming(false) }, t('cancelClean')),
+            )
+          : null,
+        result
+          ? h(
+              'div',
+              {
+                className: 'dsh-ir-confirm',
+                style: {
+                  background: result.ok === false ? 'rgba(221,51,51,.10)' : 'rgba(47,158,95,.12)',
+                  borderColor: result.ok === false ? 'rgba(221,51,51,.35)' : 'rgba(47,158,95,.4)',
+                  flexWrap: 'wrap',
+                },
+              },
+              h(
+                'span',
+                null,
+                result.ok === false
+                  ? `❌ ${t('uninstallFail')}${result.error ? `：${result.error}` : ''}`
+                  : result.mode === 'delete'
+                    ? `✅ ${t('uninstallOk')} · 释放 ${formatSize(result.freed || 0)}`
+                    : `✅ ${t('uninstallOk')}（退出码 0）`,
+              ),
+              result.ok !== false && result.results && result.results[0] && result.results[0].tail
+                ? h('div', { className: 'dsh-ir-evidence', style: { width: '100%', padding: 0 } }, String(result.results[0].tail).slice(0, 300))
+                : null,
+              result.ok === false && result.hints && result.hints.length > 0
+                ? h(
+                    'div',
+                    { style: { width: '100%' } },
+                    h('div', { className: 'dsh-ir-eco' }, `🛠 ${t('howToFix')}：`),
+                    ...result.hints.map((hint, index) => h('div', { key: `hint-${index}`, className: 'dsh-ir-eco' }, `${index + 1}. ${hint}`)),
+                  )
+                : null,
+              h('button', { type: 'button', className: 'dsh-ir-chip', onClick: () => setResult(null) }, t('gotIt')),
+            )
+          : null,
         item.why && item.why.text
           ? h('div', { className: 'dsh-ir-why' }, `🎯 ${t('whyInstalled')}：${item.why.text}`)
           : null,
@@ -489,7 +590,8 @@ window.__ModuleLoader__.load({
 
     /** 「今天」的一行：一个归属目录（可勾选批量清理 / 单条两段式清理） */
     function RecentRow({ item, rpc, pending, cleanBusy, onAsk, onCancel, onConfirm, selected, onToggle }) {
-      const checkable = item.cleanable !== false
+      const checkable = item.selectable !== false
+      const perRowClean = item.cleanable !== false
       return h(
         'div',
         { className: `dsh-ir-recent${selected ? ' dsh-ir-recent--picked' : ''}` },
@@ -507,7 +609,8 @@ window.__ModuleLoader__.load({
                   onChange: () => onToggle && onToggle(item.path),
                   title: item.path,
                 })
-              : h('span', { title: '不可一键删（风险高或小于 50 MB）' }, '🔴'),
+              : null,
+            h('span', { title: item.risk ? `风险：${item.risk}` : '' }, item.risk === 'danger' ? '🔴' : item.risk === 'safe' ? '🟢' : '🟡'),
             h('span', { className: 'dsh-ir-size' }, item.size),
           ),
           h(
@@ -522,7 +625,7 @@ window.__ModuleLoader__.load({
             { style: { display: 'flex', gap: 6, flexWrap: 'wrap' } },
             h('button', { type: 'button', className: 'dsh-ir-chip', onClick: () => openTarget(rpc, item.path) }, t('openFolder')),
             h(CopyChip, { text: item.path, label: t('copy') }),
-            onAsk && checkable
+            onAsk && perRowClean
               ? h(
                   'button',
                   { type: 'button', className: 'dsh-ir-chip dsh-ir-chip--danger', onClick: onAsk, disabled: cleanBusy },
@@ -805,6 +908,9 @@ window.__ModuleLoader__.load({
       const [cleanBusy, setCleanBusy] = useState(false)
       const [selected, setSelected] = useState([])
       const [batchPending, setBatchPending] = useState(false)
+      const [riskFilter, setRiskFilter] = useState('all')
+      const [progress, setProgress] = useState(null)
+      const [batchResult, setBatchResult] = useState(null)
       const [trend, setTrend] = useState(null)
       const [trendBusy, setTrendBusy] = useState(false)
       const [autoClean, setAutoClean] = useState(null)
@@ -847,6 +953,27 @@ window.__ModuleLoader__.load({
           if (abortRef.current) abortRef.current.abort()
         }
       }, [load])
+
+      /** 扫描进度：报告还在跑时每秒问一次宿主 */
+      useEffect(() => {
+        if (!busy || !rpc) {
+          setProgress(null)
+          return undefined
+        }
+        let alive = true
+        const tick = () =>
+          callRpc(rpc, 'progress', {})
+            .then((value) => {
+              if (alive) setProgress(value)
+            })
+            .catch(() => {})
+        tick()
+        const timer = setInterval(tick, 1000)
+        return () => {
+          alive = false
+          clearInterval(timer)
+        }
+      }, [busy, rpc])
 
       const loadRecent = useCallback(
         (days) => {
@@ -985,6 +1112,13 @@ window.__ModuleLoader__.load({
               setCleanBusy(false)
               setBatchPending(false)
               applyRemoved(value)
+              const failed = (value && value.items ? value.items : []).filter((item) => item.ok === false)
+              setBatchResult({
+                freed: (value && value.freed) || 0,
+                removed: (value && value.removed) || 0,
+                rejected: failed.slice(0, 12),
+                rejectedCount: failed.length,
+              })
             })
             .catch((err) => {
               setCleanBusy(false)
@@ -1074,7 +1208,14 @@ window.__ModuleLoader__.load({
       ]
 
       // 多选：只有「可一键清理」的行能勾（>=50 MB 且不是 danger）
-      const cleanableItems = ((recent && recent.items) || []).filter((item) => item.cleanable !== false)
+      const allRecent = (recent && recent.items) || []
+      const riskCount = {
+        safe: allRecent.filter((item) => item.risk === 'safe').length,
+        caution: allRecent.filter((item) => item.risk === 'caution').length,
+        danger: allRecent.filter((item) => item.risk === 'danger').length,
+      }
+      const visibleItems = riskFilter === 'all' ? allRecent : allRecent.filter((item) => item.risk === riskFilter)
+      const cleanableItems = ((recent && recent.items) || []).filter((item) => item.selectable !== false)
       const safeItems = cleanableItems.filter((item) => item.risk === 'safe')
       const selectedSet = new Set(selected)
       const selectedBytes = cleanableItems
@@ -1121,7 +1262,19 @@ window.__ModuleLoader__.load({
               data.generatedAt ? h('span', { style: { marginLeft: 'auto' } }, formatWhen(data.generatedAt)) : null,
             )
           : null,
-        busy && !data ? h('div', { className: 'dsh-ir-empty' }, `${t('scanning')} 首次扫描要遍历 Program Files 等目录，十几秒左右。`) : null,
+        busy && !data
+          ? h(
+              'div',
+              { className: 'dsh-ir-prog' },
+              h(
+                'div',
+                { className: 'dsh-ir-progHead' },
+                h('span', null, `${progress && progress.phase ? progress.phase : t('scanning')} · ${progress && progress.pct ? progress.pct : 0}%`),
+              ),
+              h('div', { className: 'dsh-ir-progBar' }, h('div', { className: 'dsh-ir-progFill', style: { width: `${(progress && progress.pct) || 2}%` } })),
+              h('div', { className: 'dsh-ir-progTip' }, t('scanningDetail')),
+            )
+          : null,
         error ? h('div', { className: 'dsh-ir-empty' }, `${t('error')}: ${error}`) : null,
         h(
           'div',
@@ -1198,6 +1351,31 @@ window.__ModuleLoader__.load({
                   ? h('div', { key: 'head', className: 'dsh-ir-recentHead' }, `${t('recentHead')} · 起点 ${recent.sinceLabel} · 合计 ${formatSize(recent.totalBytes ?? 0)}`)
                   : null,
                 recent && recent.items.length === 0 ? h('div', { key: 'empty2', className: 'dsh-ir-empty' }, t('recentEmpty')) : null,
+                batchResult
+                  ? h(
+                      'div',
+                      {
+                        key: 'batchResult',
+                        className: 'dsh-ir-confirm',
+                        style: {
+                          background: batchResult.rejectedCount > 0 ? 'rgba(221,51,51,.10)' : 'rgba(47,158,95,.12)',
+                          borderColor: batchResult.rejectedCount > 0 ? 'rgba(221,51,51,.35)' : 'rgba(47,158,95,.4)',
+                          flexWrap: 'wrap',
+                        },
+                      },
+                      h(
+                        'span',
+                        null,
+                        batchResult.rejectedCount > 0
+                          ? `⚠️ 删除 ${batchResult.removed} 项 · 释放 ${formatSize(batchResult.freed)} · 被拒 ${batchResult.rejectedCount} 项`
+                          : `✅ 删除 ${batchResult.removed} 项 · 释放 ${formatSize(batchResult.freed)}`,
+                      ),
+                      ...batchResult.rejected.map((item, index) =>
+                        h('div', { key: `rj-${index}`, className: 'dsh-ir-eco', style: { width: '100%' } }, `${item.path} — ${item.reason || '被拒绝'}`),
+                      ),
+                      h('button', { key: 'close', type: 'button', className: 'dsh-ir-chip', onClick: () => setBatchResult(null) }, t('gotIt')),
+                    )
+                  : null,
                 recent && recent.items.length > 0
                   ? h(SelBar, {
                       key: 'selbar',
@@ -1216,8 +1394,36 @@ window.__ModuleLoader__.load({
                       onCancel: () => setBatchPending(false),
                     })
                   : null,
+                recent && recent.items.length > 0
+                  ? h(
+                      'div',
+                      { key: 'riskbar', className: 'dsh-ir-selbarWrap', style: { position: 'static', background: 'transparent', boxShadow: 'none', borderBottom: 'none' } },
+                      h('span', { className: 'dsh-ir-eco' }, t('riskFilter')),
+                      ...[
+                        ['safe', '🟢'],
+                        ['caution', '🟡'],
+                        ['danger', '🔴'],
+                      ].map(([level, emoji]) =>
+                        h(
+                          'button',
+                          {
+                            key: level,
+                            type: 'button',
+                            className: `dsh-ir-subtab${riskFilter === level ? ' dsh-ir-subtab--on' : ''}`,
+                            onClick: () => setRiskFilter((prev) => (prev === level ? 'all' : level)),
+                          },
+                          `${emoji} ${riskCount[level]}`,
+                        ),
+                      ),
+                      riskFilter !== 'all'
+                        ? h('button', { key: 'all', type: 'button', className: 'dsh-ir-chip', onClick: () => setRiskFilter('all') }, t('clearSel'))
+                        : null,
+                      h('span', { key: 'sp', className: 'dsh-ir-selbarSpacer' }),
+                      h('span', { className: 'dsh-ir-eco' }, `${visibleItems.length} / ${allRecent.length}`),
+                    )
+                  : null,
                 recent
-                  ? recent.items.map((item, index) =>
+                  ? visibleItems.map((item, index) =>
                       h(RecentRow, {
                         key: `${item.path}-${index}`,
                         item,

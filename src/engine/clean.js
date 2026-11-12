@@ -58,7 +58,19 @@ export async function cleanTargets(paths, opts = {}) {
   const list = Array.isArray(paths) ? paths : []
   const items = []
   for (const raw of list) {
-    const expanded = await expand(raw)
+    let expanded = await expand(raw)
+    // 临时目录根本身不允许整根删：自动展开成里面的子项，逐个判定
+    if (expanded.length === 1 && !checkAllowed(expanded[0]).ok) {
+      const root = resolve(expanded[0])
+      if (root.toLowerCase() === String(expanded[0]).toLowerCase() && allowedRoots().includes(root.toLowerCase())) {
+        try {
+          const children = await readdir(root, { withFileTypes: true })
+          expanded = children.map((child) => join(root, child.name))
+        } catch {
+          expanded = []
+        }
+      }
+    }
     if (expanded.length === 0) {
       items.push({ path: raw, ok: false, reason: '没有匹配到目录', bytes: 0 })
       continue
